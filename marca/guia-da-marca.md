@@ -18,10 +18,11 @@ Figma: https://www.figma.com/design/PKsxXxLyCBGTdAUC2Zvlci
 Cuidado com publicidade odontológica: o CFO proíbe promessa de resultado, preço como chamariz e antes/depois sem regra. Os textos dos clientes precisam respeitar isso.
 
 ## Logo
-- Arquivos: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (vetorizados do PNG original).
+- Símbolo: peixe formado pelas letras **F** e **C**. A abertura do C é a boca do peixe.
+- Arquivos: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (opção A, sem olho) e `logo/simbolo-verde-com-olho.svg` (opção B).
 - Respiro: altura da letra F em volta do logo. Mínimo: 32 px digital, 12 mm impresso.
 - Verde sobre claro, ou branco sobre verde/grafite. Sem distorcer, sem sombra.
-- **Pendente:** a segunda letra é lida como "P". Proposta: abrir a letra para formar um "C".
+- **Pendente:** escolher entre a opção A (sem olho) e a B (com olho).
 
 ## Cores
 | Token | Hex | Uso |
