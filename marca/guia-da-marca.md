@@ -20,7 +20,7 @@ Cuidado com publicidade odontológica: o CFO proíbe promessa de resultado, pre�
 ## Logo
 - Símbolo: peixe formado pelas letras **F** e **C**. A abertura do C é a boca do peixe.
 - Assinatura: símbolo FC em cima e a palavra **studio** embaixo (Montserrat Bold, minúscula, espaçamento 12%).
-- **Logo oficial (escolhida em 03/11/2026):** opção 9, símbolo verde com sombra sólida 3D em cinza claro #CBD2D9, arquivo . Abaixo de 48 px de altura (favicon, avatar pequeno) use a versão sem sombra.
+- **Logo oficial (escolhida em 03/11/2026):** opção 9, símbolo verde com sombra sólida 3D em cinza claro #CBD2D9, arquivo `logo/logo-fcstudio-oficial.svg`. Abaixo de 48 px de altura (favicon, avatar pequeno) use a versão sem sombra.
 - Arquivos completos sem sombra: `logo/logo-fcstudio-verde.svg` e `logo/logo-fcstudio-branco.svg`.
 - Só o símbolo: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (opção A, sem olho) e `logo/simbolo-verde-com-olho.svg` (opção B).
 - Respiro: altura da letra F em volta do logo. Mínimo: 32 px digital, 12 mm impresso.
