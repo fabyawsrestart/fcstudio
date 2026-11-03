@@ -19,10 +19,13 @@ Cuidado com publicidade odontológica: o CFO proíbe promessa de resultado, pre�
 
 ## Logo
 - Símbolo: peixe formado pelas letras **F** e **C**. A abertura do C é a boca do peixe.
-- Arquivos: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (opção A, sem olho) e `logo/simbolo-verde-com-olho.svg` (opção B).
+- Assinatura: símbolo FC em cima e a palavra **studio** embaixo (Montserrat Bold, minúscula, espaçamento 12%).
+- Arquivos completos: `logo/logo-fcstudio-verde.svg` e `logo/logo-fcstudio-branco.svg`.
+- Só o símbolo: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (opção A, sem olho) e `logo/simbolo-verde-com-olho.svg` (opção B).
 - Respiro: altura da letra F em volta do logo. Mínimo: 32 px digital, 12 mm impresso.
 - Verde sobre claro, ou branco sobre verde/grafite. Sem distorcer, sem sombra.
-- **Pendente:** escolher entre a opção A (sem olho) e a B (com olho).
+- **Pendente:** escolher entre a opção A (sem olho) e a B (com olho), e a variação de cor/sombra na página "Opções de logo" do Figma.
+- Sombra só em peças de destaque (capa, banner, vídeo). A versão principal é sempre chapada.
 
 ## Cores
 | Token | Hex | Uso |
