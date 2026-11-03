@@ -20,11 +20,12 @@ Cuidado com publicidade odontológica: o CFO proíbe promessa de resultado, pre�
 ## Logo
 - Símbolo: peixe formado pelas letras **F** e **C**. A abertura do C é a boca do peixe.
 - Assinatura: símbolo FC em cima e a palavra **studio** embaixo (Montserrat Bold, minúscula, espaçamento 12%).
-- Arquivos completos: `logo/logo-fcstudio-verde.svg` e `logo/logo-fcstudio-branco.svg`.
+- **Logo oficial (escolhida em 03/11/2026):** opção 9, símbolo verde com sombra sólida 3D em cinza claro #CBD2D9, arquivo . Abaixo de 48 px de altura (favicon, avatar pequeno) use a versão sem sombra.
+- Arquivos completos sem sombra: `logo/logo-fcstudio-verde.svg` e `logo/logo-fcstudio-branco.svg`.
 - Só o símbolo: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (opção A, sem olho) e `logo/simbolo-verde-com-olho.svg` (opção B).
 - Respiro: altura da letra F em volta do logo. Mínimo: 32 px digital, 12 mm impresso.
-- Verde sobre claro, ou branco sobre verde/grafite. Sem distorcer, sem sombra.
-- **Pendente:** escolher entre a opção A (sem olho) e a B (com olho), e a variação de cor/sombra na página "Opções de logo" do Figma.
+- Verde sobre claro, ou branco sobre verde/grafite. Sem distorcer. A única sombra permitida é a sombra 3D cinza da versão oficial.
+- **Pendente:** escolher entre a opção A (sem olho) e a B (com olho).
 - Sombra só em peças de destaque (capa, banner, vídeo). A versão principal é sempre chapada.
 
 ## Cores
@@ -36,6 +37,7 @@ Cuidado com publicidade odontológica: o CFO proíbe promessa de resultado, pre�
 | grafite/900 | #1F2933 | Texto principal |
 | cinza/500 | #6B7280 | Texto secundário |
 | neutro/50 | #F6F8F7 | Fundo geral |
+| cinza/300 | #CBD2D9 | Sombra do logo, divisórias |
 | branco | #FFFFFF | Cards |
 | areia/300 | #F2C98A | Acento pontual (selos) |
 
