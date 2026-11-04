@@ -13,45 +13,45 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=neutro50"
+     "background_color": "globals/colors?id=secondary"
     },
     "padding": {
      "unit": "px",
-     "top": "88",
+     "top": "104",
      "right": "0",
-     "bottom": "88",
+     "bottom": "104",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "64",
+     "top": "80",
      "right": "40",
-     "bottom": "64",
+     "bottom": "80",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "6.486",
+     "top": "7.568",
      "right": "5.405",
-     "bottom": "6.486",
+     "bottom": "7.568",
      "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
      "unit": "vw",
-     "top": "10.256",
+     "top": "12.308",
      "right": "6.154",
-     "bottom": "10.256",
+     "bottom": "12.308",
      "left": "6.154",
      "isLinked": false
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "88",
+     "top": "104",
      "right": "32",
-     "bottom": "88",
+     "bottom": "104",
      "left": "32",
      "isLinked": false
     },
@@ -100,30 +100,30 @@
       "_title": "Hero · conteúdo",
       "flex_gap": {
        "unit": "px",
-       "size": 64,
-       "column": "64",
-       "row": "64",
+       "size": 72,
+       "column": "72",
+       "row": "72",
        "isLinked": true
       },
       "flex_gap_tablet": {
        "unit": "px",
-       "size": 48,
-       "column": "48",
-       "row": "48",
+       "size": 56,
+       "column": "56",
+       "row": "56",
        "isLinked": true
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 4.865,
-       "column": "4.865",
-       "row": "4.865",
+       "size": 5.405,
+       "column": "5.405",
+       "row": "5.405",
        "isLinked": true
       },
       "flex_gap_mobile": {
        "unit": "vw",
-       "size": 10.256,
-       "column": "10.256",
-       "row": "10.256",
+       "size": 11.282,
+       "column": "11.282",
+       "row": "11.282",
        "isLinked": true
       },
       "padding": {
@@ -185,16 +185,16 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 2.703,
-         "column": "2.703",
-         "row": "2.703",
+         "size": 2.973,
+         "column": "2.973",
+         "row": "2.973",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 4.615,
-         "column": "4.615",
-         "row": "4.615",
+         "size": 5.128,
+         "column": "5.128",
+         "row": "5.128",
          "isLinked": true
         },
         "padding": {
@@ -231,7 +231,7 @@
         },
         "width": {
          "unit": "%",
-         "size": 50
+         "size": 56
         },
         "width_tablet": {
          "unit": "%",
@@ -256,7 +256,7 @@
           "header_size": "h1",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=branco"
           }
          },
          "elements": []
@@ -269,7 +269,7 @@
           "editor": "<p>Seu paciente encontra você no Google, confia no que vê e agenda pelo WhatsApp. A FCStudio cuida do site, dos anúncios e dos vídeos.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_lead",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=cinza300"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -454,8 +454,8 @@
             },
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_button",
-             "button_text_color": "globals/colors?id=primary",
-             "border_color": "globals/colors?id=primary"
+             "button_text_color": "globals/colors?id=branco",
+             "border_color": "globals/colors?id=branco"
             },
             "background_color": "#00000000",
             "border_border": "solid",
@@ -553,7 +553,7 @@
           "editor": "<p>Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Textos dentro das regras do CFO</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=cinza300"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -586,30 +586,30 @@
         "_title": "Prova: projeto real",
         "flex_gap": {
          "unit": "px",
-         "size": 14,
-         "column": "14",
-         "row": "14",
+         "size": 28,
+         "column": "28",
+         "row": "28",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 24,
+         "column": "24",
+         "row": "24",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.622,
-         "column": "1.622",
-         "row": "1.622",
+         "size": 2.973,
+         "column": "2.973",
+         "row": "2.973",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 2.564,
-         "column": "2.564",
-         "row": "2.564",
+         "size": 5.128,
+         "column": "5.128",
+         "row": "5.128",
          "isLinked": true
         },
         "padding": {
@@ -646,7 +646,7 @@
         },
         "width": {
          "unit": "%",
-         "size": 50
+         "size": 44
         },
         "width_tablet": {
          "unit": "%",
@@ -714,14 +714,7 @@
            "left": "2.564",
            "isLinked": true
           },
-          "image_box_shadow_box_shadow_type": "yes",
-          "image_box_shadow_box_shadow": {
-           "horizontal": 0,
-           "vertical": 24,
-           "blur": 48,
-           "spread": -12,
-           "color": "rgba(31,41,51,0.28)"
-          }
+          "_css_classes": "fc-offset fc-offset--verde"
          },
          "elements": []
         },
@@ -730,10 +723,10 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Último projeto entregue: <a href=\"https://gwmix.ind.br\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;text-decoration:underline;text-underline-offset:.2em\">gwmix.ind.br</a></p>",
+          "editor": "<p>Último projeto entregue: <a href=\"https://gwmix.ind.br\" target=\"_blank\" rel=\"noopener\" style=\"color:#fff;text-decoration:underline;text-underline-offset:.2em\">gwmix.ind.br</a></p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=cinza300"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -4220,6 +4213,7 @@
          "isLinked": true
         },
         "_title": "Plano Essencial",
+        "css_classes": "fc-borda",
         "width": {
          "unit": "%",
          "size": 33.333
@@ -4605,6 +4599,7 @@
          "isLinked": true
         },
         "_title": "Plano Consultório",
+        "css_classes": "fc-offset fc-offset--verde",
         "_flex_order_mobile": "start",
         "width": {
          "unit": "%",
@@ -5041,6 +5036,7 @@
          "isLinked": true
         },
         "_title": "Plano Agenda cheia",
+        "css_classes": "fc-borda",
         "width": {
          "unit": "%",
          "size": 33.333
@@ -5741,14 +5737,7 @@
          "left": "2.564",
          "isLinked": true
         },
-        "image_box_shadow_box_shadow_type": "yes",
-        "image_box_shadow_box_shadow": {
-         "horizontal": 0,
-         "vertical": 24,
-         "blur": 48,
-         "spread": -12,
-         "color": "rgba(31,41,51,0.28)"
-        },
+        "_css_classes": "fc-offset fc-offset--cinza",
         "_element_width": "initial",
         "_element_custom_width": {
          "unit": "%",

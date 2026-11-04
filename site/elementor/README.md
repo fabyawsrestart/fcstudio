@@ -57,7 +57,7 @@ Conversão usada: `vw = px ÷ 7,40` (paisagem) e `vw = px ÷ 3,90` (retrato). Ex
 ## Provisórios para trocar antes de entregar
 
 - E-mail e Instagram no rodapé e no Contato (o WhatsApp já é o real: (11) 91675-1926).
-- Fonte de títulos: Anton está no lugar da Morganite. Envie a Morganite em **Elementor > Fontes personalizadas** e troque em Configurações do site > Tipografia > "Display".
+- Fonte: Montserrat em todo o site, servida do próprio servidor (wp-content/uploads/fcstudio-fonts, pesos 400 a 800). O Google Fonts fica desligado, o que deixa o site mais rápido e sem enviar dados de visitantes ao Google (LGPD).
 - Caixas verde-claro do hero e do portfólio: trocar por fotos reais.
 - Portfólio: GWmix tem print real. Sistema de agendamento e landing pages estão sem link e sem imagem: mande os endereços.
 - Política de Privacidade: o formulário pede aceite, então a página precisa existir e estar publicada (Configurações > Privacidade).

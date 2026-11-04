@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FCStudio Setup
  * Description: Configura num clique os 7 breakpoints, cores e fontes globais, cabeçalho e rodapé do site, o Menu principal e as páginas Home, Serviços, Planos, Portfólio e Contato. Depois de usar, desative e apague.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Requires Plugins: elementor
  * Author: FCStudio
  */
@@ -100,8 +100,17 @@ function fcstudio_setup_run() {
 	$E   = \Elementor\Plugin::$instance;
 	$pro = defined( 'ELEMENTOR_PRO_VERSION' ) && class_exists( '\ElementorPro\Modules\ThemeBuilder\Module' );
 
+	// 0. Montserrat local: copia as fontes para uploads (ficam mesmo depois de apagar este plugin) e desliga o Google Fonts
+	$up  = wp_upload_dir();
+	$dst = trailingslashit( $up['basedir'] ) . 'fcstudio-fonts/';
+	wp_mkdir_p( $dst );
+	foreach ( glob( plugin_dir_path( __FILE__ ) . 'fonts/*' ) as $f ) copy( $f, $dst . basename( $f ) );
+	$fonts_url = trailingslashit( $up['baseurl'] ) . 'fcstudio-fonts/';
+	update_option( 'elementor_google_font', '0' );
+	$log[] = 'Montserrat instalada localmente (' . count( glob( $dst . '*.woff2' ) ) . ' pesos) e Google Fonts desligado.';
+
 	// 1. Kit: breakpoints, largura útil, cores e fontes
-	$kitS = fcstudio_load( 'kit-settings.json', [] );
+	$kitS = json_decode( str_replace( 'fc-fonts://', $fonts_url, file_get_contents( plugin_dir_path( __FILE__ ) . 'kit-settings.json' ) ), true );
 	$kit  = $E->kits_manager->get_active_kit();
 	if ( ! $kit || ! $kit->get_id() ) {
 		$E->kits_manager->create_default();

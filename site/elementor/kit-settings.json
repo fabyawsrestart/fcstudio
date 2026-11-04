@@ -53,8 +53,8 @@
    "_id": "primary",
    "title": "Títulos",
    "typography_typography": "custom",
-   "typography_font_family": "Anton",
-   "typography_font_weight": "400"
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "800"
   },
   {
    "_id": "secondary",
@@ -83,104 +83,68 @@
    "_id": "fc_h1",
    "title": "Título hero (H1)",
    "typography_typography": "custom",
-   "typography_font_family": "Anton",
-   "typography_font_weight": "400",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "800",
    "typography_line_height": {
     "unit": "em",
-    "size": 0.98
+    "size": 1.02
    },
    "typography_letter_spacing": {
     "unit": "em",
-    "size": 0
+    "size": -0.03
    },
-   "typography_text_transform": "uppercase",
+   "typography_text_transform": "none",
    "typography_font_size": {
-    "unit": "px",
-    "size": 88
-   },
-   "typography_font_size_widescreen": {
-    "unit": "px",
-    "size": 101
-   },
-   "typography_font_size_tablet": {
     "unit": "px",
     "size": 68
    },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 78
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 56
+   },
    "typography_font_size_mobile_extra": {
     "unit": "vw",
-    "size": 7.027
+    "size": 5.946
    },
    "typography_font_size_mobile": {
     "unit": "vw",
-    "size": 11.282
+    "size": 9.231
    }
   },
   {
    "_id": "fc_h2",
    "title": "Título de seção (H2)",
    "typography_typography": "custom",
-   "typography_font_family": "Anton",
-   "typography_font_weight": "400",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "800",
    "typography_line_height": {
     "unit": "em",
-    "size": 1.05
+    "size": 1.08
    },
    "typography_letter_spacing": {
     "unit": "em",
-    "size": 0.01
+    "size": -0.025
    },
-   "typography_text_transform": "uppercase",
+   "typography_text_transform": "none",
    "typography_font_size": {
     "unit": "px",
-    "size": 56
+    "size": 48
    },
    "typography_font_size_widescreen": {
     "unit": "px",
-    "size": 64
+    "size": 55
    },
    "typography_font_size_tablet": {
-    "unit": "px",
-    "size": 44
-   },
-   "typography_font_size_mobile_extra": {
-    "unit": "vw",
-    "size": 5.135
-   },
-   "typography_font_size_mobile": {
-    "unit": "vw",
-    "size": 8.718
-   }
-  },
-  {
-   "_id": "fc_num",
-   "title": "Número / preço",
-   "typography_typography": "custom",
-   "typography_font_family": "Anton",
-   "typography_font_weight": "400",
-   "typography_line_height": {
-    "unit": "em",
-    "size": 1.0
-   },
-   "typography_letter_spacing": {
-    "unit": "em",
-    "size": 0
-   },
-   "typography_text_transform": "uppercase",
-   "typography_font_size": {
     "unit": "px",
     "size": 40
    },
-   "typography_font_size_widescreen": {
-    "unit": "px",
-    "size": 46
-   },
-   "typography_font_size_tablet": {
-    "unit": "px",
-    "size": 36
-   },
    "typography_font_size_mobile_extra": {
     "unit": "vw",
-    "size": 4.324
+    "size": 4.595
    },
    "typography_font_size_mobile": {
     "unit": "vw",
@@ -188,8 +152,44 @@
    }
   },
   {
+   "_id": "fc_num",
+   "title": "Destaque / preço",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "700",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.15
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": -0.02
+   },
+   "typography_text_transform": "none",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 32
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 37
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 30
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 3.514
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 6.154
+   }
+  },
+  {
    "_id": "fc_h3",
-   "title": "Título de card (H3)",
+   "title": "Título de item (H3)",
    "typography_typography": "custom",
    "typography_font_family": "Montserrat",
    "typography_font_weight": "700",
@@ -199,28 +199,28 @@
    },
    "typography_letter_spacing": {
     "unit": "em",
-    "size": 0
+    "size": -0.01
    },
    "typography_text_transform": "none",
    "typography_font_size": {
     "unit": "px",
-    "size": 24
+    "size": 21
    },
    "typography_font_size_widescreen": {
     "unit": "px",
-    "size": 28
+    "size": 24
    },
    "typography_font_size_tablet": {
     "unit": "px",
-    "size": 22
+    "size": 20
    },
    "typography_font_size_mobile_extra": {
     "unit": "vw",
-    "size": 2.703
+    "size": 2.568
    },
    "typography_font_size_mobile": {
     "unit": "vw",
-    "size": 5.128
+    "size": 4.615
    }
   },
   {
@@ -228,10 +228,10 @@
    "title": "Texto de apoio",
    "typography_typography": "custom",
    "typography_font_family": "Montserrat",
-   "typography_font_weight": "500",
+   "typography_font_weight": "400",
    "typography_line_height": {
     "unit": "em",
-    "size": 1.5
+    "size": 1.55
    },
    "typography_letter_spacing": {
     "unit": "em",
@@ -248,11 +248,11 @@
    },
    "typography_font_size_tablet": {
     "unit": "px",
-    "size": 18
+    "size": 19
    },
    "typography_font_size_mobile_extra": {
     "unit": "vw",
-    "size": 2.297
+    "size": 2.432
    },
    "typography_font_size_mobile": {
     "unit": "vw",
@@ -267,7 +267,7 @@
    "typography_font_weight": "400",
    "typography_line_height": {
     "unit": "em",
-    "size": 1.6
+    "size": 1.65
    },
    "typography_letter_spacing": {
     "unit": "em",
@@ -276,11 +276,11 @@
    "typography_text_transform": "none",
    "typography_font_size": {
     "unit": "px",
-    "size": 16
+    "size": 17
    },
    "typography_font_size_widescreen": {
     "unit": "px",
-    "size": 18
+    "size": 20
    },
    "typography_font_size_tablet": {
     "unit": "px",
@@ -288,7 +288,7 @@
    },
    "typography_font_size_mobile_extra": {
     "unit": "vw",
-    "size": 2.027
+    "size": 2.162
    },
    "typography_font_size_mobile": {
     "unit": "vw",
@@ -297,7 +297,7 @@
   },
   {
    "_id": "fc_caption",
-   "title": "Legenda / sobretítulo",
+   "title": "Etiqueta",
    "typography_typography": "custom",
    "typography_font_family": "Montserrat",
    "typography_font_weight": "600",
@@ -307,7 +307,7 @@
    },
    "typography_letter_spacing": {
     "unit": "em",
-    "size": 0.12
+    "size": 0.08
    },
    "typography_text_transform": "uppercase",
    "typography_font_size": {
@@ -343,7 +343,7 @@
    },
    "typography_letter_spacing": {
     "unit": "em",
-    "size": 0.01
+    "size": 0
    },
    "typography_text_transform": "none",
    "typography_font_size": {
@@ -434,5 +434,5 @@
  "viewport_widescreen": 2400,
  "site_name": "FCStudio",
  "site_description": "Sites e presença digital para dentistas",
- "custom_css": "::selection{background:#168A5B;color:#fff}:focus-visible{outline:2px solid #168A5B;outline-offset:3px;border-radius:4px}html{scrollbar-color:#168A5B #F6F8F7;accent-color:#168A5B}a{text-underline-offset:.2em}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}"
+ "custom_css": "@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(fc-fonts://montserrat-Regular.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(fc-fonts://montserrat-Medium.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(fc-fonts://montserrat-SemiBold.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(fc-fonts://montserrat-Bold.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;font-display:swap;src:url(fc-fonts://montserrat-ExtraBold.woff2) format('woff2')}h2,h3{text-wrap:balance}p{text-wrap:pretty}.fc-offset img,.fc-offset.e-con{box-shadow:16px 16px 0 var(--fc-sombra)}.fc-offset--verde{--fc-sombra:#168A5B}.fc-offset--cinza{--fc-sombra:#CBD2D9}.fc-borda.e-con{border:1px solid #CBD2D9}@media(max-width:880px){.fc-offset img,.fc-offset.e-con{box-shadow:1.622vw 1.622vw 0 var(--fc-sombra)}.fc-borda.e-con{border-width:.135vw}}@media(max-width:575px){.fc-offset img,.fc-offset.e-con{box-shadow:2.564vw 2.564vw 0 var(--fc-sombra)}.fc-borda.e-con{border-width:.256vw}}::selection{background:#168A5B;color:#fff}:focus-visible{outline:2px solid #168A5B;outline-offset:3px;border-radius:4px}html{scrollbar-color:#168A5B #F6F8F7;accent-color:#168A5B}a{text-underline-offset:.2em}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}"
 }

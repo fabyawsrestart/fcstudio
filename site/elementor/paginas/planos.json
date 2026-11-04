@@ -473,6 +473,7 @@
          "isLinked": true
         },
         "_title": "Plano Essencial",
+        "css_classes": "fc-borda",
         "width": {
          "unit": "%",
          "size": 33.333
@@ -858,6 +859,7 @@
          "isLinked": true
         },
         "_title": "Plano Consultório",
+        "css_classes": "fc-offset fc-offset--verde",
         "_flex_order_mobile": "start",
         "width": {
          "unit": "%",
@@ -1294,6 +1296,7 @@
          "isLinked": true
         },
         "_title": "Plano Agenda cheia",
+        "css_classes": "fc-borda",
         "width": {
          "unit": "%",
          "size": 33.333

@@ -429,14 +429,7 @@
          "left": "2.564",
          "isLinked": true
         },
-        "image_box_shadow_box_shadow_type": "yes",
-        "image_box_shadow_box_shadow": {
-         "horizontal": 0,
-         "vertical": 24,
-         "blur": 48,
-         "spread": -12,
-         "color": "rgba(31,41,51,0.28)"
-        },
+        "_css_classes": "fc-offset fc-offset--cinza",
         "_element_width": "initial",
         "_element_custom_width": {
          "unit": "%",

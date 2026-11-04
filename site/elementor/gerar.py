@@ -85,18 +85,18 @@ COLORS_SYS = [('primary', 'Verde 500', '#168A5B'), ('secondary', 'Grafite 900', 
 COLORS_CUSTOM = [('verde700', 'Verde 700', '#0F6643'), ('verde100', 'Verde 100', '#E3F2EB'), ('neutro50', 'Neutro 50', '#F6F8F7'), ('cinza300', 'Cinza 300', '#CBD2D9'), ('branco', 'Branco', '#FFFFFF')]
 C = lambda cid: 'globals/colors?id=' + cid
 
-DISPLAY = 'Anton'  # troque para Morganite depois de enviar a fonte em Elementor > Fontes personalizadas
+DISPLAY = 'Montserrat'  # uma família só: Montserrat local (arquivos da Fab), pesos 400 a 800
 TEXT = 'Montserrat'
 # id, titulo, familia, peso, (D, T, L, M) px, line-height em, letter-spacing em, transform
 TYPO = [
-    ('fc_h1', 'Título hero (H1)', DISPLAY, '400', (88, 68, 52, 44), 0.98, 0, 'uppercase'),
-    ('fc_h2', 'Título de seção (H2)', DISPLAY, '400', (56, 44, 38, 34), 1.05, 0.01, 'uppercase'),
-    ('fc_num', 'Número / preço', DISPLAY, '400', (40, 36, 32, 30), 1.0, 0, 'uppercase'),
-    ('fc_h3', 'Título de card (H3)', TEXT, '700', (24, 22, 20, 20), 1.3, 0, 'none'),
-    ('fc_lead', 'Texto de apoio', TEXT, '500', (20, 18, 17, 17), 1.5, 0, 'none'),
-    ('fc_body', 'Texto corpo', TEXT, '400', (16, 16, 15, 15), 1.6, 0, 'none'),
-    ('fc_caption', 'Legenda / sobretítulo', TEXT, '600', (13, 13, 12, 12), 1.4, 0.12, 'uppercase'),
-    ('fc_button', 'Botão', TEXT, '600', (16, 16, 15, 15), 1.0, 0.01, 'none'),
+    ('fc_h1', 'Título hero (H1)', DISPLAY, '800', (68, 56, 44, 36), 1.02, -0.03, 'none'),
+    ('fc_h2', 'Título de seção (H2)', DISPLAY, '800', (48, 40, 34, 30), 1.08, -0.025, 'none'),
+    ('fc_num', 'Destaque / preço', DISPLAY, '700', (32, 30, 26, 24), 1.15, -0.02, 'none'),
+    ('fc_h3', 'Título de item (H3)', TEXT, '700', (21, 20, 19, 18), 1.3, -0.01, 'none'),
+    ('fc_lead', 'Texto de apoio', TEXT, '400', (20, 19, 18, 17), 1.55, 0, 'none'),
+    ('fc_body', 'Texto corpo', TEXT, '400', (17, 16, 16, 15), 1.65, 0, 'none'),
+    ('fc_caption', 'Etiqueta', TEXT, '600', (13, 13, 12, 12), 1.4, 0.08, 'uppercase'),
+    ('fc_button', 'Botão', TEXT, '600', (16, 16, 15, 15), 1.0, 0, 'none'),
 ]
 T = lambda tid: 'globals/typography?id=' + tid
 
@@ -130,7 +130,8 @@ WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobr
 
 def B(text, kind='primary', url=WA, full_mobile=True, **extra):
     bg, fg, border = {'primary': ('primary', 'branco', None), 'secondary': (None, 'primary', 'primary'),
-                      'white': ('branco', 'verde700', None), 'dark': ('primary', 'branco', None)}[kind]
+                      'white': ('branco', 'verde700', None), 'dark': ('primary', 'branco', None),
+                      'light': (None, 'branco', 'branco')}[kind]
     s = {'text': text, 'link': {'url': url, 'is_external': url.startswith('http'), 'nofollow': ''},
          '__globals__': {'typography_typography': T('fc_button'), 'button_text_color': C(fg)}}
     s['background_color'] = '#00000000'
@@ -219,13 +220,12 @@ def line_row(children, name=None, gap_=(48, 32, 24, 12), top=True, **extra):
     r['settings']['border_width_mobile'] = {'unit': 'vw', 'top': str(vw(1, BASE_M)) if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False}
     return r
 
-def IMG(token, alt, r=14):
+def IMG(token, alt, r=14, shadow='cinza'):
     s = {'image': {'url': 'fc-img://' + token, 'id': 'fc-imgid://' + token, 'alt': alt}, 'image_size': 'full', '_title': 'Imagem ' + token}
     s.update(slider('width', 100, l=100, m=100)); s['width'] = {'unit': '%', 'size': 100}
     for k in ('width_tablet', 'width_mobile_extra', 'width_mobile'): s[k] = {'unit': '%', 'size': 100}
     s.update(radius('image_border_radius', r, r - 2, r - 4))
-    s['image_box_shadow_box_shadow_type'] = 'yes'
-    s['image_box_shadow_box_shadow'] = {'horizontal': 0, 'vertical': 24, 'blur': 48, 'spread': -12, 'color': 'rgba(31,41,51,0.28)'}
+    s['_css_classes'] = 'fc-offset ' + ('fc-offset--verde' if shadow == 'verde' else 'fc-offset--cinza')
     return w('image', **s)
 
 def eyebrow(text, light=False):
@@ -268,17 +268,17 @@ def header():
     return con([lg, right], **s)
 
 def hero():
-    buttons = row([B('Quero mais pacientes', 'primary'), B('Ver planos', 'secondary', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
-    text = col([H('Sites que enchem a agenda do seu consultório', 'fc_h1', 'secondary', 'h1'),
-                P('Seu paciente encontra você no Google, confia no que vê e agenda pelo WhatsApp. A FCStudio cuida do site, dos anúncios e dos vídeos.', 'fc_lead'),
-                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Textos dentro das regras do CFO', 'fc_body')],
-               name='Texto', gap_=(28, 24, 20, 18))
-    proof = col([IMG('gwmix', 'Site da GWmix feito pela FCStudio'),
-                 P('Último projeto entregue: <a href="https://gwmix.ind.br" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:.2em">gwmix.ind.br</a>', 'fc_body')],
-                name='Prova: projeto real', gap_=(14, 12, 12, 10))
-    W(text, 50, 100); W(proof, 50, 100)
-    r_ = row([text, proof], name='Hero · conteúdo', gap_=(64, 48, 36, 40), tablet_dir='column', flex_align_items='center')
-    return section('Hero', [r_], 'neutro50', 'inicio', py=(88, 64, 48, 40))
+    buttons = row([B('Quero mais pacientes', 'primary'), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
+    text = col([H('Sites que enchem a agenda do seu consultório', 'fc_h1', 'branco', 'h1'),
+                P('Seu paciente encontra você no Google, confia no que vê e agenda pelo WhatsApp. A FCStudio cuida do site, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
+                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Textos dentro das regras do CFO', 'fc_body', 'cinza300')],
+               name='Texto', gap_=(28, 24, 22, 20))
+    proof = col([IMG('gwmix', 'Site da GWmix feito pela FCStudio', shadow='verde'),
+                 P('Último projeto entregue: <a href="https://gwmix.ind.br" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;text-underline-offset:.2em">gwmix.ind.br</a>', 'fc_body', 'cinza300')],
+                name='Prova: projeto real', gap_=(28, 24, 22, 20))
+    W(text, 56, 100); W(proof, 44, 100)
+    r_ = row([text, proof], name='Hero · conteúdo', gap_=(72, 56, 40, 44), tablet_dir='column', flex_align_items='center')
+    return section('Hero', [r_], 'secondary', 'inicio', py=(104, 80, 56, 48))
 
 def beneficios():
     items = [('Aparece no Google', 'Site rápido e preparado para buscas como "dentista perto de mim" na sua cidade.'),
@@ -344,7 +344,7 @@ def planos():
         kids += [H(nm, 'fc_h3', 'branco' if hi else 'secondary', 'h3'), P(sub, 'fc_body', 'cinza300' if hi else 'text'),
                  H(price, 'fc_num', 'branco' if hi else 'primary', 'p'), H(per, 'fc_caption', 'cinza300' if hi else 'text', 'p'),
                  LIST(items, hi), B('Quero este plano', 'primary' if hi else 'secondary', full_mobile=True, align='justify')]
-        c = card(kids, bg='secondary' if hi else 'branco', gap_=(16, 14, 14, 14), _title='Plano ' + nm)
+        c = card(kids, bg='secondary' if hi else 'branco', gap_=(16, 14, 14, 14), _title='Plano ' + nm, css_classes='fc-offset fc-offset--verde' if hi else 'fc-borda')
         if hi:
             c['settings']['_flex_order_mobile'] = 'start'
         cards.append(c)
@@ -556,12 +556,16 @@ def footer_tpl():
 PAGES = [('home', 'Home', home_page), ('servicos', 'Serviços', servicos_page), ('planos', 'Planos', planos_page),
          ('portfolio', 'Portfólio', portfolio_page), ('contato', 'Contato', contato_page)]
 
+# Montserrat local: o plugin copia as fontes para wp-content/uploads/fcstudio-fonts e troca fc-fonts:// pelo endereço
+FONTFACE = ''.join("@font-face{font-family:'Montserrat';font-style:normal;font-weight:%d;font-display:swap;src:url(fc-fonts://montserrat-%s.woff2) format('woff2')}" % (w_, n)
+                   for w_, n in ((400, 'Regular'), (500, 'Medium'), (600, 'SemiBold'), (700, 'Bold'), (800, 'ExtraBold')))
+
 def kit_settings():
     s = {
         'system_colors': [{'_id': i, 'title': t, 'color': c} for i, t, c in COLORS_SYS],
         'custom_colors': [{'_id': i, 'title': t, 'color': c} for i, t, c in COLORS_CUSTOM],
         'system_typography': [
-            {'_id': 'primary', 'title': 'Títulos', 'typography_typography': 'custom', 'typography_font_family': DISPLAY, 'typography_font_weight': '400'},
+            {'_id': 'primary', 'title': 'Títulos', 'typography_typography': 'custom', 'typography_font_family': DISPLAY, 'typography_font_weight': '800'},
             {'_id': 'secondary', 'title': 'Subtítulos', 'typography_typography': 'custom', 'typography_font_family': TEXT, 'typography_font_weight': '700'},
             {'_id': 'text', 'title': 'Texto', 'typography_typography': 'custom', 'typography_font_family': TEXT, 'typography_font_weight': '400'},
             {'_id': 'accent', 'title': 'Destaque', 'typography_typography': 'custom', 'typography_font_family': TEXT, 'typography_font_weight': '600'}],
@@ -586,7 +590,12 @@ def kit_settings():
         'viewport_mobile': 575, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
         'site_name': 'FCStudio', 'site_description': 'Sites e presença digital para dentistas',
         # detalhes do navegador com a cor da marca (seleção, foco, barra de rolagem, sublinhado)
-        'custom_css': '::selection{background:#168A5B;color:#fff}:focus-visible{outline:2px solid #168A5B;outline-offset:3px;border-radius:4px}html{scrollbar-color:#168A5B #F6F8F7;accent-color:#168A5B}a{text-underline-offset:.2em}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}',
+        'custom_css': FONTFACE + 'h2,h3{text-wrap:balance}p{text-wrap:pretty}'
+                      '.fc-offset img,.fc-offset.e-con{box-shadow:16px 16px 0 var(--fc-sombra)}.fc-offset--verde{--fc-sombra:#168A5B}.fc-offset--cinza{--fc-sombra:#CBD2D9}'
+                      '.fc-borda.e-con{border:1px solid #CBD2D9}'
+                      '@media(max-width:880px){.fc-offset img,.fc-offset.e-con{box-shadow:1.622vw 1.622vw 0 var(--fc-sombra)}.fc-borda.e-con{border-width:.135vw}}'
+                      '@media(max-width:575px){.fc-offset img,.fc-offset.e-con{box-shadow:2.564vw 2.564vw 0 var(--fc-sombra)}.fc-borda.e-con{border-width:.256vw}}'
+                      '::selection{background:#168A5B;color:#fff}:focus-visible{outline:2px solid #168A5B;outline-offset:3px;border-radius:4px}html{scrollbar-color:#168A5B #F6F8F7;accent-color:#168A5B}a{text-underline-offset:.2em}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}',
     }
     return s
 
