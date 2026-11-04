@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FCStudio Setup
  * Description: Configura num clique os 7 breakpoints, cores e fontes globais, cabeçalho e rodapé do site, o Menu principal e as páginas Home, Serviços, Planos, Portfólio, Quem Somos, Orçamento e Contato. Depois de usar, desative e apague.
- * Version: 1.5.0
+ * Version: 1.6.0
  * Requires Plugins: elementor
  * Author: FCStudio
  */

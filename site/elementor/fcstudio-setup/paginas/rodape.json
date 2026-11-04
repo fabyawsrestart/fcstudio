@@ -741,7 +741,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Instagram: @fcstudio</p>",
+          "editor": "<p>LinkedIn e YouTube: FC Studio</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=branco"

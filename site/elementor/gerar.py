@@ -415,7 +415,7 @@ def footer():
     def links(title, items):
         return col([H(title, 'fc_caption', 'primary', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
     nav_ = links('Navegação', ['<a href="fc://%s" style="color:inherit">%s</a>' % x for x in (('servicos', 'Serviços'), ('planos', 'Planos'), ('portfolio', 'Portfólio'), ('quem-somos', 'Quem Somos'), ('orcamento', 'Orçamento'), ('contato', 'Contato'))])
-    cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.com.br', 'Instagram: @fcstudio'])
+    cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.com.br', 'LinkedIn e YouTube: FC Studio'])
     W(c1, 40, 40, 40, 100); W(nav_, 30, 30, 30, 100); W(cont_, 30, 30, 30, 100)
     cols_ = row([c1, nav_, cont_], name='Colunas', gap_=(64, 40, 32, 32), landscape_dir='row', mobile_dir='column')
     line = w('divider', **{'__globals__': {'color': C('linha')}, **slider('weight', 1, l=1, m=1)})
@@ -529,7 +529,7 @@ def contato_bloco():
         return c
     infos = col([info('fab fa-whatsapp', 'fa-brands', 'WhatsApp', '<a href="https://wa.me/5511916751926" style="color:inherit">(11) 91675-1926</a>'),
                  info('fas fa-envelope', 'fa-solid', 'E-mail', 'contato@fcstudio.com.br'),
-                 info('fab fa-instagram', 'fa-brands', 'Instagram', '@fcstudio'),
+                 info('fab fa-linkedin', 'fa-brands', 'LinkedIn e YouTube', 'FC Studio'),
                  info('fas fa-clock', 'fa-solid', 'Atendimento', 'Segunda a sexta, das 9h às 18h')], name='Canais', gap_=(0, 0, 0, 0))
     fld = lambda _id, label, t='text', req=True, width='100': {'_id': _id, 'custom_id': _id, 'field_type': t, 'field_label': label, 'placeholder': label,
                                                             'required': 'true' if req else '', 'width': width}

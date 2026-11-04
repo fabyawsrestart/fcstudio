@@ -1350,7 +1350,7 @@
            "widgetType": "icon",
            "settings": {
             "selected_icon": {
-             "value": "fab fa-instagram",
+             "value": "fab fa-linkedin",
              "library": "fa-brands"
             },
             "view": "default",
@@ -1510,7 +1510,7 @@
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
-              "title": "Instagram",
+              "title": "LinkedIn e YouTube",
               "header_size": "p",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_caption",
@@ -1524,7 +1524,7 @@
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>@fcstudio</p>",
+              "editor": "<p>FC Studio</p>",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_lead",
                "text_color": "globals/colors?id=secondary"
