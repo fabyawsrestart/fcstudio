@@ -61,14 +61,21 @@ function fcstudio_images() {
 		$name  = basename( $file );
 		$token = preg_replace( '/^portfolio-|\.(jpg|png|webp)$/', '', $name );
 		$found = get_posts( [ 'post_type' => 'attachment', 'meta_key' => '_fcstudio_asset', 'meta_value' => $name, 'numberposts' => 1, 'post_status' => 'any' ] );
+		$md5 = md5_file( $file );
+		if ( $found && get_post_meta( $found[0]->ID, '_fcstudio_md5', true ) !== $md5 && get_post_meta( $found[0]->ID, '_fcstudio_md5', true ) !== '' ) {
+			wp_delete_attachment( $found[0]->ID, true ); // imagem nova numa versão nova do plugin: troca a antiga
+			$found = [];
+		}
 		if ( $found ) {
 			$id = $found[0]->ID;
+			if ( ! get_post_meta( $id, '_fcstudio_md5', true ) ) update_post_meta( $id, '_fcstudio_md5', $md5 );
 		} else {
 			$tmp = wp_tempnam( $name );
 			copy( $file, $tmp );
 			$id = media_handle_sideload( [ 'name' => $name, 'tmp_name' => $tmp ], 0 );
 			if ( is_wp_error( $id ) ) continue;
 			update_post_meta( $id, '_fcstudio_asset', $name );
+			update_post_meta( $id, '_fcstudio_md5', $md5 );
 		}
 		$out[ $token ] = [ $id, wp_get_attachment_url( $id ) ];
 	}

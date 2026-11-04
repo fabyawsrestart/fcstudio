@@ -552,17 +552,20 @@ def contato_bloco():
 
 def quem_somos():
     # slide "Sobre mim": foto com brilho verde à esquerda, texto à direita. Foto da Fab entra no lugar do logo quando chegar.
-    logo = w('html', html='<div class="fc-foto-vazia">' + logo_svg('#FFFFFF', '#FFFFFF') + '</div>', _title='Foto (provisório: logo)')
-    foto = con([logo], content_width='full', flex_direction='column', flex_justify_content='center', flex_align_items='center', css_classes='fc-glow', _title='Foto com brilho',
-               **slider('min_height', 560, 440, 400, 360), **dims('padding', (0, 0, 0, 0)))
+    img = IMG('equipe', 'Equipe da FCStudio')
+    img['settings']['_css_classes'] = 'fc-foto'  # PNG recortado, sem contorno
+    for k in [k for k in img['settings'] if k.startswith('image_border_radius')]: del img['settings'][k]
+    foto = con([img], content_width='full', flex_direction='column', flex_justify_content='flex-end', flex_align_items='center', css_classes='fc-glow', _title='Foto com brilho',
+               **dims('padding', (96, 0, 0, 0), (80, 0, 0, 0), (64, 0, 0, 0), (56, 0, 0, 0)))
     traco = w('html', html='<div class="fc-traco" aria-hidden="true"></div>', _title='Traço com ponto')
     texto = col([traco, H('Quem somos', 'fc_caption', 'primary', 'p'),
                  H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio</span>', 'fc_h2', 'secondary', 'h2'),
                  P('Mais do que interfaces bonitas: na FCStudio, unimos <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a experiência do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
                  P('Desenhamos fluxos intuitivos que guiam seu cliente com facilidade até o <strong>momento da compra</strong>, e acompanhamos os números depois do lançamento para ajustar o que for preciso.', 'fc_body', 'text'),
                  B('Solicite um orçamento', 'primary')], name='Texto', gap_=(24, 22, 20, 18))
-    W(foto, 44, 100, 100, 100); W(texto, 56, 100, 100, 100)
+    W(texto, 54, 100, 100, 100)
     r_ = row([foto, texto], name='Quem somos · conteúdo', gap_=(72, 48, 40, 32), tablet_dir='column', flex_align_items='center')
+    W(foto, 46, 80, 80, 100)
     return section('Quem somos', [r_], 'preto', 'quem-somos', css_classes='fc-estrelas')
 
 def home_page():
@@ -629,8 +632,7 @@ CSS = (
     '.fc-linha-v.e-con:before{content:"";position:absolute;left:0;top:0;bottom:calc(6*var(--px));width:max(1px,calc(1*var(--px)));background:linear-gradient(180deg,rgba(0,214,26,.1),#00D61A)}'
     '.fc-linha-v.e-con:after{content:"";position:absolute;left:calc(-5.5*var(--px));bottom:0;width:calc(12*var(--px));height:calc(12*var(--px));border-radius:50%;background:#00E600;box-shadow:0 0 calc(12*var(--px)) #00E600}'
     # brilho atrás da foto
-    '.fc-glow.e-con{background:radial-gradient(circle closest-side,rgba(150,255,150,.85) 0%,#00E600 32%,rgba(0,190,20,.4) 62%,rgba(0,0,0,0) 100%)}'
-    '.fc-foto-vazia{width:46%;margin:0 auto;filter:drop-shadow(0 calc(8*var(--px)) calc(24*var(--px)) rgba(0,60,0,.45))}'
+    '.fc-glow.e-con{background:radial-gradient(closest-side at 50% 50%,rgba(170,255,170,.9) 0%,#00E600 30%,rgba(0,190,20,.4) 62%,rgba(0,0,0,0) 100%)}'
     # seção clara com círculos (slide Escopo)
     '.fc-circulos.e-con{background-image:repeating-radial-gradient(circle at 92% 18%,rgba(0,0,0,0) 0 calc(46*var(--px)),rgba(0,0,0,.07) calc(46*var(--px)) calc(47.5*var(--px)))}'
     # botão com gradiente neon

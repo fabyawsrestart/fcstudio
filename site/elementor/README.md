@@ -59,7 +59,7 @@ Conversão usada: `vw = px ÷ 7,40` (paisagem) e `vw = px ÷ 3,90` (retrato). Ex
 - E-mail e Instagram no rodapé e no Contato (o WhatsApp já é o real: (11) 91675-1926).
 - Fontes servidas do próprio servidor (wp-content/uploads/fcstudio-fonts): Morganite ExtraBold nos títulos e Montserrat 400 a 800 no texto. O Google Fonts fica desligado (site mais rápido e sem enviar dados de visitantes ao Google, LGPD).
 - Morganite é freeware para uso comercial, mas a licença proíbe modificar o arquivo: por isso ela vai em TTF original, sem converter nem cortar. A licença está em `fonts/Morganite-License.pdf`.
-- **Quem somos**: o logo com brilho verde ocupa o lugar da foto. Quando a foto chegar, troque o widget "Foto (provisório: logo)" por uma imagem com fundo transparente (PNG recortado).
+- **Quem somos**: foto da equipe recortada (`assets/portfolio-equipe.webp`), vinda de uma selfie. Para o site final, vale uma foto feita para isso (boa luz, câmera na altura do rosto, sem braço esticado). Para trocar, substitua o arquivo e rode o plugin de novo: ele troca a imagem sozinho.
 - Portfólio: GWmix tem print real. Sistema de agendamento e landing pages estão sem link e sem imagem: mande os endereços.
 - Política de Privacidade: o formulário pede aceite, então a página precisa existir e estar publicada (Configurações > Privacidade).
 - Visual: tema dos slides de proposta. Fundo preto com estrelas (`ui/estrelas.jpg`, gerado, sem imagem de terceiros), verde neon #00D61A com gradiente #00E600 a #00B100, títulos condensados em caixa alta, barrinha verde antes dos títulos, traço e linha vertical com ponto. A seção "Como funciona" é clara, com círculos, como o slide de escopo.
