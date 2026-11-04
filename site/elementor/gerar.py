@@ -3,15 +3,15 @@
 
 Regras de medida:
 - Desktop, widescreen, laptop, tablet paisagem e tablet retrato: px.
-- Celular paisagem (mobile_extra, 768-880): vw, base 844 px  -> vw = px / 8.44
-- Celular retrato (mobile, ate 767): vw, base 390 px         -> vw = px / 3.90
+- Celular paisagem (mobile_extra, 576-880): vw, base 740 px  -> vw = px / 7.40
+- Celular retrato (mobile, ate 575): vw, base 390 px         -> vw = px / 3.90
 Line-height em "em" (proporcional a fonte, que ja esta em vw).
 """
 import json, os, random
 
 random.seed(7)
 OUT = os.path.dirname(os.path.abspath(__file__))
-BASE_L, BASE_M = 8.44, 3.90
+BASE_L, BASE_M = 7.40, 3.90
 
 def uid():
     return '%07x' % random.getrandbits(28)
@@ -409,7 +409,7 @@ def kit_settings():
         'page_title_selector': 'h1.entry-title',
         # 7 breakpoints: desktop (base) + 6 adicionais
         'active_breakpoints': ['viewport_mobile', 'viewport_mobile_extra', 'viewport_tablet', 'viewport_tablet_extra', 'viewport_laptop', 'viewport_widescreen'],
-        'viewport_mobile': 767, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
+        'viewport_mobile': 575, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
         'site_name': 'FCStudio', 'site_description': 'Sites e presença digital para dentistas',
     }
     return s

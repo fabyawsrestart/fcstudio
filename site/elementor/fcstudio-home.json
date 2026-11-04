@@ -40,10 +40,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "1.422",
-     "right": "4.739",
-     "bottom": "1.422",
-     "left": "4.739",
+     "top": "1.622",
+     "right": "5.405",
+     "bottom": "1.622",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -78,9 +78,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 1.896,
-     "column": "1.896",
-     "row": "1.896",
+     "size": 2.162,
+     "column": "2.162",
+     "row": "2.162",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -109,7 +109,7 @@
       },
       "_element_custom_width_mobile_extra": {
        "unit": "vw",
-       "size": 7.109
+       "size": 8.108
       },
       "_element_custom_width_mobile": {
        "unit": "vw",
@@ -147,9 +147,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.422,
-       "column": "1.422",
-       "row": "1.422",
+       "size": 1.622,
+       "column": "1.622",
+       "row": "1.622",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -248,7 +248,7 @@
         },
         "padding_horizontal_menu_item_mobile_extra": {
          "unit": "vw",
-         "size": 1.659
+         "size": 1.892
         },
         "padding_horizontal_menu_item_mobile": {
          "unit": "vw",
@@ -264,7 +264,7 @@
         },
         "toggle_size_mobile_extra": {
          "unit": "vw",
-         "size": 2.844
+         "size": 3.243
         },
         "toggle_size_mobile": {
          "unit": "vw",
@@ -296,10 +296,10 @@
         },
         "toggle_border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.185",
-         "right": "1.185",
-         "bottom": "1.185",
-         "left": "1.185",
+         "top": "1.351",
+         "right": "1.351",
+         "bottom": "1.351",
+         "left": "1.351",
          "isLinked": true
         },
         "toggle_border_radius_mobile": {
@@ -320,7 +320,7 @@
         },
         "dropdown_top_distance_mobile_extra": {
          "unit": "vw",
-         "size": 1.422
+         "size": 1.622
         },
         "dropdown_top_distance_mobile": {
          "unit": "vw",
@@ -336,7 +336,7 @@
         },
         "padding_horizontal_dropdown_item_mobile_extra": {
          "unit": "vw",
-         "size": 4.739
+         "size": 5.405
         },
         "padding_horizontal_dropdown_item_mobile": {
          "unit": "vw",
@@ -352,7 +352,7 @@
         },
         "padding_vertical_dropdown_item_mobile_extra": {
          "unit": "vw",
-         "size": 1.659
+         "size": 1.892
         },
         "padding_vertical_dropdown_item_mobile": {
          "unit": "vw",
@@ -388,10 +388,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "118.365",
-         "right": "118.365",
-         "bottom": "118.365",
-         "left": "118.365",
+         "top": "135.0",
+         "right": "135.0",
+         "bottom": "135.0",
+         "left": "135.0",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -420,10 +420,10 @@
         },
         "text_padding_mobile_extra": {
          "unit": "vw",
-         "top": "1.777",
-         "right": "2.844",
-         "bottom": "1.777",
-         "left": "2.844",
+         "top": "2.027",
+         "right": "3.243",
+         "bottom": "2.027",
+         "left": "3.243",
          "isLinked": false
         },
         "text_padding_mobile": {
@@ -473,10 +473,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "5.687",
-     "right": "4.739",
-     "bottom": "5.687",
-     "left": "4.739",
+     "top": "6.486",
+     "right": "5.405",
+     "bottom": "6.486",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -511,9 +511,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.791,
-     "column": "3.791",
-     "row": "3.791",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -554,9 +554,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 3.791,
-       "column": "3.791",
-       "row": "3.791",
+       "size": 4.324,
+       "column": "4.324",
+       "row": "4.324",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -625,9 +625,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 2.37,
-         "column": "2.37",
-         "row": "2.37",
+         "size": 2.703,
+         "column": "2.703",
+         "row": "2.703",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -720,10 +720,10 @@
           },
           "_padding_mobile_extra": {
            "unit": "vw",
-           "top": "0.829",
-           "right": "1.422",
-           "bottom": "0.829",
-           "left": "1.422",
+           "top": "0.946",
+           "right": "1.622",
+           "bottom": "0.946",
+           "left": "1.622",
            "isLinked": false
           },
           "_padding_mobile": {
@@ -744,10 +744,10 @@
           },
           "_border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "_border_radius_mobile": {
@@ -816,9 +816,9 @@
           },
           "flex_gap_mobile_extra": {
            "unit": "vw",
-           "size": 1.422,
-           "column": "1.422",
-           "row": "1.422",
+           "size": 1.622,
+           "column": "1.622",
+           "row": "1.622",
            "isLinked": true
           },
           "flex_gap_mobile": {
@@ -889,10 +889,10 @@
             },
             "border_radius_mobile_extra": {
              "unit": "vw",
-             "top": "118.365",
-             "right": "118.365",
-             "bottom": "118.365",
-             "left": "118.365",
+             "top": "135.0",
+             "right": "135.0",
+             "bottom": "135.0",
+             "left": "135.0",
              "isLinked": true
             },
             "border_radius_mobile": {
@@ -921,10 +921,10 @@
             },
             "text_padding_mobile_extra": {
              "unit": "vw",
-             "top": "1.777",
-             "right": "2.844",
-             "bottom": "1.777",
-             "left": "2.844",
+             "top": "2.027",
+             "right": "3.243",
+             "bottom": "2.027",
+             "left": "3.243",
              "isLinked": false
             },
             "text_padding_mobile": {
@@ -967,10 +967,10 @@
             },
             "border_width_mobile_extra": {
              "unit": "vw",
-             "top": "0.237",
-             "right": "0.237",
-             "bottom": "0.237",
-             "left": "0.237",
+             "top": "0.27",
+             "right": "0.27",
+             "bottom": "0.27",
+             "left": "0.27",
              "isLinked": true
             },
             "border_width_mobile": {
@@ -991,10 +991,10 @@
             },
             "border_radius_mobile_extra": {
              "unit": "vw",
-             "top": "118.365",
-             "right": "118.365",
-             "bottom": "118.365",
-             "left": "118.365",
+             "top": "135.0",
+             "right": "135.0",
+             "bottom": "135.0",
+             "left": "135.0",
              "isLinked": true
             },
             "border_radius_mobile": {
@@ -1023,10 +1023,10 @@
             },
             "text_padding_mobile_extra": {
              "unit": "vw",
-             "top": "1.777",
-             "right": "2.844",
-             "bottom": "1.777",
-             "left": "2.844",
+             "top": "2.027",
+             "right": "3.243",
+             "bottom": "2.027",
+             "left": "3.243",
              "isLinked": false
             },
             "text_padding_mobile": {
@@ -1087,10 +1087,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -1117,9 +1117,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.659,
-         "column": "1.659",
-         "row": "1.659",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -1139,10 +1139,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "2.607",
-         "right": "2.607",
-         "bottom": "2.607",
-         "left": "2.607",
+         "top": "2.973",
+         "right": "2.973",
+         "bottom": "2.973",
+         "left": "2.973",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -1201,10 +1201,10 @@
           },
           "padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.607",
-           "right": "2.607",
-           "bottom": "2.607",
-           "left": "2.607",
+           "top": "2.973",
+           "right": "2.973",
+           "bottom": "2.973",
+           "left": "2.973",
            "isLinked": false
           },
           "padding_mobile": {
@@ -1231,9 +1231,9 @@
           },
           "flex_gap_mobile_extra": {
            "unit": "vw",
-           "size": 1.422,
-           "column": "1.422",
-           "row": "1.422",
+           "size": 1.622,
+           "column": "1.622",
+           "row": "1.622",
            "isLinked": true
           },
           "flex_gap_mobile": {
@@ -1253,10 +1253,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.422",
-           "right": "1.422",
-           "bottom": "1.422",
-           "left": "1.422",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -1339,7 +1339,7 @@
             },
             "min_height_mobile_extra": {
              "unit": "vw",
-             "size": 16.588
+             "size": 18.919
             },
             "min_height_mobile": {
              "unit": "vw",
@@ -1355,10 +1355,10 @@
             },
             "border_radius_mobile_extra": {
              "unit": "vw",
-             "top": "1.422",
-             "right": "1.422",
-             "bottom": "1.422",
-             "left": "1.422",
+             "top": "1.622",
+             "right": "1.622",
+             "bottom": "1.622",
+             "left": "1.622",
              "isLinked": true
             },
             "border_radius_mobile": {
@@ -1399,10 +1399,10 @@
             },
             "border_radius_mobile_extra": {
              "unit": "vw",
-             "top": "118.365",
-             "right": "118.365",
-             "bottom": "118.365",
-             "left": "118.365",
+             "top": "135.0",
+             "right": "135.0",
+             "bottom": "135.0",
+             "left": "135.0",
              "isLinked": true
             },
             "border_radius_mobile": {
@@ -1431,10 +1431,10 @@
             },
             "text_padding_mobile_extra": {
              "unit": "vw",
-             "top": "1.777",
-             "right": "2.844",
-             "bottom": "1.777",
-             "left": "2.844",
+             "top": "2.027",
+             "right": "3.243",
+             "bottom": "2.027",
+             "left": "3.243",
              "isLinked": false
             },
             "text_padding_mobile": {
@@ -1479,10 +1479,10 @@
           },
           "padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.422",
-           "right": "1.422",
-           "bottom": "1.422",
-           "left": "1.422",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
            "isLinked": false
           },
           "padding_mobile": {
@@ -1509,9 +1509,9 @@
           },
           "flex_gap_mobile_extra": {
            "unit": "vw",
-           "size": 0.237,
-           "column": "0.237",
-           "row": "0.237",
+           "size": 0.27,
+           "column": "0.27",
+           "row": "0.27",
            "isLinked": true
           },
           "flex_gap_mobile": {
@@ -1531,10 +1531,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.422",
-           "right": "1.422",
-           "bottom": "1.422",
-           "left": "1.422",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -1565,7 +1565,7 @@
           },
           "width_mobile_extra": {
            "unit": "vw",
-           "size": 35.545
+           "size": 40.541
           },
           "width_mobile": {
            "unit": "vw",
@@ -1642,10 +1642,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -1680,9 +1680,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.791,
-     "column": "3.791",
-     "row": "3.791",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -1718,9 +1718,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.659,
-       "column": "1.659",
-       "row": "1.659",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -1852,9 +1852,9 @@
       },
       "grid_gaps_mobile_extra": {
        "unit": "vw",
-       "size": 2.37,
-       "column": "2.37",
-       "row": "2.37",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
        "isLinked": true
       },
       "grid_gaps_mobile": {
@@ -1927,10 +1927,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -1957,9 +1957,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -1979,10 +1979,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -2021,7 +2021,7 @@
           },
           "size_mobile_extra": {
            "unit": "vw",
-           "size": 2.37
+           "size": 2.703
           },
           "size_mobile": {
            "unit": "vw",
@@ -2037,7 +2037,7 @@
           },
           "icon_padding_mobile_extra": {
            "unit": "vw",
-           "size": 1.422
+           "size": 1.622
           },
           "icon_padding_mobile": {
            "unit": "vw",
@@ -2053,10 +2053,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.422",
-           "right": "1.422",
-           "bottom": "1.422",
-           "left": "1.422",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -2128,10 +2128,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -2158,9 +2158,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -2180,10 +2180,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -2222,7 +2222,7 @@
           },
           "size_mobile_extra": {
            "unit": "vw",
-           "size": 2.37
+           "size": 2.703
           },
           "size_mobile": {
            "unit": "vw",
@@ -2238,7 +2238,7 @@
           },
           "icon_padding_mobile_extra": {
            "unit": "vw",
-           "size": 1.422
+           "size": 1.622
           },
           "icon_padding_mobile": {
            "unit": "vw",
@@ -2254,10 +2254,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.422",
-           "right": "1.422",
-           "bottom": "1.422",
-           "left": "1.422",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -2329,10 +2329,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -2359,9 +2359,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -2381,10 +2381,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -2423,7 +2423,7 @@
           },
           "size_mobile_extra": {
            "unit": "vw",
-           "size": 2.37
+           "size": 2.703
           },
           "size_mobile": {
            "unit": "vw",
@@ -2439,7 +2439,7 @@
           },
           "icon_padding_mobile_extra": {
            "unit": "vw",
-           "size": 1.422
+           "size": 1.622
           },
           "icon_padding_mobile": {
            "unit": "vw",
@@ -2455,10 +2455,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.422",
-           "right": "1.422",
-           "bottom": "1.422",
-           "left": "1.422",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -2535,10 +2535,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -2573,9 +2573,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.791,
-     "column": "3.791",
-     "row": "3.791",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -2612,9 +2612,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.659,
-       "column": "1.659",
-       "row": "1.659",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -2733,9 +2733,9 @@
       },
       "grid_gaps_mobile_extra": {
        "unit": "vw",
-       "size": 2.37,
-       "column": "2.37",
-       "row": "2.37",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
        "isLinked": true
       },
       "grid_gaps_mobile": {
@@ -2808,10 +2808,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -2838,9 +2838,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -2860,10 +2860,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -2948,10 +2948,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -2978,9 +2978,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -3000,10 +3000,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -3088,10 +3088,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -3118,9 +3118,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -3140,10 +3140,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -3228,10 +3228,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -3258,9 +3258,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -3280,10 +3280,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -3368,10 +3368,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -3398,9 +3398,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -3420,10 +3420,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -3508,10 +3508,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -3538,9 +3538,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -3560,10 +3560,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -3644,10 +3644,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -3676,10 +3676,10 @@
           },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.777",
-           "right": "2.844",
-           "bottom": "1.777",
-           "left": "2.844",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
            "isLinked": false
           },
           "text_padding_mobile": {
@@ -3730,10 +3730,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -3768,9 +3768,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.791,
-     "column": "3.791",
-     "row": "3.791",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -3807,9 +3807,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.659,
-       "column": "1.659",
-       "row": "1.659",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -3928,9 +3928,9 @@
       },
       "grid_gaps_mobile_extra": {
        "unit": "vw",
-       "size": 2.844,
-       "column": "2.844",
-       "row": "2.844",
+       "size": 3.243,
+       "column": "3.243",
+       "row": "3.243",
        "isLinked": true
       },
       "grid_gaps_mobile": {
@@ -3997,9 +3997,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -4068,7 +4068,7 @@
           },
           "_element_custom_width_mobile_extra": {
            "unit": "vw",
-           "size": 4.739
+           "size": 5.405
           },
           "_element_custom_width_mobile": {
            "unit": "vw",
@@ -4092,9 +4092,9 @@
           },
           "_padding_mobile_extra": {
            "unit": "vw",
-           "top": "0.948",
+           "top": "1.081",
            "right": "0.0",
-           "bottom": "0.948",
+           "bottom": "1.081",
            "left": "0.0",
            "isLinked": false
           },
@@ -4116,10 +4116,10 @@
           },
           "_border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "_border_radius_mobile": {
@@ -4185,9 +4185,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -4256,7 +4256,7 @@
           },
           "_element_custom_width_mobile_extra": {
            "unit": "vw",
-           "size": 4.739
+           "size": 5.405
           },
           "_element_custom_width_mobile": {
            "unit": "vw",
@@ -4280,9 +4280,9 @@
           },
           "_padding_mobile_extra": {
            "unit": "vw",
-           "top": "0.948",
+           "top": "1.081",
            "right": "0.0",
-           "bottom": "0.948",
+           "bottom": "1.081",
            "left": "0.0",
            "isLinked": false
           },
@@ -4304,10 +4304,10 @@
           },
           "_border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "_border_radius_mobile": {
@@ -4373,9 +4373,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -4444,7 +4444,7 @@
           },
           "_element_custom_width_mobile_extra": {
            "unit": "vw",
-           "size": 4.739
+           "size": 5.405
           },
           "_element_custom_width_mobile": {
            "unit": "vw",
@@ -4468,9 +4468,9 @@
           },
           "_padding_mobile_extra": {
            "unit": "vw",
-           "top": "0.948",
+           "top": "1.081",
            "right": "0.0",
-           "bottom": "0.948",
+           "bottom": "1.081",
            "left": "0.0",
            "isLinked": false
           },
@@ -4492,10 +4492,10 @@
           },
           "_border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "_border_radius_mobile": {
@@ -4561,9 +4561,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.185,
-         "column": "1.185",
-         "row": "1.185",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -4632,7 +4632,7 @@
           },
           "_element_custom_width_mobile_extra": {
            "unit": "vw",
-           "size": 4.739
+           "size": 5.405
           },
           "_element_custom_width_mobile": {
            "unit": "vw",
@@ -4656,9 +4656,9 @@
           },
           "_padding_mobile_extra": {
            "unit": "vw",
-           "top": "0.948",
+           "top": "1.081",
            "right": "0.0",
-           "bottom": "0.948",
+           "bottom": "1.081",
            "left": "0.0",
            "isLinked": false
           },
@@ -4680,10 +4680,10 @@
           },
           "_border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "_border_radius_mobile": {
@@ -4760,10 +4760,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -4798,9 +4798,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.791,
-     "column": "3.791",
-     "row": "3.791",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -4837,9 +4837,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.659,
-       "column": "1.659",
-       "row": "1.659",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -4954,9 +4954,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 2.37,
-       "column": "2.37",
-       "row": "2.37",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -5030,10 +5030,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -5060,9 +5060,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.659,
-         "column": "1.659",
-         "row": "1.659",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -5082,10 +5082,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -5224,7 +5224,7 @@
           },
           "icon_size_mobile_extra": {
            "unit": "vw",
-           "size": 1.54
+           "size": 1.757
           },
           "icon_size_mobile": {
            "unit": "vw",
@@ -5240,7 +5240,7 @@
           },
           "space_between_mobile_extra": {
            "unit": "vw",
-           "size": 1.066
+           "size": 1.216
           },
           "space_between_mobile": {
            "unit": "vw",
@@ -5256,7 +5256,7 @@
           },
           "text_indent_mobile_extra": {
            "unit": "vw",
-           "size": 1.066
+           "size": 1.216
           },
           "text_indent_mobile": {
            "unit": "vw",
@@ -5293,10 +5293,10 @@
           },
           "border_width_mobile_extra": {
            "unit": "vw",
-           "top": "0.237",
-           "right": "0.237",
-           "bottom": "0.237",
-           "left": "0.237",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
            "isLinked": true
           },
           "border_width_mobile": {
@@ -5317,10 +5317,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -5349,10 +5349,10 @@
           },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.777",
-           "right": "2.844",
-           "bottom": "1.777",
-           "left": "2.844",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
            "isLinked": false
           },
           "text_padding_mobile": {
@@ -5399,10 +5399,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -5429,9 +5429,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.659,
-         "column": "1.659",
-         "row": "1.659",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -5451,10 +5451,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -5519,10 +5519,10 @@
           },
           "_padding_mobile_extra": {
            "unit": "vw",
-           "top": "0.592",
-           "right": "1.185",
-           "bottom": "0.592",
-           "left": "1.185",
+           "top": "0.676",
+           "right": "1.351",
+           "bottom": "0.676",
+           "left": "1.351",
            "isLinked": false
           },
           "_padding_mobile": {
@@ -5543,10 +5543,10 @@
           },
           "_border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "_border_radius_mobile": {
@@ -5669,7 +5669,7 @@
           },
           "icon_size_mobile_extra": {
            "unit": "vw",
-           "size": 1.54
+           "size": 1.757
           },
           "icon_size_mobile": {
            "unit": "vw",
@@ -5685,7 +5685,7 @@
           },
           "space_between_mobile_extra": {
            "unit": "vw",
-           "size": 1.066
+           "size": 1.216
           },
           "space_between_mobile": {
            "unit": "vw",
@@ -5701,7 +5701,7 @@
           },
           "text_indent_mobile_extra": {
            "unit": "vw",
-           "size": 1.066
+           "size": 1.216
           },
           "text_indent_mobile": {
            "unit": "vw",
@@ -5737,10 +5737,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -5769,10 +5769,10 @@
           },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.777",
-           "right": "2.844",
-           "bottom": "1.777",
-           "left": "2.844",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
            "isLinked": false
           },
           "text_padding_mobile": {
@@ -5819,10 +5819,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.844",
-         "right": "2.844",
-         "bottom": "2.844",
-         "left": "2.844",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
          "isLinked": false
         },
         "padding_mobile": {
@@ -5849,9 +5849,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.659,
-         "column": "1.659",
-         "row": "1.659",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -5871,10 +5871,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -6013,7 +6013,7 @@
           },
           "icon_size_mobile_extra": {
            "unit": "vw",
-           "size": 1.54
+           "size": 1.757
           },
           "icon_size_mobile": {
            "unit": "vw",
@@ -6029,7 +6029,7 @@
           },
           "space_between_mobile_extra": {
            "unit": "vw",
-           "size": 1.066
+           "size": 1.216
           },
           "space_between_mobile": {
            "unit": "vw",
@@ -6045,7 +6045,7 @@
           },
           "text_indent_mobile_extra": {
            "unit": "vw",
-           "size": 1.066
+           "size": 1.216
           },
           "text_indent_mobile": {
            "unit": "vw",
@@ -6082,10 +6082,10 @@
           },
           "border_width_mobile_extra": {
            "unit": "vw",
-           "top": "0.237",
-           "right": "0.237",
-           "bottom": "0.237",
-           "left": "0.237",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
            "isLinked": true
           },
           "border_width_mobile": {
@@ -6106,10 +6106,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -6138,10 +6138,10 @@
           },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.777",
-           "right": "2.844",
-           "bottom": "1.777",
-           "left": "2.844",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
            "isLinked": false
           },
           "text_padding_mobile": {
@@ -6193,10 +6193,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -6231,9 +6231,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.791,
-     "column": "3.791",
-     "row": "3.791",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -6270,9 +6270,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.659,
-       "column": "1.659",
-       "row": "1.659",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -6375,10 +6375,10 @@
       },
       "padding_mobile_extra": {
        "unit": "vw",
-       "top": "2.844",
-       "right": "2.844",
-       "bottom": "2.844",
-       "left": "2.844",
+       "top": "3.243",
+       "right": "3.243",
+       "bottom": "3.243",
+       "left": "3.243",
        "isLinked": false
       },
       "padding_mobile": {
@@ -6405,9 +6405,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 2.844,
-       "column": "2.844",
-       "row": "2.844",
+       "size": 3.243,
+       "column": "3.243",
+       "row": "3.243",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -6427,10 +6427,10 @@
       },
       "border_radius_mobile_extra": {
        "unit": "vw",
-       "top": "2.607",
-       "right": "2.607",
-       "bottom": "2.607",
-       "left": "2.607",
+       "top": "2.973",
+       "right": "2.973",
+       "bottom": "2.973",
+       "left": "2.973",
        "isLinked": true
       },
       "border_radius_mobile": {
@@ -6469,7 +6469,7 @@
         },
         "min_height_mobile_extra": {
          "unit": "vw",
-         "size": 33.175
+         "size": 37.838
         },
         "min_height_mobile": {
          "unit": "vw",
@@ -6485,10 +6485,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.422",
-         "right": "1.422",
-         "bottom": "1.422",
-         "left": "1.422",
+         "top": "1.622",
+         "right": "1.622",
+         "bottom": "1.622",
+         "left": "1.622",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -6541,9 +6541,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.422,
-         "column": "1.422",
-         "row": "1.422",
+         "size": 1.622,
+         "column": "1.622",
+         "row": "1.622",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -6672,10 +6672,10 @@
           },
           "border_width_mobile_extra": {
            "unit": "vw",
-           "top": "0.237",
-           "right": "0.237",
-           "bottom": "0.237",
-           "left": "0.237",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
            "isLinked": true
           },
           "border_width_mobile": {
@@ -6696,10 +6696,10 @@
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "118.365",
-           "right": "118.365",
-           "bottom": "118.365",
-           "left": "118.365",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
            "isLinked": true
           },
           "border_radius_mobile": {
@@ -6728,10 +6728,10 @@
           },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.777",
-           "right": "2.844",
-           "bottom": "1.777",
-           "left": "2.844",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
            "isLinked": false
           },
           "text_padding_mobile": {
@@ -6782,10 +6782,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -6820,9 +6820,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 3.318,
-     "column": "3.318",
-     "row": "3.318",
+     "size": 3.784,
+     "column": "3.784",
+     "row": "3.784",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -6859,9 +6859,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.659,
-       "column": "1.659",
-       "row": "1.659",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -6959,9 +6959,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.422,
-       "column": "1.422",
-       "row": "1.422",
+       "size": 1.622,
+       "column": "1.622",
+       "row": "1.622",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -7034,10 +7034,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.37",
-         "right": "2.37",
-         "bottom": "2.37",
-         "left": "2.37",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
          "isLinked": false
         },
         "padding_mobile": {
@@ -7064,9 +7064,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 0.948,
-         "column": "0.948",
-         "row": "0.948",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -7086,10 +7086,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -7160,10 +7160,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.37",
-         "right": "2.37",
-         "bottom": "2.37",
-         "left": "2.37",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
          "isLinked": false
         },
         "padding_mobile": {
@@ -7190,9 +7190,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 0.948,
-         "column": "0.948",
-         "row": "0.948",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -7212,10 +7212,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -7286,10 +7286,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.37",
-         "right": "2.37",
-         "bottom": "2.37",
-         "left": "2.37",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
          "isLinked": false
         },
         "padding_mobile": {
@@ -7316,9 +7316,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 0.948,
-         "column": "0.948",
-         "row": "0.948",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -7338,10 +7338,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -7412,10 +7412,10 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.37",
-         "right": "2.37",
-         "bottom": "2.37",
-         "left": "2.37",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
          "isLinked": false
         },
         "padding_mobile": {
@@ -7442,9 +7442,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 0.948,
-         "column": "0.948",
-         "row": "0.948",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -7464,10 +7464,10 @@
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.659",
-         "right": "1.659",
-         "bottom": "1.659",
-         "left": "1.659",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
          "isLinked": true
         },
         "border_radius_mobile": {
@@ -7543,10 +7543,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.583",
-     "right": "4.739",
-     "bottom": "7.583",
-     "left": "4.739",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -7581,9 +7581,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 2.133,
-     "column": "2.133",
-     "row": "2.133",
+     "size": 2.432,
+     "column": "2.432",
+     "row": "2.432",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -7664,10 +7664,10 @@
       },
       "border_radius_mobile_extra": {
        "unit": "vw",
-       "top": "118.365",
-       "right": "118.365",
-       "bottom": "118.365",
-       "left": "118.365",
+       "top": "135.0",
+       "right": "135.0",
+       "bottom": "135.0",
+       "left": "135.0",
        "isLinked": true
       },
       "border_radius_mobile": {
@@ -7696,10 +7696,10 @@
       },
       "text_padding_mobile_extra": {
        "unit": "vw",
-       "top": "1.777",
-       "right": "2.844",
-       "bottom": "1.777",
-       "left": "2.844",
+       "top": "2.027",
+       "right": "3.243",
+       "bottom": "2.027",
+       "left": "3.243",
        "isLinked": false
       },
       "text_padding_mobile": {
@@ -7746,10 +7746,10 @@
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "4.739",
-     "right": "4.739",
-     "bottom": "4.739",
-     "left": "4.739",
+     "top": "5.405",
+     "right": "5.405",
+     "bottom": "5.405",
+     "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
@@ -7784,9 +7784,9 @@
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 2.844,
-     "column": "2.844",
-     "row": "2.844",
+     "size": 3.243,
+     "column": "3.243",
+     "row": "3.243",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -7827,9 +7827,9 @@
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 3.791,
-       "column": "3.791",
-       "row": "3.791",
+       "size": 4.324,
+       "column": "4.324",
+       "row": "4.324",
        "isLinked": true
       },
       "flex_gap_mobile": {
@@ -7896,9 +7896,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.659,
-         "column": "1.659",
-         "row": "1.659",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -7975,7 +7975,7 @@
           },
           "_element_custom_width_mobile_extra": {
            "unit": "vw",
-           "size": 8.294
+           "size": 9.459
           },
           "_element_custom_width_mobile": {
            "unit": "vw",
@@ -8023,9 +8023,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 0.948,
-         "column": "0.948",
-         "row": "0.948",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -8176,9 +8176,9 @@
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 0.948,
-         "column": "0.948",
-         "row": "0.948",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -8313,7 +8313,7 @@
       },
       "weight_mobile_extra": {
        "unit": "vw",
-       "size": 0.118
+       "size": 0.135
       },
       "weight_mobile": {
        "unit": "vw",
@@ -8365,10 +8365,10 @@
     },
     "border_radius_mobile_extra": {
      "unit": "vw",
-     "top": "118.365",
-     "right": "118.365",
-     "bottom": "118.365",
-     "left": "118.365",
+     "top": "135.0",
+     "right": "135.0",
+     "bottom": "135.0",
+     "left": "135.0",
      "isLinked": true
     },
     "border_radius_mobile": {
@@ -8397,10 +8397,10 @@
     },
     "text_padding_mobile_extra": {
      "unit": "vw",
-     "top": "1.777",
-     "right": "2.844",
-     "bottom": "1.777",
-     "left": "2.844",
+     "top": "2.027",
+     "right": "3.243",
+     "bottom": "2.027",
+     "left": "3.243",
      "isLinked": false
     },
     "text_padding_mobile": {
@@ -8444,7 +8444,7 @@
     },
     "_offset_x_end_mobile_extra": {
      "unit": "vw",
-     "size": 2.37
+     "size": 2.703
     },
     "_offset_x_end_mobile": {
      "unit": "vw",
@@ -8460,7 +8460,7 @@
     },
     "_offset_y_mobile_extra": {
      "unit": "vw",
-     "size": 2.37
+     "size": 2.703
     },
     "_offset_y_mobile": {
      "unit": "vw",
@@ -8477,7 +8477,7 @@
     },
     "_offset_y_end_mobile_extra": {
      "unit": "vw",
-     "size": 2.37
+     "size": 2.703
     },
     "_offset_y_end_mobile": {
      "unit": "vw",

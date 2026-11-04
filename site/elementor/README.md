@@ -36,13 +36,17 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 | Laptop | 1201 a 1366px | 1140px | px |
 | Tablet paisagem | 1025 a 1200px | 100% com respiro lateral de 32px | px |
 | Tablet retrato | 881 a 1024px | 100% com respiro lateral de 40px | px |
-| Celular paisagem | 768 a 880px | 100% com respiro lateral em vw | **vw** (base 844px) |
-| Celular retrato | até 767px | 100% com respiro lateral em vw | **vw** (base 390px) |
+| Celular paisagem | 576 a 880px | 100% com respiro lateral em vw | **vw** (base 740px) |
+| Celular retrato | até 575px | 100% com respiro lateral em vw | **vw** (base 390px) |
 
 Os containers internos usam largura 100% e o respiro lateral vem do padding da seção, então nenhum conteúdo encosta na borda e não existe rolagem lateral em nenhuma largura (testado).
 
 No celular paisagem e no celular retrato **todas** as medidas estão em vw: fontes, paddings, margens, gaps, raios, larguras, alturas mínimas, ícones e o logo. Altura de linha e espaçamento entre letras ficam em em, que já acompanham a fonte.
-Conversão usada: `vw = px ÷ 8,44` (paisagem) e `vw = px ÷ 3,90` (retrato). Exemplo: texto de 15px no retrato vira 3,846vw.
+Conversão usada: `vw = px ÷ 7,40` (paisagem) e `vw = px ÷ 3,90` (retrato). Exemplo: texto de 15px no retrato vira 3,846vw.
+
+**Por que o celular retrato vai só até 575px (o padrão do Elementor é 767):** com tudo em vw, um celular deitado de 667px (iPhone SE) caía na regra do retrato e o texto chegava a 26px. Com 575px, todo celular deitado usa a regra da paisagem. Tamanho do texto corrido testado: 15,7px em 360px, 17px em 390px, 15,3px em 667px e 20px em 880px.
+
+**Não volte o breakpoint do celular para 767** em Configurações do site > Breakpoints: as medidas em vw foram calculadas para esta faixa.
 
 ## Provisórios para trocar antes de entregar
 
