@@ -1,5 +1,7 @@
 # Home FCStudio: estrutura para o Elementor
 
+> Documento antigo da fase "dentistas". O conteúdo atual está em site/elementor/gerar.py.
+
 Figma: https://www.figma.com/design/PKsxXxLyCBGTdAUC2Zvlci (página "Site · Home")
 Desktop 1440 px (conteúdo 1140 px) e mobile 390 px. Cores e fontes: `../marca/tokens.css`.
 

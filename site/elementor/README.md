@@ -1,6 +1,6 @@
 # FCStudio · Home no Elementor
 
-Home do site da FCStudio (público: dentistas), montada no Elementor com os 7 breakpoints ativos.
+Site da FCStudio (Strategic UI/UX Design, para empresas em geral), montado no Elementor com os 7 breakpoints ativos.
 Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 ## Arquivos

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "b394fb3",
+   "id": "9c65393",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "bb2d420",
+     "id": "2b0537e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,11 +173,11 @@
      },
      "elements": [
       {
-       "id": "aa05e11",
+       "id": "f0ce583",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Tudo o que seu consultório precisa para ser encontrado",
+        "title": "Tudo o que seu negócio precisa para vender mais online",
         "header_size": "h1",
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h1",
@@ -187,11 +187,11 @@
        "elements": []
       },
       {
-       "id": "10a3d6b",
+       "id": "7631a99",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p>Do site ao anúncio, cada serviço foi pensado para o paciente que pesquisa antes de marcar.</p>",
+        "editor": "<p>Do site ao chatbot, cada serviço foi pensado para transformar visita em cliente.</p>",
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_lead",
          "text_color": "globals/colors?id=text"
@@ -216,7 +216,7 @@
        "elements": []
       },
       {
-       "id": "0f88080",
+       "id": "5affb22",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -290,13 +290,13 @@
        },
        "elements": [
         {
-         "id": "795e822",
+         "id": "58d5563",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Conversar no WhatsApp",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
            "is_external": true,
            "nofollow": ""
           },
@@ -367,7 +367,7 @@
          "elements": []
         },
         {
-         "id": "b271594",
+         "id": "05c6af0",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -475,7 +475,7 @@
    ]
   },
   {
-   "id": "e25a760",
+   "id": "dbf4a8b",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -558,7 +558,7 @@
    },
    "elements": [
     {
-     "id": "aec6f02",
+     "id": "b0c4312",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -628,7 +628,7 @@
      },
      "elements": [
       {
-       "id": "62c33a4",
+       "id": "65dc9f5",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -638,7 +638,7 @@
         "flex_direction_mobile_extra": "row",
         "flex_direction_mobile": "column",
         "flex_wrap": "nowrap",
-        "_title": "Serviço Site para consultório",
+        "_title": "Serviço Sites para empresas",
         "flex_gap": {
          "unit": "px",
          "size": 64,
@@ -730,7 +730,7 @@
        },
        "elements": [
         {
-         "id": "93f448b",
+         "id": "0f17a30",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -815,11 +815,11 @@
          },
          "elements": [
           {
-           "id": "4f426dc",
+           "id": "1df9fd7",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
-            "title": "Site para consultório",
+            "title": "Sites para empresas",
             "header_size": "h2",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_num",
@@ -829,11 +829,11 @@
            "elements": []
           },
           {
-           "id": "a5aa3c8",
+           "id": "7e62aa0",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Site completo com tratamentos, equipe, localização e agendamento.</p>",
+            "editor": "<p>Site institucional completo, rápido e pronto para o Google, com WhatsApp em todas as telas.</p>",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
@@ -860,7 +860,7 @@
          ]
         },
         {
-         "id": "b774eb5",
+         "id": "3f63af8",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -945,29 +945,29 @@
          },
          "elements": [
           {
-           "id": "48db40a",
+           "id": "bd0561e",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "fe3b890",
-              "text": "Até 6 páginas com textos dentro das regras do CFO",
+              "_id": "37dc76f",
+              "text": "Até 6 páginas com textos escritos para vender",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "ae658f3",
-              "text": "Página para cada tratamento",
+              "_id": "c4aaeac",
+              "text": "Página para cada produto ou serviço",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "d269a9a",
+              "_id": "4995239",
               "text": "Mapa, horários e botão de WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
@@ -975,7 +975,7 @@
               }
              },
              {
-              "_id": "7215837",
+              "_id": "211c70c",
               "text": "Google Meu Negócio otimizado",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1044,7 +1044,7 @@
        ]
       },
       {
-       "id": "1df9fd7",
+       "id": "4720771",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1054,7 +1054,7 @@
         "flex_direction_mobile_extra": "row",
         "flex_direction_mobile": "column",
         "flex_wrap": "nowrap",
-        "_title": "Serviço Landing page por tratamento",
+        "_title": "Serviço Landing pages",
         "flex_gap": {
          "unit": "px",
          "size": 64,
@@ -1146,7 +1146,7 @@
        },
        "elements": [
         {
-         "id": "58d5563",
+         "id": "df1582b",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1231,11 +1231,11 @@
          },
          "elements": [
           {
-           "id": "e315128",
+           "id": "6415479",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
-            "title": "Landing page por tratamento",
+            "title": "Landing pages",
             "header_size": "h2",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_num",
@@ -1245,11 +1245,11 @@
            "elements": []
           },
           {
-           "id": "ab2cd31",
+           "id": "eab477d",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Uma página focada em implante, lente de contato dental ou ortodontia.</p>",
+            "editor": "<p>Uma página, uma oferta. Feita para transformar clique de anúncio em contato.</p>",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
@@ -1276,7 +1276,7 @@
          ]
         },
         {
-         "id": "9c65393",
+         "id": "8ca8181",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1361,29 +1361,29 @@
          },
          "elements": [
           {
-           "id": "2b0537e",
+           "id": "66d2287",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "05c6af0",
-              "text": "Texto que explica o tratamento sem jargão",
+              "_id": "7f1b103",
+              "text": "Texto focado em uma única oferta",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "f0ce583",
-              "text": "Perguntas frequentes do paciente",
+              "_id": "14a0f9e",
+              "text": "Perguntas frequentes do seu cliente",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "7631a99",
+              "_id": "2a96fb1",
               "text": "Formulário e WhatsApp no topo",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1391,7 +1391,7 @@
               }
              },
              {
-              "_id": "5affb22",
+              "_id": "72fdf20",
               "text": "Pronta para receber anúncios",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1460,7 +1460,423 @@
        ]
       },
       {
-       "id": "6415479",
+       "id": "fc891b4",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Serviço Chatbots",
+        "flex_gap": {
+         "unit": "px",
+         "size": 64,
+         "column": "64",
+         "row": "64",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 40,
+         "column": "40",
+         "row": "40",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 3.784,
+         "column": "3.784",
+         "row": "3.784",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 5.128,
+         "column": "5.128",
+         "row": "5.128",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "48",
+         "right": "0",
+         "bottom": "48",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "40",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "4.324",
+         "right": "0.0",
+         "bottom": "4.324",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "7.179",
+         "right": "0.0",
+         "bottom": "7.179",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "d1bc52d",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 12,
+           "column": "12",
+           "row": "12",
+           "isLinked": true
+          },
+          "flex_gap_tablet": {
+           "unit": "px",
+           "size": 12,
+           "column": "12",
+           "row": "12",
+           "isLinked": true
+          },
+          "flex_gap_mobile_extra": {
+           "unit": "vw",
+           "size": 1.351,
+           "column": "1.351",
+           "row": "1.351",
+           "isLinked": true
+          },
+          "flex_gap_mobile": {
+           "unit": "vw",
+           "size": 2.564,
+           "column": "2.564",
+           "row": "2.564",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_tablet": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_mobile_extra": {
+           "unit": "vw",
+           "top": "0.0",
+           "right": "0.0",
+           "bottom": "0.0",
+           "left": "0.0",
+           "isLinked": false
+          },
+          "padding_mobile": {
+           "unit": "vw",
+           "top": "0.0",
+           "right": "0.0",
+           "bottom": "0.0",
+           "left": "0.0",
+           "isLinked": false
+          },
+          "width": {
+           "unit": "%",
+           "size": 50
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 50
+          },
+          "width_mobile_extra": {
+           "unit": "%",
+           "size": 50
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100
+          }
+         },
+         "elements": [
+          {
+           "id": "e225715",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Chatbots",
+            "header_size": "h2",
+            "__globals__": {
+             "typography_typography": "globals/typography?id=fc_num",
+             "title_color": "globals/colors?id=secondary"
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "230d977",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Atendimento automático no WhatsApp e no site: responde dúvidas, qualifica o contato e passa para você.</p>",
+            "__globals__": {
+             "typography_typography": "globals/typography?id=fc_lead",
+             "text_color": "globals/colors?id=text"
+            },
+            "paragraph_spacing": {
+             "unit": "px",
+             "size": 0
+            },
+            "paragraph_spacing_tablet": {
+             "unit": "px",
+             "size": 0
+            },
+            "paragraph_spacing_mobile_extra": {
+             "unit": "vw",
+             "size": 0.0
+            },
+            "paragraph_spacing_mobile": {
+             "unit": "vw",
+             "size": 0.0
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "6a50df4",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_gap": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "flex_gap_tablet": {
+           "unit": "px",
+           "size": 0,
+           "column": "0",
+           "row": "0",
+           "isLinked": true
+          },
+          "flex_gap_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0,
+           "column": "0.0",
+           "row": "0.0",
+           "isLinked": true
+          },
+          "flex_gap_mobile": {
+           "unit": "vw",
+           "size": 0.0,
+           "column": "0.0",
+           "row": "0.0",
+           "isLinked": true
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_tablet": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_mobile_extra": {
+           "unit": "vw",
+           "top": "0.0",
+           "right": "0.0",
+           "bottom": "0.0",
+           "left": "0.0",
+           "isLinked": false
+          },
+          "padding_mobile": {
+           "unit": "vw",
+           "top": "0.0",
+           "right": "0.0",
+           "bottom": "0.0",
+           "left": "0.0",
+           "isLinked": false
+          },
+          "width": {
+           "unit": "%",
+           "size": 50
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 50
+          },
+          "width_mobile_extra": {
+           "unit": "%",
+           "size": 50
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100
+          }
+         },
+         "elements": [
+          {
+           "id": "b4d66a3",
+           "elType": "widget",
+           "widgetType": "icon-list",
+           "settings": {
+            "icon_list": [
+             {
+              "_id": "6e36aab",
+              "text": "Respostas para as perguntas mais comuns",
+              "selected_icon": {
+               "value": "fas fa-check",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "_id": "dd2e160",
+              "text": "Atendimento 24 horas, inclusive fim de semana",
+              "selected_icon": {
+               "value": "fas fa-check",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "_id": "8cdb305",
+              "text": "Coleta nome, interesse e contato",
+              "selected_icon": {
+               "value": "fas fa-check",
+               "library": "fa-solid"
+              }
+             },
+             {
+              "_id": "47469a4",
+              "text": "Passa a conversa para sua equipe quando precisa",
+              "selected_icon": {
+               "value": "fas fa-check",
+               "library": "fa-solid"
+              }
+             }
+            ],
+            "__globals__": {
+             "icon_typography_typography": "globals/typography?id=fc_body",
+             "text_color": "globals/colors?id=secondary",
+             "icon_color": "globals/colors?id=primary"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 14
+            },
+            "icon_size_tablet": {
+             "unit": "px",
+             "size": 14
+            },
+            "icon_size_mobile_extra": {
+             "unit": "vw",
+             "size": 1.757
+            },
+            "icon_size_mobile": {
+             "unit": "vw",
+             "size": 3.333
+            },
+            "space_between": {
+             "unit": "px",
+             "size": 10
+            },
+            "space_between_tablet": {
+             "unit": "px",
+             "size": 10
+            },
+            "space_between_mobile_extra": {
+             "unit": "vw",
+             "size": 1.216
+            },
+            "space_between_mobile": {
+             "unit": "vw",
+             "size": 2.308
+            },
+            "text_indent": {
+             "unit": "px",
+             "size": 10
+            },
+            "text_indent_tablet": {
+             "unit": "px",
+             "size": 10
+            },
+            "text_indent_mobile_extra": {
+             "unit": "vw",
+             "size": 1.216
+            },
+            "text_indent_mobile": {
+             "unit": "vw",
+             "size": 2.308
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "26bb7db",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1562,7 +1978,7 @@
        },
        "elements": [
         {
-         "id": "37dc76f",
+         "id": "e25a760",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1647,7 +2063,7 @@
          },
          "elements": [
           {
-           "id": "7e62aa0",
+           "id": "5bd86d4",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1661,11 +2077,11 @@
            "elements": []
           },
           {
-           "id": "0f17a30",
+           "id": "aec6f02",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Campanhas para quem está procurando dentista agora, na sua região.</p>",
+            "editor": "<p>Campanhas para quem já está procurando o que você vende, na sua região.</p>",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
@@ -1692,7 +2108,7 @@
          ]
         },
         {
-         "id": "65dc9f5",
+         "id": "2d1c9af",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1777,21 +2193,21 @@
          },
          "elements": [
           {
-           "id": "3f63af8",
+           "id": "153e7c2",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "c4aaeac",
-              "text": "Campanha por bairro ou cidade",
+              "_id": "616499c",
+              "text": "Campanha por bairro, cidade ou região",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "4995239",
+              "_id": "f52ddf5",
               "text": "Criativos e textos inclusos",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1799,7 +2215,7 @@
               }
              },
              {
-              "_id": "211c70c",
+              "_id": "3b1287f",
               "text": "Acompanhamento semanal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1807,7 +2223,7 @@
               }
              },
              {
-              "_id": "bd0561e",
+              "_id": "26a2c0b",
               "text": "Relatório mensal simples",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1876,7 +2292,7 @@
        ]
       },
       {
-       "id": "e225715",
+       "id": "482c9cb",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1978,7 +2394,7 @@
        },
        "elements": [
         {
-         "id": "7f1b103",
+         "id": "3bbbe9e",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2063,7 +2479,7 @@
          },
          "elements": [
           {
-           "id": "eab477d",
+           "id": "3b61867",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2077,11 +2493,11 @@
            "elements": []
           },
           {
-           "id": "df1582b",
+           "id": "a8948c8",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Reels e vídeos curtos que explicam tratamentos e mostram a clínica.</p>",
+            "editor": "<p>Reels e vídeos curtos que apresentam seus produtos, serviços e sua equipe.</p>",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
@@ -2108,7 +2524,7 @@
          ]
         },
         {
-         "id": "4720771",
+         "id": "43435cc",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2193,13 +2609,13 @@
          },
          "elements": [
           {
-           "id": "8ca8181",
+           "id": "2eae05c",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "14a0f9e",
+              "_id": "0316909",
               "text": "Roteiro curto para gravar no celular",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2207,7 +2623,7 @@
               }
              },
              {
-              "_id": "2a96fb1",
+              "_id": "7c26847",
               "text": "Edição com legenda e trilha",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2215,7 +2631,7 @@
               }
              },
              {
-              "_id": "72fdf20",
+              "_id": "d4c28c2",
               "text": "Formato para Reels, Stories e site",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2223,7 +2639,7 @@
               }
              },
              {
-              "_id": "66d2287",
+              "_id": "96d0cc5",
               "text": "4 vídeos por mês no plano mensal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2292,7 +2708,7 @@
        ]
       },
       {
-       "id": "5bd86d4",
+       "id": "2020362",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2302,7 +2718,7 @@
         "flex_direction_mobile_extra": "row",
         "flex_direction_mobile": "column",
         "flex_wrap": "nowrap",
-        "_title": "Serviço Sistema de agendamento",
+        "_title": "Serviço Sistemas sob medida",
         "flex_gap": {
          "unit": "px",
          "size": 64,
@@ -2394,7 +2810,7 @@
        },
        "elements": [
         {
-         "id": "6e36aab",
+         "id": "6b4013e",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2479,11 +2895,11 @@
          },
          "elements": [
           {
-           "id": "230d977",
+           "id": "010c475",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
-            "title": "Sistema de agendamento",
+            "title": "Sistemas sob medida",
             "header_size": "h2",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_num",
@@ -2493,11 +2909,11 @@
            "elements": []
           },
           {
-           "id": "d1bc52d",
+           "id": "254b0c4",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Agenda online para o paciente marcar sozinho, integrada ao WhatsApp.</p>",
+            "editor": "<p>Agendamento online, área do cliente e sistemas web feitos para o jeito que sua empresa trabalha.</p>",
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
@@ -2524,7 +2940,7 @@
          ]
         },
         {
-         "id": "fc891b4",
+         "id": "f3fe39c",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2609,38 +3025,38 @@
          },
          "elements": [
           {
-           "id": "6a50df4",
+           "id": "519088f",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "dd2e160",
-              "text": "Horários disponíveis em tempo real",
+              "_id": "88daf40",
+              "text": "Agenda com horários disponíveis em tempo real",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "8cdb305",
-              "text": "Confirmação automática",
+              "_id": "5e8766e",
+              "text": "Confirmação e lembrete automáticos",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "47469a4",
-              "text": "Lembrete antes da consulta",
+              "_id": "9c1caaf",
+              "text": "Painel simples para a equipe",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
               }
              },
              {
-              "_id": "b4d66a3",
-              "text": "Painel simples para a recepção",
+              "_id": "90fbbd1",
+              "text": "Integração com WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
                "library": "fa-solid"
@@ -2712,7 +3128,7 @@
    ]
   },
   {
-   "id": "6b4013e",
+   "id": "64e50ca",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2795,7 +3211,7 @@
    },
    "elements": [
     {
-     "id": "010c475",
+     "id": "65e7e42",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2865,7 +3281,7 @@
      },
      "elements": [
       {
-       "id": "482c9cb",
+       "id": "6472f1a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2881,7 +3297,7 @@
      ]
     },
     {
-     "id": "254b0c4",
+     "id": "66237a0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2972,7 +3388,7 @@
      },
      "elements": [
       {
-       "id": "26a2c0b",
+       "id": "a7abe1c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3069,7 +3485,7 @@
        },
        "elements": [
         {
-         "id": "616499c",
+         "id": "83f73f1",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3083,7 +3499,7 @@
          "elements": []
         },
         {
-         "id": "f52ddf5",
+         "id": "f341e07",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3097,11 +3513,11 @@
          "elements": []
         },
         {
-         "id": "3b1287f",
+         "id": "9e1a8ef",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>30 minutos por vídeo para entender seu consultório e seus pacientes.</p>",
+          "editor": "<p>30 minutos por vídeo para entender seu negócio e seus clientes.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"
@@ -3128,7 +3544,7 @@
        ]
       },
       {
-       "id": "3b61867",
+       "id": "74e69a5",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3225,7 +3641,7 @@
        },
        "elements": [
         {
-         "id": "153e7c2",
+         "id": "ad1b72d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3239,7 +3655,7 @@
          "elements": []
         },
         {
-         "id": "2d1c9af",
+         "id": "bd62888",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3253,7 +3669,7 @@
          "elements": []
         },
         {
-         "id": "26bb7db",
+         "id": "0dd27a6",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3284,7 +3700,7 @@
        ]
       },
       {
-       "id": "7c26847",
+       "id": "f3aed0b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3381,7 +3797,7 @@
        },
        "elements": [
         {
-         "id": "a8948c8",
+         "id": "e647cb8",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3395,7 +3811,7 @@
          "elements": []
         },
         {
-         "id": "3bbbe9e",
+         "id": "def8833",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3409,7 +3825,7 @@
          "elements": []
         },
         {
-         "id": "0316909",
+         "id": "c7ac149",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3440,7 +3856,7 @@
        ]
       },
       {
-       "id": "43435cc",
+       "id": "8f2c6ec",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3537,7 +3953,7 @@
        },
        "elements": [
         {
-         "id": "d4c28c2",
+         "id": "dfe0189",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3551,7 +3967,7 @@
          "elements": []
         },
         {
-         "id": "96d0cc5",
+         "id": "ae3a2b7",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3565,7 +3981,7 @@
          "elements": []
         },
         {
-         "id": "2eae05c",
+         "id": "cc4169a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3600,7 +4016,7 @@
    ]
   },
   {
-   "id": "a7abe1c",
+   "id": "570dc19",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3683,7 +4099,7 @@
    },
    "elements": [
     {
-     "id": "f341e07",
+     "id": "298cb3a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3753,7 +4169,7 @@
      },
      "elements": [
       {
-       "id": "83f73f1",
+       "id": "70ccec3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3769,7 +4185,7 @@
      ]
     },
     {
-     "id": "9e1a8ef",
+     "id": "1c2442f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3839,7 +4255,7 @@
      },
      "elements": [
       {
-       "id": "9c1caaf",
+       "id": "a260cd0",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3941,7 +4357,7 @@
        },
        "elements": [
         {
-         "id": "88daf40",
+         "id": "1a81682",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3972,11 +4388,11 @@
          "elements": []
         },
         {
-         "id": "5e8766e",
+         "id": "7b45145",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Ajuda muito, mas não é obrigatório. Orientamos você a fotografar a clínica com o celular e tratamos as imagens.</p>",
+          "editor": "<p>Ajuda muito, mas não é obrigatório. Orientamos você a fotografar a empresa e os produtos com o celular e tratamos as imagens.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"
@@ -4020,7 +4436,7 @@
        ]
       },
       {
-       "id": "f3fe39c",
+       "id": "30cbc97",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4122,7 +4538,7 @@
        },
        "elements": [
         {
-         "id": "90fbbd1",
+         "id": "6683688",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4153,11 +4569,11 @@
          "elements": []
         },
         {
-         "id": "519088f",
+         "id": "0fef792",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Sim. Você revisa e aprova. Todos seguem as regras de publicidade do CFO.</p>",
+          "editor": "<p>Sim. Escrevemos pensando no seu cliente, e você revisa e aprova antes de publicar.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"
@@ -4201,7 +4617,7 @@
        ]
       },
       {
-       "id": "dbf4a8b",
+       "id": "3571810",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4303,7 +4719,7 @@
        },
        "elements": [
         {
-         "id": "2020362",
+         "id": "113db17",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4334,7 +4750,7 @@
          "elements": []
         },
         {
-         "id": "b0c4312",
+         "id": "fc132d0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4386,7 +4802,7 @@
    ]
   },
   {
-   "id": "74e69a5",
+   "id": "000f49c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4469,11 +4885,11 @@
    },
    "elements": [
     {
-     "id": "ad1b72d",
+     "id": "99c9430",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Vamos encher sua agenda?",
+      "title": "Vamos trazer mais clientes para você?",
       "header_size": "h2",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_h2",
@@ -4483,11 +4899,11 @@
      "elements": []
     },
     {
-     "id": "bd62888",
+     "id": "0d75985",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu consultório.</p>",
+      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.</p>",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_lead",
        "text_color": "globals/colors?id=verde100"
@@ -4512,13 +4928,13 @@
      "elements": []
     },
     {
-     "id": "0dd27a6",
+     "id": "1a358ca",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "Chamar no WhatsApp",
       "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
        "is_external": true,
        "nofollow": ""
       },

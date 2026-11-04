@@ -126,7 +126,7 @@ def P(text, tid='fc_body', color='text', **extra):
     s.update(extra)
     return w('text-editor', **s)
 
-WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio'
+WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio'
 
 def B(text, kind='primary', url=WA, full_mobile=True, **extra):
     bg, fg, border = {'primary': ('primary', 'branco', None), 'secondary': (None, 'primary', 'primary'),
@@ -268,10 +268,10 @@ def header():
     return con([lg, right], **s)
 
 def hero():
-    buttons = row([B('Quero mais pacientes', 'primary'), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
-    text = col([H('Sites que enchem a agenda do seu consultório', 'fc_h1', 'branco', 'h1'),
-                P('Seu paciente encontra você no Google, confia no que vê e agenda pelo WhatsApp. A FCStudio cuida do site, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
-                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Textos dentro das regras do CFO', 'fc_body', 'cinza300')],
+    buttons = row([B('Quero mais clientes', 'primary'), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
+    text = col([H('Sites que trazem novos clientes para o seu negócio', 'fc_h1', 'branco', 'h1'),
+                P('Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FCStudio cuida do site, do chatbot, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
+                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Strategic UI/UX Design', 'fc_body', 'cinza300')],
                name='Texto', gap_=(28, 24, 22, 20))
     proof = col([IMG('gwmix', 'Site da GWmix feito pela FCStudio', shadow='verde'),
                  P('Último projeto entregue: <a href="https://gwmix.ind.br" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;text-underline-offset:.2em">gwmix.ind.br</a>', 'fc_body', 'cinza300')],
@@ -281,27 +281,23 @@ def hero():
     return section('Hero', [r_], 'secondary', 'inicio', py=(104, 80, 56, 48))
 
 def beneficios():
-    items = [('Aparece no Google', 'Site rápido e preparado para buscas como "dentista perto de mim" na sua cidade.'),
-             ('Passa confiança', 'Fotos reais, equipe, estrutura e tratamentos explicados sem jargão.'),
-             ('Agenda pelo WhatsApp', 'Botão em todas as telas. O paciente chama você em um clique.')]
+    items = [('Aparece no Google', 'Site rápido e preparado para as buscas da sua região e do seu segmento.'),
+             ('Passa confiança', 'Design profissional, fotos reais e informação clara, sem enrolação.'),
+             ('Vira contato', 'WhatsApp, formulário e chatbot prontos para atender na hora em que o cliente decide.')]
     rows = []
     for i, (t, d) in enumerate(items):
         a = H(t, 'fc_h3', 'secondary', 'h3'); b = P(d)
         r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(32, 24, 20, 6))
         W(a, 40, 40, 40, 100); W(b, 60, 60, 60, 100)
         rows.append(r)
-    head = col([H('O paciente pesquisa antes de marcar'),
-                P('A maioria dos pacientes procura o dentista no Google antes de agendar. Quem não aparece, não entra na lista.', 'fc_lead')], name='Título da seção', gap_=(20, 18, 16, 14))
+    head = col([H('O cliente pesquisa antes de comprar'),
+                P('Antes de ligar ou visitar, ele procura sua empresa no Google e compara. Um site bem feito é o que faz ele escolher você.', 'fc_lead')], name='Título da seção', gap_=(20, 18, 16, 14))
     lst = col(rows, 'Lista', gap_=(0, 0, 0, 0))
     W(head, 42, 100, 100, 100); W(lst, 58, 100, 100, 100)
     return section('Benefícios', [row([head, lst], name='Benefícios · conteúdo', gap_=(80, 40, 32, 28), tablet_dir='column')], 'branco')
 
 def servicos():
-    items = [('Site para consultório', 'Site completo com tratamentos, equipe, localização e agendamento.'),
-             ('Landing page por tratamento', 'Uma página focada em implante, lente de contato dental ou ortodontia.'),
-             ('Anúncios no Google e Instagram', 'Campanhas para quem está procurando dentista agora, na sua região.'),
-             ('Edição de vídeos', 'Reels e vídeos curtos que explicam tratamentos e mostram a clínica.'),
-             ('Sistema de agendamento', 'Agenda online para o paciente marcar sozinho, integrada ao WhatsApp.')]
+    items = [(t, d) for _, t, d, _ in SERVICOS]
     rows = []
     for t, d in items:
         a = H(t, 'fc_h2', 'secondary', 'h3'); b = P(d, 'fc_lead')
@@ -309,14 +305,14 @@ def servicos():
         r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(48, 32, 24, 8), flex_align_items='center')
         W(a, 50, 50, 50, 100); W(b, 50, 50, 50, 100)
         rows.append(r)
-    head = row([H('Tudo o que seu consultório precisa para ser encontrado'), B('Ver os serviços', 'secondary', U('servicos'), full_mobile=False)],
+    head = row([H('Tudo o que seu negócio precisa para vender mais online'), B('Ver os serviços', 'secondary', U('servicos'), full_mobile=False)],
                name='Título da seção', gap_=(32, 24, 20, 20), tablet_dir='row', landscape_dir='column', mobile_dir='column', flex_align_items='flex-end', flex_align_items_mobile='flex-start', flex_align_items_mobile_extra='flex-start', flex_justify_content='space-between')
     W(head['elements'][0], 70, 70, 100, 100); W(head['elements'][1], 'fit')
     return section('Serviços', [head, col(rows, 'Lista de serviços', gap_=(0, 0, 0, 0))], 'neutro50', 'servicos')
 
 def como_funciona():
     steps = []
-    for n, t, d in [('1', 'Conversa', '30 minutos por vídeo para entender seu consultório e seus pacientes.'),
+    for n, t, d in [('1', 'Conversa', '30 minutos por vídeo para entender seu negócio e seus clientes.'),
                     ('2', 'Layout para aprovar', 'Você vê o site pronto antes de qualquer código.'),
                     ('3', 'Site no ar', 'Publicamos com domínio, SSL e WhatsApp configurados.'),
                     ('4', 'Acompanhamento', '3 meses de suporte e ajustes sem custo extra.')]:
@@ -331,9 +327,9 @@ def como_funciona():
     return section('Como funciona', [head, grid(steps, (4, 2, 2, 1), 'Passos', gap_=(32, 32, 24, 32))], 'branco', 'como-funciona')
 
 def planos():
-    data = [('Essencial', 'Landing page', 'R$ 1.490', 'pagamento único', ['1 página focada em um tratamento', 'Botão de WhatsApp em todas as telas', 'Domínio e SSL configurados', 'Entrega em 10 dias'], False),
-            ('Consultório', 'Site completo', 'R$ 2.990', 'pagamento único', ['Até 6 páginas', 'Google Meu Negócio otimizado', 'Página de cada tratamento', '3 meses de suporte'], True),
-            ('Agenda cheia', 'Site + marketing', 'R$ 1.290', 'por mês + implantação do site', ['Tudo do plano Consultório', 'Anúncios no Google e Instagram', '4 vídeos editados por mês', 'Relatório mensal de resultados'], False)]
+    data = [('Essencial', 'Landing page', 'R$ 1.490', 'pagamento único', ['1 página focada em uma oferta', 'Botão de WhatsApp em todas as telas', 'Domínio e SSL configurados', 'Entrega em 10 dias'], False),
+            ('Empresa', 'Site completo', 'R$ 2.990', 'pagamento único', ['Até 6 páginas', 'Google Meu Negócio otimizado', 'Página para cada produto ou serviço', '3 meses de suporte'], True),
+            ('Crescimento', 'Site + marketing', 'R$ 1.290', 'por mês + implantação do site', ['Tudo do plano Empresa', 'Anúncios no Google e Instagram', '4 vídeos editados por mês', 'Relatório mensal de resultados'], False)]
     cards = []
     for nm, sub, price, per, items, hi in data:
         kids = []
@@ -348,7 +344,7 @@ def planos():
         if hi:
             c['settings']['_flex_order_mobile'] = 'start'
         cards.append(c)
-    head = col([eyebrow('Planos'), H('Escolha o plano do seu consultório'), P('Pagamento em até 10x. Sem fidelidade nos planos mensais.', 'fc_lead')], name='Título da seção')
+    head = col([eyebrow('Planos'), H('Escolha o plano do seu negócio'), P('Pagamento em até 10x. Sem fidelidade nos planos mensais.', 'fc_lead')], name='Título da seção')
     plans_row = row(cards, name='Cards de plano', gap_=(24, 16, 20, 16), tablet_dir='row', flex_align_items='stretch')
     for c in cards:
         W(c, 33.333, 33.333, 100, 100)
@@ -373,16 +369,16 @@ def faq():
     qa = [('Quanto tempo leva para o site ficar pronto?', 'Em média 15 dias depois que você aprova o layout.'),
           ('Vou conseguir editar o site depois?', 'Sim. O site é feito em WordPress com Elementor, e você recebe um vídeo mostrando como trocar textos e fotos.'),
           ('Vocês cuidam da hospedagem e do domínio?', 'Ajudamos a contratar e configuramos tudo. A conta fica no seu nome.'),
-          ('O site segue as regras de publicidade do CFO?', 'Sim. Os textos não prometem resultado e seguem o Código de Ética Odontológica.')]
+          ('Vocês atendem qualquer tipo de negócio?', 'Sim. Comércio, serviços, indústria, saúde e profissionais liberais. O projeto parte do seu cliente, não de um modelo pronto.')]
     return faq_list(qa)
 
 def cta():
-    return section('Chamada final', [eyebrow('Vamos conversar', True), H('Vamos encher sua agenda?', 'fc_h2', 'branco'),
-                                     P('Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu consultório.', 'fc_lead', 'verde100'),
+    return section('Chamada final', [eyebrow('Vamos conversar', True), H('Vamos trazer mais clientes para você?', 'fc_h2', 'branco'),
+                                     P('Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.', 'fc_lead', 'verde100'),
                                      B('Chamar no WhatsApp', 'white')], 'primary', 'contato', gap_=(20, 20, 18, 18))
 
 def footer():
-    c1 = col([LOGO(80, True, 70, 64), P('Sites e presença digital para dentistas e clínicas odontológicas.', 'fc_body', 'cinza300')], gap_=(16, 16, 14, 14), _flex_size='grow')
+    c1 = col([LOGO(80, True, 70, 64), P('Strategic UI/UX Design. Sites, chatbots, anúncios e vídeos para empresas que querem crescer.', 'fc_body', 'cinza300')], gap_=(16, 16, 14, 14), _flex_size='grow')
     def links(title, items):
         return col([H(title, 'fc_caption', 'verde100', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
     nav_ = links('Navegação', ['<a href="fc://servicos" style="color:inherit">Serviços</a>', '<a href="fc://planos" style="color:inherit">Planos</a>', '<a href="fc://portfolio" style="color:inherit">Portfólio</a>', '<a href="fc://contato" style="color:inherit">Contato</a>'])
@@ -424,16 +420,18 @@ def page_hero(eye, title, lead, buttons=None, name='Topo da página'):
     return section(name, [text], 'neutro50', 'inicio', py=(96, 72, 48, 48))
 
 SERVICOS = [
-    ('01', 'Site para consultório', 'Site completo com tratamentos, equipe, localização e agendamento.',
-     ['Até 6 páginas com textos dentro das regras do CFO', 'Página para cada tratamento', 'Mapa, horários e botão de WhatsApp', 'Google Meu Negócio otimizado']),
-    ('02', 'Landing page por tratamento', 'Uma página focada em implante, lente de contato dental ou ortodontia.',
-     ['Texto que explica o tratamento sem jargão', 'Perguntas frequentes do paciente', 'Formulário e WhatsApp no topo', 'Pronta para receber anúncios']),
-    ('03', 'Anúncios no Google e Instagram', 'Campanhas para quem está procurando dentista agora, na sua região.',
-     ['Campanha por bairro ou cidade', 'Criativos e textos inclusos', 'Acompanhamento semanal', 'Relatório mensal simples']),
-    ('04', 'Edição de vídeos', 'Reels e vídeos curtos que explicam tratamentos e mostram a clínica.',
+    ('01', 'Sites para empresas', 'Site institucional completo, rápido e pronto para o Google, com WhatsApp em todas as telas.',
+     ['Até 6 páginas com textos escritos para vender', 'Página para cada produto ou serviço', 'Mapa, horários e botão de WhatsApp', 'Google Meu Negócio otimizado']),
+    ('02', 'Landing pages', 'Uma página, uma oferta. Feita para transformar clique de anúncio em contato.',
+     ['Texto focado em uma única oferta', 'Perguntas frequentes do seu cliente', 'Formulário e WhatsApp no topo', 'Pronta para receber anúncios']),
+    ('03', 'Chatbots', 'Atendimento automático no WhatsApp e no site: responde dúvidas, qualifica o contato e passa para você.',
+     ['Respostas para as perguntas mais comuns', 'Atendimento 24 horas, inclusive fim de semana', 'Coleta nome, interesse e contato', 'Passa a conversa para sua equipe quando precisa']),
+    ('04', 'Anúncios no Google e Instagram', 'Campanhas para quem já está procurando o que você vende, na sua região.',
+     ['Campanha por bairro, cidade ou região', 'Criativos e textos inclusos', 'Acompanhamento semanal', 'Relatório mensal simples']),
+    ('05', 'Edição de vídeos', 'Reels e vídeos curtos que apresentam seus produtos, serviços e sua equipe.',
      ['Roteiro curto para gravar no celular', 'Edição com legenda e trilha', 'Formato para Reels, Stories e site', '4 vídeos por mês no plano mensal']),
-    ('05', 'Sistema de agendamento', 'Agenda online para o paciente marcar sozinho, integrada ao WhatsApp.',
-     ['Horários disponíveis em tempo real', 'Confirmação automática', 'Lembrete antes da consulta', 'Painel simples para a recepção']),
+    ('06', 'Sistemas sob medida', 'Agendamento online, área do cliente e sistemas web feitos para o jeito que sua empresa trabalha.',
+     ['Agenda com horários disponíveis em tempo real', 'Confirmação e lembrete automáticos', 'Painel simples para a equipe', 'Integração com WhatsApp']),
 ]
 
 def servicos_detalhe():
@@ -449,7 +447,7 @@ def servicos_detalhe():
 
 def inclusos():
     items = ['Layout pensado primeiro para o celular', 'Site rápido, que carrega em poucos segundos', 'Domínio e SSL configurados',
-             'WhatsApp em todas as telas', 'Textos dentro das regras do CFO', 'Vídeo ensinando você a editar textos e fotos']
+             'WhatsApp em todas as telas', 'Textos escritos para vender, revisados com você', 'Vídeo ensinando você a editar textos e fotos']
     head = col([H('O que já vem incluso em todos os planos')], name='Título da seção')
     a = col([LIST(items[:3])]); b = col([LIST(items[3:])])
     W(a, 50, 50, 100, 100); W(b, 50, 50, 100, 100)
@@ -470,8 +468,8 @@ FAQ_PLANOS = [('Posso parcelar?', 'Sim. Os planos de pagamento único podem ser 
               ('Hospedagem e domínio estão inclusos?', 'O valor da hospedagem e do domínio é pago direto ao provedor, no seu nome. A gente contrata junto com você e configura tudo.'),
               ('Posso trocar de plano depois?', 'Sim. Quem começa com a landing page pode migrar para o site completo e o valor pago é abatido.')]
 
-FAQ_SERV = [('Preciso ter fotos profissionais?', 'Ajuda muito, mas não é obrigatório. Orientamos você a fotografar a clínica com o celular e tratamos as imagens.'),
-            ('Vocês escrevem os textos?', 'Sim. Você revisa e aprova. Todos seguem as regras de publicidade do CFO.'),
+FAQ_SERV = [('Preciso ter fotos profissionais?', 'Ajuda muito, mas não é obrigatório. Orientamos você a fotografar a empresa e os produtos com o celular e tratamos as imagens.'),
+            ('Vocês escrevem os textos?', 'Sim. Escrevemos pensando no seu cliente, e você revisa e aprova antes de publicar.'),
             ('Atendem fora da minha cidade?', 'Sim. Todo o processo é online, por vídeo e WhatsApp.')]
 
 def caso(title, desc, link=None):
@@ -502,7 +500,7 @@ def contato_bloco():
                  info('fas fa-clock', 'fa-solid', 'Atendimento', 'Segunda a sexta, das 9h às 18h')], name='Canais', gap_=(0, 0, 0, 0))
     fld = lambda _id, label, t='text', req=True, width='100': {'_id': _id, 'custom_id': _id, 'field_type': t, 'field_label': label, 'placeholder': label,
                                                             'required': 'true' if req else '', 'width': width}
-    form = w('form', form_name='Contato FCStudio', form_fields=[fld('nome', 'Seu nome'), fld('clinica', 'Nome do consultório ou clínica', req=False),
+    form = w('form', form_name='Contato FCStudio', form_fields=[fld('nome', 'Seu nome'), fld('empresa', 'Nome da empresa', req=False),
                                                                  fld('whatsapp', 'WhatsApp com DDD', 'tel'), fld('email', 'E-mail', 'email', False),
                                                                  fld('mensagem', 'O que você precisa?', 'textarea', False),
                                                                  {**fld('lgpd', 'Aceite', 'acceptance'), 'acceptance_text': 'Concordo em ser contatado pela FCStudio e com a Política de Privacidade.'}],
@@ -520,27 +518,44 @@ def contato_bloco():
     r_ = row([infos, fcard], name='Contato', gap_=(48, 32, 24, 24), tablet_dir='column', landscape_dir='row', flex_align_items='flex-start')
     return section('Canais e formulário', [r_], 'branco', 'contato-form', py=(88, 72, 56, 56))
 
+def quem_somos():
+    head = col([H('Somos um estúdio de Strategic UI/UX Design'),
+                P('A FCStudio une design de interface, experiência do usuário e estratégia de negócio. Antes de desenhar qualquer tela, entendemos quem é o seu cliente, o que ele procura e o que faz ele decidir.', 'fc_lead'),
+                P('O resultado são sites, chatbots e campanhas que ficam bonitos porque funcionam.', 'fc_body')], name='Texto', gap_=(20, 18, 16, 14))
+    items = [('Estratégia antes da tela', 'Começamos pelo seu cliente e pelo seu objetivo de venda, não por um modelo pronto.'),
+             ('Design que gera contato', 'Cada página tem um caminho claro até o WhatsApp, o formulário ou a compra.'),
+             ('Acompanhamento depois do lançamento', 'Medimos o que funciona e ajustamos com você nos meses seguintes.')]
+    rows = []
+    for t, d in items:
+        a = H(t, 'fc_h3', 'secondary', 'h3'); b = P(d)
+        r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(32, 24, 20, 6))
+        W(a, 40, 40, 40, 100); W(b, 60, 60, 60, 100)
+        rows.append(r)
+    lst = col(rows, 'Princípios', gap_=(0, 0, 0, 0))
+    W(head, 42, 100, 100, 100); W(lst, 58, 100, 100, 100)
+    return section('Quem somos', [row([head, lst], name='Quem somos · conteúdo', gap_=(80, 40, 32, 28), tablet_dir='column')], 'verde100', 'quem-somos')
+
 def home_page():
-    return mark_inner([hero(), beneficios(), servicos(), como_funciona(), planos(), portfolio(), faq(), cta()])
+    return mark_inner([hero(), beneficios(), servicos(), como_funciona(), quem_somos(), planos(), portfolio(), faq(), cta()])
 
 def servicos_page():
-    return mark_inner([page_hero('Serviços', 'Tudo o que seu consultório precisa para ser encontrado',
-                                 'Do site ao anúncio, cada serviço foi pensado para o paciente que pesquisa antes de marcar.',
+    return mark_inner([page_hero('Serviços', 'Tudo o que seu negócio precisa para vender mais online',
+                                 'Do site ao chatbot, cada serviço foi pensado para transformar visita em cliente.',
                                  [B('Conversar no WhatsApp', 'primary'), B('Ver planos', 'secondary', U('planos'))]),
                        servicos_detalhe(), como_funciona(), faq_list(FAQ_SERV), cta()])
 
 def planos_page():
     p_ = planos(); p_['elements'] = p_['elements'][1:]  # sem o título repetido
     p_['settings'].update(dims('padding', (40, 0, 88, 0), (32, 40, 72, 40), (24, 40, 56, 40), (24, 24, 56, 24), te=(40, 32, 88, 32)))
-    return mark_inner([page_hero('Planos', 'Escolha o plano do seu consultório', 'Pagamento em até 10x. Sem fidelidade nos planos mensais.'),
+    return mark_inner([page_hero('Planos', 'Escolha o plano do seu negócio', 'Pagamento em até 10x. Sem fidelidade nos planos mensais.'),
                        p_, inclusos(), faq_list(FAQ_PLANOS), cta()])
 
 def portfolio_page():
-    return mark_inner([page_hero('Portfólio', 'Projetos entregues', 'Sites, landing pages e sistemas feitos para consultórios e clínicas.'),
+    return mark_inner([page_hero('Portfólio', 'Projetos entregues', 'Sites, landing pages e sistemas feitos para empresas de vários segmentos.'),
                        portfolio_grid(), cta()])
 
 def contato_page():
-    return mark_inner([page_hero('Contato', 'Vamos conversar sobre o seu consultório',
+    return mark_inner([page_hero('Contato', 'Vamos conversar sobre o seu negócio',
                                  'Chame no WhatsApp ou mande uma mensagem. Em 30 minutos de conversa você sai com um plano claro.',
                                  [B('Chamar no WhatsApp', 'primary')]),
                        contato_bloco()])
@@ -588,7 +603,7 @@ def kit_settings():
         # 7 breakpoints: desktop (base) + 6 adicionais
         'active_breakpoints': ['viewport_mobile', 'viewport_mobile_extra', 'viewport_tablet', 'viewport_tablet_extra', 'viewport_laptop', 'viewport_widescreen'],
         'viewport_mobile': 575, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
-        'site_name': 'FCStudio', 'site_description': 'Sites e presença digital para dentistas',
+        'site_name': 'FCStudio', 'site_description': 'Strategic UI/UX Design',
         # detalhes do navegador com a cor da marca (seleção, foco, barra de rolagem, sublinhado)
         'custom_css': FONTFACE + 'h2,h3{text-wrap:balance}p{text-wrap:pretty}'
                       '.fc-offset img,.fc-offset.e-con{box-shadow:16px 16px 0 var(--fc-sombra)}.fc-offset--verde{--fc-sombra:#168A5B}.fc-offset--cinza{--fc-sombra:#CBD2D9}'

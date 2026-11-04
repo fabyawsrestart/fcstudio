@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "2607679",
+   "id": "842e7fc",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "6050914",
+     "id": "29540a6",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,11 +173,11 @@
      },
      "elements": [
       {
-       "id": "353c631",
+       "id": "d42fddb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Escolha o plano do seu consultório",
+        "title": "Escolha o plano do seu negócio",
         "header_size": "h1",
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h1",
@@ -187,7 +187,7 @@
        "elements": []
       },
       {
-       "id": "9d33a01",
+       "id": "b12aa1f",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -220,7 +220,7 @@
    ]
   },
   {
-   "id": "dfd43f3",
+   "id": "7a86f7a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -303,7 +303,7 @@
    },
    "elements": [
     {
-     "id": "1200339",
+     "id": "43c71b9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -378,7 +378,7 @@
      },
      "elements": [
       {
-       "id": "66237a0",
+       "id": "353c631",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -493,7 +493,7 @@
        },
        "elements": [
         {
-         "id": "e647cb8",
+         "id": "9118bb1",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -507,7 +507,7 @@
          "elements": []
         },
         {
-         "id": "def8833",
+         "id": "26b94c7",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -536,7 +536,7 @@
          "elements": []
         },
         {
-         "id": "c7ac149",
+         "id": "895fd7b",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -550,7 +550,7 @@
          "elements": []
         },
         {
-         "id": "f3aed0b",
+         "id": "19f9919",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -564,21 +564,21 @@
          "elements": []
         },
         {
-         "id": "6472f1a",
+         "id": "1200339",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "dfe0189",
-            "text": "1 página focada em um tratamento",
+            "_id": "f2ee4e4",
+            "text": "1 página focada em uma oferta",
             "selected_icon": {
              "value": "fas fa-check",
              "library": "fa-solid"
             }
            },
            {
-            "_id": "ae3a2b7",
+            "_id": "5d158a2",
             "text": "Botão de WhatsApp em todas as telas",
             "selected_icon": {
              "value": "fas fa-check",
@@ -586,7 +586,7 @@
             }
            },
            {
-            "_id": "cc4169a",
+            "_id": "9d1de2a",
             "text": "Domínio e SSL configurados",
             "selected_icon": {
              "value": "fas fa-check",
@@ -594,7 +594,7 @@
             }
            },
            {
-            "_id": "8f2c6ec",
+            "_id": "068739f",
             "text": "Entrega em 10 dias",
             "selected_icon": {
              "value": "fas fa-check",
@@ -659,13 +659,13 @@
          "elements": []
         },
         {
-         "id": "65e7e42",
+         "id": "dfd43f3",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Quero este plano",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
            "is_external": true,
            "nofollow": ""
           },
@@ -764,7 +764,7 @@
        ]
       },
       {
-       "id": "298cb3a",
+       "id": "1d87cec",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -858,7 +858,7 @@
          "left": "3.59",
          "isLinked": true
         },
-        "_title": "Plano Consultório",
+        "_title": "Plano Empresa",
         "css_classes": "fc-offset fc-offset--verde",
         "_flex_order_mobile": "start",
         "width": {
@@ -881,7 +881,7 @@
        },
        "elements": [
         {
-         "id": "64e50ca",
+         "id": "9d33a01",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -955,11 +955,11 @@
          "elements": []
         },
         {
-         "id": "1a81682",
+         "id": "6050914",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Consultório",
+          "title": "Empresa",
           "header_size": "h3",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
@@ -969,7 +969,7 @@
          "elements": []
         },
         {
-         "id": "7b45145",
+         "id": "2607679",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -998,7 +998,7 @@
          "elements": []
         },
         {
-         "id": "a260cd0",
+         "id": "a268aa8",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1012,7 +1012,7 @@
          "elements": []
         },
         {
-         "id": "6683688",
+         "id": "4093f6d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1026,13 +1026,13 @@
          "elements": []
         },
         {
-         "id": "3571810",
+         "id": "7961fd9",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "0fef792",
+            "_id": "f4998d7",
             "text": "Até 6 páginas",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1040,7 +1040,7 @@
             }
            },
            {
-            "_id": "30cbc97",
+            "_id": "58ee857",
             "text": "Google Meu Negócio otimizado",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1048,15 +1048,15 @@
             }
            },
            {
-            "_id": "113db17",
-            "text": "Página de cada tratamento",
+            "_id": "9a2ef80",
+            "text": "Página para cada produto ou serviço",
             "selected_icon": {
              "value": "fas fa-check",
              "library": "fa-solid"
             }
            },
            {
-            "_id": "fc132d0",
+            "_id": "5d39d0a",
             "text": "3 meses de suporte",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1121,13 +1121,13 @@
          "elements": []
         },
         {
-         "id": "70ccec3",
+         "id": "1f7296a",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Quero este plano",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
            "is_external": true,
            "nofollow": ""
           },
@@ -1201,7 +1201,7 @@
        ]
       },
       {
-       "id": "f2ee4e4",
+       "id": "1a28f7b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1295,7 +1295,7 @@
          "left": "3.59",
          "isLinked": true
         },
-        "_title": "Plano Agenda cheia",
+        "_title": "Plano Crescimento",
         "css_classes": "fc-borda",
         "width": {
          "unit": "%",
@@ -1316,11 +1316,11 @@
        },
        "elements": [
         {
-         "id": "1c2442f",
+         "id": "d953ee2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Agenda cheia",
+          "title": "Crescimento",
           "header_size": "h3",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
@@ -1330,7 +1330,7 @@
          "elements": []
         },
         {
-         "id": "570dc19",
+         "id": "7cf2072",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1359,7 +1359,7 @@
          "elements": []
         },
         {
-         "id": "99c9430",
+         "id": "fe3bfad",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1373,7 +1373,7 @@
          "elements": []
         },
         {
-         "id": "0d75985",
+         "id": "fa529ba",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1387,21 +1387,21 @@
          "elements": []
         },
         {
-         "id": "895fd7b",
+         "id": "15fc899",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "1a358ca",
-            "text": "Tudo do plano Consultório",
+            "_id": "774b15d",
+            "text": "Tudo do plano Empresa",
             "selected_icon": {
              "value": "fas fa-check",
              "library": "fa-solid"
             }
            },
            {
-            "_id": "000f49c",
+            "_id": "7afb2c6",
             "text": "Anúncios no Google e Instagram",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1409,7 +1409,7 @@
             }
            },
            {
-            "_id": "9118bb1",
+            "_id": "7bdc968",
             "text": "4 vídeos editados por mês",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1417,7 +1417,7 @@
             }
            },
            {
-            "_id": "26b94c7",
+            "_id": "4fd58db",
             "text": "Relatório mensal de resultados",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1482,13 +1482,13 @@
          "elements": []
         },
         {
-         "id": "19f9919",
+         "id": "24e4e25",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Quero este plano",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
            "is_external": true,
            "nofollow": ""
           },
@@ -1591,7 +1591,7 @@
    ]
   },
   {
-   "id": "774b15d",
+   "id": "4c4f9b0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1673,7 +1673,7 @@
    },
    "elements": [
     {
-     "id": "4093f6d",
+     "id": "3488f87",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1743,7 +1743,7 @@
      },
      "elements": [
       {
-       "id": "a268aa8",
+       "id": "05e999f",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1759,7 +1759,7 @@
      ]
     },
     {
-     "id": "fa529ba",
+     "id": "87322e2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1833,7 +1833,7 @@
      },
      "elements": [
       {
-       "id": "7961fd9",
+       "id": "2587be6",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1918,13 +1918,13 @@
        },
        "elements": [
         {
-         "id": "5d39d0a",
+         "id": "5c9bcf3",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "f4998d7",
+            "_id": "f373ca5",
             "text": "Layout pensado primeiro para o celular",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1932,7 +1932,7 @@
             }
            },
            {
-            "_id": "58ee857",
+            "_id": "f3b7a50",
             "text": "Site rápido, que carrega em poucos segundos",
             "selected_icon": {
              "value": "fas fa-check",
@@ -1940,7 +1940,7 @@
             }
            },
            {
-            "_id": "9a2ef80",
+            "_id": "873be07",
             "text": "Domínio e SSL configurados",
             "selected_icon": {
              "value": "fas fa-check",
@@ -2007,7 +2007,7 @@
        ]
       },
       {
-       "id": "fe3bfad",
+       "id": "c215a82",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2092,13 +2092,13 @@
        },
        "elements": [
         {
-         "id": "7cf2072",
+         "id": "06ec41a",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "1f7296a",
+            "_id": "b0a844e",
             "text": "WhatsApp em todas as telas",
             "selected_icon": {
              "value": "fas fa-check",
@@ -2106,15 +2106,15 @@
             }
            },
            {
-            "_id": "1d87cec",
-            "text": "Textos dentro das regras do CFO",
+            "_id": "8b0d590",
+            "text": "Textos escritos para vender, revisados com você",
             "selected_icon": {
              "value": "fas fa-check",
              "library": "fa-solid"
             }
            },
            {
-            "_id": "d953ee2",
+            "_id": "ea05754",
             "text": "Vídeo ensinando você a editar textos e fotos",
             "selected_icon": {
              "value": "fas fa-check",
@@ -2185,7 +2185,7 @@
    ]
   },
   {
-   "id": "05e999f",
+   "id": "8aa4248",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2268,7 +2268,7 @@
    },
    "elements": [
     {
-     "id": "29540a6",
+     "id": "3908f22",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2338,7 +2338,7 @@
      },
      "elements": [
       {
-       "id": "b12aa1f",
+       "id": "c59db91",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2354,7 +2354,7 @@
      ]
     },
     {
-     "id": "842e7fc",
+     "id": "8857f9a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2424,7 +2424,7 @@
      },
      "elements": [
       {
-       "id": "4fd58db",
+       "id": "dd02de9",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2526,7 +2526,7 @@
        },
        "elements": [
         {
-         "id": "7afb2c6",
+         "id": "fa7f0ea",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2557,7 +2557,7 @@
          "elements": []
         },
         {
-         "id": "7bdc968",
+         "id": "a49636a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2605,7 +2605,7 @@
        ]
       },
       {
-       "id": "1a28f7b",
+       "id": "d86f40f",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2707,7 +2707,7 @@
        },
        "elements": [
         {
-         "id": "15fc899",
+         "id": "174c77a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2738,7 +2738,7 @@
          "elements": []
         },
         {
-         "id": "24e4e25",
+         "id": "b239f3c",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2786,7 +2786,7 @@
        ]
       },
       {
-       "id": "bd87a86",
+       "id": "5de0099",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2888,7 +2888,7 @@
        },
        "elements": [
         {
-         "id": "bfeaa15",
+         "id": "42d8720",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2919,7 +2919,7 @@
          "elements": []
         },
         {
-         "id": "57b6fb7",
+         "id": "84b5a81",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2967,7 +2967,7 @@
        ]
       },
       {
-       "id": "d42fddb",
+       "id": "5b0ee76",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3069,7 +3069,7 @@
        },
        "elements": [
         {
-         "id": "43c71b9",
+         "id": "e883a1d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3100,7 +3100,7 @@
          "elements": []
         },
         {
-         "id": "7a86f7a",
+         "id": "2ac3444",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3152,7 +3152,7 @@
    ]
   },
   {
-   "id": "873be07",
+   "id": "a2eddbb",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3235,11 +3235,11 @@
    },
    "elements": [
     {
-     "id": "3488f87",
+     "id": "c770242",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Vamos encher sua agenda?",
+      "title": "Vamos trazer mais clientes para você?",
       "header_size": "h2",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_h2",
@@ -3249,11 +3249,11 @@
      "elements": []
     },
     {
-     "id": "f373ca5",
+     "id": "80b0c08",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu consultório.</p>",
+      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.</p>",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_lead",
        "text_color": "globals/colors?id=verde100"
@@ -3278,13 +3278,13 @@
      "elements": []
     },
     {
-     "id": "f3b7a50",
+     "id": "5464ecc",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "Chamar no WhatsApp",
       "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
        "is_external": true,
        "nofollow": ""
       },

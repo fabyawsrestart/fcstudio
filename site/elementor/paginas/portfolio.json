@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "8b0d590",
+   "id": "c9d488b",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "b0a844e",
+     "id": "cfbf336",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,7 +173,7 @@
      },
      "elements": [
       {
-       "id": "5c9bcf3",
+       "id": "3919424",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -187,11 +187,11 @@
        "elements": []
       },
       {
-       "id": "2587be6",
+       "id": "9cfc865",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p>Sites, landing pages e sistemas feitos para consultórios e clínicas.</p>",
+        "editor": "<p>Sites, landing pages e sistemas feitos para empresas de vários segmentos.</p>",
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_lead",
          "text_color": "globals/colors?id=text"
@@ -220,7 +220,7 @@
    ]
   },
   {
-   "id": "c59db91",
+   "id": "fd56a92",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -303,7 +303,7 @@
    },
    "elements": [
     {
-     "id": "fa7f0ea",
+     "id": "3d4882a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -378,7 +378,7 @@
      },
      "elements": [
       {
-       "id": "ea05754",
+       "id": "fc241d0",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -451,7 +451,7 @@
        "elements": []
       },
       {
-       "id": "4c4f9b0",
+       "id": "ce5b2a9",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -536,7 +536,7 @@
        },
        "elements": [
         {
-         "id": "06ec41a",
+         "id": "c2216b0",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -550,7 +550,7 @@
          "elements": []
         },
         {
-         "id": "c215a82",
+         "id": "da45e18",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -579,7 +579,7 @@
          "elements": []
         },
         {
-         "id": "87322e2",
+         "id": "31f5170",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -685,7 +685,7 @@
      ]
     },
     {
-     "id": "5b0ee76",
+     "id": "076b3e3",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -787,7 +787,7 @@
      },
      "elements": [
       {
-       "id": "84b5a81",
+       "id": "8483f8b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -872,7 +872,7 @@
        },
        "elements": [
         {
-         "id": "d86f40f",
+         "id": "3a0b996",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -886,7 +886,7 @@
          "elements": []
         },
         {
-         "id": "42d8720",
+         "id": "332dd33",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -917,7 +917,7 @@
        ]
       },
       {
-       "id": "2ac3444",
+       "id": "bb2313f",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1002,7 +1002,7 @@
        },
        "elements": [
         {
-         "id": "5de0099",
+         "id": "7e26f36",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1016,7 +1016,7 @@
          "elements": []
         },
         {
-         "id": "e883a1d",
+         "id": "5b06258",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1051,7 +1051,7 @@
    ]
   },
   {
-   "id": "c770242",
+   "id": "78e4b98",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1134,11 +1134,11 @@
    },
    "elements": [
     {
-     "id": "3908f22",
+     "id": "0726e25",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Vamos encher sua agenda?",
+      "title": "Vamos trazer mais clientes para você?",
       "header_size": "h2",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_h2",
@@ -1148,11 +1148,11 @@
      "elements": []
     },
     {
-     "id": "8857f9a",
+     "id": "ca44eb8",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu consultório.</p>",
+      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.</p>",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_lead",
        "text_color": "globals/colors?id=verde100"
@@ -1177,13 +1177,13 @@
      "elements": []
     },
     {
-     "id": "8aa4248",
+     "id": "4787f93",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "Chamar no WhatsApp",
       "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
        "is_external": true,
        "nofollow": ""
       },

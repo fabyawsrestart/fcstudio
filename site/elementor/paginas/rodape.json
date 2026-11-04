@@ -4,7 +4,7 @@
  "type": "footer",
  "content": [
   {
-   "id": "e67a9b7",
+   "id": "f237e45",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "7b8f2ab",
+     "id": "551fd8f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -161,7 +161,7 @@
      },
      "elements": [
       {
-       "id": "597a1ec",
+       "id": "e8e7278",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -246,7 +246,7 @@
        },
        "elements": [
         {
-         "id": "b91ee9e",
+         "id": "a91c243",
          "elType": "widget",
          "widgetType": "html",
          "settings": {
@@ -273,11 +273,11 @@
          "elements": []
         },
         {
-         "id": "fcf00fe",
+         "id": "1eb2010",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Sites e presença digital para dentistas e clínicas odontológicas.</p>",
+          "editor": "<p>Strategic UI/UX Design. Sites, chatbots, anúncios e vídeos para empresas que querem crescer.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=cinza300"
@@ -304,7 +304,7 @@
        ]
       },
       {
-       "id": "1a26f88",
+       "id": "7a605a9",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -389,7 +389,7 @@
        },
        "elements": [
         {
-         "id": "f47aebd",
+         "id": "6377140",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -403,7 +403,7 @@
          "elements": []
         },
         {
-         "id": "f979d04",
+         "id": "c845007",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -432,7 +432,7 @@
          "elements": []
         },
         {
-         "id": "5d58c70",
+         "id": "b624677",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -461,7 +461,7 @@
          "elements": []
         },
         {
-         "id": "149e259",
+         "id": "c009349",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -490,7 +490,7 @@
          "elements": []
         },
         {
-         "id": "3870380",
+         "id": "330698a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -521,7 +521,7 @@
        ]
       },
       {
-       "id": "3451d01",
+       "id": "a2c68e4",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -606,7 +606,7 @@
        },
        "elements": [
         {
-         "id": "3a12917",
+         "id": "e39639b",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -620,7 +620,7 @@
          "elements": []
         },
         {
-         "id": "7857297",
+         "id": "2db3997",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -649,7 +649,7 @@
          "elements": []
         },
         {
-         "id": "325b55d",
+         "id": "6f15b6a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -678,7 +678,7 @@
          "elements": []
         },
         {
-         "id": "5675f6a",
+         "id": "ca04c79",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -711,7 +711,7 @@
      ]
     },
     {
-     "id": "9fc2d0a",
+     "id": "16353d0",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -738,7 +738,7 @@
      "elements": []
     },
     {
-     "id": "fc39472",
+     "id": "cd02c5e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -752,13 +752,13 @@
      "elements": []
     },
     {
-     "id": "9c3a23c",
+     "id": "f8be883",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "WhatsApp",
       "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
        "is_external": true,
        "nofollow": ""
       },

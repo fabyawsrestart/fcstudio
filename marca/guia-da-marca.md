@@ -3,19 +3,20 @@
 Figma: https://www.figma.com/design/PKsxXxLyCBGTdAUC2Zvlci
 
 ## Posicionamento
-- **Frase:** Sites que enchem a agenda do seu consultório.
-- **Para quem:** dentistas autônomos e clínicas odontológicas pequenas e médias que dependem de indicação e querem previsibilidade de pacientes.
-- **O que entregamos:** site profissional, landing page por tratamento (implante, lente, ortodontia), anúncios no Google e Instagram, vídeos curtos.
-- **Promessa:** mais pacientes agendando pelo WhatsApp, com um site que passa confiança antes da primeira consulta.
+- **Quem somos:** estúdio de Strategic UI/UX Design.
+- **Frase:** Sites que trazem novos clientes para o seu negócio.
+- **Para quem:** empresas de qualquer segmento (comércio, serviços, indústria, saúde, profissionais liberais) que querem aumentar a receita com novos clientes.
+- **O que entregamos:** sites para empresas, landing pages, chatbots, anúncios no Google e Instagram, edição de vídeos e sistemas sob medida (agendamento, área do cliente, SaaS).
+- **Promessa:** um site que passa confiança e transforma visita em contato pelo WhatsApp, formulário ou chatbot.
 
 ## Tom de voz
 | Pilar | Fale assim | Evite |
 |---|---|---|
-| Claro | "Seu paciente encontra, entende e agenda em 3 cliques." | "Soluções digitais disruptivas" |
+| Claro | "Seu cliente encontra, entende e chama no WhatsApp." | "Soluções digitais disruptivas" |
 | Confiável | "Site no ar em 15 dias, com suporte por 3 meses." | Promessa sem prazo ou número |
-| Humano | "Vamos montar juntos o site do seu consultório." | Jargão técnico com o dentista |
+| Humano | "Vamos montar juntos o site do seu negócio." | Jargão técnico com o cliente |
 
-Cuidado com publicidade odontológica: o CFO proíbe promessa de resultado, preço como chamariz e antes/depois sem regra. Os textos dos clientes precisam respeitar isso.
+Atenção por segmento: saúde (CFO, CFM, CRO), advocacia (OAB) e outros conselhos limitam publicidade. Em clientes desses segmentos, nada de promessa de resultado nem preço como chamariz.
 
 ## Logo
 - Símbolo: peixe formado pelas letras **F** e **C**. A abertura do C é a boca do peixe.
