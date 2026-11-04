@@ -7,7 +7,7 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 | Arquivo | Para que serve |
 |---|---|
-| `fcstudio-setup.zip` | **Plugin de um clique**: breakpoints, largura útil, cores e fontes, cabeçalho e rodapé globais, as 5 páginas e o menu |
+| `fcstudio-setup.zip` | **Plugin de um clique** (v1.4): breakpoints, largura útil, cores e fontes, cabeçalho e rodapé globais, as 5 páginas e o menu |
 | `paginas/*.json` | Home, Serviços, Planos, Portfólio, Contato, Cabeçalho e Rodapé (formato de modelo do Elementor) |
 | `kit-settings.json` | Configurações globais (breakpoints, largura útil, cores, tipografias) |
 | `gerar.py` + `sync.sh` | Gerador. Depois de mudar textos ou medidas, rode `./sync.sh` para refazer os JSON e o zip do plugin |
@@ -57,8 +57,10 @@ Conversão usada: `vw = px ÷ 7,40` (paisagem) e `vw = px ÷ 3,90` (retrato). Ex
 ## Provisórios para trocar antes de entregar
 
 - E-mail e Instagram no rodapé e no Contato (o WhatsApp já é o real: (11) 91675-1926).
-- Fonte: Montserrat em todo o site, servida do próprio servidor (wp-content/uploads/fcstudio-fonts, pesos 400 a 800). O Google Fonts fica desligado, o que deixa o site mais rápido e sem enviar dados de visitantes ao Google (LGPD).
-- Caixas verde-claro do hero e do portfólio: trocar por fotos reais.
+- Fontes servidas do próprio servidor (wp-content/uploads/fcstudio-fonts): Morganite ExtraBold nos títulos e Montserrat 400 a 800 no texto. O Google Fonts fica desligado (site mais rápido e sem enviar dados de visitantes ao Google, LGPD).
+- Morganite é freeware para uso comercial, mas a licença proíbe modificar o arquivo: por isso ela vai em TTF original, sem converter nem cortar. A licença está em `fonts/Morganite-License.pdf`.
+- **Quem somos**: o logo com brilho verde ocupa o lugar da foto. Quando a foto chegar, troque o widget "Foto (provisório: logo)" por uma imagem com fundo transparente (PNG recortado).
 - Portfólio: GWmix tem print real. Sistema de agendamento e landing pages estão sem link e sem imagem: mande os endereços.
 - Política de Privacidade: o formulário pede aceite, então a página precisa existir e estar publicada (Configurações > Privacidade).
-- Cores: provisórias, a paleta final ainda vai ser escolhida.
+- Visual: tema dos slides de proposta. Fundo preto com estrelas (`ui/estrelas.jpg`, gerado, sem imagem de terceiros), verde neon #00D61A com gradiente #00E600 a #00B100, títulos condensados em caixa alta, barrinha verde antes dos títulos, traço e linha vertical com ponto. A seção "Como funciona" é clara, com círculos, como o slide de escopo.
+- Texto em verde dentro de um título: no Elementor, escreva `<span class="fc-verde">palavras</span>` no campo do título.

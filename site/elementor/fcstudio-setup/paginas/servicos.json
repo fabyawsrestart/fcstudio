@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "9c65393",
+   "id": "7631a99",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -13,29 +13,29 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=neutro50"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
-     "top": "96",
+     "top": "112",
      "right": "0",
-     "bottom": "96",
+     "bottom": "112",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "72",
+     "top": "80",
      "right": "40",
-     "bottom": "72",
+     "bottom": "80",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "6.486",
+     "top": "7.568",
      "right": "5.405",
-     "bottom": "6.486",
+     "bottom": "7.568",
      "left": "5.405",
      "isLinked": false
     },
@@ -49,9 +49,9 @@
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "96",
+     "top": "112",
      "right": "32",
-     "bottom": "96",
+     "bottom": "112",
      "left": "32",
      "isLinked": false
     },
@@ -83,11 +83,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "inicio"
+    "_element_id": "inicio",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
-     "id": "2b0537e",
+     "id": "f0ce583",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,7 +174,7 @@
      },
      "elements": [
       {
-       "id": "f0ce583",
+       "id": "ab2cd31",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -187,7 +188,7 @@
        "elements": []
       },
       {
-       "id": "7631a99",
+       "id": "58d5563",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -216,7 +217,7 @@
        "elements": []
       },
       {
-       "id": "5affb22",
+       "id": "05c6af0",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -290,7 +291,7 @@
        },
        "elements": [
         {
-         "id": "58d5563",
+         "id": "62c33a4",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -302,35 +303,43 @@
           },
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_button",
-           "button_text_color": "globals/colors?id=branco",
+           "button_text_color": "globals/colors?id=preto",
            "background_color": "globals/colors?id=primary"
           },
           "background_color": "#00000000",
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -338,36 +347,29 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
-          "align_mobile": "justify"
+          "align_mobile": "justify",
+          "_css_classes": "fc-neon"
          },
          "elements": []
         },
         {
-         "id": "05c6af0",
+         "id": "e315128",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -410,29 +412,37 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -440,27 +450,19 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
@@ -475,7 +477,7 @@
    ]
   },
   {
-   "id": "dbf4a8b",
+   "id": "f3fe39c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -484,7 +486,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=branco"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
@@ -554,11 +556,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "servicos"
+    "_element_id": "servicos",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "b0c4312",
+     "id": "519088f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -628,7 +631,7 @@
      },
      "elements": [
       {
-       "id": "65dc9f5",
+       "id": "211c70c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -709,7 +712,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -730,7 +733,7 @@
        },
        "elements": [
         {
-         "id": "0f17a30",
+         "id": "9c65393",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -815,7 +818,7 @@
          },
          "elements": [
           {
-           "id": "1df9fd7",
+           "id": "5affb22",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -829,7 +832,7 @@
            "elements": []
           },
           {
-           "id": "7e62aa0",
+           "id": "2b0537e",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -860,7 +863,7 @@
          ]
         },
         {
-         "id": "3f63af8",
+         "id": "4995239",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -945,13 +948,13 @@
          },
          "elements": [
           {
-           "id": "bd0561e",
+           "id": "c4aaeac",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "37dc76f",
+              "_id": "1df9fd7",
               "text": "Até 6 páginas com textos escritos para vender",
               "selected_icon": {
                "value": "fas fa-check",
@@ -959,7 +962,7 @@
               }
              },
              {
-              "_id": "c4aaeac",
+              "_id": "7e62aa0",
               "text": "Página para cada produto ou serviço",
               "selected_icon": {
                "value": "fas fa-check",
@@ -967,7 +970,7 @@
               }
              },
              {
-              "_id": "4995239",
+              "_id": "0f17a30",
               "text": "Mapa, horários e botão de WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
@@ -975,7 +978,7 @@
               }
              },
              {
-              "_id": "211c70c",
+              "_id": "37dc76f",
               "text": "Google Meu Negócio otimizado",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1044,7 +1047,7 @@
        ]
       },
       {
-       "id": "4720771",
+       "id": "72fdf20",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1125,7 +1128,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -1146,7 +1149,7 @@
        },
        "elements": [
         {
-         "id": "df1582b",
+         "id": "65dc9f5",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1231,7 +1234,7 @@
          },
          "elements": [
           {
-           "id": "6415479",
+           "id": "bd0561e",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1245,7 +1248,7 @@
            "elements": []
           },
           {
-           "id": "eab477d",
+           "id": "3f63af8",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1276,7 +1279,7 @@
          ]
         },
         {
-         "id": "8ca8181",
+         "id": "2a96fb1",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1361,13 +1364,13 @@
          },
          "elements": [
           {
-           "id": "66d2287",
+           "id": "14a0f9e",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "7f1b103",
+              "_id": "6415479",
               "text": "Texto focado em uma única oferta",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1375,7 +1378,7 @@
               }
              },
              {
-              "_id": "14a0f9e",
+              "_id": "eab477d",
               "text": "Perguntas frequentes do seu cliente",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1383,7 +1386,7 @@
               }
              },
              {
-              "_id": "2a96fb1",
+              "_id": "df1582b",
               "text": "Formulário e WhatsApp no topo",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1391,7 +1394,7 @@
               }
              },
              {
-              "_id": "72fdf20",
+              "_id": "7f1b103",
               "text": "Pronta para receber anúncios",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1460,7 +1463,7 @@
        ]
       },
       {
-       "id": "fc891b4",
+       "id": "47469a4",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1541,7 +1544,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -1562,7 +1565,7 @@
        },
        "elements": [
         {
-         "id": "d1bc52d",
+         "id": "4720771",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1647,7 +1650,7 @@
          },
          "elements": [
           {
-           "id": "e225715",
+           "id": "66d2287",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1661,7 +1664,7 @@
            "elements": []
           },
           {
-           "id": "230d977",
+           "id": "8ca8181",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1692,7 +1695,7 @@
          ]
         },
         {
-         "id": "6a50df4",
+         "id": "8cdb305",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1777,13 +1780,13 @@
          },
          "elements": [
           {
-           "id": "b4d66a3",
+           "id": "dd2e160",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "6e36aab",
+              "_id": "e225715",
               "text": "Respostas para as perguntas mais comuns",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1791,7 +1794,7 @@
               }
              },
              {
-              "_id": "dd2e160",
+              "_id": "230d977",
               "text": "Atendimento 24 horas, inclusive fim de semana",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1799,7 +1802,7 @@
               }
              },
              {
-              "_id": "8cdb305",
+              "_id": "d1bc52d",
               "text": "Coleta nome, interesse e contato",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1807,7 +1810,7 @@
               }
              },
              {
-              "_id": "47469a4",
+              "_id": "6e36aab",
               "text": "Passa a conversa para sua equipe quando precisa",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1876,7 +1879,7 @@
        ]
       },
       {
-       "id": "26bb7db",
+       "id": "26a2c0b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1957,7 +1960,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -1978,7 +1981,7 @@
        },
        "elements": [
         {
-         "id": "e25a760",
+         "id": "fc891b4",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2063,7 +2066,7 @@
          },
          "elements": [
           {
-           "id": "5bd86d4",
+           "id": "b4d66a3",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2077,7 +2080,7 @@
            "elements": []
           },
           {
-           "id": "aec6f02",
+           "id": "6a50df4",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2108,7 +2111,7 @@
          ]
         },
         {
-         "id": "2d1c9af",
+         "id": "3b1287f",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2193,13 +2196,13 @@
          },
          "elements": [
           {
-           "id": "153e7c2",
+           "id": "f52ddf5",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "616499c",
+              "_id": "5bd86d4",
               "text": "Campanha por bairro, cidade ou região",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2207,7 +2210,7 @@
               }
              },
              {
-              "_id": "f52ddf5",
+              "_id": "aec6f02",
               "text": "Criativos e textos inclusos",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2215,7 +2218,7 @@
               }
              },
              {
-              "_id": "3b1287f",
+              "_id": "e25a760",
               "text": "Acompanhamento semanal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2223,7 +2226,7 @@
               }
              },
              {
-              "_id": "26a2c0b",
+              "_id": "616499c",
               "text": "Relatório mensal simples",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2292,7 +2295,7 @@
        ]
       },
       {
-       "id": "482c9cb",
+       "id": "96d0cc5",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2373,7 +2376,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2394,7 +2397,7 @@
        },
        "elements": [
         {
-         "id": "3bbbe9e",
+         "id": "26bb7db",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2479,7 +2482,7 @@
          },
          "elements": [
           {
-           "id": "3b61867",
+           "id": "153e7c2",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2493,7 +2496,7 @@
            "elements": []
           },
           {
-           "id": "a8948c8",
+           "id": "2d1c9af",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2524,7 +2527,7 @@
          ]
         },
         {
-         "id": "43435cc",
+         "id": "d4c28c2",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2609,13 +2612,13 @@
          },
          "elements": [
           {
-           "id": "2eae05c",
+           "id": "7c26847",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "0316909",
+              "_id": "3b61867",
               "text": "Roteiro curto para gravar no celular",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2623,7 +2626,7 @@
               }
              },
              {
-              "_id": "7c26847",
+              "_id": "a8948c8",
               "text": "Edição com legenda e trilha",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2631,7 +2634,7 @@
               }
              },
              {
-              "_id": "d4c28c2",
+              "_id": "3bbbe9e",
               "text": "Formato para Reels, Stories e site",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2639,7 +2642,7 @@
               }
              },
              {
-              "_id": "96d0cc5",
+              "_id": "0316909",
               "text": "4 vídeos por mês no plano mensal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2708,7 +2711,7 @@
        ]
       },
       {
-       "id": "2020362",
+       "id": "90fbbd1",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2789,7 +2792,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2810,7 +2813,7 @@
        },
        "elements": [
         {
-         "id": "6b4013e",
+         "id": "482c9cb",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2895,7 +2898,7 @@
          },
          "elements": [
           {
-           "id": "010c475",
+           "id": "2eae05c",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2909,7 +2912,7 @@
            "elements": []
           },
           {
-           "id": "254b0c4",
+           "id": "43435cc",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2940,7 +2943,7 @@
          ]
         },
         {
-         "id": "f3fe39c",
+         "id": "9c1caaf",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -3025,13 +3028,13 @@
          },
          "elements": [
           {
-           "id": "519088f",
+           "id": "5e8766e",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "88daf40",
+              "_id": "010c475",
               "text": "Agenda com horários disponíveis em tempo real",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3039,7 +3042,7 @@
               }
              },
              {
-              "_id": "5e8766e",
+              "_id": "254b0c4",
               "text": "Confirmação e lembrete automáticos",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3047,7 +3050,7 @@
               }
              },
              {
-              "_id": "9c1caaf",
+              "_id": "6b4013e",
               "text": "Painel simples para a equipe",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3055,7 +3058,7 @@
               }
              },
              {
-              "_id": "90fbbd1",
+              "_id": "88daf40",
               "text": "Integração com WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3128,7 +3131,7 @@
    ]
   },
   {
-   "id": "64e50ca",
+   "id": "6472f1a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3137,7 +3140,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=branco"
+     "background_color": "globals/colors?id=claro"
     },
     "padding": {
      "unit": "px",
@@ -3207,11 +3210,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "como-funciona"
+    "_element_id": "como-funciona",
+    "css_classes": "fc-claro fc-circulos e-no-lazyload"
    },
    "elements": [
     {
-     "id": "65e7e42",
+     "id": "cc4169a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3281,7 +3285,7 @@
      },
      "elements": [
       {
-       "id": "6472f1a",
+       "id": "ae3a2b7",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3289,15 +3293,16 @@
         "header_size": "h2",
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h2",
-         "title_color": "globals/colors?id=secondary"
-        }
+         "title_color": "globals/colors?id=tinta"
+        },
+        "_css_classes": "fc-barra"
        },
        "elements": []
       }
      ]
     },
     {
-     "id": "66237a0",
+     "id": "8f2c6ec",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3388,7 +3393,7 @@
      },
      "elements": [
       {
-       "id": "a7abe1c",
+       "id": "83f73f1",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3480,12 +3485,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "83f73f1",
+         "id": "2020362",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3493,13 +3498,13 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
         },
         {
-         "id": "f341e07",
+         "id": "b0c4312",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3507,20 +3512,20 @@
           "header_size": "h3",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=tinta"
           }
          },
          "elements": []
         },
         {
-         "id": "9e1a8ef",
+         "id": "dbf4a8b",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>30 minutos por vídeo para entender seu negócio e seus clientes.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -3544,7 +3549,7 @@
        ]
       },
       {
-       "id": "74e69a5",
+       "id": "ad1b72d",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3636,12 +3641,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "ad1b72d",
+         "id": "f341e07",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3649,13 +3654,13 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
         },
         {
-         "id": "bd62888",
+         "id": "9e1a8ef",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3663,20 +3668,20 @@
           "header_size": "h3",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=tinta"
           }
          },
          "elements": []
         },
         {
-         "id": "0dd27a6",
+         "id": "a7abe1c",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>Você vê o site pronto antes de qualquer código.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -3700,7 +3705,7 @@
        ]
       },
       {
-       "id": "f3aed0b",
+       "id": "e647cb8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3792,12 +3797,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "e647cb8",
+         "id": "bd62888",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3805,13 +3810,13 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
         },
         {
-         "id": "def8833",
+         "id": "0dd27a6",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3819,20 +3824,20 @@
           "header_size": "h3",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=tinta"
           }
          },
          "elements": []
         },
         {
-         "id": "c7ac149",
+         "id": "74e69a5",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>Publicamos com domínio, SSL e WhatsApp configurados.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -3856,7 +3861,7 @@
        ]
       },
       {
-       "id": "8f2c6ec",
+       "id": "dfe0189",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3948,12 +3953,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "dfe0189",
+         "id": "def8833",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3961,13 +3966,13 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
         },
         {
-         "id": "ae3a2b7",
+         "id": "c7ac149",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3975,20 +3980,20 @@
           "header_size": "h3",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=tinta"
           }
          },
          "elements": []
         },
         {
-         "id": "cc4169a",
+         "id": "f3aed0b",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>3 meses de suporte e ajustes sem custo extra.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -4016,7 +4021,7 @@
    ]
   },
   {
-   "id": "570dc19",
+   "id": "70ccec3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4095,11 +4100,12 @@
      "row": "6.154",
      "isLinked": true
     },
-    "_element_id": "duvidas"
+    "_element_id": "duvidas",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "298cb3a",
+     "id": "fc132d0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4169,7 +4175,7 @@
      },
      "elements": [
       {
-       "id": "70ccec3",
+       "id": "113db17",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4178,14 +4184,15 @@
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h2",
          "title_color": "globals/colors?id=secondary"
-        }
+        },
+        "_css_classes": "fc-barra"
        },
        "elements": []
       }
      ]
     },
     {
-     "id": "1c2442f",
+     "id": "3571810",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4255,7 +4262,7 @@
      },
      "elements": [
       {
-       "id": "a260cd0",
+       "id": "64e50ca",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4336,7 +4343,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -4357,7 +4364,7 @@
        },
        "elements": [
         {
-         "id": "1a81682",
+         "id": "65e7e42",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4388,7 +4395,7 @@
          "elements": []
         },
         {
-         "id": "7b45145",
+         "id": "66237a0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4436,7 +4443,7 @@
        ]
       },
       {
-       "id": "30cbc97",
+       "id": "a260cd0",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4517,7 +4524,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -4538,7 +4545,7 @@
        },
        "elements": [
         {
-         "id": "6683688",
+         "id": "1a81682",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4569,7 +4576,7 @@
          "elements": []
         },
         {
-         "id": "0fef792",
+         "id": "7b45145",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4617,7 +4624,7 @@
        ]
       },
       {
-       "id": "3571810",
+       "id": "30cbc97",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4698,7 +4705,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -4719,7 +4726,7 @@
        },
        "elements": [
         {
-         "id": "113db17",
+         "id": "6683688",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4750,7 +4757,7 @@
          "elements": []
         },
         {
-         "id": "fc132d0",
+         "id": "0fef792",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4802,7 +4809,7 @@
    ]
   },
   {
-   "id": "000f49c",
+   "id": "0d75985",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4811,29 +4818,29 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=primary"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
-     "top": "112",
+     "top": "128",
      "right": "0",
-     "bottom": "112",
+     "bottom": "128",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "88",
+     "top": "96",
      "right": "40",
-     "bottom": "88",
+     "bottom": "96",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "8.649",
+     "top": "9.73",
      "right": "5.405",
-     "bottom": "8.649",
+     "bottom": "9.73",
      "left": "5.405",
      "isLinked": false
     },
@@ -4847,162 +4854,253 @@
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "112",
+     "top": "128",
      "right": "32",
-     "bottom": "112",
+     "bottom": "128",
      "left": "32",
      "isLinked": false
     },
     "flex_gap": {
      "unit": "px",
-     "size": 20,
-     "column": "20",
-     "row": "20",
+     "size": 48,
+     "column": "48",
+     "row": "48",
      "isLinked": true
     },
     "flex_gap_tablet": {
      "unit": "px",
-     "size": 20,
-     "column": "20",
-     "row": "20",
+     "size": 40,
+     "column": "40",
+     "row": "40",
      "isLinked": true
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 2.432,
-     "column": "2.432",
-     "row": "2.432",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
      "unit": "vw",
-     "size": 4.615,
-     "column": "4.615",
-     "row": "4.615",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "contato"
+    "_element_id": "contato",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
      "id": "99c9430",
-     "elType": "widget",
-     "widgetType": "heading",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "title": "Vamos trazer mais clientes para você?",
-      "header_size": "h2",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_h2",
-       "title_color": "globals/colors?id=branco"
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0d75985",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.</p>",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_lead",
-       "text_color": "globals/colors?id=verde100"
-      },
-      "paragraph_spacing": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Chamada",
+      "flex_gap": {
        "unit": "px",
-       "size": 0
-      },
-      "paragraph_spacing_tablet": {
-       "unit": "px",
-       "size": 0
-      },
-      "paragraph_spacing_mobile_extra": {
-       "unit": "vw",
-       "size": 0.0
-      },
-      "paragraph_spacing_mobile": {
-       "unit": "vw",
-       "size": 0.0
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1a358ca",
-     "elType": "widget",
-     "widgetType": "button",
-     "settings": {
-      "text": "Chamar no WhatsApp",
-      "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
-       "is_external": true,
-       "nofollow": ""
-      },
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_button",
-       "button_text_color": "globals/colors?id=verde700",
-       "background_color": "globals/colors?id=branco"
-      },
-      "background_color": "#00000000",
-      "border_radius": {
-       "unit": "px",
-       "top": "10",
-       "right": "10",
-       "bottom": "10",
-       "left": "10",
+       "size": 32,
+       "column": "32",
+       "row": "32",
        "isLinked": true
       },
-      "border_radius_mobile_extra": {
-       "unit": "vw",
-       "top": "1.351",
-       "right": "1.351",
-       "bottom": "1.351",
-       "left": "1.351",
-       "isLinked": true
-      },
-      "border_radius_mobile": {
-       "unit": "vw",
-       "top": "2.564",
-       "right": "2.564",
-       "bottom": "2.564",
-       "left": "2.564",
-       "isLinked": true
-      },
-      "text_padding": {
+      "flex_gap_tablet": {
        "unit": "px",
-       "top": "18",
-       "right": "28",
-       "bottom": "18",
-       "left": "28",
-       "isLinked": false
+       "size": 28,
+       "column": "28",
+       "row": "28",
+       "isLinked": true
       },
-      "text_padding_tablet": {
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 3.243,
+       "column": "3.243",
+       "row": "3.243",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 6.154,
+       "column": "6.154",
+       "row": "6.154",
+       "isLinked": true
+      },
+      "padding": {
        "unit": "px",
        "top": "16",
-       "right": "26",
-       "bottom": "16",
-       "left": "26",
+       "right": "0",
+       "bottom": "64",
+       "left": "72",
        "isLinked": false
       },
-      "text_padding_mobile_extra": {
+      "padding_tablet": {
+       "unit": "px",
+       "top": "16",
+       "right": "0",
+       "bottom": "56",
+       "left": "56",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
        "unit": "vw",
-       "top": "2.027",
-       "right": "3.243",
-       "bottom": "2.027",
-       "left": "3.243",
+       "top": "1.081",
+       "right": "0.0",
+       "bottom": "6.486",
+       "left": "5.405",
        "isLinked": false
       },
-      "text_padding_mobile": {
+      "padding_mobile": {
        "unit": "vw",
-       "top": "4.103",
-       "right": "5.641",
-       "bottom": "4.103",
-       "left": "5.641",
+       "top": "2.051",
+       "right": "0.0",
+       "bottom": "10.256",
+       "left": "7.179",
        "isLinked": false
       },
-      "align_mobile": "justify"
+      "css_classes": "fc-linha-v",
+      "width": {
+       "unit": "%",
+       "size": 72
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile_extra": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "298cb3a",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Você está pronto<br><span class=\"fc-display fc-verde\">para crescer?</span>",
+        "header_size": "h2",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_kicker",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "1c2442f",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para trazer mais clientes. Se preferir, chame direto no <a href=\"https://wa.me/5511916751926\" style=\"color:#00E600;font-weight:700;text-decoration:none;white-space:nowrap\">WhatsApp (11) 91675-1926</a>.</p>",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_lead",
+         "text_color": "globals/colors?id=cinza300"
+        },
+        "paragraph_spacing": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_tablet": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_mobile_extra": {
+         "unit": "vw",
+         "size": 0.0
+        },
+        "paragraph_spacing_mobile": {
+         "unit": "vw",
+         "size": 0.0
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "570dc19",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Solicite um orçamento",
+        "link": {
+         "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+         "is_external": true,
+         "nofollow": ""
+        },
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_button",
+         "button_text_color": "globals/colors?id=preto",
+         "background_color": "globals/colors?id=primary"
+        },
+        "background_color": "#00000000",
+        "border_radius": {
+         "unit": "px",
+         "top": "6",
+         "right": "6",
+         "bottom": "6",
+         "left": "6",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
+         "isLinked": true
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "32",
+         "bottom": "20",
+         "left": "32",
+         "isLinked": false
+        },
+        "text_padding_tablet": {
+         "unit": "px",
+         "top": "18",
+         "right": "28",
+         "bottom": "18",
+         "left": "28",
+         "isLinked": false
+        },
+        "text_padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.297",
+         "right": "3.514",
+         "bottom": "2.297",
+         "left": "3.514",
+         "isLinked": false
+        },
+        "text_padding_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "5.641",
+         "bottom": "4.615",
+         "left": "5.641",
+         "isLinked": false
+        },
+        "align_mobile": "justify",
+        "_css_classes": "fc-neon"
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   }

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "c9d488b",
+   "id": "cfbf336",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -13,29 +13,29 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=neutro50"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
-     "top": "96",
+     "top": "112",
      "right": "0",
-     "bottom": "96",
+     "bottom": "112",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "72",
+     "top": "80",
      "right": "40",
-     "bottom": "72",
+     "bottom": "80",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "6.486",
+     "top": "7.568",
      "right": "5.405",
-     "bottom": "6.486",
+     "bottom": "7.568",
      "left": "5.405",
      "isLinked": false
     },
@@ -49,9 +49,9 @@
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "96",
+     "top": "112",
      "right": "32",
-     "bottom": "96",
+     "bottom": "112",
      "left": "32",
      "isLinked": false
     },
@@ -83,11 +83,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "inicio"
+    "_element_id": "inicio",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
-     "id": "cfbf336",
+     "id": "9cfc865",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,7 +174,7 @@
      },
      "elements": [
       {
-       "id": "3919424",
+       "id": "a2eddbb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -187,7 +188,7 @@
        "elements": []
       },
       {
-       "id": "9cfc865",
+       "id": "3919424",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -220,7 +221,7 @@
    ]
   },
   {
-   "id": "fd56a92",
+   "id": "076b3e3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -229,7 +230,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=branco"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
@@ -299,11 +300,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "projetos"
+    "_element_id": "projetos",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "3d4882a",
+     "id": "ce5b2a9",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -378,7 +380,7 @@
      },
      "elements": [
       {
-       "id": "fc241d0",
+       "id": "c9d488b",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -451,7 +453,7 @@
        "elements": []
       },
       {
-       "id": "ce5b2a9",
+       "id": "31f5170",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -536,7 +538,7 @@
        },
        "elements": [
         {
-         "id": "c2216b0",
+         "id": "fc241d0",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -550,7 +552,7 @@
          "elements": []
         },
         {
-         "id": "da45e18",
+         "id": "c2216b0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -579,7 +581,7 @@
          "elements": []
         },
         {
-         "id": "31f5170",
+         "id": "da45e18",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -622,29 +624,37 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -652,27 +662,19 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
@@ -685,7 +687,7 @@
      ]
     },
     {
-     "id": "076b3e3",
+     "id": "bb2313f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -766,7 +768,7 @@
        "isLinked": false
       },
       "__globals__": {
-       "border_color": "globals/colors?id=cinza300"
+       "border_color": "globals/colors?id=linha"
       },
       "border_width_mobile_extra": {
        "unit": "vw",
@@ -787,7 +789,7 @@
      },
      "elements": [
       {
-       "id": "8483f8b",
+       "id": "332dd33",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -872,7 +874,7 @@
        },
        "elements": [
         {
-         "id": "3a0b996",
+         "id": "cda6c6f",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -886,7 +888,7 @@
          "elements": []
         },
         {
-         "id": "332dd33",
+         "id": "3a0b996",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -917,7 +919,7 @@
        ]
       },
       {
-       "id": "bb2313f",
+       "id": "5b06258",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1002,7 +1004,7 @@
        },
        "elements": [
         {
-         "id": "7e26f36",
+         "id": "8483f8b",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1016,7 +1018,7 @@
          "elements": []
         },
         {
-         "id": "5b06258",
+         "id": "7e26f36",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1060,29 +1062,29 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=primary"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
-     "top": "112",
+     "top": "128",
      "right": "0",
-     "bottom": "112",
+     "bottom": "128",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "88",
+     "top": "96",
      "right": "40",
-     "bottom": "88",
+     "bottom": "96",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "8.649",
+     "top": "9.73",
      "right": "5.405",
-     "bottom": "8.649",
+     "bottom": "9.73",
      "left": "5.405",
      "isLinked": false
     },
@@ -1096,162 +1098,253 @@
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "112",
+     "top": "128",
      "right": "32",
-     "bottom": "112",
+     "bottom": "128",
      "left": "32",
      "isLinked": false
     },
     "flex_gap": {
      "unit": "px",
-     "size": 20,
-     "column": "20",
-     "row": "20",
+     "size": 48,
+     "column": "48",
+     "row": "48",
      "isLinked": true
     },
     "flex_gap_tablet": {
      "unit": "px",
-     "size": 20,
-     "column": "20",
-     "row": "20",
+     "size": 40,
+     "column": "40",
+     "row": "40",
      "isLinked": true
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 2.432,
-     "column": "2.432",
-     "row": "2.432",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
      "unit": "vw",
-     "size": 4.615,
-     "column": "4.615",
-     "row": "4.615",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "contato"
+    "_element_id": "contato",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
-     "id": "0726e25",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Vamos trazer mais clientes para você?",
-      "header_size": "h2",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_h2",
-       "title_color": "globals/colors?id=branco"
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "ca44eb8",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.</p>",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_lead",
-       "text_color": "globals/colors?id=verde100"
-      },
-      "paragraph_spacing": {
-       "unit": "px",
-       "size": 0
-      },
-      "paragraph_spacing_tablet": {
-       "unit": "px",
-       "size": 0
-      },
-      "paragraph_spacing_mobile_extra": {
-       "unit": "vw",
-       "size": 0.0
-      },
-      "paragraph_spacing_mobile": {
-       "unit": "vw",
-       "size": 0.0
-      }
-     },
-     "elements": []
-    },
-    {
      "id": "4787f93",
-     "elType": "widget",
-     "widgetType": "button",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "text": "Chamar no WhatsApp",
-      "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
-       "is_external": true,
-       "nofollow": ""
-      },
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_button",
-       "button_text_color": "globals/colors?id=verde700",
-       "background_color": "globals/colors?id=branco"
-      },
-      "background_color": "#00000000",
-      "border_radius": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Chamada",
+      "flex_gap": {
        "unit": "px",
-       "top": "10",
-       "right": "10",
-       "bottom": "10",
-       "left": "10",
+       "size": 32,
+       "column": "32",
+       "row": "32",
        "isLinked": true
       },
-      "border_radius_mobile_extra": {
-       "unit": "vw",
-       "top": "1.351",
-       "right": "1.351",
-       "bottom": "1.351",
-       "left": "1.351",
-       "isLinked": true
-      },
-      "border_radius_mobile": {
-       "unit": "vw",
-       "top": "2.564",
-       "right": "2.564",
-       "bottom": "2.564",
-       "left": "2.564",
-       "isLinked": true
-      },
-      "text_padding": {
+      "flex_gap_tablet": {
        "unit": "px",
-       "top": "18",
-       "right": "28",
-       "bottom": "18",
-       "left": "28",
-       "isLinked": false
+       "size": 28,
+       "column": "28",
+       "row": "28",
+       "isLinked": true
       },
-      "text_padding_tablet": {
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 3.243,
+       "column": "3.243",
+       "row": "3.243",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 6.154,
+       "column": "6.154",
+       "row": "6.154",
+       "isLinked": true
+      },
+      "padding": {
        "unit": "px",
        "top": "16",
-       "right": "26",
-       "bottom": "16",
-       "left": "26",
+       "right": "0",
+       "bottom": "64",
+       "left": "72",
        "isLinked": false
       },
-      "text_padding_mobile_extra": {
+      "padding_tablet": {
+       "unit": "px",
+       "top": "16",
+       "right": "0",
+       "bottom": "56",
+       "left": "56",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
        "unit": "vw",
-       "top": "2.027",
-       "right": "3.243",
-       "bottom": "2.027",
-       "left": "3.243",
+       "top": "1.081",
+       "right": "0.0",
+       "bottom": "6.486",
+       "left": "5.405",
        "isLinked": false
       },
-      "text_padding_mobile": {
+      "padding_mobile": {
        "unit": "vw",
-       "top": "4.103",
-       "right": "5.641",
-       "bottom": "4.103",
-       "left": "5.641",
+       "top": "2.051",
+       "right": "0.0",
+       "bottom": "10.256",
+       "left": "7.179",
        "isLinked": false
       },
-      "align_mobile": "justify"
+      "css_classes": "fc-linha-v",
+      "width": {
+       "unit": "%",
+       "size": 72
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile_extra": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "fd56a92",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Você está pronto<br><span class=\"fc-display fc-verde\">para crescer?</span>",
+        "header_size": "h2",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_kicker",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0726e25",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para trazer mais clientes. Se preferir, chame direto no <a href=\"https://wa.me/5511916751926\" style=\"color:#00E600;font-weight:700;text-decoration:none;white-space:nowrap\">WhatsApp (11) 91675-1926</a>.</p>",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_lead",
+         "text_color": "globals/colors?id=cinza300"
+        },
+        "paragraph_spacing": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_tablet": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_mobile_extra": {
+         "unit": "vw",
+         "size": 0.0
+        },
+        "paragraph_spacing_mobile": {
+         "unit": "vw",
+         "size": 0.0
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "ca44eb8",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Solicite um orçamento",
+        "link": {
+         "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+         "is_external": true,
+         "nofollow": ""
+        },
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_button",
+         "button_text_color": "globals/colors?id=preto",
+         "background_color": "globals/colors?id=primary"
+        },
+        "background_color": "#00000000",
+        "border_radius": {
+         "unit": "px",
+         "top": "6",
+         "right": "6",
+         "bottom": "6",
+         "left": "6",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
+         "isLinked": true
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "32",
+         "bottom": "20",
+         "left": "32",
+         "isLinked": false
+        },
+        "text_padding_tablet": {
+         "unit": "px",
+         "top": "18",
+         "right": "28",
+         "bottom": "18",
+         "left": "28",
+         "isLinked": false
+        },
+        "text_padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.297",
+         "right": "3.514",
+         "bottom": "2.297",
+         "left": "3.514",
+         "isLinked": false
+        },
+        "text_padding_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "5.641",
+         "bottom": "4.615",
+         "left": "5.641",
+         "isLinked": false
+        },
+        "align_mobile": "justify",
+        "_css_classes": "fc-neon"
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   }

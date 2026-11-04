@@ -81,22 +81,27 @@ def W(el, d, t=None, l=None, m=None):
     return el
 
 # ---------- tokens ----------
-COLORS_SYS = [('primary', 'Verde 500', '#168A5B'), ('secondary', 'Grafite 900', '#1F2933'), ('text', 'Cinza 500 (texto)', '#6B7280'), ('accent', 'Areia 300', '#F2C98A')]
-COLORS_CUSTOM = [('verde700', 'Verde 700', '#0F6643'), ('verde100', 'Verde 100', '#E3F2EB'), ('neutro50', 'Neutro 50', '#F6F8F7'), ('cinza300', 'Cinza 300', '#CBD2D9'), ('branco', 'Branco', '#FFFFFF')]
+# Tema dos slides: fundo preto com estrelas e verde neon (gradiente #00E600 a #00B100)
+COLORS_SYS = [('primary', 'Verde neon', '#00D61A'), ('secondary', 'Branco (títulos)', '#FFFFFF'), ('text', 'Cinza (texto)', '#A3A3A3'), ('accent', 'Verde claro', '#00E600')]
+COLORS_CUSTOM = [('verde700', 'Verde 700 (fim do gradiente)', '#00A818'), ('verde100', 'Verde escuro (fundo de ícone)', '#0B2B12'), ('neutro50', 'Preto 2 (seção alternada)', '#0D0D0D'),
+                 ('cinza300', 'Cinza claro (texto de apoio)', '#CBD2D9'), ('branco', 'Branco', '#FFFFFF'), ('preto', 'Preto (fundo)', '#050505'), ('card', 'Cartão', '#141414'),
+                 ('linha', 'Linha', '#2A2A2A'), ('tinta', 'Tinta (título em fundo claro)', '#0A0A0A'), ('tinta2', 'Tinta 2 (texto em fundo claro)', '#4B5563'),
+                 ('verde800', 'Verde em fundo claro', '#007A10'), ('claro', 'Fundo claro', '#F2F2F0')]
 C = lambda cid: 'globals/colors?id=' + cid
 
-DISPLAY = 'Montserrat'  # uma família só: Montserrat local (arquivos da Fab), pesos 400 a 800
+DISPLAY = 'Morganite'  # títulos condensados em caixa alta, como nos slides (arquivo da Fab, servido localmente)
 TEXT = 'Montserrat'
 # id, titulo, familia, peso, (D, T, L, M) px, line-height em, letter-spacing em, transform
 TYPO = [
-    ('fc_h1', 'Título hero (H1)', DISPLAY, '800', (68, 56, 44, 36), 1.02, -0.03, 'none'),
-    ('fc_h2', 'Título de seção (H2)', DISPLAY, '800', (48, 40, 34, 30), 1.08, -0.025, 'none'),
-    ('fc_num', 'Destaque / preço', DISPLAY, '700', (32, 30, 26, 24), 1.15, -0.02, 'none'),
-    ('fc_h3', 'Título de item (H3)', TEXT, '700', (21, 20, 19, 18), 1.3, -0.01, 'none'),
-    ('fc_lead', 'Texto de apoio', TEXT, '400', (20, 19, 18, 17), 1.55, 0, 'none'),
-    ('fc_body', 'Texto corpo', TEXT, '400', (17, 16, 16, 15), 1.65, 0, 'none'),
-    ('fc_caption', 'Etiqueta', TEXT, '600', (13, 13, 12, 12), 1.4, 0.08, 'uppercase'),
-    ('fc_button', 'Botão', TEXT, '600', (16, 16, 15, 15), 1.0, 0, 'none'),
+    ('fc_h1', 'Título hero (H1)', DISPLAY, '800', (132, 112, 96, 84), 0.9, 0.005, 'uppercase'),
+    ('fc_h2', 'Título de seção (H2)', DISPLAY, '800', (96, 84, 72, 64), 0.92, 0.005, 'uppercase'),
+    ('fc_num', 'Destaque / preço', DISPLAY, '800', (60, 56, 52, 46), 0.95, 0.01, 'uppercase'),
+    ('fc_kicker', 'Chamada (linha de cima)', TEXT, '800', (56, 46, 38, 30), 1.05, 0, 'uppercase'),
+    ('fc_h3', 'Título de item (H3)', TEXT, '700', (20, 19, 18, 17), 1.35, 0.02, 'none'),
+    ('fc_lead', 'Texto de apoio', TEXT, '400', (19, 18, 17, 16), 1.6, 0.04, 'none'),
+    ('fc_body', 'Texto corpo', TEXT, '400', (16, 16, 15, 15), 1.7, 0.03, 'none'),
+    ('fc_caption', 'Etiqueta', TEXT, '700', (13, 13, 12, 12), 1.4, 0.18, 'uppercase'),
+    ('fc_button', 'Botão', TEXT, '700', (14, 14, 14, 14), 1.0, 0.12, 'uppercase'),
 ]
 T = lambda tid: 'globals/typography?id=' + tid
 
@@ -116,6 +121,7 @@ def w(kind, **s):
 
 def H(text, tid='fc_h2', color='secondary', tag='h2', align=None, **extra):
     s = {'title': text, 'header_size': tag, '__globals__': {'typography_typography': T(tid), 'title_color': C(color)}}
+    if tid == 'fc_h2' and tag == 'h2': s['_css_classes'] = 'fc-barra'  # barrinha verde à esquerda, como nos slides
     if align: s['align'] = align
     s.update(extra)
     return w('heading', **s)
@@ -129,8 +135,8 @@ def P(text, tid='fc_body', color='text', **extra):
 WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio'
 
 def B(text, kind='primary', url=WA, full_mobile=True, **extra):
-    bg, fg, border = {'primary': ('primary', 'branco', None), 'secondary': (None, 'primary', 'primary'),
-                      'white': ('branco', 'verde700', None), 'dark': ('primary', 'branco', None),
+    bg, fg, border = {'primary': ('primary', 'preto', None), 'secondary': (None, 'primary', 'primary'),
+                      'white': ('branco', 'preto', None), 'dark': ('primary', 'preto', None),
                       'light': (None, 'branco', 'branco')}[kind]
     s = {'text': text, 'link': {'url': url, 'is_external': url.startswith('http'), 'nofollow': ''},
          '__globals__': {'typography_typography': T('fc_button'), 'button_text_color': C(fg)}}
@@ -141,16 +147,17 @@ def B(text, kind='primary', url=WA, full_mobile=True, **extra):
         s.update(slider('border_width', 2, l=2, m=2) and {'border_width': {'unit': 'px', 'top': '2', 'right': '2', 'bottom': '2', 'left': '2', 'isLinked': True},
                  'border_width_mobile_extra': {'unit': 'vw', 'top': str(vw(2, BASE_L)), 'right': str(vw(2, BASE_L)), 'bottom': str(vw(2, BASE_L)), 'left': str(vw(2, BASE_L)), 'isLinked': True},
                  'border_width_mobile': {'unit': 'vw', 'top': str(vw(2, BASE_M)), 'right': str(vw(2, BASE_M)), 'bottom': str(vw(2, BASE_M)), 'left': str(vw(2, BASE_M)), 'isLinked': True}})
-    s.update(radius('border_radius', 10, 10, 10))
-    s.update(dims('text_padding', (18, 28, 18, 28), (16, 26, 16, 26), (15, 24, 15, 24), (16, 22, 16, 22)))
+    s.update(radius('border_radius', 6, 6, 6))
+    s.update(dims('text_padding', (20, 32, 20, 32), (18, 28, 18, 28), (17, 26, 17, 26), (18, 22, 18, 22)))
     if full_mobile:
         s['align_mobile'] = 'justify'
+    if kind in ('primary', 'dark'): s['_css_classes'] = 'fc-neon'  # gradiente verde dos slides
     s.update(extra)
     return w('button', **s)
 
 def ICON(icon, lib='fa-solid', **extra):
     s = {'selected_icon': {'value': icon, 'library': lib}, 'view': 'stacked', 'shape': 'square', 'align': 'left',
-         '__globals__': {'primary_color': C('verde100'), 'secondary_color': C('verde700')}}
+         '__globals__': {'primary_color': C('verde100'), 'secondary_color': C('primary')}}
     s.update(slider('size', 22, l=20, m=20))
     s.update(slider('icon_padding', 13, l=12, m=12))
     s.update(radius('border_radius', 12, 12, 12))
@@ -165,12 +172,17 @@ def LIST(items, light=False):
     s.update(slider('text_indent', 10, l=9, m=9))
     return w('icon-list', **s)
 
+BG = {'branco': 'preto', 'secondary': 'preto', 'verde100': 'neutro50'}  # mapa do tema claro antigo para o escuro
+
 def section(name, children, bg='neutro50', css_id=None, py=(112, 88, 64, 64), px=(0, 40, 40, 24), gap_=(48, 40, 32, 32), te_px=32, **extra):
+    bg = BG.get(bg, bg)
     s = {'_title': name, 'content_width': 'boxed', 'flex_direction': 'column', 'background_background': 'classic', '__globals__': {'background_color': C(bg)}}
     s.update(dims('padding', (py[0], px[0], py[0], px[0]), (py[1], px[1], py[1], px[1]), (py[2], px[2], py[2], px[2]), (py[3], px[3], py[3], px[3]), te=(py[0], te_px, py[0], te_px)))
     s.update(gap('flex_gap', *gap_))
     if css_id: s['_element_id'] = css_id
     s.update(extra)
+    # sem o "lazy load" de fundo do Elementor: ele apaga gradientes e estrelas até a seção entrar na tela
+    s['css_classes'] = (s.get('css_classes', '') + ' e-no-lazyload').strip()
     return con(children, **s)
 
 def col(children, name=None, gap_=(16, 16, 14, 14), **extra):
@@ -202,7 +214,7 @@ def grid(children, cols=(3, 3, 2, 1), name=None, gap_=(24, 24, 20, 16)):
     s.update(dims('padding', (0, 0, 0, 0)))
     return con(children, **s)
 
-def card(children, bg='branco', pad=(32, 28, 24, 24), gap_=(12, 12, 10, 10), r=16, **extra):
+def card(children, bg='card', pad=(32, 28, 24, 24), gap_=(12, 12, 10, 10), r=8, **extra):
     s = {'content_width': 'full', 'flex_direction': 'column', 'background_background': 'classic', '__globals__': {'background_color': C(bg)}}
     s.update(dims('padding', (pad[0],) * 4, (pad[1],) * 4, (pad[2],) * 4, (pad[3],) * 4))
     s.update(gap('flex_gap', *gap_))
@@ -214,7 +226,7 @@ def line_row(children, name=None, gap_=(48, 32, 24, 12), top=True, **extra):
     """Linha de lista editorial: separador fino em cima, sem cartão."""
     r = row(children, name=name, gap_=gap_, **extra)
     r['settings'].update({'border_border': 'solid', 'border_width': {'unit': 'px', 'top': '1' if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False},
-                          '__globals__': {**r['settings'].get('__globals__', {}), 'border_color': C('cinza300')}})
+                          '__globals__': {**r['settings'].get('__globals__', {}), 'border_color': C('linha')}})
     r['settings'].update(dims('padding', (28, 0, 28, 0), (24, 0, 24, 0), (20, 0, 20, 0), (20, 0, 20, 0)))
     r['settings']['border_width_mobile_extra'] = {'unit': 'vw', 'top': str(vw(1, BASE_L)) if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False}
     r['settings']['border_width_mobile'] = {'unit': 'vw', 'top': str(vw(1, BASE_M)) if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False}
@@ -240,7 +252,7 @@ def logo_svg(color_sym, color_word):
     return svg
 
 def LOGO(width_d=64, light=False, l=56, m=50):
-    s = {'html': logo_svg('#FFFFFF' if light else '#168A5B', '#FFFFFF' if light else '#1F2933'), '_element_width': 'initial'}
+    s = {'html': logo_svg('#00D61A', '#FFFFFF'), '_element_width': 'initial'}  # site todo é escuro
     s.update(slider('_element_custom_width', width_d, l=l, m=m))
     s['_title'] = 'Logo FCStudio'
     return w('html', **s)
@@ -251,15 +263,18 @@ def header():
     nav = w('nav-menu', menu='menu-principal', layout='horizontal', pointer='none', dropdown='tablet', toggle='burger', full_width='stretch', toggle_align='right', align_items='right',
             text_align='aside', _title='Menu',
             __globals__={'menu_typography_typography': T('fc_button'), 'color_menu_item': C('secondary'), 'color_menu_item_hover': C('primary'),
-                         'dropdown_typography_typography': T('fc_button'), 'color_dropdown_item': C('secondary'), 'background_color_dropdown_item': C('branco'),
-                         'color_dropdown_item_hover': C('branco'), 'background_color_dropdown_item_hover': C('primary'), 'toggle_color': C('secondary'), 'toggle_background_color': C('verde100')},
+                         'dropdown_typography_typography': T('fc_button'), 'color_dropdown_item': C('secondary'), 'background_color_dropdown_item': C('card'),
+                         'color_dropdown_item_hover': C('preto'), 'background_color_dropdown_item_hover': C('primary'), 'toggle_color': C('secondary'), 'toggle_background_color': C('verde100')},
             **slider('padding_horizontal_menu_item', 16, 14, 14, 14), **slider('toggle_size', 22, 22, 24, 24), **slider('toggle_border_width', 0, 0, 0, 0),
             **radius('toggle_border_radius', 10, 10, 10), **slider('dropdown_top_distance', 12, 12, 12, 12),
             **slider('padding_horizontal_dropdown_item', 40, 40, 40, 24), **slider('padding_vertical_dropdown_item', 14, 14, 14, 14))
     cta = B('Falar no WhatsApp', 'primary', full_mobile=False, hide_mobile='hidden-mobile', hide_mobile_extra='hidden-mobile_extra')
     s = {'_title': 'Cabeçalho', 'content_width': 'boxed', 'flex_direction': 'row', 'flex_direction_mobile': 'row', 'flex_direction_mobile_extra': 'row', 'flex_direction_tablet': 'row',
          'flex_justify_content': 'space-between', 'flex_align_items': 'center', 'flex_wrap': 'nowrap',
-         'background_background': 'classic', '__globals__': {'background_color': C('branco')}, 'z_index': 100 }
+         'background_background': 'classic', '__globals__': {'background_color': C('preto'), 'border_color': C('linha')}, 'z_index': 100,
+         'border_border': 'solid', 'border_width': {'unit': 'px', 'top': '0', 'right': '0', 'bottom': '1', 'left': '0', 'isLinked': False},
+         'border_width_mobile_extra': {'unit': 'vw', 'top': '0', 'right': '0', 'bottom': str(vw(1, BASE_L)), 'left': '0', 'isLinked': False},
+         'border_width_mobile': {'unit': 'vw', 'top': '0', 'right': '0', 'bottom': str(vw(1, BASE_M)), 'left': '0', 'isLinked': False}}
     s.update(dims('padding', (16, 0, 16, 0), (14, 40, 14, 40), (12, 40, 12, 40), (12, 24, 12, 24), te=(16, 32, 16, 32)))
     s.update(gap('flex_gap', 24, 16, 16, 12))
     right = row([nav, cta], name='Direita', gap_=(32, 16, 12, 12), mobile_dir='row', landscape_dir='row', flex_align_items='center', flex_justify_content='flex-end')
@@ -268,17 +283,18 @@ def header():
     return con([lg, right], **s)
 
 def hero():
-    buttons = row([B('Quero mais clientes', 'primary'), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
-    text = col([H('Sites que trazem novos clientes para o seu negócio', 'fc_h1', 'branco', 'h1'),
+    buttons = row([B('Solicite um orçamento', 'primary'), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
+    text = col([H('Strategic UI/UX Design', 'fc_caption', 'primary', 'p'),
+                H('Sites que trazem <span class="fc-verde">novos clientes</span> para o seu negócio', 'fc_h1', 'secondary', 'h1'),
                 P('Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FCStudio cuida do site, do chatbot, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
-                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Strategic UI/UX Design', 'fc_body', 'cinza300')],
+                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses', 'fc_body', 'text')],
                name='Texto', gap_=(28, 24, 22, 20))
     proof = col([IMG('gwmix', 'Site da GWmix feito pela FCStudio', shadow='verde'),
                  P('Último projeto entregue: <a href="https://gwmix.ind.br" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;text-underline-offset:.2em">gwmix.ind.br</a>', 'fc_body', 'cinza300')],
                 name='Prova: projeto real', gap_=(28, 24, 22, 20))
     W(text, 56, 100); W(proof, 44, 100)
     r_ = row([text, proof], name='Hero · conteúdo', gap_=(72, 56, 40, 44), tablet_dir='column', flex_align_items='center')
-    return section('Hero', [r_], 'secondary', 'inicio', py=(104, 80, 56, 48))
+    return section('Hero', [r_], 'preto', 'inicio', py=(112, 80, 56, 48), css_classes='fc-estrelas')
 
 def beneficios():
     items = [('Aparece no Google', 'Site rápido e preparado para as buscas da sua região e do seu segmento.'),
@@ -310,6 +326,16 @@ def servicos():
     W(head['elements'][0], 70, 70, 100, 100); W(head['elements'][1], 'fit')
     return section('Serviços', [head, col(rows, 'Lista de serviços', gap_=(0, 0, 0, 0))], 'neutro50', 'servicos')
 
+LIGHT = {C('secondary'): C('tinta'), C('text'): C('tinta2'), C('primary'): C('verde800'), C('cinza300'): C('tinta2')}
+
+def lighten(els):
+    for e in els:
+        g = e['settings'].get('__globals__', {})
+        for k, v in list(g.items()):
+            if k != 'background_color' and v in LIGHT: g[k] = LIGHT[v]
+        lighten(e['elements'])
+    return els
+
 def como_funciona():
     steps = []
     for n, t, d in [('1', 'Conversa', '30 minutos por vídeo para entender seu negócio e seus clientes.'),
@@ -324,7 +350,9 @@ def como_funciona():
         c['settings'].update(dims('padding', (20, 0, 0, 0), (18, 0, 0, 0), (16, 0, 0, 0), (16, 0, 0, 0)))
         steps.append(c)
     head = col([H('Do primeiro contato ao site no ar em 15 dias')], name='Título da seção')
-    return section('Como funciona', [head, grid(steps, (4, 2, 2, 1), 'Passos', gap_=(32, 32, 24, 32))], 'branco', 'como-funciona')
+    sec = section('Como funciona', [head, grid(steps, (4, 2, 2, 1), 'Passos', gap_=(32, 32, 24, 32))], 'claro', 'como-funciona', css_classes='fc-claro fc-circulos')
+    lighten(sec['elements'])
+    return sec
 
 def planos():
     data = [('Essencial', 'Landing page', 'R$ 1.490', 'pagamento único', ['1 página focada em uma oferta', 'Botão de WhatsApp em todas as telas', 'Domínio e SSL configurados', 'Entrega em 10 dias'], False),
@@ -336,11 +364,11 @@ def planos():
         if hi:
             kids.append(H('Mais escolhido', 'fc_caption', 'secondary', 'p', _element_width='auto', _flex_align_self='flex-start', _background_background='classic',
                           **dims('_padding', (6, 12, 6, 12), (6, 12, 6, 12), (5, 10, 5, 10), (5, 10, 5, 10)), **radius('_border_radius', 999, 999, 999),
-                          **{'__globals__': {'typography_typography': T('fc_caption'), 'title_color': C('secondary'), '_background_color': C('accent')}}))
+                          **{'__globals__': {'typography_typography': T('fc_caption'), 'title_color': C('preto'), '_background_color': C('accent')}}))
         kids += [H(nm, 'fc_h3', 'branco' if hi else 'secondary', 'h3'), P(sub, 'fc_body', 'cinza300' if hi else 'text'),
                  H(price, 'fc_num', 'branco' if hi else 'primary', 'p'), H(per, 'fc_caption', 'cinza300' if hi else 'text', 'p'),
                  LIST(items, hi), B('Quero este plano', 'primary' if hi else 'secondary', full_mobile=True, align='justify')]
-        c = card(kids, bg='secondary' if hi else 'branco', gap_=(16, 14, 14, 14), _title='Plano ' + nm, css_classes='fc-offset fc-offset--verde' if hi else 'fc-borda')
+        c = card(kids, bg='card', gap_=(16, 14, 14, 14), _title='Plano ' + nm, css_classes='fc-offset fc-offset--verde' if hi else 'fc-borda')
         if hi:
             c['settings']['_flex_order_mobile'] = 'start'
         cards.append(c)
@@ -373,19 +401,24 @@ def faq():
     return faq_list(qa)
 
 def cta():
-    return section('Chamada final', [eyebrow('Vamos conversar', True), H('Vamos trazer mais clientes para você?', 'fc_h2', 'branco'),
-                                     P('Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.', 'fc_lead', 'verde100'),
-                                     B('Chamar no WhatsApp', 'white')], 'primary', 'contato', gap_=(20, 20, 18, 18))
+    # slide "Você está pronto para o sucesso?": linha vertical com ponto, chamada em duas alturas
+    t = H('Você está pronto<br><span class="fc-display fc-verde">para crescer?</span>', 'fc_kicker', 'secondary', 'h2')
+    txt = col([t, P('Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para trazer mais clientes. Se preferir, chame direto no '
+                    '<a href="https://wa.me/5511916751926" style="color:#00E600;font-weight:700;text-decoration:none;white-space:nowrap">WhatsApp (11) 91675-1926</a>.', 'fc_lead', 'cinza300'),
+               B('Solicite um orçamento', 'primary')], name='Chamada', gap_=(32, 28, 24, 24), css_classes='fc-linha-v')
+    txt['settings'].update(dims('padding', (16, 0, 64, 72), (16, 0, 56, 56), (8, 0, 48, 40), (8, 0, 40, 28)))
+    W(txt, 72, 100, 100, 100)
+    return section('Chamada final', [txt], 'preto', 'contato', py=(128, 96, 72, 64), css_classes='fc-estrelas')
 
 def footer():
     c1 = col([LOGO(80, True, 70, 64), P('Strategic UI/UX Design. Sites, chatbots, anúncios e vídeos para empresas que querem crescer.', 'fc_body', 'cinza300')], gap_=(16, 16, 14, 14), _flex_size='grow')
     def links(title, items):
-        return col([H(title, 'fc_caption', 'verde100', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
+        return col([H(title, 'fc_caption', 'primary', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
     nav_ = links('Navegação', ['<a href="fc://servicos" style="color:inherit">Serviços</a>', '<a href="fc://planos" style="color:inherit">Planos</a>', '<a href="fc://portfolio" style="color:inherit">Portfólio</a>', '<a href="fc://contato" style="color:inherit">Contato</a>'])
     cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.com.br', 'Instagram: @fcstudio'])
     W(c1, 40, 40, 40, 100); W(nav_, 30, 30, 30, 100); W(cont_, 30, 30, 30, 100)
     cols_ = row([c1, nav_, cont_], name='Colunas', gap_=(64, 40, 32, 32), landscape_dir='row', mobile_dir='column')
-    line = w('divider', **{'__globals__': {'color': C('text')}, **slider('weight', 1, l=1, m=1)})
+    line = w('divider', **{'__globals__': {'color': C('linha')}, **slider('weight', 1, l=1, m=1)})
     return section('Rodapé', [cols_, line, H('© 2026 FCStudio. Todos os direitos reservados.', 'fc_caption', 'cinza300', 'p')], 'secondary', 'rodape', py=(56, 48, 40, 40), gap_=(32, 28, 24, 24))
 
 def whatsapp_float():
@@ -417,7 +450,7 @@ def page_hero(eye, title, lead, buttons=None, name='Topo da página'):
         kids.append(row(buttons, name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column'))
     text = col(kids, name='Texto', gap_=(24, 22, 20, 18))
     W(text, 75, 100, 100, 100)
-    return section(name, [text], 'neutro50', 'inicio', py=(96, 72, 48, 48))
+    return section(name, [text], 'preto', 'inicio', py=(112, 80, 56, 48), css_classes='fc-estrelas')
 
 SERVICOS = [
     ('01', 'Sites para empresas', 'Site institucional completo, rápido e pronto para o Google, com WhatsApp em todas as telas.',
@@ -508,32 +541,29 @@ def contato_bloco():
              email_to='contato@fcstudio.com.br', email_subject='Novo contato pelo site FCStudio', success_message='Recebemos sua mensagem. Respondemos em até 1 dia útil.',
              submit_actions=['email', 'save-to-database'],
              __globals__={'field_typography_typography': T('fc_body'), 'field_text_color': C('secondary'), 'button_typography_typography': T('fc_button'),
-                          'button_background_color': C('primary'), 'button_text_color': C('branco'), 'field_border_color': C('cinza300'), 'field_background_color': C('branco')},
+                          'button_background_color': C('primary'), 'button_text_color': C('preto'), 'field_border_color': C('linha'), 'field_background_color': C('preto')},
              **slider('column_gap', 12, l=12, m=12), **slider('row_gap', 12, l=12, m=12),
-             **radius('field_border_radius', 12, 12, 12), **radius('button_border_radius', 999, 999, 999))
+             **radius('field_border_radius', 12, 12, 12), **radius('button_border_radius', 6, 6, 6))
     fcard = card([H('Mande uma mensagem', 'fc_h3', 'secondary', 'h2'), P('Respondemos em até 1 dia útil.'), form], pad=(32, 28, 24, 20), gap_=(12, 12, 12, 12), r=20,
-                 _title='Formulário', box_shadow_box_shadow_type='yes',
-                 box_shadow_box_shadow={'horizontal': 0, 'vertical': 16, 'blur': 40, 'spread': 0, 'color': 'rgba(31,41,51,0.10)'})
+                 _title='Formulário', css_classes='fc-borda')
     W(infos, 40, 100, 45, 100); W(fcard, 60, 100, 55, 100)
     r_ = row([infos, fcard], name='Contato', gap_=(48, 32, 24, 24), tablet_dir='column', landscape_dir='row', flex_align_items='flex-start')
     return section('Canais e formulário', [r_], 'branco', 'contato-form', py=(88, 72, 56, 56))
 
 def quem_somos():
-    head = col([H('Somos um estúdio de Strategic UI/UX Design'),
-                P('A FCStudio une design de interface, experiência do usuário e estratégia de negócio. Antes de desenhar qualquer tela, entendemos quem é o seu cliente, o que ele procura e o que faz ele decidir.', 'fc_lead'),
-                P('O resultado são sites, chatbots e campanhas que ficam bonitos porque funcionam.', 'fc_body')], name='Texto', gap_=(20, 18, 16, 14))
-    items = [('Estratégia antes da tela', 'Começamos pelo seu cliente e pelo seu objetivo de venda, não por um modelo pronto.'),
-             ('Design que gera contato', 'Cada página tem um caminho claro até o WhatsApp, o formulário ou a compra.'),
-             ('Acompanhamento depois do lançamento', 'Medimos o que funciona e ajustamos com você nos meses seguintes.')]
-    rows = []
-    for t, d in items:
-        a = H(t, 'fc_h3', 'secondary', 'h3'); b = P(d)
-        r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(32, 24, 20, 6))
-        W(a, 40, 40, 40, 100); W(b, 60, 60, 60, 100)
-        rows.append(r)
-    lst = col(rows, 'Princípios', gap_=(0, 0, 0, 0))
-    W(head, 42, 100, 100, 100); W(lst, 58, 100, 100, 100)
-    return section('Quem somos', [row([head, lst], name='Quem somos · conteúdo', gap_=(80, 40, 32, 28), tablet_dir='column')], 'verde100', 'quem-somos')
+    # slide "Sobre mim": foto com brilho verde à esquerda, texto à direita. Foto da Fab entra no lugar do logo quando chegar.
+    logo = w('html', html='<div class="fc-foto-vazia">' + logo_svg('#FFFFFF', '#FFFFFF') + '</div>', _title='Foto (provisório: logo)')
+    foto = con([logo], content_width='full', flex_direction='column', flex_justify_content='center', flex_align_items='center', css_classes='fc-glow', _title='Foto com brilho',
+               **slider('min_height', 560, 440, 400, 360), **dims('padding', (0, 0, 0, 0)))
+    traco = w('html', html='<div class="fc-traco" aria-hidden="true"></div>', _title='Traço com ponto')
+    texto = col([traco, H('Quem somos', 'fc_caption', 'primary', 'p'),
+                 H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio</span>', 'fc_h2', 'secondary', 'h2'),
+                 P('Mais do que interfaces bonitas: na FCStudio, unimos <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a experiência do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
+                 P('Desenhamos fluxos intuitivos que guiam seu cliente com facilidade até o <strong>momento da compra</strong>, e acompanhamos os números depois do lançamento para ajustar o que for preciso.', 'fc_body', 'text'),
+                 B('Solicite um orçamento', 'primary')], name='Texto', gap_=(24, 22, 20, 18))
+    W(foto, 44, 100, 100, 100); W(texto, 56, 100, 100, 100)
+    r_ = row([foto, texto], name='Quem somos · conteúdo', gap_=(72, 48, 40, 32), tablet_dir='column', flex_align_items='center')
+    return section('Quem somos', [r_], 'preto', 'quem-somos', css_classes='fc-estrelas')
 
 def home_page():
     return mark_inner([hero(), beneficios(), servicos(), como_funciona(), quem_somos(), planos(), portfolio(), faq(), cta()])
@@ -574,6 +604,49 @@ PAGES = [('home', 'Home', home_page), ('servicos', 'Serviços', servicos_page), 
 # Montserrat local: o plugin copia as fontes para wp-content/uploads/fcstudio-fonts e troca fc-fonts:// pelo endereço
 FONTFACE = ''.join("@font-face{font-family:'Montserrat';font-style:normal;font-weight:%d;font-display:swap;src:url(fc-fonts://montserrat-%s.woff2) format('woff2')}" % (w_, n)
                    for w_, n in ((400, 'Regular'), (500, 'Medium'), (600, 'SemiBold'), (700, 'Bold'), (800, 'ExtraBold')))
+# Morganite (arquivo original, sem alteração, conforme a licença do autor)
+FONTFACE += "@font-face{font-family:'Morganite';font-style:normal;font-weight:100 900;font-display:swap;src:url(fc-fonts://morganite-ExtraBold.ttf) format('truetype')}"
+
+# Detalhes dos slides. --px vale 1px no desktop e vira vw no celular (base 740 na paisagem, 390 no retrato).
+CSS = (
+    ':root{--px:1px}@media(max-width:880px){:root{--px:calc(100vw/740)}}@media(max-width:575px){:root{--px:calc(100vw/390)}}'
+    'body{background:#050505}'
+    'h2,h3{text-wrap:balance}p{text-wrap:pretty}'
+    # fundo de estrelas
+    '.fc-estrelas.e-con{background-image:url(fc-fonts://estrelas.jpg);background-repeat:repeat;background-size:calc(1200*var(--px))}'
+    # texto em gradiente verde (vale por linha)
+    '.fc-verde{background:linear-gradient(180deg,#00F000 0%,#00B100 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;'
+    '-webkit-box-decoration-break:clone;box-decoration-break:clone}'
+    '.fc-display{display:block;font-family:Morganite,"Arial Narrow",sans-serif;font-weight:800;font-size:2.7em;line-height:.9;letter-spacing:.005em;margin-top:.06em}'
+    # barrinha verde antes do título de seção
+    '.fc-barra .elementor-heading-title{border-left:.055em solid #00D61A;padding-left:.2em}'
+    # traço horizontal com ponto (slide Sobre mim)
+    '.fc-traco{position:relative;height:calc(12*var(--px))}'
+    '.fc-traco:before{content:"";position:absolute;left:0;top:0;width:calc(12*var(--px));height:calc(12*var(--px));border-radius:50%;background:#00E600;box-shadow:0 0 calc(12*var(--px)) #00E600}'
+    '.fc-traco:after{content:"";position:absolute;left:calc(6*var(--px));right:0;top:calc(5.5*var(--px));height:max(1px,calc(1*var(--px)));background:linear-gradient(90deg,#00D61A,rgba(0,214,26,.15))}'
+    # linha vertical com ponto (slide Você está pronto)
+    '.fc-linha-v.e-con{position:relative}'
+    '.fc-linha-v.e-con:before{content:"";position:absolute;left:0;top:0;bottom:calc(6*var(--px));width:max(1px,calc(1*var(--px)));background:linear-gradient(180deg,rgba(0,214,26,.1),#00D61A)}'
+    '.fc-linha-v.e-con:after{content:"";position:absolute;left:calc(-5.5*var(--px));bottom:0;width:calc(12*var(--px));height:calc(12*var(--px));border-radius:50%;background:#00E600;box-shadow:0 0 calc(12*var(--px)) #00E600}'
+    # brilho atrás da foto
+    '.fc-glow.e-con{background:radial-gradient(circle closest-side,rgba(150,255,150,.85) 0%,#00E600 32%,rgba(0,190,20,.4) 62%,rgba(0,0,0,0) 100%)}'
+    '.fc-foto-vazia{width:46%;margin:0 auto;filter:drop-shadow(0 calc(8*var(--px)) calc(24*var(--px)) rgba(0,60,0,.45))}'
+    # seção clara com círculos (slide Escopo)
+    '.fc-circulos.e-con{background-image:repeating-radial-gradient(circle at 92% 18%,rgba(0,0,0,0) 0 calc(46*var(--px)),rgba(0,0,0,.07) calc(46*var(--px)) calc(47.5*var(--px)))}'
+    # botão com gradiente neon
+    '.fc-neon .elementor-button{background-image:linear-gradient(180deg,#00E600,#00B100)}'
+    '.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}'
+    '.elementor-button:hover{transform:translateY(-1px)}.fc-neon .elementor-button:hover{box-shadow:0 calc(10*var(--px)) calc(30*var(--px)) rgba(0,214,26,.35)}'
+    # imagem e cartão em destaque: contorno verde com brilho; cartão comum: borda fina
+    '.fc-offset img,.fc-offset.e-con{box-shadow:0 0 0 max(1px,calc(1*var(--px))) rgba(0,214,26,.6),0 0 calc(56*var(--px)) rgba(0,214,26,.18)}'
+    '.fc-offset--cinza img{box-shadow:0 0 0 max(1px,calc(1*var(--px))) #2A2A2A}'
+    '.fc-borda.e-con{border:max(1px,calc(1*var(--px))) solid #2A2A2A}'
+    # textos
+    '.elementor-widget-text-editor strong{color:#fff;font-weight:700}.fc-claro .elementor-widget-text-editor strong{color:#0A0A0A}'
+    '.elementor-field-group .elementor-field::placeholder{color:#8A8A8A}'
+    '::selection{background:#00D61A;color:#050505}:focus-visible{outline:2px solid #00E600;outline-offset:3px;border-radius:4px}'
+    'html{scrollbar-color:#00D61A #050505;accent-color:#00D61A}a{text-underline-offset:.2em}'
+)
 
 def kit_settings():
     s = {
@@ -586,9 +659,9 @@ def kit_settings():
             {'_id': 'accent', 'title': 'Destaque', 'typography_typography': 'custom', 'typography_font_family': TEXT, 'typography_font_weight': '600'}],
         'custom_typography': [typo_preset(*t) for t in TYPO],
         'default_generic_fonts': 'Sans-serif',
-        'body_background_background': 'classic', 'body_background_color': '#F6F8F7',
+        'body_background_background': 'classic', 'body_background_color': '#050505',
         'body_typography_typography': 'custom', 'body_typography_font_family': TEXT,
-        'body_color': '#6B7280',
+        'body_color': '#A3A3A3',
         # largura util: conteudo 1140 px no desktop, 1320 px em telas grandes; abaixo disso ocupa 100% e o respiro vem do padding das secoes
         'container_width': {'unit': 'px', 'size': 1140},
         'container_width_widescreen': {'unit': 'px', 'size': 1320},
@@ -605,12 +678,7 @@ def kit_settings():
         'viewport_mobile': 575, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
         'site_name': 'FCStudio', 'site_description': 'Strategic UI/UX Design',
         # detalhes do navegador com a cor da marca (seleção, foco, barra de rolagem, sublinhado)
-        'custom_css': FONTFACE + 'h2,h3{text-wrap:balance}p{text-wrap:pretty}'
-                      '.fc-offset img,.fc-offset.e-con{box-shadow:16px 16px 0 var(--fc-sombra)}.fc-offset--verde{--fc-sombra:#168A5B}.fc-offset--cinza{--fc-sombra:#CBD2D9}'
-                      '.fc-borda.e-con{border:1px solid #CBD2D9}'
-                      '@media(max-width:880px){.fc-offset img,.fc-offset.e-con{box-shadow:1.622vw 1.622vw 0 var(--fc-sombra)}.fc-borda.e-con{border-width:.135vw}}'
-                      '@media(max-width:575px){.fc-offset img,.fc-offset.e-con{box-shadow:2.564vw 2.564vw 0 var(--fc-sombra)}.fc-borda.e-con{border-width:.256vw}}'
-                      '::selection{background:#168A5B;color:#fff}:focus-visible{outline:2px solid #168A5B;outline-offset:3px;border-radius:4px}html{scrollbar-color:#168A5B #F6F8F7;accent-color:#168A5B}a{text-underline-offset:.2em}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}',
+        'custom_css': FONTFACE + CSS,
     }
     return s
 

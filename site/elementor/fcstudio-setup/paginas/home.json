@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "9531985",
+   "id": "0ed9047",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -13,13 +13,13 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=secondary"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
-     "top": "104",
+     "top": "112",
      "right": "0",
-     "bottom": "104",
+     "bottom": "112",
      "left": "0",
      "isLinked": false
     },
@@ -49,9 +49,9 @@
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "104",
+     "top": "112",
      "right": "32",
-     "bottom": "104",
+     "bottom": "112",
      "left": "32",
      "isLinked": false
     },
@@ -83,11 +83,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "inicio"
+    "_element_id": "inicio",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
-     "id": "5d9dc9f",
+     "id": "9531985",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -162,7 +163,7 @@
      },
      "elements": [
       {
-       "id": "128b2f3",
+       "id": "d23f082",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -252,17 +253,31 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Sites que trazem novos clientes para o seu negócio",
-          "header_size": "h1",
+          "title": "Strategic UI/UX Design",
+          "header_size": "p",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=branco"
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=primary"
           }
          },
          "elements": []
         },
         {
          "id": "a6a3a45",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Sites que trazem <span class=\"fc-verde\">novos clientes</span> para o seu negócio",
+          "header_size": "h1",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h1",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c5c7fd",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -369,7 +384,7 @@
            "elType": "widget",
            "widgetType": "button",
            "settings": {
-            "text": "Quero mais clientes",
+            "text": "Solicite um orçamento",
             "link": {
              "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
              "is_external": true,
@@ -377,35 +392,43 @@
             },
             "__globals__": {
              "typography_typography": "globals/typography?id=fc_button",
-             "button_text_color": "globals/colors?id=branco",
+             "button_text_color": "globals/colors?id=preto",
              "background_color": "globals/colors?id=primary"
             },
             "background_color": "#00000000",
             "border_radius": {
              "unit": "px",
-             "top": "10",
-             "right": "10",
-             "bottom": "10",
-             "left": "10",
+             "top": "6",
+             "right": "6",
+             "bottom": "6",
+             "left": "6",
              "isLinked": true
             },
             "border_radius_mobile_extra": {
              "unit": "vw",
-             "top": "1.351",
-             "right": "1.351",
-             "bottom": "1.351",
-             "left": "1.351",
+             "top": "0.811",
+             "right": "0.811",
+             "bottom": "0.811",
+             "left": "0.811",
              "isLinked": true
             },
             "border_radius_mobile": {
              "unit": "vw",
-             "top": "2.564",
-             "right": "2.564",
-             "bottom": "2.564",
-             "left": "2.564",
+             "top": "1.538",
+             "right": "1.538",
+             "bottom": "1.538",
+             "left": "1.538",
              "isLinked": true
             },
             "text_padding": {
+             "unit": "px",
+             "top": "20",
+             "right": "32",
+             "bottom": "20",
+             "left": "32",
+             "isLinked": false
+            },
+            "text_padding_tablet": {
              "unit": "px",
              "top": "18",
              "right": "28",
@@ -413,31 +436,24 @@
              "left": "28",
              "isLinked": false
             },
-            "text_padding_tablet": {
-             "unit": "px",
-             "top": "16",
-             "right": "26",
-             "bottom": "16",
-             "left": "26",
-             "isLinked": false
-            },
             "text_padding_mobile_extra": {
              "unit": "vw",
-             "top": "2.027",
-             "right": "3.243",
-             "bottom": "2.027",
-             "left": "3.243",
+             "top": "2.297",
+             "right": "3.514",
+             "bottom": "2.297",
+             "left": "3.514",
              "isLinked": false
             },
             "text_padding_mobile": {
              "unit": "vw",
-             "top": "4.103",
+             "top": "4.615",
              "right": "5.641",
-             "bottom": "4.103",
+             "bottom": "4.615",
              "left": "5.641",
              "isLinked": false
             },
-            "align_mobile": "justify"
+            "align_mobile": "justify",
+            "_css_classes": "fc-neon"
            },
            "elements": []
           },
@@ -485,29 +501,37 @@
             },
             "border_radius": {
              "unit": "px",
-             "top": "10",
-             "right": "10",
-             "bottom": "10",
-             "left": "10",
+             "top": "6",
+             "right": "6",
+             "bottom": "6",
+             "left": "6",
              "isLinked": true
             },
             "border_radius_mobile_extra": {
              "unit": "vw",
-             "top": "1.351",
-             "right": "1.351",
-             "bottom": "1.351",
-             "left": "1.351",
+             "top": "0.811",
+             "right": "0.811",
+             "bottom": "0.811",
+             "left": "0.811",
              "isLinked": true
             },
             "border_radius_mobile": {
              "unit": "vw",
-             "top": "2.564",
-             "right": "2.564",
-             "bottom": "2.564",
-             "left": "2.564",
+             "top": "1.538",
+             "right": "1.538",
+             "bottom": "1.538",
+             "left": "1.538",
              "isLinked": true
             },
             "text_padding": {
+             "unit": "px",
+             "top": "20",
+             "right": "32",
+             "bottom": "20",
+             "left": "32",
+             "isLinked": false
+            },
+            "text_padding_tablet": {
              "unit": "px",
              "top": "18",
              "right": "28",
@@ -515,27 +539,19 @@
              "left": "28",
              "isLinked": false
             },
-            "text_padding_tablet": {
-             "unit": "px",
-             "top": "16",
-             "right": "26",
-             "bottom": "16",
-             "left": "26",
-             "isLinked": false
-            },
             "text_padding_mobile_extra": {
              "unit": "vw",
-             "top": "2.027",
-             "right": "3.243",
-             "bottom": "2.027",
-             "left": "3.243",
+             "top": "2.297",
+             "right": "3.514",
+             "bottom": "2.297",
+             "left": "3.514",
              "isLinked": false
             },
             "text_padding_mobile": {
              "unit": "vw",
-             "top": "4.103",
+             "top": "4.615",
              "right": "5.641",
-             "bottom": "4.103",
+             "bottom": "4.615",
              "left": "5.641",
              "isLinked": false
             },
@@ -546,14 +562,14 @@
          ]
         },
         {
-         "id": "0c5c7fd",
+         "id": "128b2f3",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Strategic UI/UX Design</p>",
+          "editor": "<p>Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=cinza300"
+           "text_color": "globals/colors?id=text"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -577,7 +593,7 @@
        ]
       },
       {
-       "id": "1818e81",
+       "id": "5d9dc9f",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -663,7 +679,7 @@
        },
        "elements": [
         {
-         "id": "d23f082",
+         "id": "892f902",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -719,7 +735,7 @@
          "elements": []
         },
         {
-         "id": "892f902",
+         "id": "1818e81",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -754,7 +770,7 @@
    ]
   },
   {
-   "id": "d3ac94a",
+   "id": "90c192c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -763,7 +779,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=branco"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
@@ -832,11 +848,12 @@
      "column": "8.205",
      "row": "8.205",
      "isLinked": true
-    }
+    },
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "0f21ddb",
+     "id": "d3ac94a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -910,7 +927,7 @@
      },
      "elements": [
       {
-       "id": "8d116ec",
+       "id": "6cad4a2",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -996,7 +1013,7 @@
        },
        "elements": [
         {
-         "id": "3d9c172",
+         "id": "1738f7d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1005,12 +1022,13 @@
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h2",
            "title_color": "globals/colors?id=secondary"
-          }
+          },
+          "_css_classes": "fc-barra"
          },
          "elements": []
         },
         {
-         "id": "1738f7d",
+         "id": "8d116ec",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1041,7 +1059,7 @@
        ]
       },
       {
-       "id": "6cad4a2",
+       "id": "0f21ddb",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1127,7 +1145,7 @@
        },
        "elements": [
         {
-         "id": "81e74ef",
+         "id": "36f675c",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1208,7 +1226,7 @@
            "isLinked": false
           },
           "__globals__": {
-           "border_color": "globals/colors?id=cinza300"
+           "border_color": "globals/colors?id=linha"
           },
           "border_width_mobile_extra": {
            "unit": "vw",
@@ -1229,7 +1247,7 @@
          },
          "elements": [
           {
-           "id": "0ed9047",
+           "id": "e8e25d9",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1260,7 +1278,7 @@
            "elements": []
           },
           {
-           "id": "e8e25d9",
+           "id": "81e74ef",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1308,7 +1326,7 @@
          ]
         },
         {
-         "id": "1600a35",
+         "id": "6f03675",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1389,7 +1407,7 @@
            "isLinked": false
           },
           "__globals__": {
-           "border_color": "globals/colors?id=cinza300"
+           "border_color": "globals/colors?id=linha"
           },
           "border_width_mobile_extra": {
            "unit": "vw",
@@ -1410,7 +1428,7 @@
          },
          "elements": [
           {
-           "id": "36f675c",
+           "id": "099950d",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1441,7 +1459,7 @@
            "elements": []
           },
           {
-           "id": "099950d",
+           "id": "1600a35",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1489,7 +1507,7 @@
          ]
         },
         {
-         "id": "11e20b8",
+         "id": "3d9c172",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1570,7 +1588,7 @@
            "isLinked": false
           },
           "__globals__": {
-           "border_color": "globals/colors?id=cinza300"
+           "border_color": "globals/colors?id=linha"
           },
           "border_width_mobile_extra": {
            "unit": "vw",
@@ -1591,7 +1609,7 @@
          },
          "elements": [
           {
-           "id": "6f03675",
+           "id": "6b0d549",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1622,7 +1640,7 @@
            "elements": []
           },
           {
-           "id": "6b0d549",
+           "id": "11e20b8",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1676,7 +1694,7 @@
    ]
   },
   {
-   "id": "8a6a63e",
+   "id": "1e27a1c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1755,11 +1773,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "servicos"
+    "_element_id": "servicos",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "6b4cb24",
+     "id": "24ede6a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1837,7 +1856,7 @@
      },
      "elements": [
       {
-       "id": "2217bea",
+       "id": "4a23d59",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1847,6 +1866,7 @@
          "typography_typography": "globals/typography?id=fc_h2",
          "title_color": "globals/colors?id=secondary"
         },
+        "_css_classes": "fc-barra",
         "_element_width": "initial",
         "_element_custom_width": {
          "unit": "%",
@@ -1868,7 +1888,7 @@
        "elements": []
       },
       {
-       "id": "4a23d59",
+       "id": "6b4cb24",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1911,29 +1931,37 @@
         },
         "border_radius": {
          "unit": "px",
-         "top": "10",
-         "right": "10",
-         "bottom": "10",
-         "left": "10",
+         "top": "6",
+         "right": "6",
+         "bottom": "6",
+         "left": "6",
          "isLinked": true
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.351",
-         "right": "1.351",
-         "bottom": "1.351",
-         "left": "1.351",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
          "isLinked": true
         },
         "border_radius_mobile": {
          "unit": "vw",
-         "top": "2.564",
-         "right": "2.564",
-         "bottom": "2.564",
-         "left": "2.564",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
          "isLinked": true
         },
         "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "32",
+         "bottom": "20",
+         "left": "32",
+         "isLinked": false
+        },
+        "text_padding_tablet": {
          "unit": "px",
          "top": "18",
          "right": "28",
@@ -1941,27 +1969,19 @@
          "left": "28",
          "isLinked": false
         },
-        "text_padding_tablet": {
-         "unit": "px",
-         "top": "16",
-         "right": "26",
-         "bottom": "16",
-         "left": "26",
-         "isLinked": false
-        },
         "text_padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.027",
-         "right": "3.243",
-         "bottom": "2.027",
-         "left": "3.243",
+         "top": "2.297",
+         "right": "3.514",
+         "bottom": "2.297",
+         "left": "3.514",
          "isLinked": false
         },
         "text_padding_mobile": {
          "unit": "vw",
-         "top": "4.103",
+         "top": "4.615",
          "right": "5.641",
-         "bottom": "4.103",
+         "bottom": "4.615",
          "left": "5.641",
          "isLinked": false
         },
@@ -1973,7 +1993,7 @@
      ]
     },
     {
-     "id": "24ede6a",
+     "id": "8a6a63e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2043,7 +2063,7 @@
      },
      "elements": [
       {
-       "id": "f28c105",
+       "id": "3926305",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2125,7 +2145,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2146,7 +2166,7 @@
        },
        "elements": [
         {
-         "id": "90c192c",
+         "id": "1fb17c2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2177,7 +2197,7 @@
          "elements": []
         },
         {
-         "id": "1fb17c2",
+         "id": "f28c105",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2225,7 +2245,7 @@
        ]
       },
       {
-       "id": "a09f76b",
+       "id": "953f48f",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2307,7 +2327,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2328,7 +2348,7 @@
        },
        "elements": [
         {
-         "id": "3926305",
+         "id": "a170b33",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2359,7 +2379,7 @@
          "elements": []
         },
         {
-         "id": "a170b33",
+         "id": "a09f76b",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2407,7 +2427,7 @@
        ]
       },
       {
-       "id": "0fd630f",
+       "id": "93bd04c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2489,7 +2509,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2510,7 +2530,7 @@
        },
        "elements": [
         {
-         "id": "953f48f",
+         "id": "f29d0da",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2541,7 +2561,7 @@
          "elements": []
         },
         {
-         "id": "f29d0da",
+         "id": "0fd630f",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2589,7 +2609,7 @@
        ]
       },
       {
-       "id": "658cda1",
+       "id": "0cb1e29",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2671,7 +2691,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2692,7 +2712,7 @@
        },
        "elements": [
         {
-         "id": "93bd04c",
+         "id": "95e60af",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2723,7 +2743,7 @@
          "elements": []
         },
         {
-         "id": "95e60af",
+         "id": "658cda1",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2771,7 +2791,7 @@
        ]
       },
       {
-       "id": "3898d19",
+       "id": "0becd7b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2853,7 +2873,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -2874,7 +2894,7 @@
        },
        "elements": [
         {
-         "id": "0cb1e29",
+         "id": "f9ebdac",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2905,7 +2925,7 @@
          "elements": []
         },
         {
-         "id": "f9ebdac",
+         "id": "3898d19",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2953,7 +2973,7 @@
        ]
       },
       {
-       "id": "dbc496c",
+       "id": "2217bea",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3035,7 +3055,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -3056,7 +3076,7 @@
        },
        "elements": [
         {
-         "id": "0becd7b",
+         "id": "8e81973",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3087,7 +3107,7 @@
          "elements": []
         },
         {
-         "id": "8e81973",
+         "id": "dbc496c",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3139,7 +3159,7 @@
    ]
   },
   {
-   "id": "9e7769b",
+   "id": "34b9b5d",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3148,7 +3168,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=branco"
+     "background_color": "globals/colors?id=claro"
     },
     "padding": {
      "unit": "px",
@@ -3218,11 +3238,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "como-funciona"
+    "_element_id": "como-funciona",
+    "css_classes": "fc-claro fc-circulos e-no-lazyload"
    },
    "elements": [
     {
-     "id": "907a70c",
+     "id": "0f4205b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3292,7 +3313,7 @@
      },
      "elements": [
       {
-       "id": "1012f03",
+       "id": "907a70c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3300,15 +3321,16 @@
         "header_size": "h2",
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h2",
-         "title_color": "globals/colors?id=secondary"
-        }
+         "title_color": "globals/colors?id=tinta"
+        },
+        "_css_classes": "fc-barra"
        },
        "elements": []
       }
      ]
     },
     {
-     "id": "0f4205b",
+     "id": "9e7769b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3399,7 +3421,7 @@
      },
      "elements": [
       {
-       "id": "8f6d055",
+       "id": "d0eda82",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3491,12 +3513,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "1e27a1c",
+         "id": "9227665",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3504,21 +3526,7 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "9227665",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Conversa",
-          "header_size": "h3",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
@@ -3526,12 +3534,26 @@
         {
          "id": "4ef8aa3",
          "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Conversa",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=tinta"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "8f6d055",
+         "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>30 minutos por vídeo para entender seu negócio e seus clientes.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -3555,7 +3577,7 @@
        ]
       },
       {
-       "id": "1a61dbe",
+       "id": "94e3bf9",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3647,12 +3669,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "d0eda82",
+         "id": "ae97ba9",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3660,21 +3682,7 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "ae97ba9",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Layout para aprovar",
-          "header_size": "h3",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
@@ -3682,12 +3690,26 @@
         {
          "id": "2e44158",
          "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Layout para aprovar",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=tinta"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1a61dbe",
+         "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>Você vê o site pronto antes de qualquer código.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -3711,7 +3733,7 @@
        ]
       },
       {
-       "id": "301850c",
+       "id": "5f55720",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3803,12 +3825,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "94e3bf9",
+         "id": "923a736",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3816,21 +3838,7 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "923a736",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Site no ar",
-          "header_size": "h3",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
@@ -3838,12 +3846,26 @@
         {
          "id": "a38fd54",
          "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Site no ar",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=tinta"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "301850c",
+         "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>Publicamos com domínio, SSL e WhatsApp configurados.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -3867,7 +3889,7 @@
        ]
       },
       {
-       "id": "b64ce42",
+       "id": "1012f03",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3959,12 +3981,12 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=primary"
+         "border_color": "globals/colors?id=verde800"
         }
        },
        "elements": [
         {
-         "id": "5f55720",
+         "id": "18f135d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3972,21 +3994,7 @@
           "header_size": "span",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h1",
-           "title_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "18f135d",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Acompanhamento",
-          "header_size": "h3",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
+           "title_color": "globals/colors?id=verde800"
           }
          },
          "elements": []
@@ -3994,12 +4002,26 @@
         {
          "id": "8c38fb2",
          "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Acompanhamento",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=tinta"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "b64ce42",
+         "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
           "editor": "<p>3 meses de suporte e ajustes sem custo extra.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=tinta2"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -4027,7 +4049,7 @@
    ]
   },
   {
-   "id": "2e05319",
+   "id": "5c90a95",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4036,7 +4058,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=verde100"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
@@ -4106,11 +4128,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "quem-somos"
+    "_element_id": "quem-somos",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
-     "id": "cb5c742",
+     "id": "7403e43",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4123,30 +4146,30 @@
       "_title": "Quem somos · conteúdo",
       "flex_gap": {
        "unit": "px",
-       "size": 80,
-       "column": "80",
-       "row": "80",
+       "size": 72,
+       "column": "72",
+       "row": "72",
        "isLinked": true
       },
       "flex_gap_tablet": {
        "unit": "px",
-       "size": 40,
-       "column": "40",
-       "row": "40",
+       "size": 48,
+       "column": "48",
+       "row": "48",
        "isLinked": true
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 4.324,
-       "column": "4.324",
-       "row": "4.324",
+       "size": 5.405,
+       "column": "5.405",
+       "row": "5.405",
        "isLinked": true
       },
       "flex_gap_mobile": {
        "unit": "vw",
-       "size": 7.179,
-       "column": "7.179",
-       "row": "7.179",
+       "size": 8.205,
+       "column": "8.205",
+       "row": "8.205",
        "isLinked": true
       },
       "padding": {
@@ -4180,11 +4203,101 @@
        "bottom": "0.0",
        "left": "0.0",
        "isLinked": false
-      }
+      },
+      "flex_align_items": "center"
      },
      "elements": [
       {
-       "id": "881ed16",
+       "id": "ae2eb15",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "css_classes": "fc-glow",
+        "_title": "Foto com brilho",
+        "min_height": {
+         "unit": "px",
+         "size": 560
+        },
+        "min_height_tablet": {
+         "unit": "px",
+         "size": 440
+        },
+        "min_height_mobile_extra": {
+         "unit": "vw",
+         "size": 54.054
+        },
+        "min_height_mobile": {
+         "unit": "vw",
+         "size": 92.308
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "%",
+         "size": 44
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "7f15052",
+         "elType": "widget",
+         "widgetType": "html",
+         "settings": {
+          "html": "<div class=\"fc-foto-vazia\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;width:100%;height:auto\" viewBox=\"0 0 240 168\"><path transform=\"scale(0.235294)\" fill=\"#FFFFFF\" fill-rule=\"evenodd\" d=\"M547.8 448.9C535.2 448.6 524.7 448.0 524.3 447.6C523.4 446.7 525.0 440.1 530.5 422.5C534.9 408.5 536.6 402.9 542.4 382.5C543.7 378.1 547.1 366.6 549.9 357.0C552.8 347.4 555.8 337.2 556.5 334.5C560.0 322.0 571.1 284.2 572.0 281.5C572.6 279.9 574.7 273.1 576.5 266.5C578.4 259.9 580.6 252.5 581.4 250.0C582.1 247.5 583.3 243.5 584.0 241.0C584.7 238.5 586.1 234.0 587.0 231.0C589.7 222.5 594.8 204.8 599.7 187.5C602.7 176.5 603.9 172.4 608.0 159.0C609.8 153.2 611.8 146.2 612.5 143.5C613.2 140.8 615.2 133.8 617.0 128.0C618.7 122.2 620.5 115.9 620.9 113.9C621.3 112.0 621.9 109.9 622.3 109.4C622.6 108.8 624.0 104.3 625.3 99.4C627.5 91.6 631.0 79.6 638.0 56.0C639.0 52.4 640.9 46.0 642.2 41.7L644.5 33.9L649.0 34.4C651.5 34.7 658.5 35.4 664.5 36.0C670.5 36.6 678.0 37.7 681.0 38.5C684.0 39.2 689.0 40.2 692.0 40.5C695.0 40.9 698.3 41.6 699.2 42.1C700.1 42.6 704.4 43.5 708.7 44.1C713.0 44.6 719.0 45.9 722.0 46.9C725.0 48.0 729.5 49.1 732.0 49.5C734.5 49.9 737.6 50.8 739.0 51.5C740.4 52.2 744.2 53.4 747.5 54.3C750.8 55.2 754.9 56.3 756.5 56.9C758.1 57.5 762.6 58.9 766.5 60.1C783.0 65.0 814.2 78.3 837.0 90.0C848.4 95.8 858.7 101.5 860.1 102.6C860.9 103.4 862.1 104.0 862.7 104.0C864.2 104.0 888.3 119.8 905.9 132.5C925.1 146.3 958.3 176.9 975.0 196.3L978.2 200.0L856.6 200.0C789.7 200.0 735.0 200.2 735.0 200.3C735.0 200.6 710.2 283.6 708.4 289.2C707.9 290.9 714.5 291.0 834.2 291.2L960.5 291.5L953.5 298.5C947.3 304.6 941.2 310.5 925.5 324.8C920.0 329.9 912.1 336.3 906.7 340.2C904.2 342.0 898.6 346.2 894.3 349.4C890.0 352.7 884.9 356.5 883.0 357.9C868.8 368.6 824.3 392.8 799.0 403.6C794.3 405.6 788.7 408.0 786.5 409.0C784.3 410.0 780.5 411.5 778.0 412.3C775.5 413.2 769.7 415.3 765.0 417.0C760.3 418.8 753.4 421.0 749.5 422.0C745.6 423.0 741.1 424.3 739.5 424.9C731.5 427.6 722.9 429.9 717.0 430.9C710.7 432.1 707.6 433.0 701.5 435.6C699.9 436.3 692.4 437.8 685.0 439.0C638.4 446.3 613.5 449.8 613.0 449.2C612.7 448.7 603.0 448.6 591.5 449.0C580.0 449.3 560.3 449.2 547.8 448.9ZM36.4 439.9C39.3 430.3 43.3 418.3 45.1 413.8C46.2 411.2 47.0 408.6 47.0 408.0C47.0 407.3 47.6 405.4 48.4 403.7C50.5 398.8 62.0 369.2 62.0 368.6C62.0 368.0 70.2 350.7 80.1 330.5C86.7 317.0 94.3 302.6 98.3 296.3C99.8 293.9 101.0 291.8 101.0 291.5C101.0 291.2 102.5 288.8 104.2 286.1C106.0 283.4 110.8 276.0 114.9 269.6C124.7 254.1 141.9 230.8 150.0 222.0C150.8 221.1 154.2 217.3 157.5 213.5C173.2 195.1 202.8 167.1 222.4 151.8C226.2 148.9 232.5 144.0 236.4 140.9C245.6 133.7 277.8 112.5 285.5 108.5C287.1 107.7 289.9 106.1 291.5 105.0C303.7 96.8 366.4 68.6 384.2 63.4C387.0 62.5 390.3 61.2 391.4 60.5C392.6 59.8 396.1 58.7 399.3 58.1C402.4 57.5 406.0 56.5 407.3 55.9C408.5 55.2 411.1 54.3 413.0 53.9C414.9 53.5 421.9 51.8 428.5 50.0C442.3 46.3 446.2 45.4 454.5 43.9C457.8 43.4 461.5 42.5 462.7 42.0C464.0 41.5 468.9 40.6 473.6 40.0C478.4 39.4 483.0 38.5 483.9 38.1C485.5 37.2 488.3 36.8 508.5 34.9C514.5 34.3 521.8 33.5 524.5 33.0C527.2 32.5 536.5 31.8 545.0 31.6C594.1 30.0 608.0 29.8 608.0 30.4C608.0 31.2 605.8 39.0 602.0 52.0C600.9 55.6 598.7 63.2 597.0 69.0C595.3 74.8 593.5 80.3 593.0 81.2C592.4 82.2 592.0 83.5 592.0 84.2C592.0 85.3 590.3 91.3 584.5 110.0C581.3 120.6 578.4 130.5 576.5 137.5C574.8 143.6 573.8 146.9 572.4 150.5C572.0 151.6 571.2 154.3 570.6 156.5L569.5 160.5L492.0 160.7C449.4 160.9 408.9 161.0 402.0 161.0L389.5 161.0L388.2 163.7C387.6 165.2 387.0 167.1 387.0 167.9C387.0 168.7 385.9 172.5 384.6 176.4C382.2 183.3 373.0 214.4 373.0 215.5C373.0 215.8 398.1 216.0 428.8 216.0C459.4 215.9 497.2 215.9 512.8 216.0L541.1 216.0L540.5 219.8C540.1 221.8 538.8 226.7 537.5 230.5C534.8 238.7 531.4 250.1 526.9 265.5C525.2 271.6 523.4 276.9 522.9 277.4C522.4 278.0 522.0 279.1 522.0 279.9C522.0 280.8 520.3 287.2 518.3 294.2L514.5 307.0L433.4 307.0C369.7 307.0 352.0 307.3 351.3 308.2C350.7 308.9 349.3 312.9 348.0 317.0C346.8 321.1 344.7 327.9 343.5 332.0C342.2 336.1 340.2 342.6 339.1 346.5C322.5 402.3 323.6 400.1 317.0 395.7C315.1 394.4 309.0 390.8 303.5 387.6C292.0 381.1 292.9 381.7 279.1 372.4C273.3 368.5 266.7 364.2 264.5 362.7C262.3 361.2 260.0 359.6 259.5 359.2C258.9 358.7 256.2 356.8 253.5 354.9C245.4 349.3 233.1 340.2 223.7 332.7C214.2 325.2 212.1 324.7 216.5 331.0L219.3 335.0L216.9 337.7C213.8 341.0 192.8 359.3 185.9 364.5C175.6 372.5 150.5 389.4 142.2 394.0C139.9 395.3 138.0 396.7 138.0 397.1C138.0 397.4 136.5 398.4 134.8 399.1C133.0 399.8 128.8 401.9 125.5 403.8C113.5 410.6 91.2 422.0 90.0 422.0C89.2 422.0 87.9 422.6 87.1 423.3C85.1 425.0 69.7 431.9 61.0 435.1C59.1 435.8 56.3 437.2 54.8 438.2C53.4 439.2 51.1 440.0 49.8 440.0C48.5 440.0 46.5 440.7 45.3 441.5C44.2 442.3 41.4 443.2 39.1 443.6L35.0 444.3L36.4 439.9ZM118.3 205.4C116.8 204.7 104.6 188.4 99.4 180.0C92.2 168.4 88.0 161.2 88.0 160.4C88.0 160.0 87.3 158.9 86.5 158.0C84.1 155.4 67.7 121.8 62.0 108.0C60.8 105.0 59.0 100.7 58.0 98.5C57.1 96.3 55.0 91.1 53.5 87.0C52.0 82.9 50.2 78.2 49.5 76.5C46.0 68.4 42.0 57.3 42.0 55.6C42.0 54.5 41.4 52.9 40.7 52.1C39.0 50.1 34.8 36.1 35.5 34.9C36.1 34.0 38.5 34.9 54.5 42.0C56.7 42.9 60.1 44.4 62.0 45.3C71.3 49.4 79.7 53.5 82.0 55.0C83.4 56.0 85.6 57.1 87.0 57.5C88.4 57.9 90.6 59.0 92.0 60.0C93.4 60.9 98.5 63.9 103.5 66.5C115.6 73.0 139.5 87.9 153.0 97.5C156.6 100.0 161.3 103.3 163.5 104.8C170.1 109.3 175.9 113.7 188.2 123.9L200.0 133.5L192.7 140.4C188.8 144.1 181.4 150.9 176.5 155.3C156.3 173.4 150.1 179.0 139.7 188.5C129.4 197.9 120.0 206.1 119.6 205.9C119.6 205.9 119.0 205.6 118.3 205.4Z\"/><path fill=\"#FFFFFF\" d=\"M51.62 157.908C49.78 157.908 48.0067 157.695 46.3 157.268C44.62 156.815 43.2867 156.255 42.3 155.588L44.38 151.108C45.3667 151.722 46.5267 152.228 47.86 152.628C49.22 153.002 50.5533 153.188 51.86 153.188C53.3 153.188 54.3133 153.015 54.9 152.668C55.5133 152.322 55.82 151.842 55.82 151.228C55.82 150.722 55.58 150.348 55.1 150.108C54.6467 149.842 54.0333 149.642 53.26 149.508C52.4867 149.375 51.6333 149.242 50.7 149.108C49.7933 148.975 48.8733 148.802 47.94 148.588C47.0067 148.348 46.1533 148.002 45.38 147.548C44.6067 147.095 43.98 146.482 43.5 145.708C43.0467 144.935 42.82 143.935 42.82 142.708C42.82 141.348 43.2067 140.148 43.98 139.108C44.78 138.068 45.9267 137.255 47.42 136.668C48.9133 136.055 50.7 135.748 52.78 135.748C54.2467 135.748 55.74 135.908 57.26 136.228C58.78 136.548 60.0467 137.015 61.06 137.628L58.98 142.068C57.94 141.455 56.8867 141.042 55.82 140.828C54.78 140.588 53.7667 140.468 52.78 140.468C51.3933 140.468 50.38 140.655 49.74 141.028C49.1 141.402 48.78 141.882 48.78 142.468C48.78 143.002 49.0067 143.402 49.46 143.668C49.94 143.935 50.5667 144.148 51.34 144.308C52.1133 144.468 52.9533 144.615 53.86 144.748C54.7933 144.855 55.7267 145.028 56.66 145.268C57.5933 145.508 58.4333 145.855 59.18 146.308C59.9533 146.735 60.58 147.335 61.06 148.108C61.54 148.855 61.78 149.842 61.78 151.068C61.78 152.402 61.38 153.588 60.58 154.628C59.78 155.642 58.62 156.442 57.1 157.028C55.6067 157.615 53.78 157.908 51.62 157.908ZM79.23 157.908C76.6967 157.908 74.7233 157.268 73.31 155.988C71.8967 154.682 71.19 152.748 71.19 150.188V131.308H77.43V150.108C77.43 151.015 77.67 151.722 78.15 152.228C78.63 152.708 79.2833 152.948 80.11 152.948C81.0967 152.948 81.9367 152.682 82.63 152.148L84.31 156.548C83.67 157.002 82.8967 157.348 81.99 157.588C81.11 157.802 80.19 157.908 79.23 157.908ZM67.87 140.868V136.068H82.79V140.868H67.87ZM101.693 157.908C99.9061 157.908 98.3061 157.562 96.8928 156.868C95.5061 156.175 94.4261 155.122 93.6528 153.708C92.8795 152.268 92.4928 150.442 92.4928 148.228V136.068H98.7328V147.308C98.7328 149.095 99.1061 150.415 99.8528 151.268C100.626 152.095 101.706 152.508 103.093 152.508C104.053 152.508 104.906 152.308 105.653 151.908C106.399 151.482 106.986 150.842 107.413 149.988C107.839 149.108 108.053 148.015 108.053 146.708V136.068H114.293V157.588H108.373V151.668L109.453 153.388C108.733 154.882 107.666 156.015 106.253 156.788C104.866 157.535 103.346 157.908 101.693 157.908ZM134.114 157.908C132.087 157.908 130.26 157.455 128.634 156.548C127.007 155.615 125.714 154.322 124.754 152.668C123.82 151.015 123.354 149.068 123.354 146.828C123.354 144.562 123.82 142.602 124.754 140.948C125.714 139.295 127.007 138.015 128.634 137.108C130.26 136.202 132.087 135.748 134.114 135.748C135.927 135.748 137.514 136.148 138.874 136.948C140.234 137.748 141.287 138.962 142.034 140.588C142.78 142.215 143.154 144.295 143.154 146.828C143.154 149.335 142.794 151.415 142.074 153.068C141.354 154.695 140.314 155.908 138.954 156.708C137.62 157.508 136.007 157.908 134.114 157.908ZM135.194 152.788C136.207 152.788 137.127 152.548 137.954 152.068C138.78 151.588 139.434 150.908 139.914 150.028C140.42 149.122 140.674 148.055 140.674 146.828C140.674 145.575 140.42 144.508 139.914 143.628C139.434 142.748 138.78 142.068 137.954 141.588C137.127 141.108 136.207 140.868 135.194 140.868C134.154 140.868 133.22 141.108 132.394 141.588C131.567 142.068 130.9 142.748 130.394 143.628C129.914 144.508 129.674 145.575 129.674 146.828C129.674 148.055 129.914 149.122 130.394 150.028C130.9 150.908 131.567 151.588 132.394 152.068C133.22 152.548 134.154 152.788 135.194 152.788ZM140.834 157.588V153.188L140.954 146.788L140.554 140.428V127.908H146.794V157.588H140.834ZM157.369 157.588V136.068H163.609V157.588H157.369ZM160.489 133.068C159.342 133.068 158.409 132.735 157.689 132.068C156.969 131.402 156.609 130.575 156.609 129.588C156.609 128.602 156.969 127.775 157.689 127.108C158.409 126.442 159.342 126.108 160.489 126.108C161.636 126.108 162.569 126.428 163.289 127.068C164.009 127.682 164.369 128.482 164.369 129.468C164.369 130.508 164.009 131.375 163.289 132.068C162.596 132.735 161.662 133.068 160.489 133.068ZM184.44 157.908C182.147 157.908 180.107 157.428 178.32 156.468C176.56 155.508 175.16 154.202 174.12 152.548C173.107 150.868 172.6 148.962 172.6 146.828C172.6 144.668 173.107 142.762 174.12 141.108C175.16 139.428 176.56 138.122 178.32 137.188C180.107 136.228 182.147 135.748 184.44 135.748C186.707 135.748 188.734 136.228 190.52 137.188C192.307 138.122 193.707 139.415 194.72 141.068C195.734 142.722 196.24 144.642 196.24 146.828C196.24 148.962 195.734 150.868 194.72 152.548C193.707 154.202 192.307 155.508 190.52 156.468C188.734 157.428 186.707 157.908 184.44 157.908ZM184.44 152.788C185.48 152.788 186.414 152.548 187.24 152.068C188.067 151.588 188.72 150.908 189.2 150.028C189.68 149.122 189.92 148.055 189.92 146.828C189.92 145.575 189.68 144.508 189.2 143.628C188.72 142.748 188.067 142.068 187.24 141.588C186.414 141.108 185.48 140.868 184.44 140.868C183.4 140.868 182.467 141.108 181.64 141.588C180.814 142.068 180.147 142.748 179.64 143.628C179.16 144.508 178.92 145.575 178.92 146.828C178.92 148.055 179.16 149.122 179.64 150.028C180.147 150.908 180.814 151.588 181.64 152.068C182.467 152.548 183.4 152.788 184.44 152.788Z\"/></svg></div>",
+          "_title": "Foto (provisório: logo)"
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "ec66a78",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4193,30 +4306,30 @@
         "_title": "Texto",
         "flex_gap": {
          "unit": "px",
-         "size": 20,
-         "column": "20",
-         "row": "20",
+         "size": 24,
+         "column": "24",
+         "row": "24",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 18,
-         "column": "18",
-         "row": "18",
+         "size": 22,
+         "column": "22",
+         "row": "22",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 2.162,
-         "column": "2.162",
-         "row": "2.162",
+         "size": 2.703,
+         "column": "2.703",
+         "row": "2.703",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 3.59,
-         "column": "3.59",
-         "row": "3.59",
+         "size": 4.615,
+         "column": "4.615",
+         "row": "4.615",
          "isLinked": true
         },
         "padding": {
@@ -4253,7 +4366,7 @@
         },
         "width": {
          "unit": "%",
-         "size": 42
+         "size": 56
         },
         "width_tablet": {
          "unit": "%",
@@ -4270,28 +4383,53 @@
        },
        "elements": [
         {
-         "id": "34b9b5d",
+         "id": "881ed16",
+         "elType": "widget",
+         "widgetType": "html",
+         "settings": {
+          "html": "<div class=\"fc-traco\" aria-hidden=\"true\"></div>",
+          "_title": "Traço com ponto"
+         },
+         "elements": []
+        },
+        {
+         "id": "6d76b07",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Somos um estúdio de Strategic UI/UX Design",
-          "header_size": "h2",
+          "title": "Quem somos",
+          "header_size": "p",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h2",
-           "title_color": "globals/colors?id=secondary"
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=primary"
           }
          },
          "elements": []
         },
         {
-         "id": "7f15052",
+         "id": "c6f8771",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Não criamos apenas telas, construímos <span class=\"fc-verde\">soluções de negócio</span>",
+          "header_size": "h2",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h2",
+           "title_color": "globals/colors?id=secondary"
+          },
+          "_css_classes": "fc-barra"
+         },
+         "elements": []
+        },
+        {
+         "id": "506bf2e",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>A FCStudio une design de interface, experiência do usuário e estratégia de negócio. Antes de desenhar qualquer tela, entendemos quem é o seu cliente, o que ele procura e o que faz ele decidir.</p>",
+          "editor": "<p>Mais do que interfaces bonitas: na FCStudio, unimos <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a experiência do seu usuário em <strong>resultados reais de vendas</strong>.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_lead",
-           "text_color": "globals/colors?id=text"
+           "text_color": "globals/colors?id=cinza300"
           },
           "paragraph_spacing": {
            "unit": "px",
@@ -4313,11 +4451,11 @@
          "elements": []
         },
         {
-         "id": "ae2eb15",
+         "id": "7731af1",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>O resultado são sites, chatbots e campanhas que ficam bonitos porque funcionam.</p>",
+          "editor": "<p>Desenhamos fluxos intuitivos que guiam seu cliente com facilidade até o <strong>momento da compra</strong>, e acompanhamos os números depois do lançamento para ajustar o que for preciso.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"
@@ -4340,637 +4478,84 @@
           }
          },
          "elements": []
-        }
-       ]
-      },
-      {
-       "id": "3f98e27",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "_title": "Princípios",
-        "flex_gap": {
-         "unit": "px",
-         "size": 0,
-         "column": "0",
-         "row": "0",
-         "isLinked": true
-        },
-        "flex_gap_tablet": {
-         "unit": "px",
-         "size": 0,
-         "column": "0",
-         "row": "0",
-         "isLinked": true
-        },
-        "flex_gap_mobile_extra": {
-         "unit": "vw",
-         "size": 0.0,
-         "column": "0.0",
-         "row": "0.0",
-         "isLinked": true
-        },
-        "flex_gap_mobile": {
-         "unit": "vw",
-         "size": 0.0,
-         "column": "0.0",
-         "row": "0.0",
-         "isLinked": true
-        },
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "0.0",
-         "right": "0.0",
-         "bottom": "0.0",
-         "left": "0.0",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "0.0",
-         "right": "0.0",
-         "bottom": "0.0",
-         "left": "0.0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "%",
-         "size": 58
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100
-        },
-        "width_mobile_extra": {
-         "unit": "%",
-         "size": 100
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        }
-       },
-       "elements": [
-        {
-         "id": "506bf2e",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "flex_direction": "row",
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "column",
-          "flex_wrap": "nowrap",
-          "_title": "Estratégia antes da tela",
-          "flex_gap": {
-           "unit": "px",
-           "size": 32,
-           "column": "32",
-           "row": "32",
-           "isLinked": true
-          },
-          "flex_gap_tablet": {
-           "unit": "px",
-           "size": 24,
-           "column": "24",
-           "row": "24",
-           "isLinked": true
-          },
-          "flex_gap_mobile_extra": {
-           "unit": "vw",
-           "size": 2.703,
-           "column": "2.703",
-           "row": "2.703",
-           "isLinked": true
-          },
-          "flex_gap_mobile": {
-           "unit": "vw",
-           "size": 1.538,
-           "column": "1.538",
-           "row": "1.538",
-           "isLinked": true
-          },
-          "padding": {
-           "unit": "px",
-           "top": "28",
-           "right": "0",
-           "bottom": "28",
-           "left": "0",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "24",
-           "right": "0",
-           "bottom": "24",
-           "left": "0",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.703",
-           "right": "0.0",
-           "bottom": "2.703",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "5.128",
-           "right": "0.0",
-           "bottom": "5.128",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "border_border": "solid",
-          "border_width": {
-           "unit": "px",
-           "top": "1",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          },
-          "__globals__": {
-           "border_color": "globals/colors?id=cinza300"
-          },
-          "border_width_mobile_extra": {
-           "unit": "vw",
-           "top": "0.135",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          },
-          "border_width_mobile": {
-           "unit": "vw",
-           "top": "0.256",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": [
-          {
-           "id": "6d76b07",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "Estratégia antes da tela",
-            "header_size": "h3",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
-             "title_color": "globals/colors?id=secondary"
-            },
-            "_element_width": "initial",
-            "_element_custom_width": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_tablet": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_mobile_extra": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_mobile": {
-             "unit": "%",
-             "size": 100
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "c6f8771",
-           "elType": "widget",
-           "widgetType": "text-editor",
-           "settings": {
-            "editor": "<p>Começamos pelo seu cliente e pelo seu objetivo de venda, não por um modelo pronto.</p>",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
-             "text_color": "globals/colors?id=text"
-            },
-            "paragraph_spacing": {
-             "unit": "px",
-             "size": 0
-            },
-            "paragraph_spacing_tablet": {
-             "unit": "px",
-             "size": 0
-            },
-            "paragraph_spacing_mobile_extra": {
-             "unit": "vw",
-             "size": 0.0
-            },
-            "paragraph_spacing_mobile": {
-             "unit": "vw",
-             "size": 0.0
-            },
-            "_element_width": "initial",
-            "_element_custom_width": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_tablet": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_mobile_extra": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_mobile": {
-             "unit": "%",
-             "size": 100
-            }
-           },
-           "elements": []
-          }
-         ]
         },
         {
-         "id": "ec66a78",
-         "elType": "container",
-         "isInner": true,
+         "id": "95e761d",
+         "elType": "widget",
+         "widgetType": "button",
          "settings": {
-          "content_width": "full",
-          "flex_direction": "row",
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "column",
-          "flex_wrap": "nowrap",
-          "_title": "Design que gera contato",
-          "flex_gap": {
-           "unit": "px",
-           "size": 32,
-           "column": "32",
-           "row": "32",
-           "isLinked": true
-          },
-          "flex_gap_tablet": {
-           "unit": "px",
-           "size": 24,
-           "column": "24",
-           "row": "24",
-           "isLinked": true
-          },
-          "flex_gap_mobile_extra": {
-           "unit": "vw",
-           "size": 2.703,
-           "column": "2.703",
-           "row": "2.703",
-           "isLinked": true
-          },
-          "flex_gap_mobile": {
-           "unit": "vw",
-           "size": 1.538,
-           "column": "1.538",
-           "row": "1.538",
-           "isLinked": true
-          },
-          "padding": {
-           "unit": "px",
-           "top": "28",
-           "right": "0",
-           "bottom": "28",
-           "left": "0",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "24",
-           "right": "0",
-           "bottom": "24",
-           "left": "0",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.703",
-           "right": "0.0",
-           "bottom": "2.703",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "5.128",
-           "right": "0.0",
-           "bottom": "5.128",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "border_border": "solid",
-          "border_width": {
-           "unit": "px",
-           "top": "1",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
+          "text": "Solicite um orçamento",
+          "link": {
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+           "is_external": true,
+           "nofollow": ""
           },
           "__globals__": {
-           "border_color": "globals/colors?id=cinza300"
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=preto",
+           "background_color": "globals/colors?id=primary"
           },
-          "border_width_mobile_extra": {
+          "background_color": "#00000000",
+          "border_radius": {
+           "unit": "px",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "0.135",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
            "isLinked": false
           },
-          "border_width_mobile": {
-           "unit": "vw",
-           "top": "0.256",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
            "isLinked": false
-          }
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.615",
+           "right": "5.641",
+           "bottom": "4.615",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify",
+          "_css_classes": "fc-neon"
          },
-         "elements": [
-          {
-           "id": "7731af1",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "Design que gera contato",
-            "header_size": "h3",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
-             "title_color": "globals/colors?id=secondary"
-            },
-            "_element_width": "initial",
-            "_element_custom_width": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_tablet": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_mobile_extra": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_mobile": {
-             "unit": "%",
-             "size": 100
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "95e761d",
-           "elType": "widget",
-           "widgetType": "text-editor",
-           "settings": {
-            "editor": "<p>Cada página tem um caminho claro até o WhatsApp, o formulário ou a compra.</p>",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
-             "text_color": "globals/colors?id=text"
-            },
-            "paragraph_spacing": {
-             "unit": "px",
-             "size": 0
-            },
-            "paragraph_spacing_tablet": {
-             "unit": "px",
-             "size": 0
-            },
-            "paragraph_spacing_mobile_extra": {
-             "unit": "vw",
-             "size": 0.0
-            },
-            "paragraph_spacing_mobile": {
-             "unit": "vw",
-             "size": 0.0
-            },
-            "_element_width": "initial",
-            "_element_custom_width": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_tablet": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_mobile_extra": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_mobile": {
-             "unit": "%",
-             "size": 100
-            }
-           },
-           "elements": []
-          }
-         ]
-        },
-        {
-         "id": "4cbd87a",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "flex_direction": "row",
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "column",
-          "flex_wrap": "nowrap",
-          "_title": "Acompanhamento depois do lançamento",
-          "flex_gap": {
-           "unit": "px",
-           "size": 32,
-           "column": "32",
-           "row": "32",
-           "isLinked": true
-          },
-          "flex_gap_tablet": {
-           "unit": "px",
-           "size": 24,
-           "column": "24",
-           "row": "24",
-           "isLinked": true
-          },
-          "flex_gap_mobile_extra": {
-           "unit": "vw",
-           "size": 2.703,
-           "column": "2.703",
-           "row": "2.703",
-           "isLinked": true
-          },
-          "flex_gap_mobile": {
-           "unit": "vw",
-           "size": 1.538,
-           "column": "1.538",
-           "row": "1.538",
-           "isLinked": true
-          },
-          "padding": {
-           "unit": "px",
-           "top": "28",
-           "right": "0",
-           "bottom": "28",
-           "left": "0",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "24",
-           "right": "0",
-           "bottom": "24",
-           "left": "0",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.703",
-           "right": "0.0",
-           "bottom": "2.703",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "5.128",
-           "right": "0.0",
-           "bottom": "5.128",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "border_border": "solid",
-          "border_width": {
-           "unit": "px",
-           "top": "1",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          },
-          "__globals__": {
-           "border_color": "globals/colors?id=cinza300"
-          },
-          "border_width_mobile_extra": {
-           "unit": "vw",
-           "top": "0.135",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          },
-          "border_width_mobile": {
-           "unit": "vw",
-           "top": "0.256",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": [
-          {
-           "id": "7403e43",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "Acompanhamento depois do lançamento",
-            "header_size": "h3",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
-             "title_color": "globals/colors?id=secondary"
-            },
-            "_element_width": "initial",
-            "_element_custom_width": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_tablet": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_mobile_extra": {
-             "unit": "%",
-             "size": 40
-            },
-            "_element_custom_width_mobile": {
-             "unit": "%",
-             "size": 100
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "5c90a95",
-           "elType": "widget",
-           "widgetType": "text-editor",
-           "settings": {
-            "editor": "<p>Medimos o que funciona e ajustamos com você nos meses seguintes.</p>",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
-             "text_color": "globals/colors?id=text"
-            },
-            "paragraph_spacing": {
-             "unit": "px",
-             "size": 0
-            },
-            "paragraph_spacing_tablet": {
-             "unit": "px",
-             "size": 0
-            },
-            "paragraph_spacing_mobile_extra": {
-             "unit": "vw",
-             "size": 0.0
-            },
-            "paragraph_spacing_mobile": {
-             "unit": "vw",
-             "size": 0.0
-            },
-            "_element_width": "initial",
-            "_element_custom_width": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_tablet": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_mobile_extra": {
-             "unit": "%",
-             "size": 60
-            },
-            "_element_custom_width_mobile": {
-             "unit": "%",
-             "size": 100
-            }
-           },
-           "elements": []
-          }
-         ]
+         "elements": []
         }
        ]
       }
@@ -4979,7 +4564,7 @@
    ]
   },
   {
-   "id": "b1fee08",
+   "id": "e01f505",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -5058,11 +4643,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "planos"
+    "_element_id": "planos",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "5051c1c",
+     "id": "92b1d3f",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5132,7 +4718,7 @@
      },
      "elements": [
       {
-       "id": "e01f505",
+       "id": "c3baea9",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -5141,12 +4727,13 @@
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h2",
          "title_color": "globals/colors?id=secondary"
-        }
+        },
+        "_css_classes": "fc-barra"
        },
        "elements": []
       },
       {
-       "id": "d17f9ac",
+       "id": "8ede0d7",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -5177,7 +4764,7 @@
      ]
     },
     {
-     "id": "5712424",
+     "id": "ca02135",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5252,7 +4839,7 @@
      },
      "elements": [
       {
-       "id": "babced2",
+       "id": "8673472",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -5260,7 +4847,7 @@
         "flex_direction": "column",
         "background_background": "classic",
         "__globals__": {
-         "background_color": "globals/colors?id=branco"
+         "background_color": "globals/colors?id=card"
         },
         "padding": {
          "unit": "px",
@@ -5324,26 +4911,26 @@
         },
         "border_radius": {
          "unit": "px",
-         "top": "16",
-         "right": "16",
-         "bottom": "16",
-         "left": "16",
+         "top": "8",
+         "right": "8",
+         "bottom": "8",
+         "left": "8",
          "isLinked": true
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.892",
-         "right": "1.892",
-         "bottom": "1.892",
-         "left": "1.892",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
          "isLinked": true
         },
         "border_radius_mobile": {
          "unit": "vw",
-         "top": "3.59",
-         "right": "3.59",
-         "bottom": "3.59",
-         "left": "3.59",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
          "isLinked": true
         },
         "_title": "Plano Essencial",
@@ -5367,7 +4954,7 @@
        },
        "elements": [
         {
-         "id": "b2f14c9",
+         "id": "4cbd87a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5381,7 +4968,7 @@
          "elements": []
         },
         {
-         "id": "c7a2ea2",
+         "id": "3f98e27",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -5410,7 +4997,7 @@
          "elements": []
         },
         {
-         "id": "3e7d1bf",
+         "id": "cb5c742",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5424,7 +5011,7 @@
          "elements": []
         },
         {
-         "id": "14f4733",
+         "id": "2e05319",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5438,13 +5025,13 @@
          "elements": []
         },
         {
-         "id": "e00902c",
+         "id": "930d6ea",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "930d6ea",
+            "_id": "b2f14c9",
             "text": "1 página focada em uma oferta",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5452,7 +5039,7 @@
             }
            },
            {
-            "_id": "4cdd205",
+            "_id": "c7a2ea2",
             "text": "Botão de WhatsApp em todas as telas",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5460,7 +5047,7 @@
             }
            },
            {
-            "_id": "8673472",
+            "_id": "3e7d1bf",
             "text": "Domínio e SSL configurados",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5468,7 +5055,7 @@
             }
            },
            {
-            "_id": "7ebff20",
+            "_id": "14f4733",
             "text": "Entrega em 10 dias",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5533,7 +5120,7 @@
          "elements": []
         },
         {
-         "id": "57ee05c",
+         "id": "4cdd205",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -5576,29 +5163,37 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -5606,27 +5201,19 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
@@ -5638,7 +5225,7 @@
        ]
       },
       {
-       "id": "26e8755",
+       "id": "6b0a18e",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -5646,7 +5233,7 @@
         "flex_direction": "column",
         "background_background": "classic",
         "__globals__": {
-         "background_color": "globals/colors?id=secondary"
+         "background_color": "globals/colors?id=card"
         },
         "padding": {
          "unit": "px",
@@ -5710,26 +5297,26 @@
         },
         "border_radius": {
          "unit": "px",
-         "top": "16",
-         "right": "16",
-         "bottom": "16",
-         "left": "16",
+         "top": "8",
+         "right": "8",
+         "bottom": "8",
+         "left": "8",
          "isLinked": true
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.892",
-         "right": "1.892",
-         "bottom": "1.892",
-         "left": "1.892",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
          "isLinked": true
         },
         "border_radius_mobile": {
          "unit": "vw",
-         "top": "3.59",
-         "right": "3.59",
-         "bottom": "3.59",
-         "left": "3.59",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
          "isLinked": true
         },
         "_title": "Plano Empresa",
@@ -5755,7 +5342,7 @@
        },
        "elements": [
         {
-         "id": "72e6cc3",
+         "id": "7ebff20",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5763,7 +5350,7 @@
           "header_size": "p",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_caption",
-           "title_color": "globals/colors?id=secondary",
+           "title_color": "globals/colors?id=preto",
            "_background_color": "globals/colors?id=accent"
           },
           "_element_width": "auto",
@@ -5829,7 +5416,7 @@
          "elements": []
         },
         {
-         "id": "49b64a0",
+         "id": "e00902c",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5843,7 +5430,7 @@
          "elements": []
         },
         {
-         "id": "9be4bcf",
+         "id": "57ee05c",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -5872,7 +5459,7 @@
          "elements": []
         },
         {
-         "id": "faecbd3",
+         "id": "babced2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5886,7 +5473,7 @@
          "elements": []
         },
         {
-         "id": "12bd4ac",
+         "id": "72e6cc3",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -5900,13 +5487,13 @@
          "elements": []
         },
         {
-         "id": "c1d3fcf",
+         "id": "1e398f1",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "1e398f1",
+            "_id": "49b64a0",
             "text": "Até 6 páginas",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5914,7 +5501,7 @@
             }
            },
            {
-            "_id": "830e07b",
+            "_id": "9be4bcf",
             "text": "Google Meu Negócio otimizado",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5922,7 +5509,7 @@
             }
            },
            {
-            "_id": "6b0a18e",
+            "_id": "faecbd3",
             "text": "Página para cada produto ou serviço",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5930,7 +5517,7 @@
             }
            },
            {
-            "_id": "2a3af4d",
+            "_id": "12bd4ac",
             "text": "3 meses de suporte",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5995,7 +5582,7 @@
          "elements": []
         },
         {
-         "id": "5790f82",
+         "id": "830e07b",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -6007,35 +5594,43 @@
           },
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_button",
-           "button_text_color": "globals/colors?id=branco",
+           "button_text_color": "globals/colors?id=preto",
            "background_color": "globals/colors?id=primary"
           },
           "background_color": "#00000000",
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -6043,31 +5638,24 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
           "align_mobile": "justify",
+          "_css_classes": "fc-neon",
           "align": "justify"
          },
          "elements": []
@@ -6075,7 +5663,7 @@
        ]
       },
       {
-       "id": "ca02135",
+       "id": "13deef8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6083,7 +5671,7 @@
         "flex_direction": "column",
         "background_background": "classic",
         "__globals__": {
-         "background_color": "globals/colors?id=branco"
+         "background_color": "globals/colors?id=card"
         },
         "padding": {
          "unit": "px",
@@ -6147,26 +5735,26 @@
         },
         "border_radius": {
          "unit": "px",
-         "top": "16",
-         "right": "16",
-         "bottom": "16",
-         "left": "16",
+         "top": "8",
+         "right": "8",
+         "bottom": "8",
+         "left": "8",
          "isLinked": true
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.892",
-         "right": "1.892",
-         "bottom": "1.892",
-         "left": "1.892",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
          "isLinked": true
         },
         "border_radius_mobile": {
          "unit": "vw",
-         "top": "3.59",
-         "right": "3.59",
-         "bottom": "3.59",
-         "left": "3.59",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
          "isLinked": true
         },
         "_title": "Plano Crescimento",
@@ -6190,7 +5778,7 @@
        },
        "elements": [
         {
-         "id": "eeeacbe",
+         "id": "2a3af4d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -6204,7 +5792,7 @@
          "elements": []
         },
         {
-         "id": "7d2caf8",
+         "id": "c1d3fcf",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -6233,7 +5821,7 @@
          "elements": []
         },
         {
-         "id": "6bf46c6",
+         "id": "5790f82",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -6247,7 +5835,7 @@
          "elements": []
         },
         {
-         "id": "0a097c9",
+         "id": "26e8755",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -6261,13 +5849,13 @@
          "elements": []
         },
         {
-         "id": "8ede0d7",
+         "id": "f646e1f",
          "elType": "widget",
          "widgetType": "icon-list",
          "settings": {
           "icon_list": [
            {
-            "_id": "f646e1f",
+            "_id": "eeeacbe",
             "text": "Tudo do plano Empresa",
             "selected_icon": {
              "value": "fas fa-check",
@@ -6275,7 +5863,7 @@
             }
            },
            {
-            "_id": "ab1031d",
+            "_id": "7d2caf8",
             "text": "Anúncios no Google e Instagram",
             "selected_icon": {
              "value": "fas fa-check",
@@ -6283,7 +5871,7 @@
             }
            },
            {
-            "_id": "13deef8",
+            "_id": "6bf46c6",
             "text": "4 vídeos editados por mês",
             "selected_icon": {
              "value": "fas fa-check",
@@ -6291,7 +5879,7 @@
             }
            },
            {
-            "_id": "c3baea9",
+            "_id": "0a097c9",
             "text": "Relatório mensal de resultados",
             "selected_icon": {
              "value": "fas fa-check",
@@ -6356,7 +5944,7 @@
          "elements": []
         },
         {
-         "id": "92b1d3f",
+         "id": "ab1031d",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -6399,29 +5987,37 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -6429,27 +6025,19 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
@@ -6465,7 +6053,7 @@
    ]
   },
   {
-   "id": "f1d69ed",
+   "id": "74c9df6",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -6474,7 +6062,7 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=branco"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
@@ -6544,11 +6132,12 @@
      "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "portfolio"
+    "_element_id": "portfolio",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "17f5e83",
+     "id": "cc011cd",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -6626,7 +6215,7 @@
      },
      "elements": [
       {
-       "id": "119a72d",
+       "id": "7f26144",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -6635,12 +6224,13 @@
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h2",
          "title_color": "globals/colors?id=secondary"
-        }
+        },
+        "_css_classes": "fc-barra"
        },
        "elements": []
       },
       {
-       "id": "d70820f",
+       "id": "9474031",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -6683,29 +6273,37 @@
         },
         "border_radius": {
          "unit": "px",
-         "top": "10",
-         "right": "10",
-         "bottom": "10",
-         "left": "10",
+         "top": "6",
+         "right": "6",
+         "bottom": "6",
+         "left": "6",
          "isLinked": true
         },
         "border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "1.351",
-         "right": "1.351",
-         "bottom": "1.351",
-         "left": "1.351",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
          "isLinked": true
         },
         "border_radius_mobile": {
          "unit": "vw",
-         "top": "2.564",
-         "right": "2.564",
-         "bottom": "2.564",
-         "left": "2.564",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
          "isLinked": true
         },
         "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "32",
+         "bottom": "20",
+         "left": "32",
+         "isLinked": false
+        },
+        "text_padding_tablet": {
          "unit": "px",
          "top": "18",
          "right": "28",
@@ -6713,27 +6311,19 @@
          "left": "28",
          "isLinked": false
         },
-        "text_padding_tablet": {
-         "unit": "px",
-         "top": "16",
-         "right": "26",
-         "bottom": "16",
-         "left": "26",
-         "isLinked": false
-        },
         "text_padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.027",
-         "right": "3.243",
-         "bottom": "2.027",
-         "left": "3.243",
+         "top": "2.297",
+         "right": "3.514",
+         "bottom": "2.297",
+         "left": "3.514",
          "isLinked": false
         },
         "text_padding_mobile": {
          "unit": "vw",
-         "top": "4.103",
+         "top": "4.615",
          "right": "5.641",
-         "bottom": "4.103",
+         "bottom": "4.615",
          "left": "5.641",
          "isLinked": false
         },
@@ -6745,7 +6335,7 @@
      ]
     },
     {
-     "id": "74c9df6",
+     "id": "98289fc",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -6820,7 +6410,7 @@
      },
      "elements": [
       {
-       "id": "59a54a7",
+       "id": "d17f9ac",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -6893,7 +6483,7 @@
        "elements": []
       },
       {
-       "id": "cc011cd",
+       "id": "59a54a7",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6978,7 +6568,7 @@
        },
        "elements": [
         {
-         "id": "98289fc",
+         "id": "5051c1c",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -6992,7 +6582,7 @@
          "elements": []
         },
         {
-         "id": "7f26144",
+         "id": "5712424",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -7021,7 +6611,7 @@
          "elements": []
         },
         {
-         "id": "9474031",
+         "id": "b1fee08",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -7064,29 +6654,37 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "10",
-           "right": "10",
-           "bottom": "10",
-           "left": "10",
+           "top": "6",
+           "right": "6",
+           "bottom": "6",
+           "left": "6",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "1.351",
-           "right": "1.351",
-           "bottom": "1.351",
-           "left": "1.351",
+           "top": "0.811",
+           "right": "0.811",
+           "bottom": "0.811",
+           "left": "0.811",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "2.564",
-           "right": "2.564",
-           "bottom": "2.564",
-           "left": "2.564",
+           "top": "1.538",
+           "right": "1.538",
+           "bottom": "1.538",
+           "left": "1.538",
            "isLinked": true
           },
           "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "32",
+           "bottom": "20",
+           "left": "32",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
            "unit": "px",
            "top": "18",
            "right": "28",
@@ -7094,27 +6692,19 @@
            "left": "28",
            "isLinked": false
           },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
           "text_padding_mobile_extra": {
            "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
+           "top": "2.297",
+           "right": "3.514",
+           "bottom": "2.297",
+           "left": "3.514",
            "isLinked": false
           },
           "text_padding_mobile": {
            "unit": "vw",
-           "top": "4.103",
+           "top": "4.615",
            "right": "5.641",
-           "bottom": "4.103",
+           "bottom": "4.615",
            "left": "5.641",
            "isLinked": false
           },
@@ -7129,7 +6719,7 @@
    ]
   },
   {
-   "id": "48db40a",
+   "id": "fe3b890",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -7208,11 +6798,12 @@
      "row": "6.154",
      "isLinked": true
     },
-    "_element_id": "duvidas"
+    "_element_id": "duvidas",
+    "css_classes": "e-no-lazyload"
    },
    "elements": [
     {
-     "id": "d269a9a",
+     "id": "a5aa3c8",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -7282,7 +6873,7 @@
      },
      "elements": [
       {
-       "id": "ae658f3",
+       "id": "4f426dc",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -7291,14 +6882,15 @@
         "__globals__": {
          "typography_typography": "globals/typography?id=fc_h2",
          "title_color": "globals/colors?id=secondary"
-        }
+        },
+        "_css_classes": "fc-barra"
        },
        "elements": []
       }
      ]
     },
     {
-     "id": "7215837",
+     "id": "93f448b",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -7368,7 +6960,7 @@
      },
      "elements": [
       {
-       "id": "b271594",
+       "id": "17f5e83",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7449,7 +7041,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -7470,7 +7062,7 @@
        },
        "elements": [
         {
-         "id": "451abd8",
+         "id": "119a72d",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -7501,7 +7093,7 @@
          "elements": []
         },
         {
-         "id": "795e822",
+         "id": "d70820f",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -7549,7 +7141,7 @@
        ]
       },
       {
-       "id": "0f88080",
+       "id": "795e822",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7630,7 +7222,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -7651,7 +7243,7 @@
        },
        "elements": [
         {
-         "id": "aa05e11",
+         "id": "f1d69ed",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -7682,7 +7274,7 @@
          "elements": []
         },
         {
-         "id": "10a3d6b",
+         "id": "451abd8",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -7730,7 +7322,7 @@
        ]
       },
       {
-       "id": "4f426dc",
+       "id": "10a3d6b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7811,7 +7403,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -7832,7 +7424,7 @@
        },
        "elements": [
         {
-         "id": "bb2d420",
+         "id": "b271594",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -7863,7 +7455,7 @@
          "elements": []
         },
         {
-         "id": "b394fb3",
+         "id": "aa05e11",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -7911,7 +7503,7 @@
        ]
       },
       {
-       "id": "fe3b890",
+       "id": "b394fb3",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7992,7 +7584,7 @@
          "isLinked": false
         },
         "__globals__": {
-         "border_color": "globals/colors?id=cinza300"
+         "border_color": "globals/colors?id=linha"
         },
         "border_width_mobile_extra": {
          "unit": "vw",
@@ -8013,7 +7605,7 @@
        },
        "elements": [
         {
-         "id": "a5aa3c8",
+         "id": "0f88080",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -8044,7 +7636,7 @@
          "elements": []
         },
         {
-         "id": "93f448b",
+         "id": "bb2d420",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -8096,7 +7688,7 @@
    ]
   },
   {
-   "id": "ab2cd31",
+   "id": "b774eb5",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -8105,29 +7697,29 @@
     "flex_direction": "column",
     "background_background": "classic",
     "__globals__": {
-     "background_color": "globals/colors?id=primary"
+     "background_color": "globals/colors?id=preto"
     },
     "padding": {
      "unit": "px",
-     "top": "112",
+     "top": "128",
      "right": "0",
-     "bottom": "112",
+     "bottom": "128",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "88",
+     "top": "96",
      "right": "40",
-     "bottom": "88",
+     "bottom": "96",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "8.649",
+     "top": "9.73",
      "right": "5.405",
-     "bottom": "8.649",
+     "bottom": "9.73",
      "left": "5.405",
      "isLinked": false
     },
@@ -8141,162 +7733,253 @@
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "112",
+     "top": "128",
      "right": "32",
-     "bottom": "112",
+     "bottom": "128",
      "left": "32",
      "isLinked": false
     },
     "flex_gap": {
      "unit": "px",
-     "size": 20,
-     "column": "20",
-     "row": "20",
+     "size": 48,
+     "column": "48",
+     "row": "48",
      "isLinked": true
     },
     "flex_gap_tablet": {
      "unit": "px",
-     "size": 20,
-     "column": "20",
-     "row": "20",
+     "size": 40,
+     "column": "40",
+     "row": "40",
      "isLinked": true
     },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 2.432,
-     "column": "2.432",
-     "row": "2.432",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
      "isLinked": true
     },
     "flex_gap_mobile": {
      "unit": "vw",
-     "size": 4.615,
-     "column": "4.615",
-     "row": "4.615",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
      "isLinked": true
     },
-    "_element_id": "contato"
+    "_element_id": "contato",
+    "css_classes": "fc-estrelas e-no-lazyload"
    },
    "elements": [
     {
-     "id": "b774eb5",
-     "elType": "widget",
-     "widgetType": "heading",
+     "id": "48db40a",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "title": "Vamos trazer mais clientes para você?",
-      "header_size": "h2",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_h2",
-       "title_color": "globals/colors?id=branco"
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "62c33a4",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu negócio.</p>",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_lead",
-       "text_color": "globals/colors?id=verde100"
-      },
-      "paragraph_spacing": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Chamada",
+      "flex_gap": {
        "unit": "px",
-       "size": 0
-      },
-      "paragraph_spacing_tablet": {
-       "unit": "px",
-       "size": 0
-      },
-      "paragraph_spacing_mobile_extra": {
-       "unit": "vw",
-       "size": 0.0
-      },
-      "paragraph_spacing_mobile": {
-       "unit": "vw",
-       "size": 0.0
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "e315128",
-     "elType": "widget",
-     "widgetType": "button",
-     "settings": {
-      "text": "Chamar no WhatsApp",
-      "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
-       "is_external": true,
-       "nofollow": ""
-      },
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_button",
-       "button_text_color": "globals/colors?id=verde700",
-       "background_color": "globals/colors?id=branco"
-      },
-      "background_color": "#00000000",
-      "border_radius": {
-       "unit": "px",
-       "top": "10",
-       "right": "10",
-       "bottom": "10",
-       "left": "10",
+       "size": 32,
+       "column": "32",
+       "row": "32",
        "isLinked": true
       },
-      "border_radius_mobile_extra": {
-       "unit": "vw",
-       "top": "1.351",
-       "right": "1.351",
-       "bottom": "1.351",
-       "left": "1.351",
-       "isLinked": true
-      },
-      "border_radius_mobile": {
-       "unit": "vw",
-       "top": "2.564",
-       "right": "2.564",
-       "bottom": "2.564",
-       "left": "2.564",
-       "isLinked": true
-      },
-      "text_padding": {
+      "flex_gap_tablet": {
        "unit": "px",
-       "top": "18",
-       "right": "28",
-       "bottom": "18",
-       "left": "28",
-       "isLinked": false
+       "size": 28,
+       "column": "28",
+       "row": "28",
+       "isLinked": true
       },
-      "text_padding_tablet": {
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 3.243,
+       "column": "3.243",
+       "row": "3.243",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 6.154,
+       "column": "6.154",
+       "row": "6.154",
+       "isLinked": true
+      },
+      "padding": {
        "unit": "px",
        "top": "16",
-       "right": "26",
-       "bottom": "16",
-       "left": "26",
+       "right": "0",
+       "bottom": "64",
+       "left": "72",
        "isLinked": false
       },
-      "text_padding_mobile_extra": {
+      "padding_tablet": {
+       "unit": "px",
+       "top": "16",
+       "right": "0",
+       "bottom": "56",
+       "left": "56",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
        "unit": "vw",
-       "top": "2.027",
-       "right": "3.243",
-       "bottom": "2.027",
-       "left": "3.243",
+       "top": "1.081",
+       "right": "0.0",
+       "bottom": "6.486",
+       "left": "5.405",
        "isLinked": false
       },
-      "text_padding_mobile": {
+      "padding_mobile": {
        "unit": "vw",
-       "top": "4.103",
-       "right": "5.641",
-       "bottom": "4.103",
-       "left": "5.641",
+       "top": "2.051",
+       "right": "0.0",
+       "bottom": "10.256",
+       "left": "7.179",
        "isLinked": false
       },
-      "align_mobile": "justify"
+      "css_classes": "fc-linha-v",
+      "width": {
+       "unit": "%",
+       "size": 72
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile_extra": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "ae658f3",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Você está pronto<br><span class=\"fc-display fc-verde\">para crescer?</span>",
+        "header_size": "h2",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_kicker",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "d269a9a",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para trazer mais clientes. Se preferir, chame direto no <a href=\"https://wa.me/5511916751926\" style=\"color:#00E600;font-weight:700;text-decoration:none;white-space:nowrap\">WhatsApp (11) 91675-1926</a>.</p>",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_lead",
+         "text_color": "globals/colors?id=cinza300"
+        },
+        "paragraph_spacing": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_tablet": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_mobile_extra": {
+         "unit": "vw",
+         "size": 0.0
+        },
+        "paragraph_spacing_mobile": {
+         "unit": "vw",
+         "size": 0.0
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7215837",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Solicite um orçamento",
+        "link": {
+         "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+         "is_external": true,
+         "nofollow": ""
+        },
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_button",
+         "button_text_color": "globals/colors?id=preto",
+         "background_color": "globals/colors?id=primary"
+        },
+        "background_color": "#00000000",
+        "border_radius": {
+         "unit": "px",
+         "top": "6",
+         "right": "6",
+         "bottom": "6",
+         "left": "6",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "0.811",
+         "right": "0.811",
+         "bottom": "0.811",
+         "left": "0.811",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "1.538",
+         "right": "1.538",
+         "bottom": "1.538",
+         "left": "1.538",
+         "isLinked": true
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "32",
+         "bottom": "20",
+         "left": "32",
+         "isLinked": false
+        },
+        "text_padding_tablet": {
+         "unit": "px",
+         "top": "18",
+         "right": "28",
+         "bottom": "18",
+         "left": "28",
+         "isLinked": false
+        },
+        "text_padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.297",
+         "right": "3.514",
+         "bottom": "2.297",
+         "left": "3.514",
+         "isLinked": false
+        },
+        "text_padding_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "5.641",
+         "bottom": "4.615",
+         "left": "5.641",
+         "isLinked": false
+        },
+        "align_mobile": "justify",
+        "_css_classes": "fc-neon"
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   }
