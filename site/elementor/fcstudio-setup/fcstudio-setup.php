@@ -116,6 +116,8 @@ function fcstudio_setup_run() {
 	foreach ( array_merge( glob( plugin_dir_path( __FILE__ ) . 'fonts/*' ), glob( plugin_dir_path( __FILE__ ) . 'ui/*' ) ) as $f ) copy( $f, $dst . basename( $f ) );
 	$fonts_url = trailingslashit( $up['baseurl'] ) . 'fcstudio-fonts/';
 	update_option( 'elementor_google_font', '0' );
+	update_option( 'blogname', 'FC Studio' ); // nome na aba do navegador e no Google
+	update_option( 'blogdescription', 'Strategic UI/UX Design' );
 	$log[] = 'Fontes Montserrat e Morganite e fundo de estrelas instalados localmente. Google Fonts desligado.';
 
 	// 1. Kit: breakpoints, largura útil, cores e fontes

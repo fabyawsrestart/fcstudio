@@ -132,7 +132,7 @@ def P(text, tid='fc_body', color='text', **extra):
     s.update(extra)
     return w('text-editor', **s)
 
-WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio'
+WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FC%20Studio'
 
 def B(text, kind='primary', url=WA, full_mobile=True, **extra):
     bg, fg, border = {'primary': ('primary', 'preto', None), 'secondary': (None, 'primary', 'primary'),
@@ -254,7 +254,7 @@ def logo_svg(color_sym, color_word):
 def LOGO(width_d=64, light=False, l=56, m=50):
     s = {'html': logo_svg('#00D61A', '#FFFFFF'), '_element_width': 'initial'}  # site todo é escuro
     s.update(slider('_element_custom_width', width_d, l=l, m=m))
-    s['_title'] = 'Logo FCStudio'
+    s['_title'] = 'Logo FC Studio'
     return w('html', **s)
 
 # ---------- página ----------
@@ -279,17 +279,17 @@ def header():
     s.update(gap('flex_gap', 24, 16, 16, 12))
     right = row([nav, cta], name='Direita', gap_=(32, 16, 12, 12), mobile_dir='row', landscape_dir='row', flex_align_items='center', flex_justify_content='flex-end')
     W(right, 'fit')
-    lg = LOGO(64, l=60, m=52); lg['settings']['html'] = '<a href="fc://home" aria-label="FCStudio, página inicial" style="display:block">' + lg['settings']['html'] + '</a>'
+    lg = LOGO(64, l=60, m=52); lg['settings']['html'] = '<a href="fc://home" aria-label="FC Studio, página inicial" style="display:block">' + lg['settings']['html'] + '</a>'
     return con([lg, right], **s)
 
 def hero():
     buttons = row([B('Solicite um orçamento', 'primary', U('orcamento')), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
     text = col([H('Strategic UI/UX Design', 'fc_caption', 'primary', 'p'),
                 H('Sites que trazem <span class="fc-verde">novos clientes</span> para o seu negócio', 'fc_h1', 'secondary', 'h1'),
-                P('Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FCStudio cuida do site, do chatbot, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
+                P('Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FC Studio cuida do site, do chatbot, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
                 buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses', 'fc_body', 'text')],
                name='Texto', gap_=(28, 24, 22, 20))
-    proof = col([IMG('gwmix', 'Site da GWmix feito pela FCStudio', shadow='verde'),
+    proof = col([IMG('gwmix', 'Site da GWmix feito pela FC Studio', shadow='verde'),
                  P('Último projeto entregue: <a href="https://gwmix.ind.br" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;text-underline-offset:.2em">gwmix.ind.br</a>', 'fc_body', 'cinza300')],
                 name='Prova: projeto real', gap_=(28, 24, 22, 20))
     W(text, 56, 100); W(proof, 44, 100)
@@ -382,7 +382,7 @@ def planos():
     return section('Planos', [head, plans_row], 'neutro50', 'planos')
 
 def portfolio():
-    img = IMG('gwmix', 'Site da GWmix feito pela FCStudio')
+    img = IMG('gwmix', 'Site da GWmix feito pela FC Studio')
     txt = col([H('GWmix', 'fc_num', 'secondary', 'h3'),
                P('Site institucional e de vendas para fabricante de bombas, misturadores e aditivos para argamassa na Grande SP. Catálogo de produtos, locação e orçamento pelo WhatsApp.'),
                B('Ver site no ar', 'secondary', 'https://gwmix.ind.br', full_mobile=True)], gap_=(16, 14, 12, 12))
@@ -419,7 +419,7 @@ def footer():
     W(c1, 40, 40, 40, 100); W(nav_, 30, 30, 30, 100); W(cont_, 30, 30, 30, 100)
     cols_ = row([c1, nav_, cont_], name='Colunas', gap_=(64, 40, 32, 32), landscape_dir='row', mobile_dir='column')
     line = w('divider', **{'__globals__': {'color': C('linha')}, **slider('weight', 1, l=1, m=1)})
-    return section('Rodapé', [cols_, line, H('© 2026 FCStudio. Todos os direitos reservados.', 'fc_caption', 'cinza300', 'p')], 'secondary', 'rodape', py=(56, 48, 40, 40), gap_=(32, 28, 24, 24))
+    return section('Rodapé', [cols_, line, H('© 2026 FC Studio. Todos os direitos reservados.', 'fc_caption', 'cinza300', 'p')], 'secondary', 'rodape', py=(56, 48, 40, 40), gap_=(32, 28, 24, 24))
 
 def whatsapp_float():
     b = B('WhatsApp', 'primary', full_mobile=False, _position='fixed', _offset_orientation_h='end', _z_index=50,
@@ -533,12 +533,12 @@ def contato_bloco():
                  info('fas fa-clock', 'fa-solid', 'Atendimento', 'Segunda a sexta, das 9h às 18h')], name='Canais', gap_=(0, 0, 0, 0))
     fld = lambda _id, label, t='text', req=True, width='100': {'_id': _id, 'custom_id': _id, 'field_type': t, 'field_label': label, 'placeholder': label,
                                                             'required': 'true' if req else '', 'width': width}
-    form = w('form', form_name='Contato FCStudio', form_fields=[fld('nome', 'Seu nome'), fld('empresa', 'Nome da empresa', req=False),
+    form = w('form', form_name='Contato FC Studio', form_fields=[fld('nome', 'Seu nome'), fld('empresa', 'Nome da empresa', req=False),
                                                                  fld('whatsapp', 'WhatsApp com DDD', 'tel'), fld('email', 'E-mail', 'email', False),
                                                                  fld('mensagem', 'O que você precisa?', 'textarea', False),
-                                                                 {**fld('lgpd', 'Aceite', 'acceptance'), 'acceptance_text': 'Concordo em ser contatado pela FCStudio e com a Política de Privacidade.'}],
+                                                                 {**fld('lgpd', 'Aceite', 'acceptance'), 'acceptance_text': 'Concordo em ser contatado pela FC Studio e com a Política de Privacidade.'}],
              button_text='Enviar mensagem', button_size='md', button_width='100', show_labels='',
-             email_to='contato@fcstudio.com.br', email_subject='Novo contato pelo site FCStudio', success_message='Recebemos sua mensagem. Respondemos em até 1 dia útil.',
+             email_to='contato@fcstudio.com.br', email_subject='Novo contato pelo site FC Studio', success_message='Recebemos sua mensagem. Respondemos em até 1 dia útil.',
              submit_actions=['email', 'save-to-database'],
              __globals__={'field_typography_typography': T('fc_body'), 'field_text_color': C('secondary'), 'button_typography_typography': T('fc_button'),
                           'button_background_color': C('primary'), 'button_text_color': C('preto'), 'field_border_color': C('linha'), 'field_background_color': C('preto')},
@@ -552,15 +552,15 @@ def contato_bloco():
 
 def quem_somos(tag='h2'):
     # slide "Sobre mim": foto com brilho verde à esquerda, texto à direita. Foto da Fab entra no lugar do logo quando chegar.
-    img = IMG('equipe', 'Fabi e Claudia, fundadoras da FCStudio')
+    img = IMG('equipe', 'Fabi e Clau, fundadoras da FC Studio')
     img['settings']['_css_classes'] = 'fc-foto'  # PNG recortado, sem contorno
     for k in [k for k in img['settings'] if k.startswith('image_border_radius')]: del img['settings'][k]
     foto = con([img], content_width='full', flex_direction='column', flex_justify_content='flex-end', flex_align_items='center', css_classes='fc-glow', _title='Foto com brilho',
                **dims('padding', (120, 0, 0, 0), (96, 0, 0, 0), (72, 0, 0, 0), (64, 0, 0, 0)))
     traco = w('html', html='<div class="fc-traco" aria-hidden="true"></div>', _title='Traço com ponto')
-    texto = col([traco, H('Muito prazer, somos a FCStudio', 'fc_caption', 'primary', 'p'),
+    texto = col([traco, H('Muito prazer, somos a FC Studio', 'fc_caption', 'primary', 'p'),
                  H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio.</span>', 'fc_h2', 'secondary', tag, _css_classes='fc-barra'),
-                 P('Fundada por <strong>Fabi e Claudia</strong>, a FCStudio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a jornada do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
+                 P('Fundada por <strong>Fabi e Clau</strong>, a FC Studio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a jornada do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
                  P('Desenhamos fluxos inteligentes e intuitivos que guiam seu cliente até o <strong>momento da compra</strong> sem fricção, acompanhando os dados de perto para garantir a melhor performance.', 'fc_body', 'text'),
                  B('Solicite um orçamento', 'primary', U('orcamento'))], name='Texto', gap_=(24, 22, 20, 18))
     W(texto, 54, 100, 100, 100)
@@ -626,7 +626,7 @@ CONTATO = lambda: [STEP('s1', 'Seus dados', first=True), F('nome', 'Nome e sobre
                    F('whatsapp', 'WhatsApp com DDD', 'tel', True, '50'), F('negocio', 'Nome do negócio', req=True, width='50')]
 VISUAL = lambda extra=(): [F('cores', 'Cores que você quer usar (ou deixe em branco para nos dar liberdade)'), F('cores_nao', 'Cores que não quer de jeito nenhum'), *extra,
                            F('obs', 'Mais alguma coisa que precisamos saber?', 'textarea'),
-                           {**F('lgpd', 'Aceite', 'acceptance', True), 'acceptance_text': 'Concordo em ser contatado pela FCStudio e com a Política de Privacidade.'}]
+                           {**F('lgpd', 'Aceite', 'acceptance', True), 'acceptance_text': 'Concordo em ser contatado pela FC Studio e com a Política de Privacidade.'}]
 
 BRIEFINGS = [
     ('site', 'Site institucional', 'Para empresas que querem ser encontradas no Google e passar confiança.', CONTATO() + [
@@ -803,7 +803,7 @@ def kit_settings():
         # 7 breakpoints: desktop (base) + 6 adicionais
         'active_breakpoints': ['viewport_mobile', 'viewport_mobile_extra', 'viewport_tablet', 'viewport_tablet_extra', 'viewport_laptop', 'viewport_widescreen'],
         'viewport_mobile': 575, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
-        'site_name': 'FCStudio', 'site_description': 'Strategic UI/UX Design',
+        'site_name': 'FC Studio', 'site_description': 'Strategic UI/UX Design',
         # detalhes do navegador com a cor da marca (seleção, foco, barra de rolagem, sublinhado)
         'custom_css': FONTFACE + CSS,
     }

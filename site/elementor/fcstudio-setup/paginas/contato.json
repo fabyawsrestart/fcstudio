@@ -297,7 +297,7 @@
          "settings": {
           "text": "Chamar no WhatsApp",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FC%20Studio",
            "is_external": true,
            "nofollow": ""
           },
@@ -2028,7 +2028,7 @@
          "elType": "widget",
          "widgetType": "form",
          "settings": {
-          "form_name": "Contato FCStudio",
+          "form_name": "Contato FC Studio",
           "form_fields": [
            {
             "_id": "nome",
@@ -2083,7 +2083,7 @@
             "placeholder": "Aceite",
             "required": "true",
             "width": "100",
-            "acceptance_text": "Concordo em ser contatado pela FCStudio e com a Política de Privacidade."
+            "acceptance_text": "Concordo em ser contatado pela FC Studio e com a Política de Privacidade."
            }
           ],
           "button_text": "Enviar mensagem",
@@ -2091,7 +2091,7 @@
           "button_width": "100",
           "show_labels": "",
           "email_to": "contato@fcstudio.com.br",
-          "email_subject": "Novo contato pelo site FCStudio",
+          "email_subject": "Novo contato pelo site FC Studio",
           "success_message": "Recebemos sua mensagem. Respondemos em até 1 dia útil.",
           "submit_actions": [
            "email",

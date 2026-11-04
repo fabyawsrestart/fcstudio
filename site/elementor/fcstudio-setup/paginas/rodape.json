@@ -269,7 +269,7 @@
            "unit": "vw",
            "size": 16.41
           },
-          "_title": "Logo FCStudio"
+          "_title": "Logo FC Studio"
          },
          "elements": []
         },
@@ -801,7 +801,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "© 2026 FCStudio. Todos os direitos reservados.",
+      "title": "© 2026 FC Studio. Todos os direitos reservados.",
       "header_size": "p",
       "__globals__": {
        "typography_typography": "globals/typography?id=fc_caption",
@@ -817,7 +817,7 @@
      "settings": {
       "text": "WhatsApp",
       "link": {
-       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FC%20Studio",
        "is_external": true,
        "nofollow": ""
       },

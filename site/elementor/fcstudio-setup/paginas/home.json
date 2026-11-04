@@ -281,7 +281,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FCStudio cuida do site, do chatbot, dos anúncios e dos vídeos.</p>",
+          "editor": "<p>Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FC Studio cuida do site, do chatbot, dos anúncios e dos vídeos.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_lead",
            "text_color": "globals/colors?id=cinza300"
@@ -686,7 +686,7 @@
           "image": {
            "url": "fc-img://gwmix",
            "id": "fc-imgid://gwmix",
-           "alt": "Site da GWmix feito pela FCStudio"
+           "alt": "Site da GWmix feito pela FC Studio"
           },
           "image_size": "full",
           "_title": "Imagem gwmix",
@@ -4611,7 +4611,7 @@
          "settings": {
           "text": "Quero este plano",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FC%20Studio",
            "is_external": true,
            "nofollow": ""
           },
@@ -5073,7 +5073,7 @@
          "settings": {
           "text": "Quero este plano",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FC%20Studio",
            "is_external": true,
            "nofollow": ""
           },
@@ -5435,7 +5435,7 @@
          "settings": {
           "text": "Quero este plano",
           "link": {
-           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FC%20Studio",
            "is_external": true,
            "nofollow": ""
           },
@@ -5902,7 +5902,7 @@
         "image": {
          "url": "fc-img://gwmix",
          "id": "fc-imgid://gwmix",
-         "alt": "Site da GWmix feito pela FCStudio"
+         "alt": "Site da GWmix feito pela FC Studio"
         },
         "image_size": "full",
         "_title": "Imagem gwmix",

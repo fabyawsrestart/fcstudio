@@ -231,7 +231,7 @@
           "image": {
            "url": "fc-img://equipe",
            "id": "fc-imgid://equipe",
-           "alt": "Fabi e Claudia, fundadoras da FCStudio"
+           "alt": "Fabi e Clau, fundadoras da FC Studio"
           },
           "image_size": "full",
           "_title": "Imagem equipe",
@@ -358,7 +358,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Muito prazer, somos a FCStudio",
+          "title": "Muito prazer, somos a FC Studio",
           "header_size": "p",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_caption",
@@ -387,7 +387,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Fundada por <strong>Fabi e Claudia</strong>, a FCStudio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a jornada do seu usuário em <strong>resultados reais de vendas</strong>.</p>",
+          "editor": "<p>Fundada por <strong>Fabi e Clau</strong>, a FC Studio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a jornada do seu usuário em <strong>resultados reais de vendas</strong>.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_lead",
            "text_color": "globals/colors?id=cinza300"
