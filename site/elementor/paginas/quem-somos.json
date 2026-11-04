@@ -175,7 +175,7 @@
         "_title": "Foto com brilho",
         "padding": {
          "unit": "px",
-         "top": "96",
+         "top": "120",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -183,7 +183,7 @@
         },
         "padding_tablet": {
          "unit": "px",
-         "top": "80",
+         "top": "96",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -191,7 +191,7 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "8.649",
+         "top": "9.73",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
@@ -199,7 +199,7 @@
         },
         "padding_mobile": {
          "unit": "vw",
-         "top": "14.359",
+         "top": "16.41",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
@@ -231,7 +231,7 @@
           "image": {
            "url": "fc-img://equipe",
            "id": "fc-imgid://equipe",
-           "alt": "Equipe da FCStudio"
+           "alt": "Fabi e Claudia, fundadoras da FCStudio"
           },
           "image_size": "full",
           "_title": "Imagem equipe",
@@ -358,7 +358,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Quem somos",
+          "title": "Muito prazer, somos a FCStudio",
           "header_size": "p",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_caption",
@@ -372,7 +372,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Não criamos apenas telas, construímos <span class=\"fc-verde\">soluções de negócio</span>",
+          "title": "Não criamos apenas telas, construímos <span class=\"fc-verde\">soluções de negócio.</span>",
           "header_size": "h1",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h2",
@@ -387,7 +387,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Mais do que interfaces bonitas: na FCStudio, unimos <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a experiência do seu usuário em <strong>resultados reais de vendas</strong>.</p>",
+          "editor": "<p>Fundada por <strong>Fabi e Claudia</strong>, a FCStudio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a jornada do seu usuário em <strong>resultados reais de vendas</strong>.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_lead",
            "text_color": "globals/colors?id=cinza300"
@@ -416,7 +416,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Desenhamos fluxos intuitivos que guiam seu cliente com facilidade até o <strong>momento da compra</strong>, e acompanhamos os números depois do lançamento para ajustar o que for preciso.</p>",
+          "editor": "<p>Desenhamos fluxos inteligentes e intuitivos que guiam seu cliente até o <strong>momento da compra</strong> sem fricção, acompanhando os dados de perto para garantir a melhor performance.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"

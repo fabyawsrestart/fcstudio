@@ -552,16 +552,16 @@ def contato_bloco():
 
 def quem_somos(tag='h2'):
     # slide "Sobre mim": foto com brilho verde à esquerda, texto à direita. Foto da Fab entra no lugar do logo quando chegar.
-    img = IMG('equipe', 'Equipe da FCStudio')
+    img = IMG('equipe', 'Fabi e Claudia, fundadoras da FCStudio')
     img['settings']['_css_classes'] = 'fc-foto'  # PNG recortado, sem contorno
     for k in [k for k in img['settings'] if k.startswith('image_border_radius')]: del img['settings'][k]
     foto = con([img], content_width='full', flex_direction='column', flex_justify_content='flex-end', flex_align_items='center', css_classes='fc-glow', _title='Foto com brilho',
-               **dims('padding', (96, 0, 0, 0), (80, 0, 0, 0), (64, 0, 0, 0), (56, 0, 0, 0)))
+               **dims('padding', (120, 0, 0, 0), (96, 0, 0, 0), (72, 0, 0, 0), (64, 0, 0, 0)))
     traco = w('html', html='<div class="fc-traco" aria-hidden="true"></div>', _title='Traço com ponto')
-    texto = col([traco, H('Quem somos', 'fc_caption', 'primary', 'p'),
-                 H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio</span>', 'fc_h2', 'secondary', tag, _css_classes='fc-barra'),
-                 P('Mais do que interfaces bonitas: na FCStudio, unimos <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a experiência do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
-                 P('Desenhamos fluxos intuitivos que guiam seu cliente com facilidade até o <strong>momento da compra</strong>, e acompanhamos os números depois do lançamento para ajustar o que for preciso.', 'fc_body', 'text'),
+    texto = col([traco, H('Muito prazer, somos a FCStudio', 'fc_caption', 'primary', 'p'),
+                 H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio.</span>', 'fc_h2', 'secondary', tag, _css_classes='fc-barra'),
+                 P('Fundada por <strong>Fabi e Claudia</strong>, a FCStudio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a jornada do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
+                 P('Desenhamos fluxos inteligentes e intuitivos que guiam seu cliente até o <strong>momento da compra</strong> sem fricção, acompanhando os dados de perto para garantir a melhor performance.', 'fc_body', 'text'),
                  B('Solicite um orçamento', 'primary', U('orcamento'))], name='Texto', gap_=(24, 22, 20, 18))
     W(texto, 54, 100, 100, 100)
     r_ = row([foto, texto], name='Quem somos · conteúdo', gap_=(72, 48, 40, 32), tablet_dir='column', flex_align_items='center')
