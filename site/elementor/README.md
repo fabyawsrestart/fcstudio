@@ -7,6 +7,7 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 | Arquivo | Para que serve |
 |---|---|
+| `fcstudio-setup.zip` | **Plugin de um clique** (recomendado): configura tudo e cria a Home |
 | `fcstudio-kit.zip` | **Kit completo para importar**: breakpoints, largura útil, cores e tipografias globais, página Home e menu principal |
 | `fcstudio-home.json` | Só a página, para importar em Modelos > Importar (se não quiser usar o kit) |
 | `kit-settings.json` | Configurações globais em JSON (referência) |
@@ -19,7 +20,14 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 2. Elementor 4.3.5 e Pro Elements 4.3.2 ativos.
 3. Tema Hello Elementor (recomendado). A página usa o modelo Elementor Canvas, então o tema não interfere no layout.
 
-## Como importar (3 minutos)
+## Jeito mais fácil: plugin FCStudio Setup (1 minuto)
+
+1. **Plugins > Adicionar novo > Enviar plugin**, envie `fcstudio-setup.zip` e ative.
+2. Vá em **Ferramentas > FCStudio Setup** e clique em **Configurar agora**.
+3. Ele ativa os 7 breakpoints, aplica largura útil, cores e fontes, cria o Menu principal e cria/atualiza a página Home como página inicial estática (Elementor Canvas).
+4. Depois, desative e apague o plugin. Ele não é necessário para o site funcionar.
+
+## Alternativa: importar o kit (3 minutos)
 
 1. WP Admin > **Elementor > Ferramentas > aba Modelos de sites > Importar** (ou `wp-admin/admin.php?page=elementor-app#/import`).
 2. Envie `fcstudio-kit.zip`, marque tudo (Configurações do site, Conteúdo, Modelos) e confirme.
