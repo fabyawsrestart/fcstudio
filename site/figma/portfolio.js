@@ -1,0 +1,7 @@
+const feat=ROW([IMGR(GW,640,360),COL([CAP('Indústria · Grande SP'),T('GWmix',{f:'d',s:56,c:C.w,up:true}),P('Site institucional e de vendas para fabricante de bombas, misturadores e aditivos para argamassa na Grande SP. Catálogo de produtos, locação e orçamento pelo WhatsApp.',420),BTNS([BTN('Ver site no ar','s')])],{gap:20,name:'Texto'})],{gap:56,al:'CENTER',j:'MIN',name:'Destaque GWmix'});
+const caso=(t,d)=>{const c=CARD([SVG('<svg width="40" height="40" viewBox="0 0 40 40"><rect x="1" y="1" width="38" height="38" rx="8" fill="none" stroke="#00D61A" stroke-width="1.5"/><path d="M12 20h16M20 12v16" stroke="#00D61A" stroke-width="2"/></svg>'),H3(t,440),P(d,440),T('Link em breve',{f:'b',s:11,ls:12,up:true,c:C.c3})],{name:t,p:36,gap:16});return c;};
+const outros=ROW([caso('Sistema de agendamento online','Agenda com horários disponíveis, confirmação automática e organização dos atendimentos.'),caso('Landing pages para campanhas','Páginas de uma oferta só, feitas para receber tráfego de anúncios e levar ao WhatsApp.')],{gap:24,name:'Outros projetos'});outros.children.forEach(c=>c.layoutSizingHorizontal='FILL');
+const sec=SEC('Projetos',[feat,COL([H3('Outros projetos',600),outros],{gap:24,name:'Outros',fill:true})],'bk',{gap:80});
+const pg=PAGE('04 · Portfólio',3,[HEADER('Portfólio'),HERO('Portfólio','Projetos entregues','entregues','Sites, landing pages e sistemas feitos para empresas de vários segmentos.'),sec,CTA(),FOOTER()]);
+await pg.screenshot({scale:0.4});
+return {page:pg.id,h:pg.height};
