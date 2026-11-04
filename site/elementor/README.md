@@ -56,9 +56,9 @@ Conversão usada: `vw = px ÷ 7,40` (paisagem) e `vw = px ÷ 3,90` (retrato). Ex
 
 ## Provisórios para trocar antes de entregar
 
-- Link do WhatsApp `https://wa.me/5500000000000` (botões e botão flutuante).
+- E-mail e Instagram no rodapé e no Contato (o WhatsApp já é o real: (11) 91675-1926).
 - Fonte de títulos: Anton está no lugar da Morganite. Envie a Morganite em **Elementor > Fontes personalizadas** e troque em Configurações do site > Tipografia > "Display".
 - Caixas verde-claro do hero e do portfólio: trocar por fotos reais.
-- Portfólio: 2 dos 3 projetos são modelo ("Nome da clínica (trocar)"). Não publique com projetos inventados.
+- Portfólio: GWmix tem print real. Sistema de agendamento e landing pages estão sem link e sem imagem: mande os endereços.
 - Política de Privacidade: o formulário pede aceite, então a página precisa existir e estar publicada (Configurações > Privacidade).
 - Cores: provisórias, a paleta final ainda vai ser escolhida.

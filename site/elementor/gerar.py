@@ -68,6 +68,15 @@ def W(el, d, t=None, l=None, m=None):
     m = l if m is None else m
     st = el['settings']
     st.pop('_flex_size', None)
+    if el['elType'] == 'widget':
+        # widget em fila: largura personalizada do Elementor (_element_custom_width)
+        if d == 'fit':
+            st['_element_width'] = 'auto'; st['_flex_size'] = 'none'
+            return el
+        st['_element_width'] = 'initial'
+        for sfx, v in (('', d), ('_tablet', t), ('_mobile_extra', l), ('_mobile', m)):
+            st['_element_custom_width' + sfx] = {'unit': '%', 'size': v}
+        return el
     st.update({'width': u(d), 'width_tablet': u(t), 'width_mobile_extra': u(l), 'width_mobile': u(m)})
     return el
 
@@ -80,7 +89,7 @@ DISPLAY = 'Anton'  # troque para Morganite depois de enviar a fonte em Elementor
 TEXT = 'Montserrat'
 # id, titulo, familia, peso, (D, T, L, M) px, line-height em, letter-spacing em, transform
 TYPO = [
-    ('fc_h1', 'Título hero (H1)', DISPLAY, '400', (64, 52, 46, 40), 1.0, 0, 'uppercase'),
+    ('fc_h1', 'Título hero (H1)', DISPLAY, '400', (88, 68, 52, 44), 0.98, 0, 'uppercase'),
     ('fc_h2', 'Título de seção (H2)', DISPLAY, '400', (56, 44, 38, 34), 1.05, 0.01, 'uppercase'),
     ('fc_num', 'Número / preço', DISPLAY, '400', (40, 36, 32, 30), 1.0, 0, 'uppercase'),
     ('fc_h3', 'Título de card (H3)', TEXT, '700', (24, 22, 20, 20), 1.3, 0, 'none'),
@@ -100,7 +109,7 @@ def typo_preset(tid, title, fam, w, sizes, lh, ls, tr):
 
 # ---------- elementos ----------
 def con(children, **s):
-    return {'id': uid(), 'elType': 'container', 'isInner': False, 'settings': s, 'elements': children}
+    return {'id': uid(), 'elType': 'container', 'isInner': False, 'settings': s, 'elements': [c for c in children if c]}
 
 def w(kind, **s):
     return {'id': uid(), 'elType': 'widget', 'widgetType': kind, 'settings': s, 'elements': []}
@@ -117,7 +126,7 @@ def P(text, tid='fc_body', color='text', **extra):
     s.update(extra)
     return w('text-editor', **s)
 
-WA = 'https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio'
+WA = 'https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio'
 
 def B(text, kind='primary', url=WA, full_mobile=True, **extra):
     bg, fg, border = {'primary': ('primary', 'branco', None), 'secondary': (None, 'primary', 'primary'),
@@ -131,7 +140,7 @@ def B(text, kind='primary', url=WA, full_mobile=True, **extra):
         s.update(slider('border_width', 2, l=2, m=2) and {'border_width': {'unit': 'px', 'top': '2', 'right': '2', 'bottom': '2', 'left': '2', 'isLinked': True},
                  'border_width_mobile_extra': {'unit': 'vw', 'top': str(vw(2, BASE_L)), 'right': str(vw(2, BASE_L)), 'bottom': str(vw(2, BASE_L)), 'left': str(vw(2, BASE_L)), 'isLinked': True},
                  'border_width_mobile': {'unit': 'vw', 'top': str(vw(2, BASE_M)), 'right': str(vw(2, BASE_M)), 'bottom': str(vw(2, BASE_M)), 'left': str(vw(2, BASE_M)), 'isLinked': True}})
-    s.update(radius('border_radius', 999, 999, 999))
+    s.update(radius('border_radius', 10, 10, 10))
     s.update(dims('text_padding', (18, 28, 18, 28), (16, 26, 16, 26), (15, 24, 15, 24), (16, 22, 16, 22)))
     if full_mobile:
         s['align_mobile'] = 'justify'
@@ -200,10 +209,29 @@ def card(children, bg='branco', pad=(32, 28, 24, 24), gap_=(12, 12, 10, 10), r=1
     s.update(extra)
     return con(children, **s)
 
-def eyebrow(text, light=False):
-    return H(text, 'fc_caption', 'verde100' if light else 'primary', 'p')
+def line_row(children, name=None, gap_=(48, 32, 24, 12), top=True, **extra):
+    """Linha de lista editorial: separador fino em cima, sem cartão."""
+    r = row(children, name=name, gap_=gap_, **extra)
+    r['settings'].update({'border_border': 'solid', 'border_width': {'unit': 'px', 'top': '1' if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False},
+                          '__globals__': {**r['settings'].get('__globals__', {}), 'border_color': C('cinza300')}})
+    r['settings'].update(dims('padding', (28, 0, 28, 0), (24, 0, 24, 0), (20, 0, 20, 0), (20, 0, 20, 0)))
+    r['settings']['border_width_mobile_extra'] = {'unit': 'vw', 'top': str(vw(1, BASE_L)) if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False}
+    r['settings']['border_width_mobile'] = {'unit': 'vw', 'top': str(vw(1, BASE_M)) if top else '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False}
+    return r
 
-# ---------- logo ----------
+def IMG(token, alt, r=14):
+    s = {'image': {'url': 'fc-img://' + token, 'id': 'fc-imgid://' + token, 'alt': alt}, 'image_size': 'full', '_title': 'Imagem ' + token}
+    s.update(slider('width', 100, l=100, m=100)); s['width'] = {'unit': '%', 'size': 100}
+    for k in ('width_tablet', 'width_mobile_extra', 'width_mobile'): s[k] = {'unit': '%', 'size': 100}
+    s.update(radius('image_border_radius', r, r - 2, r - 4))
+    s['image_box_shadow_box_shadow_type'] = 'yes'
+    s['image_box_shadow_box_shadow'] = {'horizontal': 0, 'vertical': 24, 'blur': 48, 'spread': -12, 'color': 'rgba(31,41,51,0.28)'}
+    return w('image', **s)
+
+def eyebrow(text, light=False):
+    # Sem sobretítulo: o título fala sozinho (referência impeccable). Mantido para não quebrar chamadas.
+    return None
+
 def logo_svg(color_sym, color_word):
     here = os.path.join(OUT, '..', '..', 'marca', 'logo', 'logo-fcstudio-verde.svg')
     svg = open(here).read().strip()
@@ -240,63 +268,67 @@ def header():
     return con([lg, right], **s)
 
 def hero():
-    badge = H('Sites e marketing para dentistas', 'fc_caption', 'verde700', 'p', _background_background='classic', _background_color='#E3F2EB', _element_width='auto', _flex_align_self='flex-start',
-              **dims('_padding', (8, 14, 8, 14), (8, 14, 8, 14), (7, 12, 7, 12), (7, 12, 7, 12)), **radius('_border_radius', 999, 999, 999))
     buttons = row([B('Quero mais pacientes', 'primary'), B('Ver planos', 'secondary', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
-    text = col([badge, H('Sites que enchem a agenda do seu consultório', 'fc_h1', 'secondary', 'h1'),
+    text = col([H('Sites que enchem a agenda do seu consultório', 'fc_h1', 'secondary', 'h1'),
                 P('Seu paciente encontra você no Google, confia no que vê e agenda pelo WhatsApp. A FCStudio cuida do site, dos anúncios e dos vídeos.', 'fc_lead'),
-                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Textos dentro das regras do CFO')],
-               name='Texto', gap_=(24, 22, 20, 18), _flex_size='grow')
-    photo = con([], _title='Foto da clínica (trocar por imagem)', content_width='full', background_background='classic', __globals__={'background_color': C('verde100')},
-                **slider('min_height', 150, 130, 140, 110), **radius('border_radius', 12, 12, 12))
-    page_mock = card([H('Clínica exemplo', 'fc_caption', 'primary', 'p'), H('Implante dentário com segurança e conforto', 'fc_h3', 'secondary', 'h3'),
-                      P('Avaliação com dentista especialista. Atendimento de segunda a sábado.'), photo, B('Agendar avaliação', 'primary', full_mobile=False)],
-                     bg='branco', pad=(28, 24, 22, 22), gap_=(14, 12, 12, 12), r=14, box_shadow_box_shadow_type='yes',
-                     box_shadow_box_shadow={'horizontal': 0, 'vertical': 16, 'blur': 40, 'spread': 0, 'color': 'rgba(31,41,51,0.12)'})
-    bubble = card([H('Novo paciente', 'fc_button', 'secondary', 'p'), P('"Oi! Quero agendar uma avaliação."')], bg='branco', pad=(14, 14, 12, 12), gap_=(2, 2, 2, 2), r=14,
-                  _title='Mensagem WhatsApp', box_shadow_box_shadow_type='yes', box_shadow_box_shadow={'horizontal': 0, 'vertical': 10, 'blur': 24, 'spread': 0, 'color': 'rgba(31,41,51,0.16)'},
-                  _flex_align_self='flex-end', **slider('width', 300, 280, 300, 280), width_tablet_extra={'unit': 'px', 'size': 300})
-    visual = card([page_mock, bubble], bg='verde100', pad=(32, 28, 24, 24), gap_=(16, 14, 14, 12), r=24, _title='Visual', _flex_size='grow')
-    W(text, 52, 100); W(visual, 48, 100)
-    r_ = row([text, visual], name='Hero · conteúdo', gap_=(64, 40, 32, 40), tablet_dir='column', flex_align_items='center')
-    return section('Hero', [r_], 'neutro50', 'inicio', py=(96, 72, 48, 48))
+                buttons, P('Site no ar em 15 dias &nbsp;·&nbsp; Suporte por 3 meses &nbsp;·&nbsp; Textos dentro das regras do CFO', 'fc_body')],
+               name='Texto', gap_=(28, 24, 20, 18))
+    proof = col([IMG('gwmix', 'Site da GWmix feito pela FCStudio'),
+                 P('Último projeto entregue: <a href="https://gwmix.ind.br" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:.2em">gwmix.ind.br</a>', 'fc_body')],
+                name='Prova: projeto real', gap_=(14, 12, 12, 10))
+    W(text, 50, 100); W(proof, 50, 100)
+    r_ = row([text, proof], name='Hero · conteúdo', gap_=(64, 48, 36, 40), tablet_dir='column', flex_align_items='center')
+    return section('Hero', [r_], 'neutro50', 'inicio', py=(88, 64, 48, 40))
 
 def beneficios():
-    cards = [card([ICON(i, lib), H(t, 'fc_h3', 'secondary', 'h3'), P(d)], bg='neutro50') for i, lib, t, d in [
-        ('fab fa-google', 'fa-brands', 'Aparece no Google', 'Site rápido e preparado para buscas como "dentista perto de mim" na sua cidade.'),
-        ('fas fa-shield-alt', 'fa-solid', 'Passa confiança', 'Fotos reais, equipe, estrutura e tratamentos explicados sem jargão.'),
-        ('fab fa-whatsapp', 'fa-brands', 'Agenda pelo WhatsApp', 'Botão em todas as telas. O paciente chama você em um clique.')]]
-    head = col([eyebrow('Por que ter um site'), H('O paciente pesquisa antes de marcar'),
-                P('Mais de 8 em cada 10 pacientes procuram o dentista no Google antes de agendar. Quem não aparece, não é escolhido.', 'fc_lead')], name='Título da seção')
-    return section('Benefícios', [head, grid(cards, (3, 3, 3, 1), 'Cards')], 'branco')
+    items = [('Aparece no Google', 'Site rápido e preparado para buscas como "dentista perto de mim" na sua cidade.'),
+             ('Passa confiança', 'Fotos reais, equipe, estrutura e tratamentos explicados sem jargão.'),
+             ('Agenda pelo WhatsApp', 'Botão em todas as telas. O paciente chama você em um clique.')]
+    rows = []
+    for i, (t, d) in enumerate(items):
+        a = H(t, 'fc_h3', 'secondary', 'h3'); b = P(d)
+        r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(32, 24, 20, 6))
+        W(a, 40, 40, 40, 100); W(b, 60, 60, 60, 100)
+        rows.append(r)
+    head = col([H('O paciente pesquisa antes de marcar'),
+                P('A maioria dos pacientes procura o dentista no Google antes de agendar. Quem não aparece, não entra na lista.', 'fc_lead')], name='Título da seção', gap_=(20, 18, 16, 14))
+    lst = col(rows, 'Lista', gap_=(0, 0, 0, 0))
+    W(head, 42, 100, 100, 100); W(lst, 58, 100, 100, 100)
+    return section('Benefícios', [row([head, lst], name='Benefícios · conteúdo', gap_=(80, 40, 32, 28), tablet_dir='column')], 'branco')
 
 def servicos():
-    items = [('01', 'Site para consultório', 'Site completo com tratamentos, equipe, localização e agendamento.'),
-             ('02', 'Landing page por tratamento', 'Uma página focada em implante, lente de contato dental ou ortodontia.'),
-             ('03', 'Anúncios no Google e Instagram', 'Campanhas para quem está procurando dentista agora, na sua região.'),
-             ('04', 'Edição de vídeos', 'Reels e vídeos curtos que explicam tratamentos e mostram a clínica.'),
-             ('05', 'Sistema de agendamento', 'Agenda online para o paciente marcar sozinho, integrada ao WhatsApp.')]
-    cards = [card([H(n, 'fc_num', 'primary', 'p'), H(t, 'fc_h3', 'secondary', 'h3'), P(d)]) for n, t, d in items]
-    cards.append(card([H('+', 'fc_num', 'branco', 'p'), H('Não sabe por onde começar?', 'fc_h3', 'branco', 'h3'),
-                       P('Em 30 minutos a gente mostra o que faz mais sentido para o seu momento.', 'fc_body', 'verde100'), B('Conversar agora', 'white', full_mobile=True)], bg='primary'))
-    head = col([eyebrow('Serviços'), H('Tudo o que seu consultório precisa para ser encontrado')], name='Título da seção')
-    return section('Serviços', [head, grid(cards, (3, 2, 2, 1), 'Grade')], 'neutro50', 'servicos')
+    items = [('Site para consultório', 'Site completo com tratamentos, equipe, localização e agendamento.'),
+             ('Landing page por tratamento', 'Uma página focada em implante, lente de contato dental ou ortodontia.'),
+             ('Anúncios no Google e Instagram', 'Campanhas para quem está procurando dentista agora, na sua região.'),
+             ('Edição de vídeos', 'Reels e vídeos curtos que explicam tratamentos e mostram a clínica.'),
+             ('Sistema de agendamento', 'Agenda online para o paciente marcar sozinho, integrada ao WhatsApp.')]
+    rows = []
+    for t, d in items:
+        a = H(t, 'fc_h2', 'secondary', 'h3'); b = P(d, 'fc_lead')
+        a['settings']['__globals__']['typography_typography'] = T('fc_num')
+        r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(48, 32, 24, 8), flex_align_items='center')
+        W(a, 50, 50, 50, 100); W(b, 50, 50, 50, 100)
+        rows.append(r)
+    head = row([H('Tudo o que seu consultório precisa para ser encontrado'), B('Ver os serviços', 'secondary', U('servicos'), full_mobile=False)],
+               name='Título da seção', gap_=(32, 24, 20, 20), tablet_dir='row', landscape_dir='column', mobile_dir='column', flex_align_items='flex-end', flex_align_items_mobile='flex-start', flex_align_items_mobile_extra='flex-start', flex_justify_content='space-between')
+    W(head['elements'][0], 70, 70, 100, 100); W(head['elements'][1], 'fit')
+    return section('Serviços', [head, col(rows, 'Lista de serviços', gap_=(0, 0, 0, 0))], 'neutro50', 'servicos')
 
 def como_funciona():
-    def num(n):
-        s = {'title': n, 'header_size': 'span', 'align': 'center', '_element_width': 'initial', '_background_background': 'classic',
-             '__globals__': {'typography_typography': T('fc_h3'), 'title_color': C('branco'), '_background_color': C('primary')}}
-        s.update(slider('_element_custom_width', 44, l=40, m=40))
-        s.update(dims('_padding', (8, 0, 8, 0), (8, 0, 8, 0), (8, 0, 8, 0), (8, 0, 8, 0)))
-        s.update(radius('_border_radius', 999, 999, 999))
-        return w('heading', **s)
-    steps = [col([num(n), H(t, 'fc_h3', 'secondary', 'h3'), P(d)], gap_=(12, 12, 10, 10)) for n, t, d in [
-        ('1', 'Conversa', '30 minutos por vídeo para entender seu consultório e seus pacientes.'),
-        ('2', 'Layout para aprovar', 'Você vê o site pronto no Figma antes de qualquer código.'),
-        ('3', 'Site no ar', 'Publicamos com domínio, SSL e WhatsApp configurados.'),
-        ('4', 'Acompanhamento', '3 meses de suporte e ajustes sem custo extra.')]]
-    head = col([eyebrow('Como funciona'), H('Do primeiro contato ao site no ar em 15 dias')], name='Título da seção')
-    return section('Como funciona', [head, grid(steps, (4, 2, 2, 1), 'Passos', gap_=(24, 32, 24, 28))], 'branco', 'como-funciona')
+    steps = []
+    for n, t, d in [('1', 'Conversa', '30 minutos por vídeo para entender seu consultório e seus pacientes.'),
+                    ('2', 'Layout para aprovar', 'Você vê o site pronto antes de qualquer código.'),
+                    ('3', 'Site no ar', 'Publicamos com domínio, SSL e WhatsApp configurados.'),
+                    ('4', 'Acompanhamento', '3 meses de suporte e ajustes sem custo extra.')]:
+        c = col([H(n, 'fc_h1', 'primary', 'span'), H(t, 'fc_h3', 'secondary', 'h3'), P(d)], gap_=(10, 10, 8, 8))
+        c['settings'].update({'border_border': 'solid', 'border_width': {'unit': 'px', 'top': '2', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False},
+                              'border_width_mobile_extra': {'unit': 'vw', 'top': str(vw(2, BASE_L)), 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False},
+                              'border_width_mobile': {'unit': 'vw', 'top': str(vw(2, BASE_M)), 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': False},
+                              '__globals__': {'border_color': C('primary')}})
+        c['settings'].update(dims('padding', (20, 0, 0, 0), (18, 0, 0, 0), (16, 0, 0, 0), (16, 0, 0, 0)))
+        steps.append(c)
+    head = col([H('Do primeiro contato ao site no ar em 15 dias')], name='Título da seção')
+    return section('Como funciona', [head, grid(steps, (4, 2, 2, 1), 'Passos', gap_=(32, 32, 24, 32))], 'branco', 'como-funciona')
 
 def planos():
     data = [('Essencial', 'Landing page', 'R$ 1.490', 'pagamento único', ['1 página focada em um tratamento', 'Botão de WhatsApp em todas as telas', 'Domínio e SSL configurados', 'Entrega em 10 dias'], False),
@@ -326,25 +358,23 @@ def planos():
     return section('Planos', [head, plans_row], 'neutro50', 'planos')
 
 def portfolio():
-    shot = con([], _title='Print do sistema (trocar por imagem)', content_width='full', background_background='classic', __globals__={'background_color': C('branco')},
-               _flex_size='grow', **slider('min_height', 320, 260, 280, 200), **radius('border_radius', 14, 12, 12))
-    txt = col([H('Clínica Vitalle', 'fc_caption', 'verde700', 'p'), H('Sistema de agendamento online', 'fc_h3', 'secondary', 'h3'),
-               P('Agenda com horários disponíveis, confirmação e organização dos atendimentos da clínica.'), B('Ver projeto', 'secondary', '#', full_mobile=True)],
-              gap_=(14, 14, 12, 12), _flex_size='grow')
-    W(shot, 55, 55, 50, 100); W(txt, 45, 45, 50, 100)
-    case = card([shot, txt], bg='verde100', pad=(40, 32, 24, 20), gap_=(48, 32, 24, 20), r=24, _title='Case Clínica Vitalle',
-                flex_direction='row', flex_direction_tablet='row', flex_direction_mobile_extra='row', flex_direction_mobile='column', flex_align_items='center')
-    head = col([eyebrow('Portfólio'), H('Projetos entregues')], name='Título da seção')
-    return section('Portfólio', [head, case], 'branco', 'portfolio')
+    img = IMG('gwmix', 'Site da GWmix feito pela FCStudio')
+    txt = col([H('GWmix', 'fc_num', 'secondary', 'h3'),
+               P('Site institucional e de vendas para fabricante de bombas, misturadores e aditivos para argamassa na Grande SP. Catálogo de produtos, locação e orçamento pelo WhatsApp.'),
+               B('Ver site no ar', 'secondary', 'https://gwmix.ind.br', full_mobile=True)], gap_=(16, 14, 12, 12))
+    W(img, 60, 100, 55, 100); W(txt, 40, 100, 45, 100)
+    feat = row([img, txt], name='Destaque GWmix', gap_=(56, 32, 28, 24), tablet_dir='column', landscape_dir='row', flex_align_items='center')
+    head = row([H('Projetos entregues'), B('Ver portfólio', 'secondary', U('portfolio'), full_mobile=False)], name='Título da seção', gap_=(24, 24, 20, 20),
+               tablet_dir='row', landscape_dir='row', mobile_dir='column', flex_align_items='flex-end', flex_align_items_mobile='flex-start', flex_align_items_mobile_extra='flex-start', flex_justify_content='space-between')
+    W(head['elements'][1], 'fit')
+    return section('Portfólio', [head, feat], 'branco', 'portfolio')
 
 def faq():
     qa = [('Quanto tempo leva para o site ficar pronto?', 'Em média 15 dias depois que você aprova o layout.'),
           ('Vou conseguir editar o site depois?', 'Sim. O site é feito em WordPress com Elementor, e você recebe um vídeo mostrando como trocar textos e fotos.'),
           ('Vocês cuidam da hospedagem e do domínio?', 'Ajudamos a contratar e configuramos tudo. A conta fica no seu nome.'),
           ('O site segue as regras de publicidade do CFO?', 'Sim. Os textos não prometem resultado e seguem o Código de Ética Odontológica.')]
-    cards = [card([H(q, 'fc_h3', 'secondary', 'h3'), P(a)], pad=(24, 24, 20, 20), gap_=(8, 8, 8, 8)) for q, a in qa]
-    head = col([eyebrow('Dúvidas'), H('Perguntas frequentes')], name='Título da seção')
-    return section('Perguntas frequentes', [head, col(cards, 'Lista', gap_=(12, 12, 12, 12))], 'neutro50', 'duvidas', gap_=(32, 32, 28, 28))
+    return faq_list(qa)
 
 def cta():
     return section('Chamada final', [eyebrow('Vamos conversar', True), H('Vamos encher sua agenda?', 'fc_h2', 'branco'),
@@ -356,7 +386,7 @@ def footer():
     def links(title, items):
         return col([H(title, 'fc_caption', 'verde100', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
     nav_ = links('Navegação', ['<a href="fc://servicos" style="color:inherit">Serviços</a>', '<a href="fc://planos" style="color:inherit">Planos</a>', '<a href="fc://portfolio" style="color:inherit">Portfólio</a>', '<a href="fc://contato" style="color:inherit">Contato</a>'])
-    cont_ = links('Contato', ['WhatsApp: (00) 00000-0000', 'contato@fcstudio.com.br', 'Instagram: @fcstudio'])
+    cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.com.br', 'Instagram: @fcstudio'])
     W(c1, 40, 40, 40, 100); W(nav_, 30, 30, 30, 100); W(cont_, 30, 30, 30, 100)
     cols_ = row([c1, nav_, cont_], name='Colunas', gap_=(64, 40, 32, 32), landscape_dir='row', mobile_dir='column')
     line = w('divider', **{'__globals__': {'color': C('text')}, **slider('weight', 1, l=1, m=1)})
@@ -407,30 +437,33 @@ SERVICOS = [
 ]
 
 def servicos_detalhe():
-    cards = []
+    rows = []
     for n, t, d, items in SERVICOS:
-        left = col([H(n, 'fc_num', 'primary', 'p'), H(t, 'fc_h3', 'secondary', 'h2'), P(d)], gap_=(12, 12, 10, 10))
-        right = col([LIST(items)], gap_=(0, 0, 0, 0), flex_justify_content='center')
+        left = col([H(t, 'fc_num', 'secondary', 'h2'), P(d, 'fc_lead')], gap_=(12, 12, 10, 10))
+        right = col([LIST(items)], gap_=(0, 0, 0, 0))
         W(left, 50, 50, 50, 100); W(right, 50, 50, 50, 100)
-        cards.append(card([left, right], bg='neutro50', pad=(40, 32, 24, 24), gap_=(48, 32, 24, 20), r=20, _title='Serviço ' + n,
-                          flex_direction='row', flex_direction_tablet='row', flex_direction_mobile_extra='row', flex_direction_mobile='column'))
-    return section('Serviços em detalhe', [col(cards, 'Lista de serviços', gap_=(16, 16, 14, 14))], 'branco', 'servicos', py=(88, 72, 56, 56))
+        r = line_row([left, right], name='Serviço ' + t, landscape_dir='row', mobile_dir='column', gap_=(64, 40, 28, 20))
+        r['settings'].update(dims('padding', (48, 0, 48, 0), (40, 0, 40, 0), (32, 0, 32, 0), (28, 0, 28, 0)))
+        rows.append(r)
+    return section('Serviços em detalhe', [col(rows, 'Lista de serviços', gap_=(0, 0, 0, 0))], 'branco', 'servicos', py=(56, 48, 40, 32))
 
 def inclusos():
-    items = [('fas fa-mobile-alt', 'fa-solid', 'Feito para celular', 'Mais de 70% das visitas vêm do celular. O layout nasce pensando nele.'),
-             ('fas fa-tachometer-alt', 'fa-solid', 'Site rápido', 'Carrega em poucos segundos, o que ajuda no Google e evita paciente desistindo.'),
-             ('fas fa-lock', 'fa-solid', 'Domínio e SSL', 'Endereço próprio e cadeado de segurança configurados.'),
-             ('fab fa-whatsapp', 'fa-brands', 'WhatsApp em todas as telas', 'O paciente chama você de qualquer página.'),
-             ('fas fa-balance-scale', 'fa-solid', 'Regras do CFO', 'Textos sem promessa de resultado e sem preço como chamariz.'),
-             ('fas fa-graduation-cap', 'fa-solid', 'Você edita sozinho', 'Vídeo mostrando como trocar textos e fotos no Elementor.')]
-    cards = [card([ICON(i, lib), H(t, 'fc_h3', 'secondary', 'h3'), P(d)], bg='neutro50') for i, lib, t, d in items]
-    head = col([eyebrow('Em todos os planos'), H('O que já vem incluso')], name='Título da seção')
-    return section('Incluso em todos os planos', [head, grid(cards, (3, 2, 2, 1), 'Cards')], 'branco')
+    items = ['Layout pensado primeiro para o celular', 'Site rápido, que carrega em poucos segundos', 'Domínio e SSL configurados',
+             'WhatsApp em todas as telas', 'Textos dentro das regras do CFO', 'Vídeo ensinando você a editar textos e fotos']
+    head = col([H('O que já vem incluso em todos os planos')], name='Título da seção')
+    a = col([LIST(items[:3])]); b = col([LIST(items[3:])])
+    W(a, 50, 50, 100, 100); W(b, 50, 50, 100, 100)
+    return section('Incluso em todos os planos', [head, row([a, b], name='Lista', gap_=(48, 32, 12, 12), tablet_dir='row')], 'branco')
 
-def faq_list(qa, eye='Dúvidas', title='Perguntas frequentes', bg='neutro50'):
-    cards = [card([H(q, 'fc_h3', 'secondary', 'h3'), P(a)], pad=(24, 24, 20, 20), gap_=(8, 8, 8, 8), bg='branco' if bg == 'neutro50' else 'neutro50') for q, a in qa]
-    head = col([eyebrow(eye), H(title)], name='Título da seção')
-    return section(title, [head, col(cards, 'Lista', gap_=(12, 12, 12, 12))], bg, 'duvidas', gap_=(32, 32, 28, 28))
+def faq_list(qa, eye=None, title='Perguntas frequentes', bg='neutro50'):
+    rows = []
+    for q, a in qa:
+        hq = H(q, 'fc_h3', 'secondary', 'h3'); pa = P(a)
+        r = line_row([hq, pa], name=q[:40], landscape_dir='row', mobile_dir='column', gap_=(48, 32, 24, 6))
+        W(hq, 45, 45, 45, 100); W(pa, 55, 55, 55, 100)
+        rows.append(r)
+    head = col([H(title)], name='Título da seção')
+    return section(title, [head, col(rows, 'Lista', gap_=(0, 0, 0, 0))], bg, 'duvidas', gap_=(32, 32, 28, 24))
 
 FAQ_PLANOS = [('Posso parcelar?', 'Sim. Os planos de pagamento único podem ser divididos em até 10x.'),
               ('Tem fidelidade no plano mensal?', 'Não. Você pode cancelar com 30 dias de aviso.'),
@@ -441,30 +474,32 @@ FAQ_SERV = [('Preciso ter fotos profissionais?', 'Ajuda muito, mas não é obrig
             ('Vocês escrevem os textos?', 'Sim. Você revisa e aprova. Todos seguem as regras de publicidade do CFO.'),
             ('Atendem fora da minha cidade?', 'Sim. Todo o processo é online, por vídeo e WhatsApp.')]
 
-def caso(tag, title, desc, link='#'):
-    shot = con([], _title='Imagem do projeto (trocar)', content_width='full', background_background='classic', __globals__={'background_color': C('verde100')},
-               **slider('min_height', 220, 200, 200, 180), **radius('border_radius', 14, 12, 12))
-    return card([shot, H(tag, 'fc_caption', 'verde700', 'p'), H(title, 'fc_h3', 'secondary', 'h3'), P(desc), B('Ver projeto', 'secondary', link, full_mobile=True)],
-                pad=(20, 20, 18, 18), gap_=(14, 12, 12, 12), r=20, _title='Projeto ' + title)
+def caso(title, desc, link=None):
+    kids = [H(title, 'fc_h3', 'secondary', 'h3'), P(desc)]
+    if link: kids.append(B('Ver projeto', 'secondary', link, full_mobile=False))
+    c = col(kids, gap_=(10, 10, 8, 8))
+    return c
 
 def portfolio_grid():
-    casos = [caso('Clínica Vitalle', 'Sistema de agendamento online', 'Agenda com horários disponíveis, confirmação e organização dos atendimentos da clínica.'),
-             caso('Nome da clínica (trocar)', 'Site para consultório', 'Descreva aqui o projeto real: o que foi feito e para quem.'),
-             caso('Nome da clínica (trocar)', 'Landing page de implante', 'Descreva aqui o projeto real: o que foi feito e para quem.')]
-    return section('Projetos', [grid(casos, (3, 2, 2, 1), 'Grade de projetos')], 'branco', 'projetos', py=(88, 72, 56, 56))
+    feat = portfolio()['elements'][1]  # destaque GWmix com print real
+    a = caso('Sistema de agendamento online', 'Agenda com horários disponíveis, confirmação automática e organização dos atendimentos.')
+    b = caso('Landing pages para campanhas', 'Páginas de uma oferta só, feitas para receber tráfego de anúncios e levar ao WhatsApp.')
+    r = line_row([a, b], name='Outros projetos', landscape_dir='row', mobile_dir='column', gap_=(48, 32, 24, 24))
+    r['settings'].update(dims('padding', (40, 0, 0, 0), (32, 0, 0, 0), (28, 0, 0, 0), (24, 0, 0, 0)))
+    W(a, 50, 50, 50, 100); W(b, 50, 50, 50, 100)
+    return section('Projetos', [feat, r], 'branco', 'projetos', py=(72, 64, 48, 40), gap_=(56, 48, 40, 32))
 
 def contato_bloco():
     def info(icon, lib, title, text):
-        c = card([ICON(icon, lib), col([H(title, 'fc_caption', 'primary', 'p'), P(text, 'fc_body', 'secondary')], gap_=(4, 4, 4, 4))],
-                 pad=(20, 20, 18, 18), gap_=(16, 16, 14, 14), r=16, bg='neutro50', flex_direction='row', flex_direction_tablet='row',
-                 flex_direction_mobile_extra='row', flex_direction_mobile='row', flex_align_items='center', flex_wrap='nowrap', flex_wrap_mobile='nowrap')
+        c = line_row([ICON(icon, lib, view='default', __globals__={'primary_color': C('primary')}, **slider('size', 20, l=20, m=20)), col([H(title, 'fc_caption', 'text', 'p'), P(text, 'fc_lead', 'secondary')], gap_=(4, 4, 4, 4))],
+                     gap_=(16, 16, 14, 14), tablet_dir='row', landscape_dir='row', mobile_dir='row', flex_align_items='center', flex_wrap='nowrap', flex_wrap_mobile='nowrap')
         W(c['elements'][1], 'fit'); c['elements'][1]['settings']['_flex_size'] = 'grow'
         c['elements'][0]['settings']['_flex_size'] = 'none'  # ícone não encolhe
         return c
-    infos = col([info('fab fa-whatsapp', 'fa-brands', 'WhatsApp', '(00) 00000-0000'),
+    infos = col([info('fab fa-whatsapp', 'fa-brands', 'WhatsApp', '<a href="https://wa.me/5511916751926" style="color:inherit">(11) 91675-1926</a>'),
                  info('fas fa-envelope', 'fa-solid', 'E-mail', 'contato@fcstudio.com.br'),
                  info('fab fa-instagram', 'fa-brands', 'Instagram', '@fcstudio'),
-                 info('fas fa-clock', 'fa-solid', 'Atendimento', 'Segunda a sexta, das 9h às 18h')], name='Canais', gap_=(12, 12, 12, 12))
+                 info('fas fa-clock', 'fa-solid', 'Atendimento', 'Segunda a sexta, das 9h às 18h')], name='Canais', gap_=(0, 0, 0, 0))
     fld = lambda _id, label, t='text', req=True, width='100': {'_id': _id, 'custom_id': _id, 'field_type': t, 'field_label': label, 'placeholder': label,
                                                             'required': 'true' if req else '', 'width': width}
     form = w('form', form_name='Contato FCStudio', form_fields=[fld('nome', 'Seu nome'), fld('clinica', 'Nome do consultório ou clínica', req=False),
@@ -550,6 +585,8 @@ def kit_settings():
         'active_breakpoints': ['viewport_mobile', 'viewport_mobile_extra', 'viewport_tablet', 'viewport_tablet_extra', 'viewport_laptop', 'viewport_widescreen'],
         'viewport_mobile': 575, 'viewport_mobile_extra': 880, 'viewport_tablet': 1024, 'viewport_tablet_extra': 1200, 'viewport_laptop': 1366, 'viewport_widescreen': 2400,
         'site_name': 'FCStudio', 'site_description': 'Sites e presença digital para dentistas',
+        # detalhes do navegador com a cor da marca (seleção, foco, barra de rolagem, sublinhado)
+        'custom_css': '::selection{background:#168A5B;color:#fff}:focus-visible{outline:2px solid #168A5B;outline-offset:3px;border-radius:4px}html{scrollbar-color:#168A5B #F6F8F7;accent-color:#168A5B}a{text-underline-offset:.2em}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}',
     }
     return s
 

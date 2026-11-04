@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "a4a45ef",
+   "id": "cfbf336",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "ccb573d",
+     "id": "9cfc865",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,21 +173,7 @@
      },
      "elements": [
       {
-       "id": "7abec53",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Contato",
-        "header_size": "p",
-        "__globals__": {
-         "typography_typography": "globals/typography?id=fc_caption",
-         "title_color": "globals/colors?id=primary"
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "e8c1474",
+       "id": "5464ecc",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -201,7 +187,7 @@
        "elements": []
       },
       {
-       "id": "a72991b",
+       "id": "a2eddbb",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -230,7 +216,7 @@
        "elements": []
       },
       {
-       "id": "5810d60",
+       "id": "3919424",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -304,13 +290,13 @@
        },
        "elements": [
         {
-         "id": "007d103",
+         "id": "80b0c08",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Chamar no WhatsApp",
           "link": {
-           "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
            "is_external": true,
            "nofollow": ""
           },
@@ -322,26 +308,26 @@
           "background_color": "#00000000",
           "border_radius": {
            "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
+           "top": "1.351",
+           "right": "1.351",
+           "bottom": "1.351",
+           "left": "1.351",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
+           "top": "2.564",
+           "right": "2.564",
+           "bottom": "2.564",
+           "left": "2.564",
            "isLinked": true
           },
           "text_padding": {
@@ -387,7 +373,7 @@
    ]
   },
   {
-   "id": "f26149e",
+   "id": "9aea642",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -470,7 +456,7 @@
    },
    "elements": [
     {
-     "id": "be4c5ce",
+     "id": "b1491e2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -545,7 +531,7 @@
      },
      "elements": [
       {
-       "id": "f8be883",
+       "id": "ca44eb8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -554,30 +540,30 @@
         "_title": "Canais",
         "flex_gap": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 0,
+         "column": "0",
+         "row": "0",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 0,
+         "column": "0",
+         "row": "0",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.622,
-         "column": "1.622",
-         "row": "1.622",
+         "size": 0.0,
+         "column": "0.0",
+         "row": "0.0",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 3.077,
-         "column": "3.077",
-         "row": "3.077",
+         "size": 0.0,
+         "column": "0.0",
+         "row": "0.0",
          "isLinked": true
         },
         "padding": {
@@ -631,48 +617,16 @@
        },
        "elements": [
         {
-         "id": "e8e7278",
+         "id": "31f5170",
          "elType": "container",
          "isInner": true,
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=neutro50"
-          },
-          "padding": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.432",
-           "right": "2.432",
-           "bottom": "2.432",
-           "left": "2.432",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "4.615",
-           "right": "4.615",
-           "bottom": "4.615",
-           "left": "4.615",
-           "isLinked": false
-          },
+          "flex_direction_tablet": "row",
+          "flex_direction_mobile_extra": "row",
+          "flex_direction_mobile": "row",
+          "flex_wrap": "nowrap",
           "flex_gap": {
            "unit": "px",
            "size": 16,
@@ -701,40 +655,72 @@
            "row": "3.59",
            "isLinked": true
           },
-          "border_radius": {
+          "padding": {
            "unit": "px",
-           "top": "16",
-           "right": "16",
-           "bottom": "16",
-           "left": "16",
-           "isLinked": true
+           "top": "28",
+           "right": "0",
+           "bottom": "28",
+           "left": "0",
+           "isLinked": false
           },
-          "border_radius_mobile_extra": {
+          "padding_tablet": {
+           "unit": "px",
+           "top": "24",
+           "right": "0",
+           "bottom": "24",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.892",
-           "right": "1.892",
-           "bottom": "1.892",
-           "left": "1.892",
-           "isLinked": true
+           "top": "2.703",
+           "right": "0.0",
+           "bottom": "2.703",
+           "left": "0.0",
+           "isLinked": false
           },
-          "border_radius_mobile": {
+          "padding_mobile": {
            "unit": "vw",
-           "top": "3.59",
-           "right": "3.59",
-           "bottom": "3.59",
-           "left": "3.59",
-           "isLinked": true
+           "top": "5.128",
+           "right": "0.0",
+           "bottom": "5.128",
+           "left": "0.0",
+           "isLinked": false
           },
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "row",
           "flex_align_items": "center",
-          "flex_wrap": "nowrap",
-          "flex_wrap_mobile": "nowrap"
+          "flex_wrap_mobile": "nowrap",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "__globals__": {
+           "border_color": "globals/colors?id=cinza300"
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.135",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.256",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "15b40ae",
+           "id": "c9d488b",
            "elType": "widget",
            "widgetType": "icon",
            "settings": {
@@ -742,20 +728,19 @@
              "value": "fab fa-whatsapp",
              "library": "fa-brands"
             },
-            "view": "stacked",
+            "view": "default",
             "shape": "square",
             "align": "left",
             "__globals__": {
-             "primary_color": "globals/colors?id=verde100",
-             "secondary_color": "globals/colors?id=verde700"
+             "primary_color": "globals/colors?id=primary"
             },
             "size": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_tablet": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_mobile_extra": {
              "unit": "vw",
@@ -810,7 +795,7 @@
            "elements": []
           },
           {
-           "id": "1eb2010",
+           "id": "da45e18",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -896,7 +881,7 @@
            },
            "elements": [
             {
-             "id": "d5ab8b4",
+             "id": "fc241d0",
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
@@ -904,19 +889,19 @@
               "header_size": "p",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_caption",
-               "title_color": "globals/colors?id=primary"
+               "title_color": "globals/colors?id=text"
               }
              },
              "elements": []
             },
             {
-             "id": "a91c243",
+             "id": "c2216b0",
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>(00) 00000-0000</p>",
+              "editor": "<p><a href=\"https://wa.me/5511916751926\" style=\"color:inherit\">(11) 91675-1926</a></p>",
               "__globals__": {
-               "typography_typography": "globals/typography?id=fc_body",
+               "typography_typography": "globals/typography?id=fc_lead",
                "text_color": "globals/colors?id=secondary"
               },
               "paragraph_spacing": {
@@ -943,48 +928,16 @@
          ]
         },
         {
-         "id": "330698a",
+         "id": "bd68516",
          "elType": "container",
          "isInner": true,
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=neutro50"
-          },
-          "padding": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.432",
-           "right": "2.432",
-           "bottom": "2.432",
-           "left": "2.432",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "4.615",
-           "right": "4.615",
-           "bottom": "4.615",
-           "left": "4.615",
-           "isLinked": false
-          },
+          "flex_direction_tablet": "row",
+          "flex_direction_mobile_extra": "row",
+          "flex_direction_mobile": "row",
+          "flex_wrap": "nowrap",
           "flex_gap": {
            "unit": "px",
            "size": 16,
@@ -1013,40 +966,72 @@
            "row": "3.59",
            "isLinked": true
           },
-          "border_radius": {
+          "padding": {
            "unit": "px",
-           "top": "16",
-           "right": "16",
-           "bottom": "16",
-           "left": "16",
-           "isLinked": true
+           "top": "28",
+           "right": "0",
+           "bottom": "28",
+           "left": "0",
+           "isLinked": false
           },
-          "border_radius_mobile_extra": {
+          "padding_tablet": {
+           "unit": "px",
+           "top": "24",
+           "right": "0",
+           "bottom": "24",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.892",
-           "right": "1.892",
-           "bottom": "1.892",
-           "left": "1.892",
-           "isLinked": true
+           "top": "2.703",
+           "right": "0.0",
+           "bottom": "2.703",
+           "left": "0.0",
+           "isLinked": false
           },
-          "border_radius_mobile": {
+          "padding_mobile": {
            "unit": "vw",
-           "top": "3.59",
-           "right": "3.59",
-           "bottom": "3.59",
-           "left": "3.59",
-           "isLinked": true
+           "top": "5.128",
+           "right": "0.0",
+           "bottom": "5.128",
+           "left": "0.0",
+           "isLinked": false
           },
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "row",
           "flex_align_items": "center",
-          "flex_wrap": "nowrap",
-          "flex_wrap_mobile": "nowrap"
+          "flex_wrap_mobile": "nowrap",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "__globals__": {
+           "border_color": "globals/colors?id=cinza300"
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.135",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.256",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "6377140",
+           "id": "ce5b2a9",
            "elType": "widget",
            "widgetType": "icon",
            "settings": {
@@ -1054,20 +1039,19 @@
              "value": "fas fa-envelope",
              "library": "fa-solid"
             },
-            "view": "stacked",
+            "view": "default",
             "shape": "square",
             "align": "left",
             "__globals__": {
-             "primary_color": "globals/colors?id=verde100",
-             "secondary_color": "globals/colors?id=verde700"
+             "primary_color": "globals/colors?id=primary"
             },
             "size": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_tablet": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_mobile_extra": {
              "unit": "vw",
@@ -1122,7 +1106,7 @@
            "elements": []
           },
           {
-           "id": "c009349",
+           "id": "6693403",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -1208,7 +1192,7 @@
            },
            "elements": [
             {
-             "id": "c845007",
+             "id": "3d4882a",
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
@@ -1216,19 +1200,19 @@
               "header_size": "p",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_caption",
-               "title_color": "globals/colors?id=primary"
+               "title_color": "globals/colors?id=text"
               }
              },
              "elements": []
             },
             {
-             "id": "b624677",
+             "id": "d17e449",
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
               "editor": "<p>contato@fcstudio.com.br</p>",
               "__globals__": {
-               "typography_typography": "globals/typography?id=fc_body",
+               "typography_typography": "globals/typography?id=fc_lead",
                "text_color": "globals/colors?id=secondary"
               },
               "paragraph_spacing": {
@@ -1255,48 +1239,16 @@
          ]
         },
         {
-         "id": "ca04c79",
+         "id": "7e26f36",
          "elType": "container",
          "isInner": true,
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=neutro50"
-          },
-          "padding": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.432",
-           "right": "2.432",
-           "bottom": "2.432",
-           "left": "2.432",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "4.615",
-           "right": "4.615",
-           "bottom": "4.615",
-           "left": "4.615",
-           "isLinked": false
-          },
+          "flex_direction_tablet": "row",
+          "flex_direction_mobile_extra": "row",
+          "flex_direction_mobile": "row",
+          "flex_wrap": "nowrap",
           "flex_gap": {
            "unit": "px",
            "size": 16,
@@ -1325,40 +1277,72 @@
            "row": "3.59",
            "isLinked": true
           },
-          "border_radius": {
+          "padding": {
            "unit": "px",
-           "top": "16",
-           "right": "16",
-           "bottom": "16",
-           "left": "16",
-           "isLinked": true
+           "top": "28",
+           "right": "0",
+           "bottom": "28",
+           "left": "0",
+           "isLinked": false
           },
-          "border_radius_mobile_extra": {
+          "padding_tablet": {
+           "unit": "px",
+           "top": "24",
+           "right": "0",
+           "bottom": "24",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.892",
-           "right": "1.892",
-           "bottom": "1.892",
-           "left": "1.892",
-           "isLinked": true
+           "top": "2.703",
+           "right": "0.0",
+           "bottom": "2.703",
+           "left": "0.0",
+           "isLinked": false
           },
-          "border_radius_mobile": {
+          "padding_mobile": {
            "unit": "vw",
-           "top": "3.59",
-           "right": "3.59",
-           "bottom": "3.59",
-           "left": "3.59",
-           "isLinked": true
+           "top": "5.128",
+           "right": "0.0",
+           "bottom": "5.128",
+           "left": "0.0",
+           "isLinked": false
           },
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "row",
           "flex_align_items": "center",
-          "flex_wrap": "nowrap",
-          "flex_wrap_mobile": "nowrap"
+          "flex_wrap_mobile": "nowrap",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "__globals__": {
+           "border_color": "globals/colors?id=cinza300"
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.135",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.256",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "7a605a9",
+           "id": "cda6c6f",
            "elType": "widget",
            "widgetType": "icon",
            "settings": {
@@ -1366,20 +1350,19 @@
              "value": "fab fa-instagram",
              "library": "fa-brands"
             },
-            "view": "stacked",
+            "view": "default",
             "shape": "square",
             "align": "left",
             "__globals__": {
-             "primary_color": "globals/colors?id=verde100",
-             "secondary_color": "globals/colors?id=verde700"
+             "primary_color": "globals/colors?id=primary"
             },
             "size": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_tablet": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_mobile_extra": {
              "unit": "vw",
@@ -1434,7 +1417,7 @@
            "elements": []
           },
           {
-           "id": "6f15b6a",
+           "id": "8483f8b",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -1520,7 +1503,7 @@
            },
            "elements": [
             {
-             "id": "e39639b",
+             "id": "3a0b996",
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
@@ -1528,19 +1511,19 @@
               "header_size": "p",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_caption",
-               "title_color": "globals/colors?id=primary"
+               "title_color": "globals/colors?id=text"
               }
              },
              "elements": []
             },
             {
-             "id": "2db3997",
+             "id": "332dd33",
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
               "editor": "<p>@fcstudio</p>",
               "__globals__": {
-               "typography_typography": "globals/typography?id=fc_body",
+               "typography_typography": "globals/typography?id=fc_lead",
                "text_color": "globals/colors?id=secondary"
               },
               "paragraph_spacing": {
@@ -1567,48 +1550,16 @@
          ]
         },
         {
-         "id": "f237e45",
+         "id": "0726e25",
          "elType": "container",
          "isInner": true,
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=neutro50"
-          },
-          "padding": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_tablet": {
-           "unit": "px",
-           "top": "20",
-           "right": "20",
-           "bottom": "20",
-           "left": "20",
-           "isLinked": false
-          },
-          "padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.432",
-           "right": "2.432",
-           "bottom": "2.432",
-           "left": "2.432",
-           "isLinked": false
-          },
-          "padding_mobile": {
-           "unit": "vw",
-           "top": "4.615",
-           "right": "4.615",
-           "bottom": "4.615",
-           "left": "4.615",
-           "isLinked": false
-          },
+          "flex_direction_tablet": "row",
+          "flex_direction_mobile_extra": "row",
+          "flex_direction_mobile": "row",
+          "flex_wrap": "nowrap",
           "flex_gap": {
            "unit": "px",
            "size": 16,
@@ -1637,40 +1588,72 @@
            "row": "3.59",
            "isLinked": true
           },
-          "border_radius": {
+          "padding": {
            "unit": "px",
-           "top": "16",
-           "right": "16",
-           "bottom": "16",
-           "left": "16",
-           "isLinked": true
+           "top": "28",
+           "right": "0",
+           "bottom": "28",
+           "left": "0",
+           "isLinked": false
           },
-          "border_radius_mobile_extra": {
+          "padding_tablet": {
+           "unit": "px",
+           "top": "24",
+           "right": "0",
+           "bottom": "24",
+           "left": "0",
+           "isLinked": false
+          },
+          "padding_mobile_extra": {
            "unit": "vw",
-           "top": "1.892",
-           "right": "1.892",
-           "bottom": "1.892",
-           "left": "1.892",
-           "isLinked": true
+           "top": "2.703",
+           "right": "0.0",
+           "bottom": "2.703",
+           "left": "0.0",
+           "isLinked": false
           },
-          "border_radius_mobile": {
+          "padding_mobile": {
            "unit": "vw",
-           "top": "3.59",
-           "right": "3.59",
-           "bottom": "3.59",
-           "left": "3.59",
-           "isLinked": true
+           "top": "5.128",
+           "right": "0.0",
+           "bottom": "5.128",
+           "left": "0.0",
+           "isLinked": false
           },
-          "flex_direction_tablet": "row",
-          "flex_direction_mobile_extra": "row",
-          "flex_direction_mobile": "row",
           "flex_align_items": "center",
-          "flex_wrap": "nowrap",
-          "flex_wrap_mobile": "nowrap"
+          "flex_wrap_mobile": "nowrap",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "__globals__": {
+           "border_color": "globals/colors?id=cinza300"
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.135",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.256",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "a2c68e4",
+           "id": "5b06258",
            "elType": "widget",
            "widgetType": "icon",
            "settings": {
@@ -1678,20 +1661,19 @@
              "value": "fas fa-clock",
              "library": "fa-solid"
             },
-            "view": "stacked",
+            "view": "default",
             "shape": "square",
             "align": "left",
             "__globals__": {
-             "primary_color": "globals/colors?id=verde100",
-             "secondary_color": "globals/colors?id=verde700"
+             "primary_color": "globals/colors?id=primary"
             },
             "size": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_tablet": {
              "unit": "px",
-             "size": 22
+             "size": 20
             },
             "size_mobile_extra": {
              "unit": "vw",
@@ -1746,7 +1728,7 @@
            "elements": []
           },
           {
-           "id": "cd02c5e",
+           "id": "fd56a92",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -1832,7 +1814,7 @@
            },
            "elements": [
             {
-             "id": "551fd8f",
+             "id": "bb2313f",
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
@@ -1840,19 +1822,19 @@
               "header_size": "p",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_caption",
-               "title_color": "globals/colors?id=primary"
+               "title_color": "globals/colors?id=text"
               }
              },
              "elements": []
             },
             {
-             "id": "16353d0",
+             "id": "076b3e3",
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
               "editor": "<p>Segunda a sexta, das 9h às 18h</p>",
               "__globals__": {
-               "typography_typography": "globals/typography?id=fc_body",
+               "typography_typography": "globals/typography?id=fc_lead",
                "text_color": "globals/colors?id=secondary"
               },
               "paragraph_spacing": {
@@ -1881,7 +1863,7 @@
        ]
       },
       {
-       "id": "66c1494",
+       "id": "3192b70",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2003,7 +1985,7 @@
        },
        "elements": [
         {
-         "id": "6555abf",
+         "id": "78e4b98",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -2017,7 +1999,7 @@
          "elements": []
         },
         {
-         "id": "7691b06",
+         "id": "4259405",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2046,7 +2028,7 @@
          "elements": []
         },
         {
-         "id": "b8c9817",
+         "id": "4787f93",
          "elType": "widget",
          "widgetType": "form",
          "settings": {

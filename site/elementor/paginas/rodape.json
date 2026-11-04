@@ -4,7 +4,7 @@
  "type": "footer",
  "content": [
   {
-   "id": "27e9e06",
+   "id": "e67a9b7",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "a842bc1",
+     "id": "7b8f2ab",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -161,7 +161,7 @@
      },
      "elements": [
       {
-       "id": "26b1cff",
+       "id": "597a1ec",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -246,7 +246,7 @@
        },
        "elements": [
         {
-         "id": "2085963",
+         "id": "b91ee9e",
          "elType": "widget",
          "widgetType": "html",
          "settings": {
@@ -273,7 +273,7 @@
          "elements": []
         },
         {
-         "id": "070d710",
+         "id": "fcf00fe",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -304,7 +304,7 @@
        ]
       },
       {
-       "id": "256badf",
+       "id": "1a26f88",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -389,7 +389,7 @@
        },
        "elements": [
         {
-         "id": "973f798",
+         "id": "f47aebd",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -403,7 +403,7 @@
          "elements": []
         },
         {
-         "id": "e7a4630",
+         "id": "f979d04",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -432,7 +432,7 @@
          "elements": []
         },
         {
-         "id": "77216e9",
+         "id": "5d58c70",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -461,7 +461,7 @@
          "elements": []
         },
         {
-         "id": "ce76e9f",
+         "id": "149e259",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -490,7 +490,7 @@
          "elements": []
         },
         {
-         "id": "a7e6529",
+         "id": "3870380",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -521,7 +521,7 @@
        ]
       },
       {
-       "id": "796f74a",
+       "id": "3451d01",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -606,7 +606,7 @@
        },
        "elements": [
         {
-         "id": "9c9011e",
+         "id": "3a12917",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -620,11 +620,11 @@
          "elements": []
         },
         {
-         "id": "d39630d",
+         "id": "7857297",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>WhatsApp: (00) 00000-0000</p>",
+          "editor": "<p><a href=\"https://wa.me/5511916751926\" style=\"color:inherit\">WhatsApp: (11) 91675-1926</a></p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=branco"
@@ -649,7 +649,7 @@
          "elements": []
         },
         {
-         "id": "988af3f",
+         "id": "325b55d",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -678,7 +678,7 @@
          "elements": []
         },
         {
-         "id": "faf5549",
+         "id": "5675f6a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -711,7 +711,7 @@
      ]
     },
     {
-     "id": "effddee",
+     "id": "9fc2d0a",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -738,7 +738,7 @@
      "elements": []
     },
     {
-     "id": "59b44e9",
+     "id": "fc39472",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -752,13 +752,13 @@
      "elements": []
     },
     {
-     "id": "8c74fc1",
+     "id": "9c3a23c",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "WhatsApp",
       "link": {
-       "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
        "is_external": true,
        "nofollow": ""
       },
@@ -770,26 +770,26 @@
       "background_color": "#00000000",
       "border_radius": {
        "unit": "px",
-       "top": "999",
-       "right": "999",
-       "bottom": "999",
-       "left": "999",
+       "top": "10",
+       "right": "10",
+       "bottom": "10",
+       "left": "10",
        "isLinked": true
       },
       "border_radius_mobile_extra": {
        "unit": "vw",
-       "top": "135.0",
-       "right": "135.0",
-       "bottom": "135.0",
-       "left": "135.0",
+       "top": "1.351",
+       "right": "1.351",
+       "bottom": "1.351",
+       "left": "1.351",
        "isLinked": true
       },
       "border_radius_mobile": {
        "unit": "vw",
-       "top": "256.154",
-       "right": "256.154",
-       "bottom": "256.154",
-       "left": "256.154",
+       "top": "2.564",
+       "right": "2.564",
+       "bottom": "2.564",
+       "left": "2.564",
        "isLinked": true
       },
       "text_padding": {

@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "bd0561e",
+   "id": "b394fb3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "211c70c",
+     "id": "bb2d420",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,21 +173,7 @@
      },
      "elements": [
       {
-       "id": "0f17a30",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Serviços",
-        "header_size": "p",
-        "__globals__": {
-         "typography_typography": "globals/typography?id=fc_caption",
-         "title_color": "globals/colors?id=primary"
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "37dc76f",
+       "id": "aa05e11",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -201,7 +187,7 @@
        "elements": []
       },
       {
-       "id": "c4aaeac",
+       "id": "10a3d6b",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -230,7 +216,7 @@
        "elements": []
       },
       {
-       "id": "4995239",
+       "id": "0f88080",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -304,13 +290,13 @@
        },
        "elements": [
         {
-         "id": "1df9fd7",
+         "id": "795e822",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
           "text": "Conversar no WhatsApp",
           "link": {
-           "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
            "is_external": true,
            "nofollow": ""
           },
@@ -322,26 +308,26 @@
           "background_color": "#00000000",
           "border_radius": {
            "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
+           "top": "1.351",
+           "right": "1.351",
+           "bottom": "1.351",
+           "left": "1.351",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
+           "top": "2.564",
+           "right": "2.564",
+           "bottom": "2.564",
+           "left": "2.564",
            "isLinked": true
           },
           "text_padding": {
@@ -381,7 +367,7 @@
          "elements": []
         },
         {
-         "id": "7e62aa0",
+         "id": "b271594",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -424,26 +410,26 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
+           "top": "1.351",
+           "right": "1.351",
+           "bottom": "1.351",
+           "left": "1.351",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
+           "top": "2.564",
+           "right": "2.564",
+           "bottom": "2.564",
+           "left": "2.564",
            "isLinked": true
           },
           "text_padding": {
@@ -489,7 +475,7 @@
    ]
   },
   {
-   "id": "9e1a8ef",
+   "id": "e25a760",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -502,41 +488,41 @@
     },
     "padding": {
      "unit": "px",
-     "top": "88",
+     "top": "56",
      "right": "0",
-     "bottom": "88",
+     "bottom": "56",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "72",
+     "top": "48",
      "right": "40",
-     "bottom": "72",
+     "bottom": "48",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.568",
+     "top": "5.405",
      "right": "5.405",
-     "bottom": "7.568",
+     "bottom": "5.405",
      "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
      "unit": "vw",
-     "top": "14.359",
+     "top": "8.205",
      "right": "6.154",
-     "bottom": "14.359",
+     "bottom": "8.205",
      "left": "6.154",
      "isLinked": false
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "88",
+     "top": "56",
      "right": "32",
-     "bottom": "88",
+     "bottom": "56",
      "left": "32",
      "isLinked": false
     },
@@ -572,7 +558,7 @@
    },
    "elements": [
     {
-     "id": "f341e07",
+     "id": "aec6f02",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -581,30 +567,30 @@
       "_title": "Lista de serviços",
       "flex_gap": {
        "unit": "px",
-       "size": 16,
-       "column": "16",
-       "row": "16",
+       "size": 0,
+       "column": "0",
+       "row": "0",
        "isLinked": true
       },
       "flex_gap_tablet": {
        "unit": "px",
-       "size": 16,
-       "column": "16",
-       "row": "16",
+       "size": 0,
+       "column": "0",
+       "row": "0",
        "isLinked": true
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.892,
-       "column": "1.892",
-       "row": "1.892",
+       "size": 0.0,
+       "column": "0.0",
+       "row": "0.0",
        "isLinked": true
       },
       "flex_gap_mobile": {
        "unit": "vw",
-       "size": 3.59,
-       "column": "3.59",
-       "row": "3.59",
+       "size": 0.0,
+       "column": "0.0",
+       "row": "0.0",
        "isLinked": true
       },
       "padding": {
@@ -642,67 +628,36 @@
      },
      "elements": [
       {
-       "id": "8ca8181",
+       "id": "62c33a4",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=neutro50"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "40",
-         "right": "40",
-         "bottom": "40",
-         "left": "40",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "32",
-         "right": "32",
-         "bottom": "32",
-         "left": "32",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "3.243",
-         "right": "3.243",
-         "bottom": "3.243",
-         "left": "3.243",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "6.154",
-         "right": "6.154",
-         "bottom": "6.154",
-         "left": "6.154",
-         "isLinked": false
-        },
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Serviço Site para consultório",
         "flex_gap": {
          "unit": "px",
-         "size": 48,
-         "column": "48",
-         "row": "48",
+         "size": 64,
+         "column": "64",
+         "row": "64",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 32,
-         "column": "32",
-         "row": "32",
+         "size": 40,
+         "column": "40",
+         "row": "40",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 3.243,
-         "column": "3.243",
-         "row": "3.243",
+         "size": 3.784,
+         "column": "3.784",
+         "row": "3.784",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -712,38 +667,70 @@
          "row": "5.128",
          "isLinked": true
         },
-        "border_radius": {
+        "padding": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+         "top": "48",
+         "right": "0",
+         "bottom": "48",
+         "left": "0",
+         "isLinked": false
         },
-        "border_radius_mobile_extra": {
+        "padding_tablet": {
+         "unit": "px",
+         "top": "40",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
+         "top": "4.324",
+         "right": "0.0",
+         "bottom": "4.324",
+         "left": "0.0",
+         "isLinked": false
         },
-        "border_radius_mobile": {
+        "padding_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
+         "top": "7.179",
+         "right": "0.0",
+         "bottom": "7.179",
+         "left": "0.0",
+         "isLinked": false
         },
-        "_title": "Serviço 01",
-        "flex_direction_tablet": "row",
-        "flex_direction_mobile_extra": "row",
-        "flex_direction_mobile": "column"
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": [
         {
-         "id": "eab477d",
+         "id": "93f448b",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -828,41 +815,27 @@
          },
          "elements": [
           {
-           "id": "3f63af8",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "01",
-            "header_size": "p",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_num",
-             "title_color": "globals/colors?id=primary"
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "65dc9f5",
+           "id": "4f426dc",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
             "title": "Site para consultório",
             "header_size": "h2",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
+             "typography_typography": "globals/typography?id=fc_num",
              "title_color": "globals/colors?id=secondary"
             }
            },
            "elements": []
           },
           {
-           "id": "6415479",
+           "id": "a5aa3c8",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
             "editor": "<p>Site completo com tratamentos, equipe, localização e agendamento.</p>",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
+             "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
             },
             "paragraph_spacing": {
@@ -887,7 +860,7 @@
          ]
         },
         {
-         "id": "66d2287",
+         "id": "b774eb5",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -953,7 +926,6 @@
            "left": "0.0",
            "isLinked": false
           },
-          "flex_justify_content": "center",
           "width": {
            "unit": "%",
            "size": 50
@@ -973,13 +945,13 @@
          },
          "elements": [
           {
-           "id": "72fdf20",
+           "id": "48db40a",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "df1582b",
+              "_id": "fe3b890",
               "text": "Até 6 páginas com textos dentro das regras do CFO",
               "selected_icon": {
                "value": "fas fa-check",
@@ -987,7 +959,7 @@
               }
              },
              {
-              "_id": "7f1b103",
+              "_id": "ae658f3",
               "text": "Página para cada tratamento",
               "selected_icon": {
                "value": "fas fa-check",
@@ -995,7 +967,7 @@
               }
              },
              {
-              "_id": "14a0f9e",
+              "_id": "d269a9a",
               "text": "Mapa, horários e botão de WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1003,7 +975,7 @@
               }
              },
              {
-              "_id": "2a96fb1",
+              "_id": "7215837",
               "text": "Google Meu Negócio otimizado",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1072,67 +1044,36 @@
        ]
       },
       {
-       "id": "fc891b4",
+       "id": "1df9fd7",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=neutro50"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "40",
-         "right": "40",
-         "bottom": "40",
-         "left": "40",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "32",
-         "right": "32",
-         "bottom": "32",
-         "left": "32",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "3.243",
-         "right": "3.243",
-         "bottom": "3.243",
-         "left": "3.243",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "6.154",
-         "right": "6.154",
-         "bottom": "6.154",
-         "left": "6.154",
-         "isLinked": false
-        },
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Serviço Landing page por tratamento",
         "flex_gap": {
          "unit": "px",
-         "size": 48,
-         "column": "48",
-         "row": "48",
+         "size": 64,
+         "column": "64",
+         "row": "64",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 32,
-         "column": "32",
-         "row": "32",
+         "size": 40,
+         "column": "40",
+         "row": "40",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 3.243,
-         "column": "3.243",
-         "row": "3.243",
+         "size": 3.784,
+         "column": "3.784",
+         "row": "3.784",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -1142,38 +1083,70 @@
          "row": "5.128",
          "isLinked": true
         },
-        "border_radius": {
+        "padding": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+         "top": "48",
+         "right": "0",
+         "bottom": "48",
+         "left": "0",
+         "isLinked": false
         },
-        "border_radius_mobile_extra": {
+        "padding_tablet": {
+         "unit": "px",
+         "top": "40",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
+         "top": "4.324",
+         "right": "0.0",
+         "bottom": "4.324",
+         "left": "0.0",
+         "isLinked": false
         },
-        "border_radius_mobile": {
+        "padding_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
+         "top": "7.179",
+         "right": "0.0",
+         "bottom": "7.179",
+         "left": "0.0",
+         "isLinked": false
         },
-        "_title": "Serviço 02",
-        "flex_direction_tablet": "row",
-        "flex_direction_mobile_extra": "row",
-        "flex_direction_mobile": "column"
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": [
         {
-         "id": "d1bc52d",
+         "id": "58d5563",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1258,41 +1231,27 @@
          },
          "elements": [
           {
-           "id": "4720771",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "02",
-            "header_size": "p",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_num",
-             "title_color": "globals/colors?id=primary"
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "e225715",
+           "id": "e315128",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
             "title": "Landing page por tratamento",
             "header_size": "h2",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
+             "typography_typography": "globals/typography?id=fc_num",
              "title_color": "globals/colors?id=secondary"
             }
            },
            "elements": []
           },
           {
-           "id": "230d977",
+           "id": "ab2cd31",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
             "editor": "<p>Uma página focada em implante, lente de contato dental ou ortodontia.</p>",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
+             "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
             },
             "paragraph_spacing": {
@@ -1317,7 +1276,7 @@
          ]
         },
         {
-         "id": "6a50df4",
+         "id": "9c65393",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1383,7 +1342,6 @@
            "left": "0.0",
            "isLinked": false
           },
-          "flex_justify_content": "center",
           "width": {
            "unit": "%",
            "size": 50
@@ -1403,13 +1361,13 @@
          },
          "elements": [
           {
-           "id": "b4d66a3",
+           "id": "2b0537e",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "6e36aab",
+              "_id": "05c6af0",
               "text": "Texto que explica o tratamento sem jargão",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1417,7 +1375,7 @@
               }
              },
              {
-              "_id": "dd2e160",
+              "_id": "f0ce583",
               "text": "Perguntas frequentes do paciente",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1425,7 +1383,7 @@
               }
              },
              {
-              "_id": "8cdb305",
+              "_id": "7631a99",
               "text": "Formulário e WhatsApp no topo",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1433,7 +1391,7 @@
               }
              },
              {
-              "_id": "47469a4",
+              "_id": "5affb22",
               "text": "Pronta para receber anúncios",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1502,67 +1460,36 @@
        ]
       },
       {
-       "id": "3b61867",
+       "id": "6415479",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=neutro50"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "40",
-         "right": "40",
-         "bottom": "40",
-         "left": "40",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "32",
-         "right": "32",
-         "bottom": "32",
-         "left": "32",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "3.243",
-         "right": "3.243",
-         "bottom": "3.243",
-         "left": "3.243",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "6.154",
-         "right": "6.154",
-         "bottom": "6.154",
-         "left": "6.154",
-         "isLinked": false
-        },
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Serviço Anúncios no Google e Instagram",
         "flex_gap": {
          "unit": "px",
-         "size": 48,
-         "column": "48",
-         "row": "48",
+         "size": 64,
+         "column": "64",
+         "row": "64",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 32,
-         "column": "32",
-         "row": "32",
+         "size": 40,
+         "column": "40",
+         "row": "40",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 3.243,
-         "column": "3.243",
-         "row": "3.243",
+         "size": 3.784,
+         "column": "3.784",
+         "row": "3.784",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -1572,38 +1499,70 @@
          "row": "5.128",
          "isLinked": true
         },
-        "border_radius": {
+        "padding": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+         "top": "48",
+         "right": "0",
+         "bottom": "48",
+         "left": "0",
+         "isLinked": false
         },
-        "border_radius_mobile_extra": {
+        "padding_tablet": {
+         "unit": "px",
+         "top": "40",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
+         "top": "4.324",
+         "right": "0.0",
+         "bottom": "4.324",
+         "left": "0.0",
+         "isLinked": false
         },
-        "border_radius_mobile": {
+        "padding_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
+         "top": "7.179",
+         "right": "0.0",
+         "bottom": "7.179",
+         "left": "0.0",
+         "isLinked": false
         },
-        "_title": "Serviço 03",
-        "flex_direction_tablet": "row",
-        "flex_direction_mobile_extra": "row",
-        "flex_direction_mobile": "column"
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": [
         {
-         "id": "616499c",
+         "id": "37dc76f",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1688,41 +1647,27 @@
          },
          "elements": [
           {
-           "id": "5bd86d4",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "03",
-            "header_size": "p",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_num",
-             "title_color": "globals/colors?id=primary"
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "aec6f02",
+           "id": "7e62aa0",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
             "title": "Anúncios no Google e Instagram",
             "header_size": "h2",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
+             "typography_typography": "globals/typography?id=fc_num",
              "title_color": "globals/colors?id=secondary"
             }
            },
            "elements": []
           },
           {
-           "id": "e25a760",
+           "id": "0f17a30",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
             "editor": "<p>Campanhas para quem está procurando dentista agora, na sua região.</p>",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
+             "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
             },
             "paragraph_spacing": {
@@ -1747,7 +1692,7 @@
          ]
         },
         {
-         "id": "26bb7db",
+         "id": "65dc9f5",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1813,7 +1758,6 @@
            "left": "0.0",
            "isLinked": false
           },
-          "flex_justify_content": "center",
           "width": {
            "unit": "%",
            "size": 50
@@ -1833,13 +1777,13 @@
          },
          "elements": [
           {
-           "id": "2d1c9af",
+           "id": "3f63af8",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "f52ddf5",
+              "_id": "c4aaeac",
               "text": "Campanha por bairro ou cidade",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1847,7 +1791,7 @@
               }
              },
              {
-              "_id": "3b1287f",
+              "_id": "4995239",
               "text": "Criativos e textos inclusos",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1855,7 +1799,7 @@
               }
              },
              {
-              "_id": "26a2c0b",
+              "_id": "211c70c",
               "text": "Acompanhamento semanal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1863,7 +1807,7 @@
               }
              },
              {
-              "_id": "153e7c2",
+              "_id": "bd0561e",
               "text": "Relatório mensal simples",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1932,67 +1876,36 @@
        ]
       },
       {
-       "id": "254b0c4",
+       "id": "e225715",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=neutro50"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "40",
-         "right": "40",
-         "bottom": "40",
-         "left": "40",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "32",
-         "right": "32",
-         "bottom": "32",
-         "left": "32",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "3.243",
-         "right": "3.243",
-         "bottom": "3.243",
-         "left": "3.243",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "6.154",
-         "right": "6.154",
-         "bottom": "6.154",
-         "left": "6.154",
-         "isLinked": false
-        },
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Serviço Edição de vídeos",
         "flex_gap": {
          "unit": "px",
-         "size": 48,
-         "column": "48",
-         "row": "48",
+         "size": 64,
+         "column": "64",
+         "row": "64",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 32,
-         "column": "32",
-         "row": "32",
+         "size": 40,
+         "column": "40",
+         "row": "40",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 3.243,
-         "column": "3.243",
-         "row": "3.243",
+         "size": 3.784,
+         "column": "3.784",
+         "row": "3.784",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -2002,38 +1915,70 @@
          "row": "5.128",
          "isLinked": true
         },
-        "border_radius": {
+        "padding": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+         "top": "48",
+         "right": "0",
+         "bottom": "48",
+         "left": "0",
+         "isLinked": false
         },
-        "border_radius_mobile_extra": {
+        "padding_tablet": {
+         "unit": "px",
+         "top": "40",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
+         "top": "4.324",
+         "right": "0.0",
+         "bottom": "4.324",
+         "left": "0.0",
+         "isLinked": false
         },
-        "border_radius_mobile": {
+        "padding_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
+         "top": "7.179",
+         "right": "0.0",
+         "bottom": "7.179",
+         "left": "0.0",
+         "isLinked": false
         },
-        "_title": "Serviço 04",
-        "flex_direction_tablet": "row",
-        "flex_direction_mobile_extra": "row",
-        "flex_direction_mobile": "column"
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": [
         {
-         "id": "7c26847",
+         "id": "7f1b103",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2118,41 +2063,27 @@
          },
          "elements": [
           {
-           "id": "a8948c8",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "04",
-            "header_size": "p",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_num",
-             "title_color": "globals/colors?id=primary"
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "3bbbe9e",
+           "id": "eab477d",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
             "title": "Edição de vídeos",
             "header_size": "h2",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
+             "typography_typography": "globals/typography?id=fc_num",
              "title_color": "globals/colors?id=secondary"
             }
            },
            "elements": []
           },
           {
-           "id": "0316909",
+           "id": "df1582b",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
             "editor": "<p>Reels e vídeos curtos que explicam tratamentos e mostram a clínica.</p>",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
+             "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
             },
             "paragraph_spacing": {
@@ -2177,7 +2108,7 @@
          ]
         },
         {
-         "id": "010c475",
+         "id": "4720771",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2243,7 +2174,6 @@
            "left": "0.0",
            "isLinked": false
           },
-          "flex_justify_content": "center",
           "width": {
            "unit": "%",
            "size": 50
@@ -2263,13 +2193,13 @@
          },
          "elements": [
           {
-           "id": "482c9cb",
+           "id": "8ca8181",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "d4c28c2",
+              "_id": "14a0f9e",
               "text": "Roteiro curto para gravar no celular",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2277,7 +2207,7 @@
               }
              },
              {
-              "_id": "96d0cc5",
+              "_id": "2a96fb1",
               "text": "Edição com legenda e trilha",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2285,7 +2215,7 @@
               }
              },
              {
-              "_id": "2eae05c",
+              "_id": "72fdf20",
               "text": "Formato para Reels, Stories e site",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2293,7 +2223,7 @@
               }
              },
              {
-              "_id": "43435cc",
+              "_id": "66d2287",
               "text": "4 vídeos por mês no plano mensal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2362,67 +2292,36 @@
        ]
       },
       {
-       "id": "83f73f1",
+       "id": "5bd86d4",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=neutro50"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "40",
-         "right": "40",
-         "bottom": "40",
-         "left": "40",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "32",
-         "right": "32",
-         "bottom": "32",
-         "left": "32",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "3.243",
-         "right": "3.243",
-         "bottom": "3.243",
-         "left": "3.243",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "6.154",
-         "right": "6.154",
-         "bottom": "6.154",
-         "left": "6.154",
-         "isLinked": false
-        },
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Serviço Sistema de agendamento",
         "flex_gap": {
          "unit": "px",
-         "size": 48,
-         "column": "48",
-         "row": "48",
+         "size": 64,
+         "column": "64",
+         "row": "64",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 32,
-         "column": "32",
-         "row": "32",
+         "size": 40,
+         "column": "40",
+         "row": "40",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 3.243,
-         "column": "3.243",
-         "row": "3.243",
+         "size": 3.784,
+         "column": "3.784",
+         "row": "3.784",
          "isLinked": true
         },
         "flex_gap_mobile": {
@@ -2432,38 +2331,70 @@
          "row": "5.128",
          "isLinked": true
         },
-        "border_radius": {
+        "padding": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+         "top": "48",
+         "right": "0",
+         "bottom": "48",
+         "left": "0",
+         "isLinked": false
         },
-        "border_radius_mobile_extra": {
+        "padding_tablet": {
+         "unit": "px",
+         "top": "40",
+         "right": "0",
+         "bottom": "40",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
+         "top": "4.324",
+         "right": "0.0",
+         "bottom": "4.324",
+         "left": "0.0",
+         "isLinked": false
         },
-        "border_radius_mobile": {
+        "padding_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
+         "top": "7.179",
+         "right": "0.0",
+         "bottom": "7.179",
+         "left": "0.0",
+         "isLinked": false
         },
-        "_title": "Serviço 05",
-        "flex_direction_tablet": "row",
-        "flex_direction_mobile_extra": "row",
-        "flex_direction_mobile": "column"
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        }
        },
        "elements": [
         {
-         "id": "9c1caaf",
+         "id": "6e36aab",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2548,41 +2479,27 @@
          },
          "elements": [
           {
-           "id": "6b4013e",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "05",
-            "header_size": "p",
-            "__globals__": {
-             "typography_typography": "globals/typography?id=fc_num",
-             "title_color": "globals/colors?id=primary"
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "88daf40",
+           "id": "230d977",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
             "title": "Sistema de agendamento",
             "header_size": "h2",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_h3",
+             "typography_typography": "globals/typography?id=fc_num",
              "title_color": "globals/colors?id=secondary"
             }
            },
            "elements": []
           },
           {
-           "id": "5e8766e",
+           "id": "d1bc52d",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
             "editor": "<p>Agenda online para o paciente marcar sozinho, integrada ao WhatsApp.</p>",
             "__globals__": {
-             "typography_typography": "globals/typography?id=fc_body",
+             "typography_typography": "globals/typography?id=fc_lead",
              "text_color": "globals/colors?id=text"
             },
             "paragraph_spacing": {
@@ -2607,7 +2524,7 @@
          ]
         },
         {
-         "id": "dbf4a8b",
+         "id": "fc891b4",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2673,7 +2590,6 @@
            "left": "0.0",
            "isLinked": false
           },
-          "flex_justify_content": "center",
           "width": {
            "unit": "%",
            "size": 50
@@ -2693,13 +2609,13 @@
          },
          "elements": [
           {
-           "id": "b0c4312",
+           "id": "6a50df4",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "90fbbd1",
+              "_id": "dd2e160",
               "text": "Horários disponíveis em tempo real",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2707,7 +2623,7 @@
               }
              },
              {
-              "_id": "519088f",
+              "_id": "8cdb305",
               "text": "Confirmação automática",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2715,7 +2631,7 @@
               }
              },
              {
-              "_id": "f3fe39c",
+              "_id": "47469a4",
               "text": "Lembrete antes da consulta",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2723,7 +2639,7 @@
               }
              },
              {
-              "_id": "2020362",
+              "_id": "b4d66a3",
               "text": "Painel simples para a recepção",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2796,7 +2712,7 @@
    ]
   },
   {
-   "id": "6683688",
+   "id": "6b4013e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2879,7 +2795,7 @@
    },
    "elements": [
     {
-     "id": "7b45145",
+     "id": "010c475",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2949,21 +2865,7 @@
      },
      "elements": [
       {
-       "id": "64e50ca",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Como funciona",
-        "header_size": "p",
-        "__globals__": {
-         "typography_typography": "globals/typography?id=fc_caption",
-         "title_color": "globals/colors?id=primary"
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "1a81682",
+       "id": "482c9cb",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2979,7 +2881,7 @@
      ]
     },
     {
-     "id": "a260cd0",
+     "id": "254b0c4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3009,9 +2911,9 @@
       "_title": "Passos",
       "grid_gaps": {
        "unit": "px",
-       "size": 24,
-       "column": "24",
-       "row": "24",
+       "size": 32,
+       "column": "32",
+       "row": "32",
        "isLinked": true
       },
       "grid_gaps_tablet": {
@@ -3030,9 +2932,9 @@
       },
       "grid_gaps_mobile": {
        "unit": "vw",
-       "size": 7.179,
-       "column": "7.179",
-       "row": "7.179",
+       "size": 8.205,
+       "column": "8.205",
+       "row": "8.205",
        "isLinked": true
       },
       "padding": {
@@ -3070,7 +2972,7 @@
      },
      "elements": [
       {
-       "id": "0dd27a6",
+       "id": "26a2c0b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3078,35 +2980,35 @@
         "flex_direction": "column",
         "flex_gap": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.351,
-         "column": "1.351",
-         "row": "1.351",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 2.564,
-         "column": "2.564",
-         "row": "2.564",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
          "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "20",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3114,7 +3016,7 @@
         },
         "padding_tablet": {
          "unit": "px",
-         "top": "0",
+         "top": "18",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3122,7 +3024,7 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "2.162",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
@@ -3130,106 +3032,58 @@
         },
         "padding_mobile": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "4.103",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.27",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.513",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=primary"
         }
        },
        "elements": [
         {
-         "id": "a7abe1c",
+         "id": "616499c",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
           "title": "1",
           "header_size": "span",
-          "align": "center",
-          "_element_width": "initial",
-          "_background_background": "classic",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=branco",
-           "_background_color": "globals/colors?id=primary"
-          },
-          "_element_custom_width": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_tablet": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_mobile_extra": {
-           "unit": "vw",
-           "size": 5.405
-          },
-          "_element_custom_width_mobile": {
-           "unit": "vw",
-           "size": 10.256
-          },
-          "_padding": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_tablet": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_mobile_extra": {
-           "unit": "vw",
-           "top": "1.081",
-           "right": "0.0",
-           "bottom": "1.081",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_padding_mobile": {
-           "unit": "vw",
-           "top": "2.051",
-           "right": "0.0",
-           "bottom": "2.051",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_border_radius": {
-           "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
-           "isLinked": true
-          },
-          "_border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
-           "isLinked": true
-          },
-          "_border_radius_mobile": {
-           "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
-           "isLinked": true
+           "typography_typography": "globals/typography?id=fc_h1",
+           "title_color": "globals/colors?id=primary"
           }
          },
          "elements": []
         },
         {
-         "id": "ad1b72d",
+         "id": "f52ddf5",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3243,7 +3097,7 @@
          "elements": []
         },
         {
-         "id": "bd62888",
+         "id": "3b1287f",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3274,7 +3128,7 @@
        ]
       },
       {
-       "id": "c7ac149",
+       "id": "3b61867",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3282,35 +3136,35 @@
         "flex_direction": "column",
         "flex_gap": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.351,
-         "column": "1.351",
-         "row": "1.351",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 2.564,
-         "column": "2.564",
-         "row": "2.564",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
          "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "20",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3318,7 +3172,7 @@
         },
         "padding_tablet": {
          "unit": "px",
-         "top": "0",
+         "top": "18",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3326,7 +3180,7 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "2.162",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
@@ -3334,106 +3188,58 @@
         },
         "padding_mobile": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "4.103",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.27",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.513",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=primary"
         }
        },
        "elements": [
         {
-         "id": "74e69a5",
+         "id": "153e7c2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
           "title": "2",
           "header_size": "span",
-          "align": "center",
-          "_element_width": "initial",
-          "_background_background": "classic",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=branco",
-           "_background_color": "globals/colors?id=primary"
-          },
-          "_element_custom_width": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_tablet": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_mobile_extra": {
-           "unit": "vw",
-           "size": 5.405
-          },
-          "_element_custom_width_mobile": {
-           "unit": "vw",
-           "size": 10.256
-          },
-          "_padding": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_tablet": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_mobile_extra": {
-           "unit": "vw",
-           "top": "1.081",
-           "right": "0.0",
-           "bottom": "1.081",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_padding_mobile": {
-           "unit": "vw",
-           "top": "2.051",
-           "right": "0.0",
-           "bottom": "2.051",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_border_radius": {
-           "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
-           "isLinked": true
-          },
-          "_border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
-           "isLinked": true
-          },
-          "_border_radius_mobile": {
-           "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
-           "isLinked": true
+           "typography_typography": "globals/typography?id=fc_h1",
+           "title_color": "globals/colors?id=primary"
           }
          },
          "elements": []
         },
         {
-         "id": "e647cb8",
+         "id": "2d1c9af",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3447,11 +3253,11 @@
          "elements": []
         },
         {
-         "id": "def8833",
+         "id": "26bb7db",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Você vê o site pronto no Figma antes de qualquer código.</p>",
+          "editor": "<p>Você vê o site pronto antes de qualquer código.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"
@@ -3478,7 +3284,7 @@
        ]
       },
       {
-       "id": "cc4169a",
+       "id": "7c26847",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3486,35 +3292,35 @@
         "flex_direction": "column",
         "flex_gap": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.351,
-         "column": "1.351",
-         "row": "1.351",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 2.564,
-         "column": "2.564",
-         "row": "2.564",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
          "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "20",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3522,7 +3328,7 @@
         },
         "padding_tablet": {
          "unit": "px",
-         "top": "0",
+         "top": "18",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3530,7 +3336,7 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "2.162",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
@@ -3538,106 +3344,58 @@
         },
         "padding_mobile": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "4.103",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.27",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.513",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=primary"
         }
        },
        "elements": [
         {
-         "id": "f3aed0b",
+         "id": "a8948c8",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
           "title": "3",
           "header_size": "span",
-          "align": "center",
-          "_element_width": "initial",
-          "_background_background": "classic",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=branco",
-           "_background_color": "globals/colors?id=primary"
-          },
-          "_element_custom_width": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_tablet": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_mobile_extra": {
-           "unit": "vw",
-           "size": 5.405
-          },
-          "_element_custom_width_mobile": {
-           "unit": "vw",
-           "size": 10.256
-          },
-          "_padding": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_tablet": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_mobile_extra": {
-           "unit": "vw",
-           "top": "1.081",
-           "right": "0.0",
-           "bottom": "1.081",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_padding_mobile": {
-           "unit": "vw",
-           "top": "2.051",
-           "right": "0.0",
-           "bottom": "2.051",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_border_radius": {
-           "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
-           "isLinked": true
-          },
-          "_border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
-           "isLinked": true
-          },
-          "_border_radius_mobile": {
-           "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
-           "isLinked": true
+           "typography_typography": "globals/typography?id=fc_h1",
+           "title_color": "globals/colors?id=primary"
           }
          },
          "elements": []
         },
         {
-         "id": "dfe0189",
+         "id": "3bbbe9e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3651,7 +3409,7 @@
          "elements": []
         },
         {
-         "id": "ae3a2b7",
+         "id": "0316909",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3682,7 +3440,7 @@
        ]
       },
       {
-       "id": "66237a0",
+       "id": "43435cc",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3690,35 +3448,35 @@
         "flex_direction": "column",
         "flex_gap": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 10,
+         "column": "10",
+         "row": "10",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
          "unit": "vw",
-         "size": 1.351,
-         "column": "1.351",
-         "row": "1.351",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
          "isLinked": true
         },
         "flex_gap_mobile": {
          "unit": "vw",
-         "size": 2.564,
-         "column": "2.564",
-         "row": "2.564",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
          "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "20",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3726,7 +3484,7 @@
         },
         "padding_tablet": {
          "unit": "px",
-         "top": "0",
+         "top": "18",
          "right": "0",
          "bottom": "0",
          "left": "0",
@@ -3734,7 +3492,7 @@
         },
         "padding_mobile_extra": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "2.162",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
@@ -3742,106 +3500,58 @@
         },
         "padding_mobile": {
          "unit": "vw",
-         "top": "0.0",
+         "top": "4.103",
          "right": "0.0",
          "bottom": "0.0",
          "left": "0.0",
          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile_extra": {
+         "unit": "vw",
+         "top": "0.27",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_width_mobile": {
+         "unit": "vw",
+         "top": "0.513",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "__globals__": {
+         "border_color": "globals/colors?id=primary"
         }
        },
        "elements": [
         {
-         "id": "8f2c6ec",
+         "id": "d4c28c2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
           "title": "4",
           "header_size": "span",
-          "align": "center",
-          "_element_width": "initial",
-          "_background_background": "classic",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=branco",
-           "_background_color": "globals/colors?id=primary"
-          },
-          "_element_custom_width": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_tablet": {
-           "unit": "px",
-           "size": 44
-          },
-          "_element_custom_width_mobile_extra": {
-           "unit": "vw",
-           "size": 5.405
-          },
-          "_element_custom_width_mobile": {
-           "unit": "vw",
-           "size": 10.256
-          },
-          "_padding": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_tablet": {
-           "unit": "px",
-           "top": "8",
-           "right": "0",
-           "bottom": "8",
-           "left": "0",
-           "isLinked": false
-          },
-          "_padding_mobile_extra": {
-           "unit": "vw",
-           "top": "1.081",
-           "right": "0.0",
-           "bottom": "1.081",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_padding_mobile": {
-           "unit": "vw",
-           "top": "2.051",
-           "right": "0.0",
-           "bottom": "2.051",
-           "left": "0.0",
-           "isLinked": false
-          },
-          "_border_radius": {
-           "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
-           "isLinked": true
-          },
-          "_border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
-           "isLinked": true
-          },
-          "_border_radius_mobile": {
-           "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
-           "isLinked": true
+           "typography_typography": "globals/typography?id=fc_h1",
+           "title_color": "globals/colors?id=primary"
           }
          },
          "elements": []
         },
         {
-         "id": "6472f1a",
+         "id": "96d0cc5",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3855,7 +3565,7 @@
          "elements": []
         },
         {
-         "id": "65e7e42",
+         "id": "2eae05c",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3890,7 +3600,7 @@
    ]
   },
   {
-   "id": "9118bb1",
+   "id": "a7abe1c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3964,16 +3674,16 @@
     },
     "flex_gap_mobile": {
      "unit": "vw",
-     "size": 7.179,
-     "column": "7.179",
-     "row": "7.179",
+     "size": 6.154,
+     "column": "6.154",
+     "row": "6.154",
      "isLinked": true
     },
     "_element_id": "duvidas"
    },
    "elements": [
     {
-     "id": "1a358ca",
+     "id": "f341e07",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4043,21 +3753,7 @@
      },
      "elements": [
       {
-       "id": "99c9430",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Dúvidas",
-        "header_size": "p",
-        "__globals__": {
-         "typography_typography": "globals/typography?id=fc_caption",
-         "title_color": "globals/colors?id=primary"
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0d75985",
+       "id": "83f73f1",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4073,7 +3769,7 @@
      ]
     },
     {
-     "id": "000f49c",
+     "id": "9e1a8ef",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4082,30 +3778,30 @@
       "_title": "Lista",
       "flex_gap": {
        "unit": "px",
-       "size": 12,
-       "column": "12",
-       "row": "12",
+       "size": 0,
+       "column": "0",
+       "row": "0",
        "isLinked": true
       },
       "flex_gap_tablet": {
        "unit": "px",
-       "size": 12,
-       "column": "12",
-       "row": "12",
+       "size": 0,
+       "column": "0",
+       "row": "0",
        "isLinked": true
       },
       "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 1.622,
-       "column": "1.622",
-       "row": "1.622",
+       "size": 0.0,
+       "column": "0.0",
+       "row": "0.0",
        "isLinked": true
       },
       "flex_gap_mobile": {
        "unit": "vw",
-       "size": 3.077,
-       "column": "3.077",
-       "row": "3.077",
+       "size": 0.0,
+       "column": "0.0",
+       "row": "0.0",
        "isLinked": true
       },
       "padding": {
@@ -4143,104 +3839,109 @@
      },
      "elements": [
       {
-       "id": "113db17",
+       "id": "9c1caaf",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
-        "flex_direction": "column",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=branco"
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Preciso ter fotos profissionais?",
+        "flex_gap": {
+         "unit": "px",
+         "size": 48,
+         "column": "48",
+         "row": "48",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 32,
+         "column": "32",
+         "row": "32",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 3.243,
+         "column": "3.243",
+         "row": "3.243",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 1.538,
+         "column": "1.538",
+         "row": "1.538",
+         "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "24",
-         "right": "24",
-         "bottom": "24",
-         "left": "24",
+         "top": "28",
+         "right": "0",
+         "bottom": "28",
+         "left": "0",
          "isLinked": false
         },
         "padding_tablet": {
          "unit": "px",
          "top": "24",
-         "right": "24",
+         "right": "0",
          "bottom": "24",
-         "left": "24",
+         "left": "0",
          "isLinked": false
         },
         "padding_mobile_extra": {
          "unit": "vw",
          "top": "2.703",
-         "right": "2.703",
+         "right": "0.0",
          "bottom": "2.703",
-         "left": "2.703",
+         "left": "0.0",
          "isLinked": false
         },
         "padding_mobile": {
          "unit": "vw",
          "top": "5.128",
-         "right": "5.128",
+         "right": "0.0",
          "bottom": "5.128",
-         "left": "5.128",
+         "left": "0.0",
          "isLinked": false
         },
-        "flex_gap": {
+        "border_border": "solid",
+        "border_width": {
          "unit": "px",
-         "size": 8,
-         "column": "8",
-         "row": "8",
-         "isLinked": true
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "flex_gap_tablet": {
-         "unit": "px",
-         "size": 8,
-         "column": "8",
-         "row": "8",
-         "isLinked": true
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
         },
-        "flex_gap_mobile_extra": {
+        "border_width_mobile_extra": {
          "unit": "vw",
-         "size": 1.081,
-         "column": "1.081",
-         "row": "1.081",
-         "isLinked": true
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "flex_gap_mobile": {
+        "border_width_mobile": {
          "unit": "vw",
-         "size": 2.051,
-         "column": "2.051",
-         "row": "2.051",
-         "isLinked": true
-        },
-        "border_radius": {
-         "unit": "px",
-         "top": "16",
-         "right": "16",
-         "bottom": "16",
-         "left": "16",
-         "isLinked": true
-        },
-        "border_radius_mobile_extra": {
-         "unit": "vw",
-         "top": "1.892",
-         "right": "1.892",
-         "bottom": "1.892",
-         "left": "1.892",
-         "isLinked": true
-        },
-        "border_radius_mobile": {
-         "unit": "vw",
-         "top": "3.59",
-         "right": "3.59",
-         "bottom": "3.59",
-         "left": "3.59",
-         "isLinked": true
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         }
        },
        "elements": [
         {
-         "id": "0fef792",
+         "id": "88daf40",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4249,12 +3950,29 @@
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
            "title_color": "globals/colors?id=secondary"
+          },
+          "_element_width": "initial",
+          "_element_custom_width": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_tablet": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_mobile_extra": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_mobile": {
+           "unit": "%",
+           "size": 100
           }
          },
          "elements": []
         },
         {
-         "id": "30cbc97",
+         "id": "5e8766e",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4278,6 +3996,23 @@
           "paragraph_spacing_mobile": {
            "unit": "vw",
            "size": 0.0
+          },
+          "_element_width": "initial",
+          "_element_custom_width": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_tablet": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_mobile_extra": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_mobile": {
+           "unit": "%",
+           "size": 100
           }
          },
          "elements": []
@@ -4285,104 +4020,109 @@
        ]
       },
       {
-       "id": "70ccec3",
+       "id": "f3fe39c",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
-        "flex_direction": "column",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=branco"
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Vocês escrevem os textos?",
+        "flex_gap": {
+         "unit": "px",
+         "size": 48,
+         "column": "48",
+         "row": "48",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 32,
+         "column": "32",
+         "row": "32",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 3.243,
+         "column": "3.243",
+         "row": "3.243",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 1.538,
+         "column": "1.538",
+         "row": "1.538",
+         "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "24",
-         "right": "24",
-         "bottom": "24",
-         "left": "24",
+         "top": "28",
+         "right": "0",
+         "bottom": "28",
+         "left": "0",
          "isLinked": false
         },
         "padding_tablet": {
          "unit": "px",
          "top": "24",
-         "right": "24",
+         "right": "0",
          "bottom": "24",
-         "left": "24",
+         "left": "0",
          "isLinked": false
         },
         "padding_mobile_extra": {
          "unit": "vw",
          "top": "2.703",
-         "right": "2.703",
+         "right": "0.0",
          "bottom": "2.703",
-         "left": "2.703",
+         "left": "0.0",
          "isLinked": false
         },
         "padding_mobile": {
          "unit": "vw",
          "top": "5.128",
-         "right": "5.128",
+         "right": "0.0",
          "bottom": "5.128",
-         "left": "5.128",
+         "left": "0.0",
          "isLinked": false
         },
-        "flex_gap": {
+        "border_border": "solid",
+        "border_width": {
          "unit": "px",
-         "size": 8,
-         "column": "8",
-         "row": "8",
-         "isLinked": true
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "flex_gap_tablet": {
-         "unit": "px",
-         "size": 8,
-         "column": "8",
-         "row": "8",
-         "isLinked": true
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
         },
-        "flex_gap_mobile_extra": {
+        "border_width_mobile_extra": {
          "unit": "vw",
-         "size": 1.081,
-         "column": "1.081",
-         "row": "1.081",
-         "isLinked": true
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "flex_gap_mobile": {
+        "border_width_mobile": {
          "unit": "vw",
-         "size": 2.051,
-         "column": "2.051",
-         "row": "2.051",
-         "isLinked": true
-        },
-        "border_radius": {
-         "unit": "px",
-         "top": "16",
-         "right": "16",
-         "bottom": "16",
-         "left": "16",
-         "isLinked": true
-        },
-        "border_radius_mobile_extra": {
-         "unit": "vw",
-         "top": "1.892",
-         "right": "1.892",
-         "bottom": "1.892",
-         "left": "1.892",
-         "isLinked": true
-        },
-        "border_radius_mobile": {
-         "unit": "vw",
-         "top": "3.59",
-         "right": "3.59",
-         "bottom": "3.59",
-         "left": "3.59",
-         "isLinked": true
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         }
        },
        "elements": [
         {
-         "id": "fc132d0",
+         "id": "90fbbd1",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4391,12 +4131,29 @@
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
            "title_color": "globals/colors?id=secondary"
+          },
+          "_element_width": "initial",
+          "_element_custom_width": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_tablet": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_mobile_extra": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_mobile": {
+           "unit": "%",
+           "size": 100
           }
          },
          "elements": []
         },
         {
-         "id": "3571810",
+         "id": "519088f",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4420,6 +4177,23 @@
           "paragraph_spacing_mobile": {
            "unit": "vw",
            "size": 0.0
+          },
+          "_element_width": "initial",
+          "_element_custom_width": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_tablet": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_mobile_extra": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_mobile": {
+           "unit": "%",
+           "size": 100
           }
          },
          "elements": []
@@ -4427,104 +4201,109 @@
        ]
       },
       {
-       "id": "570dc19",
+       "id": "dbf4a8b",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
-        "flex_direction": "column",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=branco"
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile_extra": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "nowrap",
+        "_title": "Atendem fora da minha cidade?",
+        "flex_gap": {
+         "unit": "px",
+         "size": 48,
+         "column": "48",
+         "row": "48",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 32,
+         "column": "32",
+         "row": "32",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 3.243,
+         "column": "3.243",
+         "row": "3.243",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 1.538,
+         "column": "1.538",
+         "row": "1.538",
+         "isLinked": true
         },
         "padding": {
          "unit": "px",
-         "top": "24",
-         "right": "24",
-         "bottom": "24",
-         "left": "24",
+         "top": "28",
+         "right": "0",
+         "bottom": "28",
+         "left": "0",
          "isLinked": false
         },
         "padding_tablet": {
          "unit": "px",
          "top": "24",
-         "right": "24",
+         "right": "0",
          "bottom": "24",
-         "left": "24",
+         "left": "0",
          "isLinked": false
         },
         "padding_mobile_extra": {
          "unit": "vw",
          "top": "2.703",
-         "right": "2.703",
+         "right": "0.0",
          "bottom": "2.703",
-         "left": "2.703",
+         "left": "0.0",
          "isLinked": false
         },
         "padding_mobile": {
          "unit": "vw",
          "top": "5.128",
-         "right": "5.128",
+         "right": "0.0",
          "bottom": "5.128",
-         "left": "5.128",
+         "left": "0.0",
          "isLinked": false
         },
-        "flex_gap": {
+        "border_border": "solid",
+        "border_width": {
          "unit": "px",
-         "size": 8,
-         "column": "8",
-         "row": "8",
-         "isLinked": true
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "flex_gap_tablet": {
-         "unit": "px",
-         "size": 8,
-         "column": "8",
-         "row": "8",
-         "isLinked": true
+        "__globals__": {
+         "border_color": "globals/colors?id=cinza300"
         },
-        "flex_gap_mobile_extra": {
+        "border_width_mobile_extra": {
          "unit": "vw",
-         "size": 1.081,
-         "column": "1.081",
-         "row": "1.081",
-         "isLinked": true
+         "top": "0.135",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "flex_gap_mobile": {
+        "border_width_mobile": {
          "unit": "vw",
-         "size": 2.051,
-         "column": "2.051",
-         "row": "2.051",
-         "isLinked": true
-        },
-        "border_radius": {
-         "unit": "px",
-         "top": "16",
-         "right": "16",
-         "bottom": "16",
-         "left": "16",
-         "isLinked": true
-        },
-        "border_radius_mobile_extra": {
-         "unit": "vw",
-         "top": "1.892",
-         "right": "1.892",
-         "bottom": "1.892",
-         "left": "1.892",
-         "isLinked": true
-        },
-        "border_radius_mobile": {
-         "unit": "vw",
-         "top": "3.59",
-         "right": "3.59",
-         "bottom": "3.59",
-         "left": "3.59",
-         "isLinked": true
+         "top": "0.256",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         }
        },
        "elements": [
         {
-         "id": "298cb3a",
+         "id": "2020362",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4533,12 +4312,29 @@
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_h3",
            "title_color": "globals/colors?id=secondary"
+          },
+          "_element_width": "initial",
+          "_element_custom_width": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_tablet": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_mobile_extra": {
+           "unit": "%",
+           "size": 45
+          },
+          "_element_custom_width_mobile": {
+           "unit": "%",
+           "size": 100
           }
          },
          "elements": []
         },
         {
-         "id": "1c2442f",
+         "id": "b0c4312",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4562,6 +4358,23 @@
           "paragraph_spacing_mobile": {
            "unit": "vw",
            "size": 0.0
+          },
+          "_element_width": "initial",
+          "_element_custom_width": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_tablet": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_mobile_extra": {
+           "unit": "%",
+           "size": 55
+          },
+          "_element_custom_width_mobile": {
+           "unit": "%",
+           "size": 100
           }
          },
          "elements": []
@@ -4573,7 +4386,7 @@
    ]
   },
   {
-   "id": "5d158a2",
+   "id": "74e69a5",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4656,21 +4469,7 @@
    },
    "elements": [
     {
-     "id": "26b94c7",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Vamos conversar",
-      "header_size": "p",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_caption",
-       "title_color": "globals/colors?id=verde100"
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "895fd7b",
+     "id": "ad1b72d",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -4684,7 +4483,7 @@
      "elements": []
     },
     {
-     "id": "19f9919",
+     "id": "bd62888",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -4713,13 +4512,13 @@
      "elements": []
     },
     {
-     "id": "f2ee4e4",
+     "id": "0dd27a6",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "Chamar no WhatsApp",
       "link": {
-       "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
        "is_external": true,
        "nofollow": ""
       },
@@ -4731,26 +4530,26 @@
       "background_color": "#00000000",
       "border_radius": {
        "unit": "px",
-       "top": "999",
-       "right": "999",
-       "bottom": "999",
-       "left": "999",
+       "top": "10",
+       "right": "10",
+       "bottom": "10",
+       "left": "10",
        "isLinked": true
       },
       "border_radius_mobile_extra": {
        "unit": "vw",
-       "top": "135.0",
-       "right": "135.0",
-       "bottom": "135.0",
-       "left": "135.0",
+       "top": "1.351",
+       "right": "1.351",
+       "bottom": "1.351",
+       "left": "1.351",
        "isLinked": true
       },
       "border_radius_mobile": {
        "unit": "vw",
-       "top": "256.154",
-       "right": "256.154",
-       "bottom": "256.154",
-       "left": "256.154",
+       "top": "2.564",
+       "right": "2.564",
+       "bottom": "2.564",
+       "left": "2.564",
        "isLinked": true
       },
       "text_padding": {

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FCStudio Setup
  * Description: Configura num clique os 7 breakpoints, cores e fontes globais, cabeçalho e rodapé do site, o Menu principal e as páginas Home, Serviços, Planos, Portfólio e Contato. Depois de usar, desative e apague.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Requires Plugins: elementor
  * Author: FCStudio
  */
@@ -51,11 +51,38 @@ function fcstudio_setup_page() {
 	echo '<p><button class="button button-primary button-hero" name="fcstudio_run" value="1">Configurar agora</button></p></form></div>';
 }
 
-/** Lê um JSON trocando os links "fc://slug" pelo endereço real da página. */
-function fcstudio_load( $file, $urls ) {
+/** Envia as imagens de assets/ para a Biblioteca de mídia (uma vez só) e devolve [token => [id, url]]. */
+function fcstudio_images() {
+	require_once ABSPATH . 'wp-admin/includes/image.php';
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+	require_once ABSPATH . 'wp-admin/includes/media.php';
+	$out = [];
+	foreach ( glob( plugin_dir_path( __FILE__ ) . 'assets/*.{jpg,png,webp}', GLOB_BRACE ) as $file ) {
+		$name  = basename( $file );
+		$token = preg_replace( '/^portfolio-|\.(jpg|png|webp)$/', '', $name );
+		$found = get_posts( [ 'post_type' => 'attachment', 'meta_key' => '_fcstudio_asset', 'meta_value' => $name, 'numberposts' => 1, 'post_status' => 'any' ] );
+		if ( $found ) {
+			$id = $found[0]->ID;
+		} else {
+			$tmp = wp_tempnam( $name );
+			copy( $file, $tmp );
+			$id = media_handle_sideload( [ 'name' => $name, 'tmp_name' => $tmp ], 0 );
+			if ( is_wp_error( $id ) ) continue;
+			update_post_meta( $id, '_fcstudio_asset', $name );
+		}
+		$out[ $token ] = [ $id, wp_get_attachment_url( $id ) ];
+	}
+	return $out;
+}
+
+/** Lê um JSON trocando os links "fc://slug" e as imagens "fc-img://token" pelos endereços reais. */
+function fcstudio_load( $file, $urls, $imgs = [] ) {
 	$raw = file_get_contents( plugin_dir_path( __FILE__ ) . $file );
+	foreach ( $imgs as $token => $img ) {
+		$raw = str_replace( [ '"fc-imgid://' . $token . '"', 'fc-img://' . $token ], [ (string) (int) $img[0], str_replace( '/', '\\/', $img[1] ) ], $raw );
+	}
 	foreach ( $urls as $slug => $url ) {
-		$raw = str_replace( 'fc://' . $slug, $url, $raw );
+		$raw = str_replace( 'fc://' . $slug, str_replace( '/', '\\/', $url ), $raw );
 	}
 	return json_decode( $raw, true );
 }
@@ -101,8 +128,9 @@ function fcstudio_setup_run() {
 	$urls['home'] = home_url( '/' );
 
 	// 3. Conteúdo das páginas
+	$imgs = fcstudio_images();
 	foreach ( FCSTUDIO_PAGES as $slug => $title ) {
-		$tpl = fcstudio_load( 'paginas/' . $slug . '.json', $urls );
+		$tpl = fcstudio_load( 'paginas/' . $slug . '.json', $urls, $imgs );
 		$pid = $ids[ $slug ];
 		// Sem o Pro (sem cabeçalho/rodapé globais) a página precisaria do Canvas; com o Pro usa "Elementor Largura total"
 		$template = $pro ? 'elementor_header_footer' : 'elementor_canvas';
@@ -116,7 +144,7 @@ function fcstudio_setup_run() {
 	// 4. Cabeçalho e rodapé globais (Theme Builder do Pro)
 	if ( $pro ) {
 		foreach ( [ 'cabecalho' => [ 'header', 'FCStudio Cabeçalho' ], 'rodape' => [ 'footer', 'FCStudio Rodapé' ] ] as $file => [ $type, $title ] ) {
-			$tpl   = fcstudio_load( 'paginas/' . $file . '.json', $urls );
+			$tpl   = fcstudio_load( 'paginas/' . $file . '.json', $urls, $imgs );
 			$found = get_posts( [ 'post_type' => 'elementor_library', 'title' => $title, 'post_status' => 'any', 'numberposts' => 1 ] );
 			if ( $found ) {
 				$tid = $found[0]->ID;

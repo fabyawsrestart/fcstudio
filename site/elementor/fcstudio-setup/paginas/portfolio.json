@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "9aea642",
+   "id": "8b0d590",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -87,7 +87,7 @@
    },
    "elements": [
     {
-     "id": "b1491e2",
+     "id": "b0a844e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -173,21 +173,7 @@
      },
      "elements": [
       {
-       "id": "78e4b98",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Portfólio",
-        "header_size": "p",
-        "__globals__": {
-         "typography_typography": "globals/typography?id=fc_caption",
-         "title_color": "globals/colors?id=primary"
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "4259405",
+       "id": "5c9bcf3",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -201,7 +187,7 @@
        "elements": []
       },
       {
-       "id": "3192b70",
+       "id": "2587be6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -234,7 +220,7 @@
    ]
   },
   {
-   "id": "7b8f2ab",
+   "id": "c59db91",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -247,63 +233,63 @@
     },
     "padding": {
      "unit": "px",
-     "top": "88",
+     "top": "72",
      "right": "0",
-     "bottom": "88",
+     "bottom": "72",
      "left": "0",
      "isLinked": false
     },
     "padding_tablet": {
      "unit": "px",
-     "top": "72",
+     "top": "64",
      "right": "40",
-     "bottom": "72",
+     "bottom": "64",
      "left": "40",
      "isLinked": false
     },
     "padding_mobile_extra": {
      "unit": "vw",
-     "top": "7.568",
+     "top": "6.486",
      "right": "5.405",
-     "bottom": "7.568",
+     "bottom": "6.486",
      "left": "5.405",
      "isLinked": false
     },
     "padding_mobile": {
      "unit": "vw",
-     "top": "14.359",
+     "top": "10.256",
      "right": "6.154",
-     "bottom": "14.359",
+     "bottom": "10.256",
      "left": "6.154",
      "isLinked": false
     },
     "padding_tablet_extra": {
      "unit": "px",
-     "top": "88",
+     "top": "72",
      "right": "32",
-     "bottom": "88",
+     "bottom": "72",
      "left": "32",
      "isLinked": false
     },
     "flex_gap": {
+     "unit": "px",
+     "size": 56,
+     "column": "56",
+     "row": "56",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
      "unit": "px",
      "size": 48,
      "column": "48",
      "row": "48",
      "isLinked": true
     },
-    "flex_gap_tablet": {
-     "unit": "px",
-     "size": 40,
-     "column": "40",
-     "row": "40",
-     "isLinked": true
-    },
     "flex_gap_mobile_extra": {
      "unit": "vw",
-     "size": 4.324,
-     "column": "4.324",
-     "row": "4.324",
+     "size": 5.405,
+     "column": "5.405",
+     "row": "5.405",
      "isLinked": true
     },
     "flex_gap_mobile": {
@@ -317,60 +303,43 @@
    },
    "elements": [
     {
-     "id": "3451d01",
+     "id": "fa7f0ea",
      "elType": "container",
      "isInner": true,
      "settings": {
-      "container_type": "grid",
       "content_width": "full",
-      "grid_columns_grid": {
-       "unit": "fr",
-       "size": 3
-      },
-      "grid_columns_grid_tablet": {
-       "unit": "fr",
-       "size": 2
-      },
-      "grid_columns_grid_mobile_extra": {
-       "unit": "fr",
-       "size": 2
-      },
-      "grid_columns_grid_mobile": {
-       "unit": "fr",
-       "size": 1
-      },
-      "grid_rows_grid": {
-       "unit": "fr",
-       "size": 1
-      },
-      "grid_auto_flow": "row",
-      "_title": "Grade de projetos",
-      "grid_gaps": {
+      "flex_direction": "row",
+      "flex_direction_tablet": "column",
+      "flex_direction_mobile_extra": "row",
+      "flex_direction_mobile": "column",
+      "flex_wrap": "nowrap",
+      "_title": "Destaque GWmix",
+      "flex_gap": {
        "unit": "px",
-       "size": 24,
-       "column": "24",
-       "row": "24",
+       "size": 56,
+       "column": "56",
+       "row": "56",
        "isLinked": true
       },
-      "grid_gaps_tablet": {
+      "flex_gap_tablet": {
        "unit": "px",
-       "size": 24,
-       "column": "24",
-       "row": "24",
+       "size": 32,
+       "column": "32",
+       "row": "32",
        "isLinked": true
       },
-      "grid_gaps_mobile_extra": {
+      "flex_gap_mobile_extra": {
        "unit": "vw",
-       "size": 2.703,
-       "column": "2.703",
-       "row": "2.703",
+       "size": 3.784,
+       "column": "3.784",
+       "row": "3.784",
        "isLinked": true
       },
-      "grid_gaps_mobile": {
+      "flex_gap_mobile": {
        "unit": "vw",
-       "size": 4.103,
-       "column": "4.103",
-       "row": "4.103",
+       "size": 6.154,
+       "column": "6.154",
+       "row": "6.154",
        "isLinked": true
       },
       "padding": {
@@ -404,377 +373,109 @@
        "bottom": "0.0",
        "left": "0.0",
        "isLinked": false
-      }
+      },
+      "flex_align_items": "center"
      },
      "elements": [
       {
-       "id": "b91ee9e",
-       "elType": "container",
-       "isInner": true,
+       "id": "ea05754",
+       "elType": "widget",
+       "widgetType": "image",
        "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=branco"
+        "image": {
+         "url": "fc-img://gwmix",
+         "id": "fc-imgid://gwmix",
+         "alt": "Site da GWmix feito pela FCStudio"
         },
-        "padding": {
+        "image_size": "full",
+        "_title": "Imagem gwmix",
+        "width": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "image_border_radius": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
+         "top": "14",
+         "right": "14",
+         "bottom": "14",
+         "left": "14",
+         "isLinked": true
         },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
+        "image_border_radius_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": false
+         "top": "1.622",
+         "right": "1.622",
+         "bottom": "1.622",
+         "left": "1.622",
+         "isLinked": true
         },
-        "padding_mobile": {
+        "image_border_radius_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "size": 14,
-         "column": "14",
-         "row": "14",
+         "top": "2.564",
+         "right": "2.564",
+         "bottom": "2.564",
+         "left": "2.564",
          "isLinked": true
         },
-        "flex_gap_tablet": {
-         "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
-         "isLinked": true
+        "image_box_shadow_box_shadow_type": "yes",
+        "image_box_shadow_box_shadow": {
+         "horizontal": 0,
+         "vertical": 24,
+         "blur": 48,
+         "spread": -12,
+         "color": "rgba(31,41,51,0.28)"
         },
-        "flex_gap_mobile_extra": {
-         "unit": "vw",
-         "size": 1.622,
-         "column": "1.622",
-         "row": "1.622",
-         "isLinked": true
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "%",
+         "size": 60
         },
-        "flex_gap_mobile": {
-         "unit": "vw",
-         "size": 3.077,
-         "column": "3.077",
-         "row": "3.077",
-         "isLinked": true
+        "_element_custom_width_tablet": {
+         "unit": "%",
+         "size": 100
         },
-        "border_radius": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+        "_element_custom_width_mobile_extra": {
+         "unit": "%",
+         "size": 55
         },
-        "border_radius_mobile_extra": {
-         "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
-        },
-        "border_radius_mobile": {
-         "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
-        },
-        "_title": "Projeto Sistema de agendamento online"
-       },
-       "elements": [
-        {
-         "id": "f4de2c0",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "_title": "Imagem do projeto (trocar)",
-          "content_width": "full",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=verde100"
-          },
-          "min_height": {
-           "unit": "px",
-           "size": 220
-          },
-          "min_height_tablet": {
-           "unit": "px",
-           "size": 200
-          },
-          "min_height_mobile_extra": {
-           "unit": "vw",
-           "size": 27.027
-          },
-          "min_height_mobile": {
-           "unit": "vw",
-           "size": 46.154
-          },
-          "border_radius": {
-           "unit": "px",
-           "top": "14",
-           "right": "14",
-           "bottom": "14",
-           "left": "14",
-           "isLinked": true
-          },
-          "border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "1.622",
-           "right": "1.622",
-           "bottom": "1.622",
-           "left": "1.622",
-           "isLinked": true
-          },
-          "border_radius_mobile": {
-           "unit": "vw",
-           "top": "3.077",
-           "right": "3.077",
-           "bottom": "3.077",
-           "left": "3.077",
-           "isLinked": true
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "5822cb7",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Clínica Vitalle",
-          "header_size": "p",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_caption",
-           "title_color": "globals/colors?id=verde700"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "727d834",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Sistema de agendamento online",
-          "header_size": "h3",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "cefe2a1",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p>Agenda com horários disponíveis, confirmação e organização dos atendimentos da clínica.</p>",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
-          },
-          "paragraph_spacing": {
-           "unit": "px",
-           "size": 0
-          },
-          "paragraph_spacing_tablet": {
-           "unit": "px",
-           "size": 0
-          },
-          "paragraph_spacing_mobile_extra": {
-           "unit": "vw",
-           "size": 0.0
-          },
-          "paragraph_spacing_mobile": {
-           "unit": "vw",
-           "size": 0.0
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "efe09f0",
-         "elType": "widget",
-         "widgetType": "button",
-         "settings": {
-          "text": "Ver projeto",
-          "link": {
-           "url": "#",
-           "is_external": false,
-           "nofollow": ""
-          },
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_button",
-           "button_text_color": "globals/colors?id=primary",
-           "border_color": "globals/colors?id=primary"
-          },
-          "background_color": "#00000000",
-          "border_border": "solid",
-          "border_width": {
-           "unit": "px",
-           "top": "2",
-           "right": "2",
-           "bottom": "2",
-           "left": "2",
-           "isLinked": true
-          },
-          "border_width_mobile_extra": {
-           "unit": "vw",
-           "top": "0.27",
-           "right": "0.27",
-           "bottom": "0.27",
-           "left": "0.27",
-           "isLinked": true
-          },
-          "border_width_mobile": {
-           "unit": "vw",
-           "top": "0.513",
-           "right": "0.513",
-           "bottom": "0.513",
-           "left": "0.513",
-           "isLinked": true
-          },
-          "border_radius": {
-           "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
-           "isLinked": true
-          },
-          "border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
-           "isLinked": true
-          },
-          "border_radius_mobile": {
-           "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
-           "isLinked": true
-          },
-          "text_padding": {
-           "unit": "px",
-           "top": "18",
-           "right": "28",
-           "bottom": "18",
-           "left": "28",
-           "isLinked": false
-          },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
-          "text_padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
-           "isLinked": false
-          },
-          "text_padding_mobile": {
-           "unit": "vw",
-           "top": "4.103",
-           "right": "5.641",
-           "bottom": "4.103",
-           "left": "5.641",
-           "isLinked": false
-          },
-          "align_mobile": "justify"
-         },
-         "elements": []
+        "_element_custom_width_mobile": {
+         "unit": "%",
+         "size": 100
         }
-       ]
+       },
+       "elements": []
       },
       {
-       "id": "149e259",
+       "id": "4c4f9b0",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=branco"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": false
-        },
         "flex_gap": {
          "unit": "px",
-         "size": 14,
-         "column": "14",
-         "row": "14",
+         "size": 16,
+         "column": "16",
+         "row": "16",
          "isLinked": true
         },
         "flex_gap_tablet": {
          "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
+         "size": 14,
+         "column": "14",
+         "row": "14",
          "isLinked": true
         },
         "flex_gap_mobile_extra": {
@@ -791,434 +492,76 @@
          "row": "3.077",
          "isLinked": true
         },
-        "border_radius": {
+        "padding": {
          "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
         },
-        "border_radius_mobile_extra": {
+        "padding_tablet": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
          "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
         },
-        "border_radius_mobile": {
+        "padding_mobile": {
          "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
         },
-        "_title": "Projeto Site para consultório"
-       },
-       "elements": [
-        {
-         "id": "fcf00fe",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "_title": "Imagem do projeto (trocar)",
-          "content_width": "full",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=verde100"
-          },
-          "min_height": {
-           "unit": "px",
-           "size": 220
-          },
-          "min_height_tablet": {
-           "unit": "px",
-           "size": 200
-          },
-          "min_height_mobile_extra": {
-           "unit": "vw",
-           "size": 27.027
-          },
-          "min_height_mobile": {
-           "unit": "vw",
-           "size": 46.154
-          },
-          "border_radius": {
-           "unit": "px",
-           "top": "14",
-           "right": "14",
-           "bottom": "14",
-           "left": "14",
-           "isLinked": true
-          },
-          "border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "1.622",
-           "right": "1.622",
-           "bottom": "1.622",
-           "left": "1.622",
-           "isLinked": true
-          },
-          "border_radius_mobile": {
-           "unit": "vw",
-           "top": "3.077",
-           "right": "3.077",
-           "bottom": "3.077",
-           "left": "3.077",
-           "isLinked": true
-          }
-         },
-         "elements": []
+        "width": {
+         "unit": "%",
+         "size": 40
         },
-        {
-         "id": "597a1ec",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Nome da clínica (trocar)",
-          "header_size": "p",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_caption",
-           "title_color": "globals/colors?id=verde700"
-          }
-         },
-         "elements": []
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
         },
-        {
-         "id": "f47aebd",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Site para consultório",
-          "header_size": "h3",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
-           "title_color": "globals/colors?id=secondary"
-          }
-         },
-         "elements": []
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 45
         },
-        {
-         "id": "f979d04",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p>Descreva aqui o projeto real: o que foi feito e para quem.</p>",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_body",
-           "text_color": "globals/colors?id=text"
-          },
-          "paragraph_spacing": {
-           "unit": "px",
-           "size": 0
-          },
-          "paragraph_spacing_tablet": {
-           "unit": "px",
-           "size": 0
-          },
-          "paragraph_spacing_mobile_extra": {
-           "unit": "vw",
-           "size": 0.0
-          },
-          "paragraph_spacing_mobile": {
-           "unit": "vw",
-           "size": 0.0
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "5d58c70",
-         "elType": "widget",
-         "widgetType": "button",
-         "settings": {
-          "text": "Ver projeto",
-          "link": {
-           "url": "#",
-           "is_external": false,
-           "nofollow": ""
-          },
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_button",
-           "button_text_color": "globals/colors?id=primary",
-           "border_color": "globals/colors?id=primary"
-          },
-          "background_color": "#00000000",
-          "border_border": "solid",
-          "border_width": {
-           "unit": "px",
-           "top": "2",
-           "right": "2",
-           "bottom": "2",
-           "left": "2",
-           "isLinked": true
-          },
-          "border_width_mobile_extra": {
-           "unit": "vw",
-           "top": "0.27",
-           "right": "0.27",
-           "bottom": "0.27",
-           "left": "0.27",
-           "isLinked": true
-          },
-          "border_width_mobile": {
-           "unit": "vw",
-           "top": "0.513",
-           "right": "0.513",
-           "bottom": "0.513",
-           "left": "0.513",
-           "isLinked": true
-          },
-          "border_radius": {
-           "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
-           "isLinked": true
-          },
-          "border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
-           "isLinked": true
-          },
-          "border_radius_mobile": {
-           "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
-           "isLinked": true
-          },
-          "text_padding": {
-           "unit": "px",
-           "top": "18",
-           "right": "28",
-           "bottom": "18",
-           "left": "28",
-           "isLinked": false
-          },
-          "text_padding_tablet": {
-           "unit": "px",
-           "top": "16",
-           "right": "26",
-           "bottom": "16",
-           "left": "26",
-           "isLinked": false
-          },
-          "text_padding_mobile_extra": {
-           "unit": "vw",
-           "top": "2.027",
-           "right": "3.243",
-           "bottom": "2.027",
-           "left": "3.243",
-           "isLinked": false
-          },
-          "text_padding_mobile": {
-           "unit": "vw",
-           "top": "4.103",
-           "right": "5.641",
-           "bottom": "4.103",
-           "left": "5.641",
-           "isLinked": false
-          },
-          "align_mobile": "justify"
-         },
-         "elements": []
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
         }
-       ]
-      },
-      {
-       "id": "5675f6a",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "background_background": "classic",
-        "__globals__": {
-         "background_color": "globals/colors?id=branco"
-        },
-        "padding": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "padding_tablet": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "padding_mobile_extra": {
-         "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": false
-        },
-        "padding_mobile": {
-         "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "size": 14,
-         "column": "14",
-         "row": "14",
-         "isLinked": true
-        },
-        "flex_gap_tablet": {
-         "unit": "px",
-         "size": 12,
-         "column": "12",
-         "row": "12",
-         "isLinked": true
-        },
-        "flex_gap_mobile_extra": {
-         "unit": "vw",
-         "size": 1.622,
-         "column": "1.622",
-         "row": "1.622",
-         "isLinked": true
-        },
-        "flex_gap_mobile": {
-         "unit": "vw",
-         "size": 3.077,
-         "column": "3.077",
-         "row": "3.077",
-         "isLinked": true
-        },
-        "border_radius": {
-         "unit": "px",
-         "top": "20",
-         "right": "20",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": true
-        },
-        "border_radius_mobile_extra": {
-         "unit": "vw",
-         "top": "2.432",
-         "right": "2.432",
-         "bottom": "2.432",
-         "left": "2.432",
-         "isLinked": true
-        },
-        "border_radius_mobile": {
-         "unit": "vw",
-         "top": "4.615",
-         "right": "4.615",
-         "bottom": "4.615",
-         "left": "4.615",
-         "isLinked": true
-        },
-        "_title": "Projeto Landing page de implante"
        },
        "elements": [
         {
-         "id": "3870380",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "_title": "Imagem do projeto (trocar)",
-          "content_width": "full",
-          "background_background": "classic",
-          "__globals__": {
-           "background_color": "globals/colors?id=verde100"
-          },
-          "min_height": {
-           "unit": "px",
-           "size": 220
-          },
-          "min_height_tablet": {
-           "unit": "px",
-           "size": 200
-          },
-          "min_height_mobile_extra": {
-           "unit": "vw",
-           "size": 27.027
-          },
-          "min_height_mobile": {
-           "unit": "vw",
-           "size": 46.154
-          },
-          "border_radius": {
-           "unit": "px",
-           "top": "14",
-           "right": "14",
-           "bottom": "14",
-           "left": "14",
-           "isLinked": true
-          },
-          "border_radius_mobile_extra": {
-           "unit": "vw",
-           "top": "1.622",
-           "right": "1.622",
-           "bottom": "1.622",
-           "left": "1.622",
-           "isLinked": true
-          },
-          "border_radius_mobile": {
-           "unit": "vw",
-           "top": "3.077",
-           "right": "3.077",
-           "bottom": "3.077",
-           "left": "3.077",
-           "isLinked": true
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "1a26f88",
+         "id": "06ec41a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Nome da clínica (trocar)",
-          "header_size": "p",
-          "__globals__": {
-           "typography_typography": "globals/typography?id=fc_caption",
-           "title_color": "globals/colors?id=verde700"
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "3a12917",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Landing page de implante",
+          "title": "GWmix",
           "header_size": "h3",
           "__globals__": {
-           "typography_typography": "globals/typography?id=fc_h3",
+           "typography_typography": "globals/typography?id=fc_num",
            "title_color": "globals/colors?id=secondary"
           }
          },
          "elements": []
         },
         {
-         "id": "7857297",
+         "id": "c215a82",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Descreva aqui o projeto real: o que foi feito e para quem.</p>",
+          "editor": "<p>Site institucional e de vendas para fabricante de bombas, misturadores e aditivos para argamassa na Grande SP. Catálogo de produtos, locação e orçamento pelo WhatsApp.</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=text"
@@ -1243,14 +586,14 @@
          "elements": []
         },
         {
-         "id": "325b55d",
+         "id": "87322e2",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
-          "text": "Ver projeto",
+          "text": "Ver site no ar",
           "link": {
-           "url": "#",
-           "is_external": false,
+           "url": "https://gwmix.ind.br",
+           "is_external": true,
            "nofollow": ""
           },
           "__globals__": {
@@ -1286,26 +629,26 @@
           },
           "border_radius": {
            "unit": "px",
-           "top": "999",
-           "right": "999",
-           "bottom": "999",
-           "left": "999",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
            "isLinked": true
           },
           "border_radius_mobile_extra": {
            "unit": "vw",
-           "top": "135.0",
-           "right": "135.0",
-           "bottom": "135.0",
-           "left": "135.0",
+           "top": "1.351",
+           "right": "1.351",
+           "bottom": "1.351",
+           "left": "1.351",
            "isLinked": true
           },
           "border_radius_mobile": {
            "unit": "vw",
-           "top": "256.154",
-           "right": "256.154",
-           "bottom": "256.154",
-           "left": "256.154",
+           "top": "2.564",
+           "right": "2.564",
+           "bottom": "2.564",
+           "left": "2.564",
            "isLinked": true
           },
           "text_padding": {
@@ -1347,11 +690,375 @@
        ]
       }
      ]
+    },
+    {
+     "id": "5b0ee76",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile_extra": "row",
+      "flex_direction_mobile": "column",
+      "flex_wrap": "nowrap",
+      "_title": "Outros projetos",
+      "flex_gap": {
+       "unit": "px",
+       "size": 48,
+       "column": "48",
+       "row": "48",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 32,
+       "column": "32",
+       "row": "32",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 3.243,
+       "column": "3.243",
+       "row": "3.243",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 6.154,
+       "column": "6.154",
+       "row": "6.154",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "40",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "32",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "3.784",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "6.154",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "1",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "__globals__": {
+       "border_color": "globals/colors?id=cinza300"
+      },
+      "border_width_mobile_extra": {
+       "unit": "vw",
+       "top": "0.135",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_width_mobile": {
+       "unit": "vw",
+       "top": "0.256",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "84b5a81",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 10,
+         "column": "10",
+         "row": "10",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 10,
+         "column": "10",
+         "row": "10",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "d86f40f",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Sistema de agendamento online",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "42d8720",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Agenda com horários disponíveis, confirmação automática e organização dos atendimentos.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "2ac3444",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+         "unit": "px",
+         "size": 10,
+         "column": "10",
+         "row": "10",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 10,
+         "column": "10",
+         "row": "10",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
+         "isLinked": true
+        },
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "0.0",
+         "right": "0.0",
+         "bottom": "0.0",
+         "left": "0.0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "5de0099",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Landing pages para campanhas",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "e883a1d",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Páginas de uma oferta só, feitas para receber tráfego de anúncios e levar ao WhatsApp.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
     }
    ]
   },
   {
-   "id": "d726c86",
+   "id": "c770242",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1434,21 +1141,7 @@
    },
    "elements": [
     {
-     "id": "9fc2d0a",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Vamos conversar",
-      "header_size": "p",
-      "__globals__": {
-       "typography_typography": "globals/typography?id=fc_caption",
-       "title_color": "globals/colors?id=verde100"
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "fc39472",
+     "id": "3908f22",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1462,7 +1155,7 @@
      "elements": []
     },
     {
-     "id": "e67a9b7",
+     "id": "8857f9a",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1491,13 +1184,13 @@
      "elements": []
     },
     {
-     "id": "9c3a23c",
+     "id": "8aa4248",
      "elType": "widget",
      "widgetType": "button",
      "settings": {
       "text": "Chamar no WhatsApp",
       "link": {
-       "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
        "is_external": true,
        "nofollow": ""
       },
@@ -1509,26 +1202,26 @@
       "background_color": "#00000000",
       "border_radius": {
        "unit": "px",
-       "top": "999",
-       "right": "999",
-       "bottom": "999",
-       "left": "999",
+       "top": "10",
+       "right": "10",
+       "bottom": "10",
+       "left": "10",
        "isLinked": true
       },
       "border_radius_mobile_extra": {
        "unit": "vw",
-       "top": "135.0",
-       "right": "135.0",
-       "bottom": "135.0",
-       "left": "135.0",
+       "top": "1.351",
+       "right": "1.351",
+       "bottom": "1.351",
+       "left": "1.351",
        "isLinked": true
       },
       "border_radius_mobile": {
        "unit": "vw",
-       "top": "256.154",
-       "right": "256.154",
-       "bottom": "256.154",
-       "left": "256.154",
+       "top": "2.564",
+       "right": "2.564",
+       "bottom": "2.564",
+       "left": "2.564",
        "isLinked": true
       },
       "text_padding": {
