@@ -24,7 +24,7 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 1. **WordPress 7.1 ou superior.** O Pro Elements 4.3.2 não carrega em versão anterior: o menu hambúrguer some sem aviso no site.
 2. Elementor 4.3.5 e Pro Elements 4.3.2 ativos.
-3. Tema Hello Elementor (recomendado). A página usa o modelo Elementor Canvas, então o tema não interfere no layout.
+3. Tema Hello Elementor ativo. O cabeçalho e o rodapé do Theme Builder substituem os do tema.
 
 ## Jeito mais fácil: plugin FCStudio Setup (1 minuto)
 
