@@ -21,7 +21,7 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 ## Como importar (3 minutos)
 
-1. WP Admin > **Elementor > Ferramentas > Importar/Exportar Kit > Importar**.
+1. WP Admin > **Elementor > Ferramentas > aba Modelos de sites > Importar** (ou `wp-admin/admin.php?page=elementor-app#/import`).
 2. Envie `fcstudio-kit.zip`, marque tudo (Configurações do site, Conteúdo, Modelos) e confirme.
 3. Confira em **Elementor > Configurações do site > Layout > Breakpoints** se os 7 aparecem.
 4. Em **Configurações > Leitura**, a Home já vem como página inicial. Confira.
