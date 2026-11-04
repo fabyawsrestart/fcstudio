@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "7631a99",
+   "id": "ae658f3",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -88,7 +88,7 @@
    },
    "elements": [
     {
-     "id": "f0ce583",
+     "id": "fe3b890",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -174,7 +174,7 @@
      },
      "elements": [
       {
-       "id": "ab2cd31",
+       "id": "4f426dc",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -188,7 +188,7 @@
        "elements": []
       },
       {
-       "id": "58d5563",
+       "id": "a5aa3c8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -217,7 +217,7 @@
        "elements": []
       },
       {
-       "id": "05c6af0",
+       "id": "93f448b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -291,7 +291,7 @@
        },
        "elements": [
         {
-         "id": "62c33a4",
+         "id": "bb2d420",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -369,7 +369,7 @@
          "elements": []
         },
         {
-         "id": "e315128",
+         "id": "b394fb3",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -477,7 +477,7 @@
    ]
   },
   {
-   "id": "f3fe39c",
+   "id": "2eae05c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -561,7 +561,7 @@
    },
    "elements": [
     {
-     "id": "519088f",
+     "id": "96d0cc5",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -631,7 +631,7 @@
      },
      "elements": [
       {
-       "id": "211c70c",
+       "id": "f0ce583",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -733,7 +733,7 @@
        },
        "elements": [
         {
-         "id": "9c65393",
+         "id": "48db40a",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -818,7 +818,7 @@
          },
          "elements": [
           {
-           "id": "5affb22",
+           "id": "d269a9a",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -832,7 +832,7 @@
            "elements": []
           },
           {
-           "id": "2b0537e",
+           "id": "7215837",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -863,7 +863,7 @@
          ]
         },
         {
-         "id": "4995239",
+         "id": "05c6af0",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -948,13 +948,13 @@
          },
          "elements": [
           {
-           "id": "c4aaeac",
+           "id": "58d5563",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "1df9fd7",
+              "_id": "b774eb5",
               "text": "Até 6 páginas com textos escritos para vender",
               "selected_icon": {
                "value": "fas fa-check",
@@ -962,7 +962,7 @@
               }
              },
              {
-              "_id": "7e62aa0",
+              "_id": "62c33a4",
               "text": "Página para cada produto ou serviço",
               "selected_icon": {
                "value": "fas fa-check",
@@ -970,7 +970,7 @@
               }
              },
              {
-              "_id": "0f17a30",
+              "_id": "e315128",
               "text": "Mapa, horários e botão de WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
@@ -978,7 +978,7 @@
               }
              },
              {
-              "_id": "37dc76f",
+              "_id": "ab2cd31",
               "text": "Google Meu Negócio otimizado",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1047,7 +1047,7 @@
        ]
       },
       {
-       "id": "72fdf20",
+       "id": "4995239",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1149,7 +1149,7 @@
        },
        "elements": [
         {
-         "id": "65dc9f5",
+         "id": "2b0537e",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1234,7 +1234,7 @@
          },
          "elements": [
           {
-           "id": "bd0561e",
+           "id": "7631a99",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1248,7 +1248,7 @@
            "elements": []
           },
           {
-           "id": "3f63af8",
+           "id": "5affb22",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1279,7 +1279,7 @@
          ]
         },
         {
-         "id": "2a96fb1",
+         "id": "c4aaeac",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1364,13 +1364,13 @@
          },
          "elements": [
           {
-           "id": "14a0f9e",
+           "id": "37dc76f",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "6415479",
+              "_id": "9c65393",
               "text": "Texto focado em uma única oferta",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1378,7 +1378,7 @@
               }
              },
              {
-              "_id": "eab477d",
+              "_id": "1df9fd7",
               "text": "Perguntas frequentes do seu cliente",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1386,7 +1386,7 @@
               }
              },
              {
-              "_id": "df1582b",
+              "_id": "7e62aa0",
               "text": "Formulário e WhatsApp no topo",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1394,7 +1394,7 @@
               }
              },
              {
-              "_id": "7f1b103",
+              "_id": "0f17a30",
               "text": "Pronta para receber anúncios",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1463,7 +1463,7 @@
        ]
       },
       {
-       "id": "47469a4",
+       "id": "2a96fb1",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1565,7 +1565,7 @@
        },
        "elements": [
         {
-         "id": "4720771",
+         "id": "3f63af8",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1650,7 +1650,7 @@
          },
          "elements": [
           {
-           "id": "66d2287",
+           "id": "211c70c",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1664,7 +1664,7 @@
            "elements": []
           },
           {
-           "id": "8ca8181",
+           "id": "bd0561e",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1695,7 +1695,7 @@
          ]
         },
         {
-         "id": "8cdb305",
+         "id": "14a0f9e",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1780,13 +1780,13 @@
          },
          "elements": [
           {
-           "id": "dd2e160",
+           "id": "7f1b103",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "e225715",
+              "_id": "65dc9f5",
               "text": "Respostas para as perguntas mais comuns",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1794,7 +1794,7 @@
               }
              },
              {
-              "_id": "230d977",
+              "_id": "6415479",
               "text": "Atendimento 24 horas, inclusive fim de semana",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1802,7 +1802,7 @@
               }
              },
              {
-              "_id": "d1bc52d",
+              "_id": "eab477d",
               "text": "Coleta nome, interesse e contato",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1810,7 +1810,7 @@
               }
              },
              {
-              "_id": "6e36aab",
+              "_id": "df1582b",
               "text": "Passa a conversa para sua equipe quando precisa",
               "selected_icon": {
                "value": "fas fa-check",
@@ -1879,7 +1879,7 @@
        ]
       },
       {
-       "id": "26a2c0b",
+       "id": "8cdb305",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1981,7 +1981,7 @@
        },
        "elements": [
         {
-         "id": "fc891b4",
+         "id": "8ca8181",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2066,7 +2066,7 @@
          },
          "elements": [
           {
-           "id": "b4d66a3",
+           "id": "72fdf20",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2080,7 +2080,7 @@
            "elements": []
           },
           {
-           "id": "6a50df4",
+           "id": "66d2287",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2111,7 +2111,7 @@
          ]
         },
         {
-         "id": "3b1287f",
+         "id": "dd2e160",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2196,13 +2196,13 @@
          },
          "elements": [
           {
-           "id": "f52ddf5",
+           "id": "6e36aab",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "5bd86d4",
+              "_id": "4720771",
               "text": "Campanha por bairro, cidade ou região",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2210,7 +2210,7 @@
               }
              },
              {
-              "_id": "aec6f02",
+              "_id": "e225715",
               "text": "Criativos e textos inclusos",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2218,7 +2218,7 @@
               }
              },
              {
-              "_id": "e25a760",
+              "_id": "230d977",
               "text": "Acompanhamento semanal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2226,7 +2226,7 @@
               }
              },
              {
-              "_id": "616499c",
+              "_id": "d1bc52d",
               "text": "Relatório mensal simples",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2295,7 +2295,7 @@
        ]
       },
       {
-       "id": "96d0cc5",
+       "id": "3b1287f",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2397,7 +2397,7 @@
        },
        "elements": [
         {
-         "id": "26bb7db",
+         "id": "6a50df4",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2482,7 +2482,7 @@
          },
          "elements": [
           {
-           "id": "153e7c2",
+           "id": "47469a4",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2496,7 +2496,7 @@
            "elements": []
           },
           {
-           "id": "2d1c9af",
+           "id": "b4d66a3",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2527,7 +2527,7 @@
          ]
         },
         {
-         "id": "d4c28c2",
+         "id": "f52ddf5",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2612,13 +2612,13 @@
          },
          "elements": [
           {
-           "id": "7c26847",
+           "id": "616499c",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "3b61867",
+              "_id": "fc891b4",
               "text": "Roteiro curto para gravar no celular",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2626,7 +2626,7 @@
               }
              },
              {
-              "_id": "a8948c8",
+              "_id": "5bd86d4",
               "text": "Edição com legenda e trilha",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2634,7 +2634,7 @@
               }
              },
              {
-              "_id": "3bbbe9e",
+              "_id": "aec6f02",
               "text": "Formato para Reels, Stories e site",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2642,7 +2642,7 @@
               }
              },
              {
-              "_id": "0316909",
+              "_id": "e25a760",
               "text": "4 vídeos por mês no plano mensal",
               "selected_icon": {
                "value": "fas fa-check",
@@ -2711,7 +2711,7 @@
        ]
       },
       {
-       "id": "90fbbd1",
+       "id": "d4c28c2",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2813,7 +2813,7 @@
        },
        "elements": [
         {
-         "id": "482c9cb",
+         "id": "2d1c9af",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2898,7 +2898,7 @@
          },
          "elements": [
           {
-           "id": "2eae05c",
+           "id": "26a2c0b",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2912,7 +2912,7 @@
            "elements": []
           },
           {
-           "id": "43435cc",
+           "id": "153e7c2",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2943,7 +2943,7 @@
          ]
         },
         {
-         "id": "9c1caaf",
+         "id": "7c26847",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -3028,13 +3028,13 @@
          },
          "elements": [
           {
-           "id": "5e8766e",
+           "id": "0316909",
            "elType": "widget",
            "widgetType": "icon-list",
            "settings": {
             "icon_list": [
              {
-              "_id": "010c475",
+              "_id": "26bb7db",
               "text": "Agenda com horários disponíveis em tempo real",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3042,7 +3042,7 @@
               }
              },
              {
-              "_id": "254b0c4",
+              "_id": "3b61867",
               "text": "Confirmação e lembrete automáticos",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3050,7 +3050,7 @@
               }
              },
              {
-              "_id": "6b4013e",
+              "_id": "a8948c8",
               "text": "Painel simples para a equipe",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3058,7 +3058,7 @@
               }
              },
              {
-              "_id": "88daf40",
+              "_id": "3bbbe9e",
               "text": "Integração com WhatsApp",
               "selected_icon": {
                "value": "fas fa-check",
@@ -3131,7 +3131,7 @@
    ]
   },
   {
-   "id": "6472f1a",
+   "id": "bd62888",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3215,7 +3215,7 @@
    },
    "elements": [
     {
-     "id": "cc4169a",
+     "id": "a7abe1c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3285,7 +3285,7 @@
      },
      "elements": [
       {
-       "id": "ae3a2b7",
+       "id": "9e1a8ef",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3302,7 +3302,7 @@
      ]
     },
     {
-     "id": "8f2c6ec",
+     "id": "ad1b72d",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3393,7 +3393,7 @@
      },
      "elements": [
       {
-       "id": "83f73f1",
+       "id": "254b0c4",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3490,7 +3490,7 @@
        },
        "elements": [
         {
-         "id": "2020362",
+         "id": "43435cc",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3504,7 +3504,7 @@
          "elements": []
         },
         {
-         "id": "b0c4312",
+         "id": "482c9cb",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3518,7 +3518,7 @@
          "elements": []
         },
         {
-         "id": "dbf4a8b",
+         "id": "010c475",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3549,7 +3549,7 @@
        ]
       },
       {
-       "id": "ad1b72d",
+       "id": "9c1caaf",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3646,7 +3646,7 @@
        },
        "elements": [
         {
-         "id": "f341e07",
+         "id": "6b4013e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3660,7 +3660,7 @@
          "elements": []
         },
         {
-         "id": "9e1a8ef",
+         "id": "88daf40",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3674,7 +3674,7 @@
          "elements": []
         },
         {
-         "id": "a7abe1c",
+         "id": "5e8766e",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3705,7 +3705,7 @@
        ]
       },
       {
-       "id": "e647cb8",
+       "id": "2020362",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3802,7 +3802,7 @@
        },
        "elements": [
         {
-         "id": "bd62888",
+         "id": "90fbbd1",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3816,7 +3816,7 @@
          "elements": []
         },
         {
-         "id": "0dd27a6",
+         "id": "519088f",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3830,7 +3830,7 @@
          "elements": []
         },
         {
-         "id": "74e69a5",
+         "id": "f3fe39c",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3861,7 +3861,7 @@
        ]
       },
       {
-       "id": "dfe0189",
+       "id": "f341e07",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3958,7 +3958,7 @@
        },
        "elements": [
         {
-         "id": "def8833",
+         "id": "b0c4312",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3972,7 +3972,7 @@
          "elements": []
         },
         {
-         "id": "c7ac149",
+         "id": "dbf4a8b",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3986,7 +3986,7 @@
          "elements": []
         },
         {
-         "id": "f3aed0b",
+         "id": "83f73f1",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4021,7 +4021,7 @@
    ]
   },
   {
-   "id": "70ccec3",
+   "id": "66237a0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4105,7 +4105,7 @@
    },
    "elements": [
     {
-     "id": "fc132d0",
+     "id": "6472f1a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4175,7 +4175,7 @@
      },
      "elements": [
       {
-       "id": "113db17",
+       "id": "8f2c6ec",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4192,7 +4192,7 @@
      ]
     },
     {
-     "id": "3571810",
+     "id": "65e7e42",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4262,7 +4262,7 @@
      },
      "elements": [
       {
-       "id": "64e50ca",
+       "id": "e647cb8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4364,7 +4364,7 @@
        },
        "elements": [
         {
-         "id": "65e7e42",
+         "id": "0dd27a6",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4395,7 +4395,7 @@
          "elements": []
         },
         {
-         "id": "66237a0",
+         "id": "74e69a5",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4443,7 +4443,7 @@
        ]
       },
       {
-       "id": "a260cd0",
+       "id": "f3aed0b",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4545,7 +4545,7 @@
        },
        "elements": [
         {
-         "id": "1a81682",
+         "id": "def8833",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4576,7 +4576,7 @@
          "elements": []
         },
         {
-         "id": "7b45145",
+         "id": "c7ac149",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4624,7 +4624,7 @@
        ]
       },
       {
-       "id": "30cbc97",
+       "id": "cc4169a",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4726,7 +4726,7 @@
        },
        "elements": [
         {
-         "id": "6683688",
+         "id": "dfe0189",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4757,7 +4757,7 @@
          "elements": []
         },
         {
-         "id": "0fef792",
+         "id": "ae3a2b7",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4809,7 +4809,7 @@
    ]
   },
   {
-   "id": "0d75985",
+   "id": "6683688",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4893,7 +4893,7 @@
    },
    "elements": [
     {
-     "id": "99c9430",
+     "id": "a260cd0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4980,7 +4980,7 @@
      },
      "elements": [
       {
-       "id": "298cb3a",
+       "id": "64e50ca",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4994,7 +4994,7 @@
        "elements": []
       },
       {
-       "id": "1c2442f",
+       "id": "1a81682",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -5023,14 +5023,14 @@
        "elements": []
       },
       {
-       "id": "570dc19",
+       "id": "7b45145",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
         "text": "Solicite um orçamento",
         "link": {
-         "url": "https://wa.me/5511916751926?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20FCStudio",
-         "is_external": true,
+         "url": "fc://orcamento",
+         "is_external": false,
          "nofollow": ""
         },
         "__globals__": {

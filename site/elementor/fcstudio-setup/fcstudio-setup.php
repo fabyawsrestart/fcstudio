@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: FCStudio Setup
- * Description: Configura num clique os 7 breakpoints, cores e fontes globais, cabeçalho e rodapé do site, o Menu principal e as páginas Home, Serviços, Planos, Portfólio e Contato. Depois de usar, desative e apague.
- * Version: 1.4.0
+ * Description: Configura num clique os 7 breakpoints, cores e fontes globais, cabeçalho e rodapé do site, o Menu principal e as páginas Home, Serviços, Planos, Portfólio, Quem Somos, Orçamento e Contato. Depois de usar, desative e apague.
+ * Version: 1.5.0
  * Requires Plugins: elementor
  * Author: FCStudio
  */
@@ -14,6 +14,8 @@ const FCSTUDIO_PAGES = [
 	'servicos'  => 'Serviços',
 	'planos'    => 'Planos',
 	'portfolio' => 'Portfólio',
+	'quem-somos' => 'Quem Somos',
+	'orcamento' => 'Orçamento',
 	'contato'   => 'Contato',
 ];
 
@@ -182,12 +184,12 @@ function fcstudio_setup_run() {
 	$menu = wp_get_nav_menu_object( 'menu-principal' ) ?: wp_get_nav_menu_object( 'Menu principal' );
 	$mid  = $menu ? $menu->term_id : wp_create_nav_menu( 'Menu principal' );
 	foreach ( (array) wp_get_nav_menu_items( $mid, [ 'post_status' => 'any' ] ) as $item ) wp_delete_post( $item->ID, true );
-	foreach ( [ 'servicos', 'planos', 'portfolio', 'contato' ] as $slug ) {
+	foreach ( [ 'servicos', 'planos', 'portfolio', 'quem-somos', 'contato' ] as $slug ) {
 		wp_update_nav_menu_item( $mid, 0, [ 'menu-item-title' => FCSTUDIO_PAGES[ $slug ], 'menu-item-object' => 'page', 'menu-item-object-id' => $ids[ $slug ],
 			'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ] );
 	}
 	if ( 'menu-principal' !== wp_get_nav_menu_object( $mid )->slug ) wp_update_term( $mid, 'nav_menu', [ 'slug' => 'menu-principal' ] );
-	$log[] = 'Menu principal: Serviços, Planos, Portfólio e Contato.';
+	$log[] = 'Menu principal: Serviços, Planos, Portfólio, Quem Somos e Contato. Orçamento fica no botão do cabeçalho.';
 
 	update_option( 'elementor_disable_color_schemes', 'yes' );
 	update_option( 'elementor_disable_typography_schemes', 'yes' );

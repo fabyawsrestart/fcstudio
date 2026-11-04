@@ -268,7 +268,7 @@ def header():
             **slider('padding_horizontal_menu_item', 16, 14, 14, 14), **slider('toggle_size', 22, 22, 24, 24), **slider('toggle_border_width', 0, 0, 0, 0),
             **radius('toggle_border_radius', 10, 10, 10), **slider('dropdown_top_distance', 12, 12, 12, 12),
             **slider('padding_horizontal_dropdown_item', 40, 40, 40, 24), **slider('padding_vertical_dropdown_item', 14, 14, 14, 14))
-    cta = B('Falar no WhatsApp', 'primary', full_mobile=False, hide_mobile='hidden-mobile', hide_mobile_extra='hidden-mobile_extra')
+    cta = B('Orçamento', 'primary', U('orcamento'), full_mobile=False, hide_mobile='hidden-mobile', hide_mobile_extra='hidden-mobile_extra')
     s = {'_title': 'Cabeçalho', 'content_width': 'boxed', 'flex_direction': 'row', 'flex_direction_mobile': 'row', 'flex_direction_mobile_extra': 'row', 'flex_direction_tablet': 'row',
          'flex_justify_content': 'space-between', 'flex_align_items': 'center', 'flex_wrap': 'nowrap',
          'background_background': 'classic', '__globals__': {'background_color': C('preto'), 'border_color': C('linha')}, 'z_index': 100,
@@ -283,7 +283,7 @@ def header():
     return con([lg, right], **s)
 
 def hero():
-    buttons = row([B('Solicite um orçamento', 'primary'), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
+    buttons = row([B('Solicite um orçamento', 'primary', U('orcamento')), B('Ver planos', 'light', U('planos'))], name='Botões', gap_=(12, 12, 12, 10), landscape_dir='row', mobile_dir='column')
     text = col([H('Strategic UI/UX Design', 'fc_caption', 'primary', 'p'),
                 H('Sites que trazem <span class="fc-verde">novos clientes</span> para o seu negócio', 'fc_h1', 'secondary', 'h1'),
                 P('Seu cliente encontra você no Google, confia no que vê e chama no WhatsApp. A FCStudio cuida do site, do chatbot, dos anúncios e dos vídeos.', 'fc_lead', 'cinza300'),
@@ -405,7 +405,7 @@ def cta():
     t = H('Você está pronto<br><span class="fc-display fc-verde">para crescer?</span>', 'fc_kicker', 'secondary', 'h2')
     txt = col([t, P('Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para trazer mais clientes. Se preferir, chame direto no '
                     '<a href="https://wa.me/5511916751926" style="color:#00E600;font-weight:700;text-decoration:none;white-space:nowrap">WhatsApp (11) 91675-1926</a>.', 'fc_lead', 'cinza300'),
-               B('Solicite um orçamento', 'primary')], name='Chamada', gap_=(32, 28, 24, 24), css_classes='fc-linha-v')
+               B('Solicite um orçamento', 'primary', U('orcamento'))], name='Chamada', gap_=(32, 28, 24, 24), css_classes='fc-linha-v')
     txt['settings'].update(dims('padding', (16, 0, 64, 72), (16, 0, 56, 56), (8, 0, 48, 40), (8, 0, 40, 28)))
     W(txt, 72, 100, 100, 100)
     return section('Chamada final', [txt], 'preto', 'contato', py=(128, 96, 72, 64), css_classes='fc-estrelas')
@@ -414,7 +414,7 @@ def footer():
     c1 = col([LOGO(80, True, 70, 64), P('Strategic UI/UX Design. Sites, chatbots, anúncios e vídeos para empresas que querem crescer.', 'fc_body', 'cinza300')], gap_=(16, 16, 14, 14), _flex_size='grow')
     def links(title, items):
         return col([H(title, 'fc_caption', 'primary', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
-    nav_ = links('Navegação', ['<a href="fc://servicos" style="color:inherit">Serviços</a>', '<a href="fc://planos" style="color:inherit">Planos</a>', '<a href="fc://portfolio" style="color:inherit">Portfólio</a>', '<a href="fc://contato" style="color:inherit">Contato</a>'])
+    nav_ = links('Navegação', ['<a href="fc://%s" style="color:inherit">%s</a>' % x for x in (('servicos', 'Serviços'), ('planos', 'Planos'), ('portfolio', 'Portfólio'), ('quem-somos', 'Quem Somos'), ('orcamento', 'Orçamento'), ('contato', 'Contato'))])
     cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.com.br', 'Instagram: @fcstudio'])
     W(c1, 40, 40, 40, 100); W(nav_, 30, 30, 30, 100); W(cont_, 30, 30, 30, 100)
     cols_ = row([c1, nav_, cont_], name='Colunas', gap_=(64, 40, 32, 32), landscape_dir='row', mobile_dir='column')
@@ -550,7 +550,7 @@ def contato_bloco():
     r_ = row([infos, fcard], name='Contato', gap_=(48, 32, 24, 24), tablet_dir='column', landscape_dir='row', flex_align_items='flex-start')
     return section('Canais e formulário', [r_], 'branco', 'contato-form', py=(88, 72, 56, 56))
 
-def quem_somos():
+def quem_somos(tag='h2'):
     # slide "Sobre mim": foto com brilho verde à esquerda, texto à direita. Foto da Fab entra no lugar do logo quando chegar.
     img = IMG('equipe', 'Equipe da FCStudio')
     img['settings']['_css_classes'] = 'fc-foto'  # PNG recortado, sem contorno
@@ -559,17 +559,17 @@ def quem_somos():
                **dims('padding', (96, 0, 0, 0), (80, 0, 0, 0), (64, 0, 0, 0), (56, 0, 0, 0)))
     traco = w('html', html='<div class="fc-traco" aria-hidden="true"></div>', _title='Traço com ponto')
     texto = col([traco, H('Quem somos', 'fc_caption', 'primary', 'p'),
-                 H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio</span>', 'fc_h2', 'secondary', 'h2'),
+                 H('Não criamos apenas telas, construímos <span class="fc-verde">soluções de negócio</span>', 'fc_h2', 'secondary', tag, _css_classes='fc-barra'),
                  P('Mais do que interfaces bonitas: na FCStudio, unimos <strong>estratégia</strong> e <strong>UI/UX Design</strong> para transformar a experiência do seu usuário em <strong>resultados reais de vendas</strong>.', 'fc_lead', 'cinza300'),
                  P('Desenhamos fluxos intuitivos que guiam seu cliente com facilidade até o <strong>momento da compra</strong>, e acompanhamos os números depois do lançamento para ajustar o que for preciso.', 'fc_body', 'text'),
-                 B('Solicite um orçamento', 'primary')], name='Texto', gap_=(24, 22, 20, 18))
+                 B('Solicite um orçamento', 'primary', U('orcamento'))], name='Texto', gap_=(24, 22, 20, 18))
     W(texto, 54, 100, 100, 100)
     r_ = row([foto, texto], name='Quem somos · conteúdo', gap_=(72, 48, 40, 32), tablet_dir='column', flex_align_items='center')
     W(foto, 46, 80, 80, 100)
     return section('Quem somos', [r_], 'preto', 'quem-somos', css_classes='fc-estrelas')
 
 def home_page():
-    return mark_inner([hero(), beneficios(), servicos(), como_funciona(), quem_somos(), planos(), portfolio(), faq(), cta()])
+    return mark_inner([hero(), beneficios(), servicos(), como_funciona(), planos(), portfolio(), faq(), cta()])
 
 def servicos_page():
     return mark_inner([page_hero('Serviços', 'Tudo o que seu negócio precisa para vender mais online',
@@ -593,6 +593,128 @@ def contato_page():
                                  [B('Chamar no WhatsApp', 'primary')]),
                        contato_bloco()])
 
+def principios():
+    items = [('Estratégia antes da tela', 'Começamos pelo seu cliente e pelo seu objetivo de venda, não por um modelo pronto.'),
+             ('Fluxos que levam à compra', 'Cada página tem um caminho claro até o WhatsApp, o formulário ou o carrinho.'),
+             ('Acompanhamento depois do lançamento', 'Medimos o que funciona e ajustamos com você nos meses seguintes.')]
+    rows = []
+    for t, d in items:
+        a = H(t, 'fc_h3', 'secondary', 'h3'); b = P(d)
+        r = line_row([a, b], name=t, landscape_dir='row', mobile_dir='column', gap_=(32, 24, 20, 6))
+        W(a, 40, 40, 40, 100); W(b, 60, 60, 60, 100)
+        rows.append(r)
+    head = col([H('Como trabalhamos'), P('Strategic UI/UX Design na prática: design que existe para gerar contato e venda.', 'fc_lead')], name='Título da seção', gap_=(20, 18, 16, 14))
+    lst = col(rows, 'Princípios', gap_=(0, 0, 0, 0))
+    W(head, 42, 100, 100, 100); W(lst, 58, 100, 100, 100)
+    return section('Como trabalhamos', [row([head, lst], name='Princípios · conteúdo', gap_=(80, 40, 32, 28), tablet_dir='column')], 'neutro50', 'principios')
+
+def quem_somos_page():
+    return mark_inner([quem_somos('h1'), principios(), como_funciona(), cta()])
+
+# ---------- orçamento: briefings como formulário em etapas ----------
+def F(_id, label, t='text', req=False, width='100', options=None, inline=False):
+    f = {'_id': _id, 'custom_id': _id, 'field_type': t, 'field_label': label, 'placeholder': '', 'required': 'true' if req else '', 'width': width}
+    if options: f['field_options'] = '\n'.join(options)
+    if inline: f['inline_list'] = 'elementor-subgroup-inline'
+    return f
+
+def STEP(_id, label, first=False, last=False):
+    return {'_id': _id, 'custom_id': _id, 'field_type': 'step', 'field_label': label, 'previous_button': '' if first else 'Voltar', 'next_button': 'Próximo', 'width': '100'}
+
+SIM_NAO = ['Sim', 'Não', 'Não sei']
+CONTATO = lambda: [STEP('s1', 'Seus dados', first=True), F('nome', 'Nome e sobrenome', req=True, width='50'), F('email', 'E-mail', 'email', True, '50'),
+                   F('whatsapp', 'WhatsApp com DDD', 'tel', True, '50'), F('negocio', 'Nome do negócio', req=True, width='50')]
+VISUAL = lambda extra=(): [F('cores', 'Cores que você quer usar (ou deixe em branco para nos dar liberdade)'), F('cores_nao', 'Cores que não quer de jeito nenhum'), *extra,
+                           F('obs', 'Mais alguma coisa que precisamos saber?', 'textarea'),
+                           {**F('lgpd', 'Aceite', 'acceptance', True), 'acceptance_text': 'Concordo em ser contatado pela FCStudio e com a Política de Privacidade.'}]
+
+BRIEFINGS = [
+    ('site', 'Site institucional', 'Para empresas que querem ser encontradas no Google e passar confiança.', CONTATO() + [
+        STEP('s2', 'Seu negócio'),
+        F('sobre', 'Fale da sua empresa: o que faz, quem é o seu público e qual a missão', 'textarea', True),
+        F('concorrentes', 'Principais concorrentes (com o link do site, se tiver)', 'textarea'),
+        STEP('s3', 'O site'),
+        F('objetivo', 'Objetivos do site: produtos, serviços e ideias que quer mostrar', 'textarea', True),
+        F('acao', 'O que o visitante deve fazer no site?', 'select', True, options=['Pedir orçamento', 'Chamar no WhatsApp', 'Comprar', 'Fazer uma inscrição', 'Conhecer a empresa', 'Outro']),
+        F('dominio', 'Já tem domínio? (ex.: www.suaempresa.com.br)', 'radio', True, '50', SIM_NAO, True),
+        F('hospedagem', 'Já tem hospedagem para WordPress?', 'radio', True, '50', SIM_NAO, True),
+        F('site_atual', 'Site atual, se tiver', 'url'),
+        F('referencias', '3 sites que você gosta, para usarmos de referência', 'textarea'),
+        STEP('s4', 'Visual'),
+        F('estilo', 'Como o site deve parecer? Marque quantas quiser', 'checkbox', options=['Moderno', 'Sério', 'Conservador', 'Descontraído', 'Popular', 'Singular', 'Pesado', 'Leve'], inline=True),
+        F('transmitir', 'Mensagem que o site deve passar (ex.: confiança, criatividade)', width='50'), F('nao_transmitir', 'E o que ele NÃO deve passar?', width='50'),
+    ] + VISUAL([F('botao_whats', 'Quer botão de WhatsApp fixo no site?', 'radio', options=['Sim', 'Não'], inline=True)])),
+    ('landing', 'Landing page', 'Uma página, uma oferta: para vender um produto ou captar contatos com anúncios.', CONTATO() + [
+        STEP('s2', 'O produto'),
+        F('tipo', 'Tipo de negócio', 'radio', True, options=['E-commerce', 'Infoproduto', 'Encapsulado', 'Negócio físico', 'Outro'], inline=True),
+        F('produto', 'Qual produto ou oferta a página vai vender?', req=True),
+        F('descricao', 'Descreva o produto e o público que quer alcançar', 'textarea', True),
+        F('preco', 'Preço de comparação e de venda (ex.: de R$ 297 por R$ 197)', width='50'), F('site_atual', 'Site ou página atual, se tiver', 'url', width='50'),
+        STEP('s3', 'A venda'),
+        F('video', 'Tem vídeo de vendas?', 'radio', options=['Sim, já está no YouTube ou Vimeo', 'Ainda não', 'Não vou usar vídeo'], inline=True),
+        F('gateway', 'Plataforma de pagamento (ex.: Hotmart, Kiwify, Mercado Pago)', width='50'), F('parcelamento', 'Parcela sem juros? Em quantas vezes?', width='50'),
+        F('frete', 'Frete grátis?', 'radio', options=['Sim', 'Não', 'Não se aplica'], inline=True),
+        F('depoimentos', 'Tem depoimentos de clientes?', 'radio', options=['Sim, em vídeo', 'Sim, em print ou texto', 'Ainda não'], inline=True),
+        F('faq', 'Perguntas frequentes para a página', 'radio', options=['Tenho e vou enviar', 'Quero ajuda para montar', 'Não quero'], inline=True),
+        F('dominio', 'Domínio', 'radio', options=['Já tenho', 'Preciso de um', 'Não sei'], inline=True),
+        STEP('s4', 'Visual'),
+        F('referencias', 'Páginas que você gosta, para usarmos de referência', 'textarea'),
+    ] + VISUAL()),
+    ('loja', 'Loja virtual', 'E-commerce completo, com catálogo, carrinho e pagamento.', CONTATO() + [
+        STEP('s2', 'A loja'),
+        F('loja', 'Nome da loja', req=True, width='50'), F('logo', 'Já tem logo?', 'radio', width='50', options=['Sim', 'Não, preciso de um'], inline=True),
+        F('nicho', 'Segmento da loja', req=True, width='50'), F('publico', 'Público-alvo (ex.: mães de 25 a 40 anos)', req=True, width='50'),
+        F('categorias', 'Categorias de produtos', 'textarea'),
+        F('qtd', 'Quantos produtos, mais ou menos?', 'select', True, options=['Até 20', '21 a 100', '101 a 500', 'Mais de 500']),
+        STEP('s3', 'As vendas'),
+        F('wordpress', 'Já tem WordPress ou hospedagem?', 'radio', options=SIM_NAO, inline=True),
+        F('gateway', 'Plataforma de pagamento (ex.: Mercado Pago, PagSeguro)', width='50'), F('parcelamento', 'Parcela sem juros? Em quantas vezes?', width='50'),
+        F('frete', 'Frete grátis?', 'radio', options=['Sim', 'Não', 'Depende da região'], inline=True),
+        F('depoimentos', 'Depoimentos de clientes', 'radio', options=['Tenho e vou enviar', 'Ainda não tenho', 'Não quero'], inline=True),
+        F('banners', 'O que destacar nos banners da página inicial (até 3 mensagens)', 'textarea'),
+        STEP('s4', 'Visual'),
+        F('redes', 'Instagram e Facebook da loja'),
+    ] + VISUAL()),
+    ('artes', 'Artes para anúncios', 'Criativos para Instagram, Facebook e banners de loja.', CONTATO() + [
+        STEP('s2', 'O criativo'),
+        F('formatos', 'Formatos', 'checkbox', True, options=['Feed (1080 x 1080)', 'Stories (1080 x 1920)', 'Capa do Facebook (820 x 312)', 'Banner de loja (1280 x 400 e 680 x 400)', 'Imagem de categoria (1080 x 1080)', 'Outro formato']),
+        F('qtd', 'Quantas artes?', 'number', width='50'), F('publico', 'Público-alvo (ex.: mulheres de 30 a 50 anos)', req=True, width='50'),
+        F('frases', 'Frases exatas que vão na arte (curtas e diretas)', 'textarea', True),
+        F('elementos', 'Algum elemento obrigatório? (ex.: foto de uma pessoa, selo de Black Friday, frete grátis)', 'textarea'),
+        STEP('s3', 'Visual'),
+    ] + VISUAL()),
+]
+
+def briefing_form(slug, title, fields):
+    return w('form', form_name='Orçamento: ' + title, form_fields=fields, button_text='Enviar briefing', button_size='md', button_width='100', show_labels='true', mark_required='yes',
+             step_type='number_text', step_icon_shape='circle',
+             step_inactive_primary_color='#8A8A8A', step_inactive_secondary_color='#1A1A1A', step_active_primary_color='#00E600', step_active_secondary_color='#050505',
+             step_completed_primary_color='#00A818', step_completed_secondary_color='#0B2B12',
+             email_to='contato@fcstudio.com.br', email_subject='Pedido de orçamento: ' + title, success_message='Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.',
+             submit_actions=['email', 'save-to-database'], _css_classes='fc-form',
+             __globals__={'field_typography_typography': T('fc_body'), 'label_typography_typography': T('fc_body'), 'label_color': C('secondary'), 'field_text_color': C('secondary'),
+                          'button_typography_typography': T('fc_button'), 'button_background_color': C('primary'), 'button_text_color': C('preto'),
+                          'previous_button_background_color': C('linha'), 'previous_button_text_color': C('secondary'),
+                          'field_border_color': C('linha'), 'field_background_color': C('preto')},
+             **slider('column_gap', 16, l=12, m=12), **slider('row_gap', 20, l=16, m=16), **slider('label_spacing', 8, l=6, m=6),
+             **radius('field_border_radius', 6, 6, 6), **radius('button_border_radius', 6, 6, 6))
+
+def orcamento_page():
+    nav = row([B(t, 'secondary', '#orc-' + sl, full_mobile=True) for sl, t, _, _ in BRIEFINGS], name='Escolha o serviço', gap_=(12, 12, 10, 10), tablet_dir='row', landscape_dir='row', mobile_dir='column', flex_wrap='wrap')
+    for b in nav['elements']: W(b, 'fit')
+    top = page_hero('Orçamento', 'Solicite um orçamento',
+                    'Escolha o serviço e responda o briefing. Leva uns 5 minutos e já traz tudo o que precisamos para mandar o valor certo, sem ida e volta.', [nav])
+    W(top['elements'][0], 100, 100, 100, 100)
+    top['elements'][0]['elements'].append(P('Chatbot, edição de vídeo ou sistema sob medida? <a href="https://wa.me/5511916751926" style="color:#00E600;font-weight:700;text-decoration:none">Chame no WhatsApp</a> que a gente conversa.', 'fc_body', 'text'))
+    secs = [top]
+    for i, (sl, t, d, fields) in enumerate(BRIEFINGS):
+        head = col([H(t), P(d, 'fc_lead'), P('Os campos com * são obrigatórios. Senhas e acessos nunca vão por aqui: pedimos depois, por um canal seguro.', 'fc_body', 'text')], name='Título', gap_=(20, 18, 16, 14))
+        fcard = card([briefing_form(sl, t, fields)], pad=(40, 32, 24, 20), _title='Briefing ' + t, css_classes='fc-borda')
+        W(head, 34, 100, 100, 100); W(fcard, 66, 100, 100, 100)
+        secs.append(section('Briefing ' + t, [row([head, fcard], name=t, gap_=(56, 32, 28, 24), tablet_dir='column', flex_align_items='flex-start')],
+                            'neutro50' if i % 2 == 0 else 'preto', 'orc-' + sl, py=(96, 72, 56, 48)))
+    return mark_inner(secs)
+
 def header_tpl():
     return mark_inner([header()])
 
@@ -602,7 +724,7 @@ def footer_tpl():
     return mark_inner([f])
 
 PAGES = [('home', 'Home', home_page), ('servicos', 'Serviços', servicos_page), ('planos', 'Planos', planos_page),
-         ('portfolio', 'Portfólio', portfolio_page), ('contato', 'Contato', contato_page)]
+         ('portfolio', 'Portfólio', portfolio_page), ('quem-somos', 'Quem Somos', quem_somos_page), ('orcamento', 'Orçamento', orcamento_page), ('contato', 'Contato', contato_page)]
 
 # Montserrat local: o plugin copia as fontes para wp-content/uploads/fcstudio-fonts e troca fc-fonts:// pelo endereço
 FONTFACE = ''.join("@font-face{font-family:'Montserrat';font-style:normal;font-weight:%d;font-display:swap;src:url(fc-fonts://montserrat-%s.woff2) format('woff2')}" % (w_, n)
@@ -646,6 +768,9 @@ CSS = (
     # textos
     '.elementor-widget-text-editor strong{color:#fff;font-weight:700}.fc-claro .elementor-widget-text-editor strong{color:#0A0A0A}'
     '.elementor-field-group .elementor-field::placeholder{color:#8A8A8A}'
+    '.fc-form{--e-form-steps-divider-color:#2A2A2A}.fc-form .e-form__indicators__indicator__label{font-size:calc(11*var(--px));letter-spacing:.06em;text-transform:uppercase;font-weight:700;white-space:nowrap}@media(max-width:575px){.fc-form .e-form__indicators__indicator__label{white-space:normal;letter-spacing:.02em;font-size:calc(10*var(--px))}}'
+    '.fc-form .elementor-field-label{font-weight:600}.fc-form .elementor-field-option label{color:#CBD2D9}.fc-form select.elementor-field{color:#fff}'
+    '.fc-form .elementor-field-type-acceptance label{color:#A3A3A3;font-weight:400}'
     '::selection{background:#00D61A;color:#050505}:focus-visible{outline:2px solid #00E600;outline-offset:3px;border-radius:4px}'
     'html{scrollbar-color:#00D61A #050505;accent-color:#00D61A}a{text-underline-offset:.2em}'
 )

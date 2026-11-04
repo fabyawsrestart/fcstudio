@@ -8,7 +8,7 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 | Arquivo | Para que serve |
 |---|---|
 | `fcstudio-setup.zip` | **Plugin de um clique** (v1.4): breakpoints, largura útil, cores e fontes, cabeçalho e rodapé globais, as 5 páginas e o menu |
-| `paginas/*.json` | Home, Serviços, Planos, Portfólio, Contato, Cabeçalho e Rodapé (formato de modelo do Elementor) |
+| `paginas/*.json` | Home, Serviços, Planos, Portfólio, Quem Somos, Orçamento, Contato, Cabeçalho e Rodapé (formato de modelo do Elementor) |
 | `kit-settings.json` | Configurações globais (breakpoints, largura útil, cores, tipografias) |
 | `gerar.py` + `sync.sh` | Gerador. Depois de mudar textos ou medidas, rode `./sync.sh` para refazer os JSON e o zip do plugin |
 | `prints/` | Capturas das páginas |
@@ -17,7 +17,8 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 - **Cabeçalho e Rodapé** ficam em Elementor > Modelos > Theme Builder e valem para o site todo. Editou ali, muda em todas as páginas.
 - As páginas usam o layout **Elementor Largura total** (com cabeçalho e rodapé do Theme Builder).
-- Menu principal: Serviços, Planos, Portfólio, Contato. O logo leva para a Home.
+- Menu principal: Serviços, Planos, Portfólio, Quem Somos, Contato. O logo leva para a Home. O botão "Orçamento" do cabeçalho e todos os "Solicite um orçamento" levam para a página Orçamento.
+- Orçamento: os 4 briefings (site institucional, landing page, loja virtual, artes para anúncios) viraram formulários em etapas. Ficaram de fora de propósito: senhas e acessos (WordPress, hospedagem), códigos de pixel e Analytics, links de checkout e o aceite dos termos de serviço. Isso é coisa de depois do fechamento: pedir senha num formulário público grava a senha no banco e no e-mail. As respostas caem em Elementor > Envios.
 - Contato: formulário do Pro com aceite de LGPD, salva em Elementor > Envios e manda e-mail para contato@fcstudio.com.br. **No XAMPP o e-mail não sai** (não há servidor de e-mail); na hospedagem, configure um SMTP (ex.: plugin WP Mail SMTP).
 
 ## Requisitos no XAMPP
