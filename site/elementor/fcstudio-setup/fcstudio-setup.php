@@ -1,19 +1,26 @@
 <?php
 /**
  * Plugin Name: FCStudio Setup
- * Description: Configura num clique os 7 breakpoints, cores e fontes globais, o Menu principal e a Home estática da FCStudio. Depois de usar, desative e apague.
- * Version: 1.0.0
+ * Description: Configura num clique os 7 breakpoints, cores e fontes globais, cabeçalho e rodapé do site, o Menu principal e as páginas Home, Serviços, Planos, Portfólio e Contato. Depois de usar, desative e apague.
+ * Version: 1.1.0
  * Requires Plugins: elementor
  * Author: FCStudio
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+const FCSTUDIO_PAGES = [
+	'home'      => 'Home',
+	'servicos'  => 'Serviços',
+	'planos'    => 'Planos',
+	'portfolio' => 'Portfólio',
+	'contato'   => 'Contato',
+];
+
 add_action( 'admin_menu', function () {
 	add_management_page( 'FCStudio Setup', 'FCStudio Setup', 'manage_options', 'fcstudio-setup', 'fcstudio_setup_page' );
 } );
 
-// Link "Abrir" na lista de plugins
 add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), function ( $links ) {
 	array_unshift( $links, '<a href="' . admin_url( 'tools.php?page=fcstudio-setup' ) . '">Abrir</a>' );
 	return $links;
@@ -35,24 +42,40 @@ function fcstudio_setup_page() {
 	echo '<p>Este botão faz, de uma vez:</p><ul style="list-style:disc;margin-left:20px">
 		<li>Ativa os 7 breakpoints (celular retrato até 575px, paisagem até 880px, tablet retrato 1024, tablet paisagem 1200, laptop 1366, widescreen 2400).</li>
 		<li>Aplica a largura útil (1140px, 1320px no widescreen), as cores e as tipografias globais.</li>
-		<li>Cria o "Menu principal" com os 5 links (se ainda não existir).</li>
-		<li>Cria ou atualiza a página <strong>Home</strong> com o layout Elementor Canvas e define como página inicial estática.</li>
-	</ul><p><em>Atenção: se já existir uma página chamada Home, o conteúdo dela será substituído.</em></p>
+		<li>Cria o <strong>Cabeçalho</strong> e o <strong>Rodapé</strong> no Theme Builder, valendo para o site todo.</li>
+		<li>Cria ou atualiza as páginas <strong>Home, Serviços, Planos, Portfólio e Contato</strong> e define a Home como página inicial estática.</li>
+		<li>Monta o "Menu principal" apontando para as páginas.</li>
+	</ul><p><em>Atenção: páginas com esses nomes que já existirem terão o conteúdo substituído.</em></p>
 	<form method="post">';
 	wp_nonce_field( 'fcstudio_setup' );
 	echo '<p><button class="button button-primary button-hero" name="fcstudio_run" value="1">Configurar agora</button></p></form></div>';
+}
+
+/** Lê um JSON trocando os links "fc://slug" pelo endereço real da página. */
+function fcstudio_load( $file, $urls ) {
+	$raw = file_get_contents( plugin_dir_path( __FILE__ ) . $file );
+	foreach ( $urls as $slug => $url ) {
+		$raw = str_replace( 'fc://' . $slug, $url, $raw );
+	}
+	return json_decode( $raw, true );
+}
+
+function fcstudio_find_page( $slug, $title ) {
+	$page = get_page_by_path( $slug );
+	if ( $page ) return $page;
+	foreach ( get_posts( [ 'post_type' => 'page', 'title' => $title, 'post_status' => 'any', 'numberposts' => 1 ] ) as $p ) return $p;
+	return null;
 }
 
 function fcstudio_setup_run() {
 	$log = [];
 	if ( ! did_action( 'elementor/loaded' ) ) return [ 'Elementor não está ativo. Ative o Elementor e tente de novo.' ];
 	$E   = \Elementor\Plugin::$instance;
-	$dir = plugin_dir_path( __FILE__ );
-	$kitS = json_decode( file_get_contents( $dir . 'kit-settings.json' ), true );
-	$tpl  = json_decode( file_get_contents( $dir . 'fcstudio-home.json' ), true );
+	$pro = defined( 'ELEMENTOR_PRO_VERSION' ) && class_exists( '\ElementorPro\Modules\ThemeBuilder\Module' );
 
-	// 1. Kit: breakpoints, largura útil, cores e fontes (mescla com o que já existe)
-	$kit = $E->kits_manager->get_active_kit();
+	// 1. Kit: breakpoints, largura útil, cores e fontes
+	$kitS = fcstudio_load( 'kit-settings.json', [] );
+	$kit  = $E->kits_manager->get_active_kit();
 	if ( ! $kit || ! $kit->get_id() ) {
 		$E->kits_manager->create_default();
 		$kit = $E->kits_manager->get_active_kit();
@@ -61,43 +84,69 @@ function fcstudio_setup_run() {
 	$kit->save( [ 'settings' => array_merge( $current, $kitS ) ] );
 	\Elementor\Core\Breakpoints\Manager::compile_stylesheet_templates();
 	$saved = get_post_meta( $kit->get_id(), '_elementor_page_settings', true );
-	$log[] = 'Breakpoints ativos: ' . count( (array) ( $saved['active_breakpoints'] ?? [] ) ) . ' adicionais + desktop = ' . ( 1 + count( (array) ( $saved['active_breakpoints'] ?? [] ) ) ) . ' no total. Celular retrato até ' . ( $saved['viewport_mobile'] ?? '?' ) . 'px.';
+	$n     = count( (array) ( $saved['active_breakpoints'] ?? [] ) );
+	$log[] = 'Breakpoints: ' . ( $n + 1 ) . ' ativos (desktop + ' . $n . '). Celular retrato até ' . ( $saved['viewport_mobile'] ?? '?' ) . 'px.';
 
-	// 2. Menu principal
-	$menu = wp_get_nav_menu_object( 'menu-principal' ) ?: wp_get_nav_menu_object( 'Menu principal' );
-	if ( ! $menu ) {
-		$mid = wp_create_nav_menu( 'Menu principal' );
-		foreach ( [ [ 'Serviços', '#servicos' ], [ 'Como funciona', '#como-funciona' ], [ 'Planos', '#planos' ], [ 'Portfólio', '#portfolio' ], [ 'Contato', '#contato' ] ] as $it ) {
-			wp_update_nav_menu_item( $mid, 0, [ 'menu-item-title' => $it[0], 'menu-item-url' => $it[1], 'menu-item-status' => 'publish', 'menu-item-type' => 'custom' ] );
-		}
-		$log[] = 'Menu principal criado.';
-	} else {
-		$log[] = 'Menu principal já existia, mantido.';
+	// 2. Cria as páginas primeiro, para saber os links
+	$ids = [];
+	foreach ( FCSTUDIO_PAGES as $slug => $title ) {
+		$page = fcstudio_find_page( $slug, $title );
+		$ids[ $slug ] = $page ? $page->ID : wp_insert_post( [ 'post_type' => 'page', 'post_status' => 'publish', 'post_title' => $title, 'post_name' => $slug ] );
+		wp_update_post( [ 'ID' => $ids[ $slug ], 'post_status' => 'publish' ] );
 	}
-
-	// 3. Página Home
-	$page = get_page_by_path( 'home' );
-	if ( ! $page ) {
-		foreach ( get_posts( [ 'post_type' => 'page', 'title' => 'Home', 'post_status' => 'any', 'numberposts' => 1 ] ) as $p ) $page = $p;
-	}
-	$pid = $page ? $page->ID : wp_insert_post( [ 'post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Home', 'post_name' => 'home' ] );
-	wp_update_post( [ 'ID' => $pid, 'post_status' => 'publish' ] );
-	update_post_meta( $pid, '_elementor_edit_mode', 'builder' );
-	update_post_meta( $pid, '_elementor_template_type', 'wp-page' );
-	update_post_meta( $pid, '_wp_page_template', 'elementor_canvas' );
-	$doc = $E->documents->get( $pid, false );
-	$doc->save( [ 'elements' => $tpl['content'], 'settings' => [ 'template' => 'elementor_canvas', 'hide_title' => 'yes' ] ] );
-	$log[] = 'Página Home ' . ( $page ? 'atualizada' : 'criada' ) . ' (ID ' . $pid . ') com layout Elementor Canvas.';
-
-	// 4. Página inicial estática
 	update_option( 'show_on_front', 'page' );
-	update_option( 'page_on_front', $pid );
-	$log[] = 'Home definida como página inicial estática.';
+	update_option( 'page_on_front', $ids['home'] );
+	$urls = [];
+	foreach ( $ids as $slug => $id ) $urls[ $slug ] = get_permalink( $id );
+	$urls['home'] = home_url( '/' );
 
-	// 5. Usar as cores e fontes do kit, não as do tema
+	// 3. Conteúdo das páginas
+	foreach ( FCSTUDIO_PAGES as $slug => $title ) {
+		$tpl = fcstudio_load( 'paginas/' . $slug . '.json', $urls );
+		$pid = $ids[ $slug ];
+		// Sem o Pro (sem cabeçalho/rodapé globais) a página precisaria do Canvas; com o Pro usa "Elementor Largura total"
+		$template = $pro ? 'elementor_header_footer' : 'elementor_canvas';
+		update_post_meta( $pid, '_elementor_edit_mode', 'builder' );
+		update_post_meta( $pid, '_elementor_template_type', 'wp-page' );
+		update_post_meta( $pid, '_wp_page_template', $template );
+		$E->documents->get( $pid, false )->save( [ 'elements' => $tpl['content'], 'settings' => [ 'template' => $template, 'hide_title' => 'yes' ] ] );
+	}
+	$log[] = 'Páginas criadas/atualizadas: ' . implode( ', ', FCSTUDIO_PAGES ) . '. Home definida como página inicial estática.';
+
+	// 4. Cabeçalho e rodapé globais (Theme Builder do Pro)
+	if ( $pro ) {
+		foreach ( [ 'cabecalho' => [ 'header', 'FCStudio Cabeçalho' ], 'rodape' => [ 'footer', 'FCStudio Rodapé' ] ] as $file => [ $type, $title ] ) {
+			$tpl   = fcstudio_load( 'paginas/' . $file . '.json', $urls );
+			$found = get_posts( [ 'post_type' => 'elementor_library', 'title' => $title, 'post_status' => 'any', 'numberposts' => 1 ] );
+			if ( $found ) {
+				$tid = $found[0]->ID;
+			} else {
+				$doc = $E->documents->create( $type, [ 'post_title' => $title, 'post_status' => 'publish' ] );
+				$tid = $doc->get_main_id();
+			}
+			wp_update_post( [ 'ID' => $tid, 'post_status' => 'publish' ] );
+			$E->documents->get( $tid, false )->save( [ 'elements' => $tpl['content'] ] );
+			update_post_meta( $tid, '_elementor_conditions', [ 'include/general' ] );
+		}
+		\ElementorPro\Modules\ThemeBuilder\Module::instance()->get_conditions_manager()->get_cache()->regenerate();
+		$log[] = 'Cabeçalho e rodapé criados no Theme Builder, valendo para o site todo.';
+	} else {
+		$log[] = 'Pro Elements não está ativo: cabeçalho e rodapé globais NÃO foram criados. Ative o Pro Elements e rode de novo.';
+	}
+
+	// 5. Menu principal apontando para as páginas
+	$menu = wp_get_nav_menu_object( 'menu-principal' ) ?: wp_get_nav_menu_object( 'Menu principal' );
+	$mid  = $menu ? $menu->term_id : wp_create_nav_menu( 'Menu principal' );
+	foreach ( (array) wp_get_nav_menu_items( $mid, [ 'post_status' => 'any' ] ) as $item ) wp_delete_post( $item->ID, true );
+	foreach ( [ 'servicos', 'planos', 'portfolio', 'contato' ] as $slug ) {
+		wp_update_nav_menu_item( $mid, 0, [ 'menu-item-title' => FCSTUDIO_PAGES[ $slug ], 'menu-item-object' => 'page', 'menu-item-object-id' => $ids[ $slug ],
+			'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ] );
+	}
+	if ( 'menu-principal' !== wp_get_nav_menu_object( $mid )->slug ) wp_update_term( $mid, 'nav_menu', [ 'slug' => 'menu-principal' ] );
+	$log[] = 'Menu principal: Serviços, Planos, Portfólio e Contato.';
+
 	update_option( 'elementor_disable_color_schemes', 'yes' );
 	update_option( 'elementor_disable_typography_schemes', 'yes' );
-
 	$E->files_manager->clear_cache();
 	$log[] = 'Cache do Elementor limpo.';
 	return $log;

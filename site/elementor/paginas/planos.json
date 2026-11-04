@@ -1,0 +1,4232 @@
+{
+ "version": "0.4",
+ "title": "FCStudio Planos",
+ "type": "page",
+ "content": [
+  {
+   "id": "b0a844e",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Topo da página",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=neutro50"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "0",
+     "bottom": "96",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "40",
+     "bottom": "72",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "6.486",
+     "right": "5.405",
+     "bottom": "6.486",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "12.308",
+     "right": "6.154",
+     "bottom": "12.308",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "96",
+     "right": "32",
+     "bottom": "96",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 48,
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 40,
+     "column": "40",
+     "row": "40",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
+     "isLinked": true
+    },
+    "_element_id": "inicio"
+   },
+   "elements": [
+    {
+     "id": "2587be6",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Texto",
+      "flex_gap": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 4.615,
+       "column": "4.615",
+       "row": "4.615",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "%",
+       "size": 75
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile_extra": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": [
+      {
+       "id": "f3b7a50",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Planos",
+        "header_size": "p",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_caption",
+         "title_color": "globals/colors?id=primary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "873be07",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Escolha o plano do seu consultório",
+        "header_size": "h1",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_h1",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "5c9bcf3",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Pagamento em até 10x. Sem fidelidade nos planos mensais.</p>",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_lead",
+         "text_color": "globals/colors?id=text"
+        },
+        "paragraph_spacing": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_tablet": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_mobile_extra": {
+         "unit": "vw",
+         "size": 0.0
+        },
+        "paragraph_spacing_mobile": {
+         "unit": "vw",
+         "size": 0.0
+        }
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f373ca5",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Planos",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=neutro50"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "40",
+     "right": "0",
+     "bottom": "88",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "32",
+     "right": "40",
+     "bottom": "72",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "3.243",
+     "right": "5.405",
+     "bottom": "7.568",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "6.154",
+     "right": "6.154",
+     "bottom": "14.359",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "40",
+     "right": "32",
+     "bottom": "88",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 48,
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 40,
+     "column": "40",
+     "row": "40",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
+     "isLinked": true
+    },
+    "_element_id": "planos"
+   },
+   "elements": [
+    {
+     "id": "3488f87",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile_extra": "column",
+      "flex_direction_mobile": "column",
+      "flex_wrap": "nowrap",
+      "_title": "Cards de plano",
+      "flex_gap": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 16,
+       "column": "16",
+       "row": "16",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 4.103,
+       "column": "4.103",
+       "row": "4.103",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "flex_align_items": "stretch"
+     },
+     "elements": [
+      {
+       "id": "f4998d7",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 16,
+         "column": "16",
+         "row": "16",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 14,
+         "column": "14",
+         "row": "14",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 3.59,
+         "column": "3.59",
+         "row": "3.59",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        },
+        "_title": "Plano Essencial",
+        "width": {
+         "unit": "%",
+         "size": 33.333
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 33.333
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "9d1de2a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Essencial",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "068739f",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Landing page</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1200339",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "R$ 1.490",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_num",
+           "title_color": "globals/colors?id=primary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "dfd43f3",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "pagamento único",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=text"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "a268aa8",
+         "elType": "widget",
+         "widgetType": "icon-list",
+         "settings": {
+          "icon_list": [
+           {
+            "_id": "353c631",
+            "text": "1 página focada em um tratamento",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "9d33a01",
+            "text": "Botão de WhatsApp em todas as telas",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "6050914",
+            "text": "Domínio e SSL configurados",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "2607679",
+            "text": "Entrega em 10 dias",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           }
+          ],
+          "__globals__": {
+           "icon_typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=secondary",
+           "icon_color": "globals/colors?id=primary"
+          },
+          "icon_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "icon_size_tablet": {
+           "unit": "px",
+           "size": 14
+          },
+          "icon_size_mobile_extra": {
+           "unit": "vw",
+           "size": 1.757
+          },
+          "icon_size_mobile": {
+           "unit": "vw",
+           "size": 3.333
+          },
+          "space_between": {
+           "unit": "px",
+           "size": 10
+          },
+          "space_between_tablet": {
+           "unit": "px",
+           "size": 10
+          },
+          "space_between_mobile_extra": {
+           "unit": "vw",
+           "size": 1.216
+          },
+          "space_between_mobile": {
+           "unit": "vw",
+           "size": 2.308
+          },
+          "text_indent": {
+           "unit": "px",
+           "size": 10
+          },
+          "text_indent_tablet": {
+           "unit": "px",
+           "size": 10
+          },
+          "text_indent_mobile_extra": {
+           "unit": "vw",
+           "size": 1.216
+          },
+          "text_indent_mobile": {
+           "unit": "vw",
+           "size": 2.308
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "4093f6d",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Quero este plano",
+          "link": {
+           "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "is_external": true,
+           "nofollow": ""
+          },
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=primary",
+           "border_color": "globals/colors?id=primary"
+          },
+          "background_color": "#00000000",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "2",
+           "right": "2",
+           "bottom": "2",
+           "left": "2",
+           "isLinked": true
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
+           "isLinked": true
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.513",
+           "right": "0.513",
+           "bottom": "0.513",
+           "left": "0.513",
+           "isLinked": true
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "16",
+           "right": "26",
+           "bottom": "16",
+           "left": "26",
+           "isLinked": false
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.103",
+           "right": "5.641",
+           "bottom": "4.103",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify",
+          "align": "justify"
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "7afb2c6",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=secondary"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 16,
+         "column": "16",
+         "row": "16",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 14,
+         "column": "14",
+         "row": "14",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 3.59,
+         "column": "3.59",
+         "row": "3.59",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        },
+        "_title": "Plano Consultório",
+        "_flex_order_mobile": "start",
+        "width": {
+         "unit": "%",
+         "size": 33.333
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 33.333
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "_flex_order_mobile_extra": "start"
+       },
+       "elements": [
+        {
+         "id": "58ee857",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Mais escolhido",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=secondary",
+           "_background_color": "globals/colors?id=accent"
+          },
+          "_element_width": "auto",
+          "_flex_align_self": "flex-start",
+          "_background_background": "classic",
+          "_padding": {
+           "unit": "px",
+           "top": "6",
+           "right": "12",
+           "bottom": "6",
+           "left": "12",
+           "isLinked": false
+          },
+          "_padding_tablet": {
+           "unit": "px",
+           "top": "6",
+           "right": "12",
+           "bottom": "6",
+           "left": "12",
+           "isLinked": false
+          },
+          "_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "0.676",
+           "right": "1.351",
+           "bottom": "0.676",
+           "left": "1.351",
+           "isLinked": false
+          },
+          "_padding_mobile": {
+           "unit": "vw",
+           "top": "1.282",
+           "right": "2.564",
+           "bottom": "1.282",
+           "left": "2.564",
+           "isLinked": false
+          },
+          "_border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "_border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "_border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "9a2ef80",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Consultório",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=branco"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "5d39d0a",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Site completo</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=cinza300"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "7961fd9",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "R$ 2.990",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_num",
+           "title_color": "globals/colors?id=branco"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1f7296a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "pagamento único",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=cinza300"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "fa529ba",
+         "elType": "widget",
+         "widgetType": "icon-list",
+         "settings": {
+          "icon_list": [
+           {
+            "_id": "1d87cec",
+            "text": "Até 6 páginas",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "d953ee2",
+            "text": "Google Meu Negócio otimizado",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "7cf2072",
+            "text": "Página de cada tratamento",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "fe3bfad",
+            "text": "3 meses de suporte",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           }
+          ],
+          "__globals__": {
+           "icon_typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=branco",
+           "icon_color": "globals/colors?id=accent"
+          },
+          "icon_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "icon_size_tablet": {
+           "unit": "px",
+           "size": 14
+          },
+          "icon_size_mobile_extra": {
+           "unit": "vw",
+           "size": 1.757
+          },
+          "icon_size_mobile": {
+           "unit": "vw",
+           "size": 3.333
+          },
+          "space_between": {
+           "unit": "px",
+           "size": 10
+          },
+          "space_between_tablet": {
+           "unit": "px",
+           "size": 10
+          },
+          "space_between_mobile_extra": {
+           "unit": "vw",
+           "size": 1.216
+          },
+          "space_between_mobile": {
+           "unit": "vw",
+           "size": 2.308
+          },
+          "text_indent": {
+           "unit": "px",
+           "size": 10
+          },
+          "text_indent_tablet": {
+           "unit": "px",
+           "size": 10
+          },
+          "text_indent_mobile_extra": {
+           "unit": "vw",
+           "size": 1.216
+          },
+          "text_indent_mobile": {
+           "unit": "vw",
+           "size": 2.308
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "774b15d",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Quero este plano",
+          "link": {
+           "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "is_external": true,
+           "nofollow": ""
+          },
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=branco",
+           "background_color": "globals/colors?id=primary"
+          },
+          "background_color": "#00000000",
+          "border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "16",
+           "right": "26",
+           "bottom": "16",
+           "left": "26",
+           "isLinked": false
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.103",
+           "right": "5.641",
+           "bottom": "4.103",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify",
+          "align": "justify"
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d42fddb",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 16,
+         "column": "16",
+         "row": "16",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 14,
+         "column": "14",
+         "row": "14",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.892,
+         "column": "1.892",
+         "row": "1.892",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 3.59,
+         "column": "3.59",
+         "row": "3.59",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        },
+        "_title": "Plano Agenda cheia",
+        "width": {
+         "unit": "%",
+         "size": 33.333
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 33.333
+        },
+        "width_mobile_extra": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": [
+        {
+         "id": "7bdc968",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Agenda cheia",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "4fd58db",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Site + marketing</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "15fc899",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "R$ 1.290",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_num",
+           "title_color": "globals/colors?id=primary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "24e4e25",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "por mês + implantação do site",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=text"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "43c71b9",
+         "elType": "widget",
+         "widgetType": "icon-list",
+         "settings": {
+          "icon_list": [
+           {
+            "_id": "1a28f7b",
+            "text": "Tudo do plano Consultório",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "bfeaa15",
+            "text": "Anúncios no Google e Instagram",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "57b6fb7",
+            "text": "4 vídeos editados por mês",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           },
+           {
+            "_id": "bd87a86",
+            "text": "Relatório mensal de resultados",
+            "selected_icon": {
+             "value": "fas fa-check",
+             "library": "fa-solid"
+            }
+           }
+          ],
+          "__globals__": {
+           "icon_typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=secondary",
+           "icon_color": "globals/colors?id=primary"
+          },
+          "icon_size": {
+           "unit": "px",
+           "size": 14
+          },
+          "icon_size_tablet": {
+           "unit": "px",
+           "size": 14
+          },
+          "icon_size_mobile_extra": {
+           "unit": "vw",
+           "size": 1.757
+          },
+          "icon_size_mobile": {
+           "unit": "vw",
+           "size": 3.333
+          },
+          "space_between": {
+           "unit": "px",
+           "size": 10
+          },
+          "space_between_tablet": {
+           "unit": "px",
+           "size": 10
+          },
+          "space_between_mobile_extra": {
+           "unit": "vw",
+           "size": 1.216
+          },
+          "space_between_mobile": {
+           "unit": "vw",
+           "size": 2.308
+          },
+          "text_indent": {
+           "unit": "px",
+           "size": 10
+          },
+          "text_indent_tablet": {
+           "unit": "px",
+           "size": 10
+          },
+          "text_indent_mobile_extra": {
+           "unit": "vw",
+           "size": 1.216
+          },
+          "text_indent_mobile": {
+           "unit": "vw",
+           "size": 2.308
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "7a86f7a",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Quero este plano",
+          "link": {
+           "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+           "is_external": true,
+           "nofollow": ""
+          },
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=primary",
+           "border_color": "globals/colors?id=primary"
+          },
+          "background_color": "#00000000",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "2",
+           "right": "2",
+           "bottom": "2",
+           "left": "2",
+           "isLinked": true
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
+           "isLinked": true
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.513",
+           "right": "0.513",
+           "bottom": "0.513",
+           "left": "0.513",
+           "isLinked": true
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "16",
+           "right": "26",
+           "bottom": "16",
+           "left": "26",
+           "isLinked": false
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.103",
+           "right": "5.641",
+           "bottom": "4.103",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify",
+          "align": "justify"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cfbf336",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Incluso em todos os planos",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=branco"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "112",
+     "right": "0",
+     "bottom": "112",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "88",
+     "right": "40",
+     "bottom": "88",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "16.41",
+     "right": "6.154",
+     "bottom": "16.41",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "112",
+     "right": "32",
+     "bottom": "112",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 48,
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 40,
+     "column": "40",
+     "row": "40",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
+     "isLinked": true
+    }
+   },
+   "elements": [
+    {
+     "id": "3919424",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Título da seção",
+      "flex_gap": {
+       "unit": "px",
+       "size": 16,
+       "column": "16",
+       "row": "16",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 16,
+       "column": "16",
+       "row": "16",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 3.59,
+       "column": "3.59",
+       "row": "3.59",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "5464ecc",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Em todos os planos",
+        "header_size": "p",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_caption",
+         "title_color": "globals/colors?id=primary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "a2eddbb",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "O que já vem incluso",
+        "header_size": "h2",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_h2",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "9cfc865",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "container_type": "grid",
+      "content_width": "full",
+      "grid_columns_grid": {
+       "unit": "fr",
+       "size": 3
+      },
+      "grid_columns_grid_tablet": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_columns_grid_mobile_extra": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_columns_grid_mobile": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_rows_grid": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_auto_flow": "row",
+      "_title": "Cards",
+      "grid_gaps": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "grid_gaps_tablet": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "grid_gaps_mobile_extra": {
+       "unit": "vw",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
+       "isLinked": true
+      },
+      "grid_gaps_mobile": {
+       "unit": "vw",
+       "size": 4.103,
+       "column": "4.103",
+       "row": "4.103",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "c215a82",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=neutro50"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.564,
+         "column": "2.564",
+         "row": "2.564",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "8b0d590",
+         "elType": "widget",
+         "widgetType": "icon",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-mobile-alt",
+           "library": "fa-solid"
+          },
+          "view": "stacked",
+          "shape": "square",
+          "align": "left",
+          "__globals__": {
+           "primary_color": "globals/colors?id=verde100",
+           "secondary_color": "globals/colors?id=verde700"
+          },
+          "size": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_tablet": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_mobile_extra": {
+           "unit": "vw",
+           "size": 2.703
+          },
+          "size_mobile": {
+           "unit": "vw",
+           "size": 5.128
+          },
+          "icon_padding": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_tablet": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_mobile_extra": {
+           "unit": "vw",
+           "size": 1.622
+          },
+          "icon_padding_mobile": {
+           "unit": "vw",
+           "size": 3.077
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "ea05754",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Feito para celular",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "06ec41a",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Mais de 70% das visitas vêm do celular. O layout nasce pensando nele.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "a49636a",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=neutro50"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.564,
+         "column": "2.564",
+         "row": "2.564",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "87322e2",
+         "elType": "widget",
+         "widgetType": "icon",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-tachometer-alt",
+           "library": "fa-solid"
+          },
+          "view": "stacked",
+          "shape": "square",
+          "align": "left",
+          "__globals__": {
+           "primary_color": "globals/colors?id=verde100",
+           "secondary_color": "globals/colors?id=verde700"
+          },
+          "size": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_tablet": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_mobile_extra": {
+           "unit": "vw",
+           "size": 2.703
+          },
+          "size_mobile": {
+           "unit": "vw",
+           "size": 5.128
+          },
+          "icon_padding": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_tablet": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_mobile_extra": {
+           "unit": "vw",
+           "size": 1.622
+          },
+          "icon_padding_mobile": {
+           "unit": "vw",
+           "size": 3.077
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "4c4f9b0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Site rápido",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "fa7f0ea",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Carrega em poucos segundos, o que ajuda no Google e evita paciente desistindo.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d86f40f",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=neutro50"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.564,
+         "column": "2.564",
+         "row": "2.564",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "dd02de9",
+         "elType": "widget",
+         "widgetType": "icon",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-lock",
+           "library": "fa-solid"
+          },
+          "view": "stacked",
+          "shape": "square",
+          "align": "left",
+          "__globals__": {
+           "primary_color": "globals/colors?id=verde100",
+           "secondary_color": "globals/colors?id=verde700"
+          },
+          "size": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_tablet": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_mobile_extra": {
+           "unit": "vw",
+           "size": 2.703
+          },
+          "size_mobile": {
+           "unit": "vw",
+           "size": 5.128
+          },
+          "icon_padding": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_tablet": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_mobile_extra": {
+           "unit": "vw",
+           "size": 1.622
+          },
+          "icon_padding_mobile": {
+           "unit": "vw",
+           "size": 3.077
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "174c77a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Domínio e SSL",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "b239f3c",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Endereço próprio e cadeado de segurança configurados.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "e883a1d",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=neutro50"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.564,
+         "column": "2.564",
+         "row": "2.564",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "42d8720",
+         "elType": "widget",
+         "widgetType": "icon",
+         "settings": {
+          "selected_icon": {
+           "value": "fab fa-whatsapp",
+           "library": "fa-brands"
+          },
+          "view": "stacked",
+          "shape": "square",
+          "align": "left",
+          "__globals__": {
+           "primary_color": "globals/colors?id=verde100",
+           "secondary_color": "globals/colors?id=verde700"
+          },
+          "size": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_tablet": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_mobile_extra": {
+           "unit": "vw",
+           "size": 2.703
+          },
+          "size_mobile": {
+           "unit": "vw",
+           "size": 5.128
+          },
+          "icon_padding": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_tablet": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_mobile_extra": {
+           "unit": "vw",
+           "size": 1.622
+          },
+          "icon_padding_mobile": {
+           "unit": "vw",
+           "size": 3.077
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "84b5a81",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "WhatsApp em todas as telas",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "5de0099",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>O paciente chama você de qualquer página.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "3908f22",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=neutro50"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.564,
+         "column": "2.564",
+         "row": "2.564",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "2ac3444",
+         "elType": "widget",
+         "widgetType": "icon",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-balance-scale",
+           "library": "fa-solid"
+          },
+          "view": "stacked",
+          "shape": "square",
+          "align": "left",
+          "__globals__": {
+           "primary_color": "globals/colors?id=verde100",
+           "secondary_color": "globals/colors?id=verde700"
+          },
+          "size": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_tablet": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_mobile_extra": {
+           "unit": "vw",
+           "size": 2.703
+          },
+          "size_mobile": {
+           "unit": "vw",
+           "size": 5.128
+          },
+          "icon_padding": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_tablet": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_mobile_extra": {
+           "unit": "vw",
+           "size": 1.622
+          },
+          "icon_padding_mobile": {
+           "unit": "vw",
+           "size": 3.077
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "5b0ee76",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Regras do CFO",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "c59db91",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Textos sem promessa de resultado e sem preço como chamariz.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "80b0c08",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=neutro50"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "32",
+         "right": "32",
+         "bottom": "32",
+         "left": "32",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "28",
+         "right": "28",
+         "bottom": "28",
+         "left": "28",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "3.243",
+         "right": "3.243",
+         "bottom": "3.243",
+         "left": "3.243",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "6.154",
+         "right": "6.154",
+         "bottom": "6.154",
+         "left": "6.154",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.351,
+         "column": "1.351",
+         "row": "1.351",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.564,
+         "column": "2.564",
+         "row": "2.564",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "8857f9a",
+         "elType": "widget",
+         "widgetType": "icon",
+         "settings": {
+          "selected_icon": {
+           "value": "fas fa-graduation-cap",
+           "library": "fa-solid"
+          },
+          "view": "stacked",
+          "shape": "square",
+          "align": "left",
+          "__globals__": {
+           "primary_color": "globals/colors?id=verde100",
+           "secondary_color": "globals/colors?id=verde700"
+          },
+          "size": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_tablet": {
+           "unit": "px",
+           "size": 22
+          },
+          "size_mobile_extra": {
+           "unit": "vw",
+           "size": 2.703
+          },
+          "size_mobile": {
+           "unit": "vw",
+           "size": 5.128
+          },
+          "icon_padding": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_tablet": {
+           "unit": "px",
+           "size": 13
+          },
+          "icon_padding_mobile_extra": {
+           "unit": "vw",
+           "size": 1.622
+          },
+          "icon_padding_mobile": {
+           "unit": "vw",
+           "size": 3.077
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "12",
+           "right": "12",
+           "bottom": "12",
+           "left": "12",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "8aa4248",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Você edita sozinho",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "c770242",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Vídeo mostrando como trocar textos e fotos no Elementor.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bb2313f",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Perguntas frequentes",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=neutro50"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "112",
+     "right": "0",
+     "bottom": "112",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "88",
+     "right": "40",
+     "bottom": "88",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "16.41",
+     "right": "6.154",
+     "bottom": "16.41",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "112",
+     "right": "32",
+     "bottom": "112",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 32,
+     "column": "32",
+     "row": "32",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 32,
+     "column": "32",
+     "row": "32",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 3.784,
+     "column": "3.784",
+     "row": "3.784",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 7.179,
+     "column": "7.179",
+     "row": "7.179",
+     "isLinked": true
+    },
+    "_element_id": "duvidas"
+   },
+   "elements": [
+    {
+     "id": "7e26f36",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Título da seção",
+      "flex_gap": {
+       "unit": "px",
+       "size": 16,
+       "column": "16",
+       "row": "16",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 16,
+       "column": "16",
+       "row": "16",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 1.892,
+       "column": "1.892",
+       "row": "1.892",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 3.59,
+       "column": "3.59",
+       "row": "3.59",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "332dd33",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Dúvidas",
+        "header_size": "p",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_caption",
+         "title_color": "globals/colors?id=primary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "8483f8b",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Perguntas frequentes",
+        "header_size": "h2",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_h2",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "5b06258",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Lista",
+      "flex_gap": {
+       "unit": "px",
+       "size": 12,
+       "column": "12",
+       "row": "12",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 12,
+       "column": "12",
+       "row": "12",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 1.622,
+       "column": "1.622",
+       "row": "1.622",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 3.077,
+       "column": "3.077",
+       "row": "3.077",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "c2216b0",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "5.128",
+         "right": "5.128",
+         "bottom": "5.128",
+         "left": "5.128",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "c9d488b",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Posso parcelar?",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "fc241d0",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Sim. Os planos de pagamento único podem ser divididos em até 10x.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "ce5b2a9",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "5.128",
+         "right": "5.128",
+         "bottom": "5.128",
+         "left": "5.128",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "da45e18",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Tem fidelidade no plano mensal?",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "31f5170",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Não. Você pode cancelar com 30 dias de aviso.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "6693403",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "5.128",
+         "right": "5.128",
+         "bottom": "5.128",
+         "left": "5.128",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "3d4882a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Hospedagem e domínio estão inclusos?",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "d17e449",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>O valor da hospedagem e do domínio é pago direto ao provedor, no seu nome. A gente contrata junto com você e configura tudo.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "3a0b996",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "24",
+         "right": "24",
+         "bottom": "24",
+         "left": "24",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.703",
+         "right": "2.703",
+         "bottom": "2.703",
+         "left": "2.703",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "5.128",
+         "right": "5.128",
+         "bottom": "5.128",
+         "left": "5.128",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 8,
+         "column": "8",
+         "row": "8",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.081,
+         "column": "1.081",
+         "row": "1.081",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 2.051,
+         "column": "2.051",
+         "row": "2.051",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "16",
+         "right": "16",
+         "bottom": "16",
+         "left": "16",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "1.892",
+         "right": "1.892",
+         "bottom": "1.892",
+         "left": "1.892",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "3.59",
+         "right": "3.59",
+         "bottom": "3.59",
+         "left": "3.59",
+         "isLinked": true
+        }
+       },
+       "elements": [
+        {
+         "id": "bd68516",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Posso trocar de plano depois?",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "cda6c6f",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Sim. Quem começa com a landing page pode migrar para o site completo e o valor pago é abatido.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4787f93",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Chamada final",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=primary"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "112",
+     "right": "0",
+     "bottom": "112",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "88",
+     "right": "40",
+     "bottom": "88",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "16.41",
+     "right": "6.154",
+     "bottom": "16.41",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "112",
+     "right": "32",
+     "bottom": "112",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 20,
+     "column": "20",
+     "row": "20",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 20,
+     "column": "20",
+     "row": "20",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 2.432,
+     "column": "2.432",
+     "row": "2.432",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 4.615,
+     "column": "4.615",
+     "row": "4.615",
+     "isLinked": true
+    },
+    "_element_id": "contato"
+   },
+   "elements": [
+    {
+     "id": "076b3e3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Vamos conversar",
+      "header_size": "p",
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_caption",
+       "title_color": "globals/colors?id=verde100"
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "fd56a92",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Vamos encher sua agenda?",
+      "header_size": "h2",
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_h2",
+       "title_color": "globals/colors?id=branco"
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0726e25",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu consultório.</p>",
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_lead",
+       "text_color": "globals/colors?id=verde100"
+      },
+      "paragraph_spacing": {
+       "unit": "px",
+       "size": 0
+      },
+      "paragraph_spacing_tablet": {
+       "unit": "px",
+       "size": 0
+      },
+      "paragraph_spacing_mobile_extra": {
+       "unit": "vw",
+       "size": 0.0
+      },
+      "paragraph_spacing_mobile": {
+       "unit": "vw",
+       "size": 0.0
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "ca44eb8",
+     "elType": "widget",
+     "widgetType": "button",
+     "settings": {
+      "text": "Chamar no WhatsApp",
+      "link": {
+       "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "is_external": true,
+       "nofollow": ""
+      },
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_button",
+       "button_text_color": "globals/colors?id=verde700",
+       "background_color": "globals/colors?id=branco"
+      },
+      "background_color": "#00000000",
+      "border_radius": {
+       "unit": "px",
+       "top": "999",
+       "right": "999",
+       "bottom": "999",
+       "left": "999",
+       "isLinked": true
+      },
+      "border_radius_mobile_extra": {
+       "unit": "vw",
+       "top": "135.0",
+       "right": "135.0",
+       "bottom": "135.0",
+       "left": "135.0",
+       "isLinked": true
+      },
+      "border_radius_mobile": {
+       "unit": "vw",
+       "top": "256.154",
+       "right": "256.154",
+       "bottom": "256.154",
+       "left": "256.154",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "18",
+       "right": "28",
+       "bottom": "18",
+       "left": "28",
+       "isLinked": false
+      },
+      "text_padding_tablet": {
+       "unit": "px",
+       "top": "16",
+       "right": "26",
+       "bottom": "16",
+       "left": "26",
+       "isLinked": false
+      },
+      "text_padding_mobile_extra": {
+       "unit": "vw",
+       "top": "2.027",
+       "right": "3.243",
+       "bottom": "2.027",
+       "left": "3.243",
+       "isLinked": false
+      },
+      "text_padding_mobile": {
+       "unit": "vw",
+       "top": "4.103",
+       "right": "5.641",
+       "bottom": "4.103",
+       "left": "5.641",
+       "isLinked": false
+      },
+      "align_mobile": "justify"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

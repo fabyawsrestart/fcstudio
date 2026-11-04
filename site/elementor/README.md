@@ -7,12 +7,18 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 | Arquivo | Para que serve |
 |---|---|
-| `fcstudio-setup.zip` | **Plugin de um clique** (recomendado): configura tudo e cria a Home |
-| `fcstudio-kit.zip` | **Kit completo para importar**: breakpoints, largura útil, cores e tipografias globais, página Home e menu principal |
-| `fcstudio-home.json` | Só a página, para importar em Modelos > Importar (se não quiser usar o kit) |
-| `kit-settings.json` | Configurações globais em JSON (referência) |
-| `gerar.py` | Gerador dos dois JSON. Rode `python3 gerar.py` depois de mudar textos ou medidas |
-| `prints/` | Capturas nas 7 resoluções |
+| `fcstudio-setup.zip` | **Plugin de um clique**: breakpoints, largura útil, cores e fontes, cabeçalho e rodapé globais, as 5 páginas e o menu |
+| `paginas/*.json` | Home, Serviços, Planos, Portfólio, Contato, Cabeçalho e Rodapé (formato de modelo do Elementor) |
+| `kit-settings.json` | Configurações globais (breakpoints, largura útil, cores, tipografias) |
+| `gerar.py` + `sync.sh` | Gerador. Depois de mudar textos ou medidas, rode `./sync.sh` para refazer os JSON e o zip do plugin |
+| `prints/` | Capturas das páginas |
+
+## Estrutura do site
+
+- **Cabeçalho e Rodapé** ficam em Elementor > Modelos > Theme Builder e valem para o site todo. Editou ali, muda em todas as páginas.
+- As páginas usam o layout **Elementor Largura total** (com cabeçalho e rodapé do Theme Builder).
+- Menu principal: Serviços, Planos, Portfólio, Contato. O logo leva para a Home.
+- Contato: formulário do Pro com aceite de LGPD, salva em Elementor > Envios e manda e-mail para contato@fcstudio.com.br. **No XAMPP o e-mail não sai** (não há servidor de e-mail); na hospedagem, configure um SMTP (ex.: plugin WP Mail SMTP).
 
 ## Requisitos no XAMPP
 
@@ -24,16 +30,8 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 
 1. **Plugins > Adicionar novo > Enviar plugin**, envie `fcstudio-setup.zip` e ative.
 2. Vá em **Ferramentas > FCStudio Setup** e clique em **Configurar agora**.
-3. Ele ativa os 7 breakpoints, aplica largura útil, cores e fontes, cria o Menu principal e cria/atualiza a página Home como página inicial estática (Elementor Canvas).
+3. Ele ativa os 7 breakpoints, aplica largura útil, cores e fontes, cria cabeçalho e rodapé globais, cria/atualiza as 5 páginas, monta o Menu principal e define a Home como página inicial estática. Pode rodar de novo quando sair versão nova: ele atualiza sem duplicar.
 4. Depois, desative e apague o plugin. Ele não é necessário para o site funcionar.
-
-## Alternativa: importar o kit (3 minutos)
-
-1. WP Admin > **Elementor > Ferramentas > aba Modelos de sites > Importar** (ou `wp-admin/admin.php?page=elementor-app#/import`).
-2. Envie `fcstudio-kit.zip`, marque tudo (Configurações do site, Conteúdo, Modelos) e confirme.
-3. Confira em **Elementor > Configurações do site > Layout > Breakpoints** se os 7 aparecem.
-4. Em **Configurações > Leitura**, a Home já vem como página inicial. Confira.
-5. Troque os provisórios (lista abaixo) e publique.
 
 ## Breakpoints e largura útil
 
@@ -61,4 +59,6 @@ Conversão usada: `vw = px ÷ 7,40` (paisagem) e `vw = px ÷ 3,90` (retrato). Ex
 - Link do WhatsApp `https://wa.me/5500000000000` (botões e botão flutuante).
 - Fonte de títulos: Anton está no lugar da Morganite. Envie a Morganite em **Elementor > Fontes personalizadas** e troque em Configurações do site > Tipografia > "Display".
 - Caixas verde-claro do hero e do portfólio: trocar por fotos reais.
+- Portfólio: 2 dos 3 projetos são modelo ("Nome da clínica (trocar)"). Não publique com projetos inventados.
+- Política de Privacidade: o formulário pede aceite, então a página precisa existir e estar publicada (Configurações > Privacidade).
 - Cores: provisórias, a paleta final ainda vai ser escolhida.

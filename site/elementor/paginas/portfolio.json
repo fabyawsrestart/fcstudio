@@ -1,0 +1,1577 @@
+{
+ "version": "0.4",
+ "title": "FCStudio Portfólio",
+ "type": "page",
+ "content": [
+  {
+   "id": "9aea642",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Topo da página",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=neutro50"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "0",
+     "bottom": "96",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "40",
+     "bottom": "72",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "6.486",
+     "right": "5.405",
+     "bottom": "6.486",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "12.308",
+     "right": "6.154",
+     "bottom": "12.308",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "96",
+     "right": "32",
+     "bottom": "96",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 48,
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 40,
+     "column": "40",
+     "row": "40",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
+     "isLinked": true
+    },
+    "_element_id": "inicio"
+   },
+   "elements": [
+    {
+     "id": "b1491e2",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "_title": "Texto",
+      "flex_gap": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "flex_gap_tablet": {
+       "unit": "px",
+       "size": 22,
+       "column": "22",
+       "row": "22",
+       "isLinked": true
+      },
+      "flex_gap_mobile_extra": {
+       "unit": "vw",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
+       "isLinked": true
+      },
+      "flex_gap_mobile": {
+       "unit": "vw",
+       "size": 4.615,
+       "column": "4.615",
+       "row": "4.615",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "%",
+       "size": 75
+      },
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile_extra": {
+       "unit": "%",
+       "size": 100
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": [
+      {
+       "id": "78e4b98",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Portfólio",
+        "header_size": "p",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_caption",
+         "title_color": "globals/colors?id=primary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "4259405",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Projetos entregues",
+        "header_size": "h1",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_h1",
+         "title_color": "globals/colors?id=secondary"
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "3192b70",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Sites, landing pages e sistemas feitos para consultórios e clínicas.</p>",
+        "__globals__": {
+         "typography_typography": "globals/typography?id=fc_lead",
+         "text_color": "globals/colors?id=text"
+        },
+        "paragraph_spacing": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_tablet": {
+         "unit": "px",
+         "size": 0
+        },
+        "paragraph_spacing_mobile_extra": {
+         "unit": "vw",
+         "size": 0.0
+        },
+        "paragraph_spacing_mobile": {
+         "unit": "vw",
+         "size": 0.0
+        }
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7b8f2ab",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Projetos",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=branco"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "88",
+     "right": "0",
+     "bottom": "88",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "40",
+     "bottom": "72",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "7.568",
+     "right": "5.405",
+     "bottom": "7.568",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "14.359",
+     "right": "6.154",
+     "bottom": "14.359",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "88",
+     "right": "32",
+     "bottom": "88",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 48,
+     "column": "48",
+     "row": "48",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 40,
+     "column": "40",
+     "row": "40",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 4.324,
+     "column": "4.324",
+     "row": "4.324",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 8.205,
+     "column": "8.205",
+     "row": "8.205",
+     "isLinked": true
+    },
+    "_element_id": "projetos"
+   },
+   "elements": [
+    {
+     "id": "3451d01",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "container_type": "grid",
+      "content_width": "full",
+      "grid_columns_grid": {
+       "unit": "fr",
+       "size": 3
+      },
+      "grid_columns_grid_tablet": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_columns_grid_mobile_extra": {
+       "unit": "fr",
+       "size": 2
+      },
+      "grid_columns_grid_mobile": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_rows_grid": {
+       "unit": "fr",
+       "size": 1
+      },
+      "grid_auto_flow": "row",
+      "_title": "Grade de projetos",
+      "grid_gaps": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "grid_gaps_tablet": {
+       "unit": "px",
+       "size": 24,
+       "column": "24",
+       "row": "24",
+       "isLinked": true
+      },
+      "grid_gaps_mobile_extra": {
+       "unit": "vw",
+       "size": 2.703,
+       "column": "2.703",
+       "row": "2.703",
+       "isLinked": true
+      },
+      "grid_gaps_mobile": {
+       "unit": "vw",
+       "size": 4.103,
+       "column": "4.103",
+       "row": "4.103",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_tablet": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile_extra": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "vw",
+       "top": "0.0",
+       "right": "0.0",
+       "bottom": "0.0",
+       "left": "0.0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "b91ee9e",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.432",
+         "right": "2.432",
+         "bottom": "2.432",
+         "left": "2.432",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "4.615",
+         "bottom": "4.615",
+         "left": "4.615",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 14,
+         "column": "14",
+         "row": "14",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.622,
+         "column": "1.622",
+         "row": "1.622",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 3.077,
+         "column": "3.077",
+         "row": "3.077",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "2.432",
+         "right": "2.432",
+         "bottom": "2.432",
+         "left": "2.432",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "4.615",
+         "bottom": "4.615",
+         "left": "4.615",
+         "isLinked": true
+        },
+        "_title": "Projeto Sistema de agendamento online"
+       },
+       "elements": [
+        {
+         "id": "f4de2c0",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "_title": "Imagem do projeto (trocar)",
+          "content_width": "full",
+          "background_background": "classic",
+          "__globals__": {
+           "background_color": "globals/colors?id=verde100"
+          },
+          "min_height": {
+           "unit": "px",
+           "size": 220
+          },
+          "min_height_tablet": {
+           "unit": "px",
+           "size": 200
+          },
+          "min_height_mobile_extra": {
+           "unit": "vw",
+           "size": 27.027
+          },
+          "min_height_mobile": {
+           "unit": "vw",
+           "size": 46.154
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "14",
+           "right": "14",
+           "bottom": "14",
+           "left": "14",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "5822cb7",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Clínica Vitalle",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=verde700"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "727d834",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Sistema de agendamento online",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "cefe2a1",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Agenda com horários disponíveis, confirmação e organização dos atendimentos da clínica.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "efe09f0",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Ver projeto",
+          "link": {
+           "url": "#",
+           "is_external": false,
+           "nofollow": ""
+          },
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=primary",
+           "border_color": "globals/colors?id=primary"
+          },
+          "background_color": "#00000000",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "2",
+           "right": "2",
+           "bottom": "2",
+           "left": "2",
+           "isLinked": true
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
+           "isLinked": true
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.513",
+           "right": "0.513",
+           "bottom": "0.513",
+           "left": "0.513",
+           "isLinked": true
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "16",
+           "right": "26",
+           "bottom": "16",
+           "left": "26",
+           "isLinked": false
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.103",
+           "right": "5.641",
+           "bottom": "4.103",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify"
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "149e259",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.432",
+         "right": "2.432",
+         "bottom": "2.432",
+         "left": "2.432",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "4.615",
+         "bottom": "4.615",
+         "left": "4.615",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 14,
+         "column": "14",
+         "row": "14",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.622,
+         "column": "1.622",
+         "row": "1.622",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 3.077,
+         "column": "3.077",
+         "row": "3.077",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "2.432",
+         "right": "2.432",
+         "bottom": "2.432",
+         "left": "2.432",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "4.615",
+         "bottom": "4.615",
+         "left": "4.615",
+         "isLinked": true
+        },
+        "_title": "Projeto Site para consultório"
+       },
+       "elements": [
+        {
+         "id": "fcf00fe",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "_title": "Imagem do projeto (trocar)",
+          "content_width": "full",
+          "background_background": "classic",
+          "__globals__": {
+           "background_color": "globals/colors?id=verde100"
+          },
+          "min_height": {
+           "unit": "px",
+           "size": 220
+          },
+          "min_height_tablet": {
+           "unit": "px",
+           "size": 200
+          },
+          "min_height_mobile_extra": {
+           "unit": "vw",
+           "size": 27.027
+          },
+          "min_height_mobile": {
+           "unit": "vw",
+           "size": 46.154
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "14",
+           "right": "14",
+           "bottom": "14",
+           "left": "14",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "597a1ec",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Nome da clínica (trocar)",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=verde700"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "f47aebd",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Site para consultório",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "f979d04",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Descreva aqui o projeto real: o que foi feito e para quem.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "5d58c70",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Ver projeto",
+          "link": {
+           "url": "#",
+           "is_external": false,
+           "nofollow": ""
+          },
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=primary",
+           "border_color": "globals/colors?id=primary"
+          },
+          "background_color": "#00000000",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "2",
+           "right": "2",
+           "bottom": "2",
+           "left": "2",
+           "isLinked": true
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
+           "isLinked": true
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.513",
+           "right": "0.513",
+           "bottom": "0.513",
+           "left": "0.513",
+           "isLinked": true
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "16",
+           "right": "26",
+           "bottom": "16",
+           "left": "26",
+           "isLinked": false
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.103",
+           "right": "5.641",
+           "bottom": "4.103",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify"
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "5675f6a",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "__globals__": {
+         "background_color": "globals/colors?id=branco"
+        },
+        "padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": false
+        },
+        "padding_tablet": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": false
+        },
+        "padding_mobile_extra": {
+         "unit": "vw",
+         "top": "2.432",
+         "right": "2.432",
+         "bottom": "2.432",
+         "left": "2.432",
+         "isLinked": false
+        },
+        "padding_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "4.615",
+         "bottom": "4.615",
+         "left": "4.615",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "size": 14,
+         "column": "14",
+         "row": "14",
+         "isLinked": true
+        },
+        "flex_gap_tablet": {
+         "unit": "px",
+         "size": 12,
+         "column": "12",
+         "row": "12",
+         "isLinked": true
+        },
+        "flex_gap_mobile_extra": {
+         "unit": "vw",
+         "size": 1.622,
+         "column": "1.622",
+         "row": "1.622",
+         "isLinked": true
+        },
+        "flex_gap_mobile": {
+         "unit": "vw",
+         "size": 3.077,
+         "column": "3.077",
+         "row": "3.077",
+         "isLinked": true
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "20",
+         "right": "20",
+         "bottom": "20",
+         "left": "20",
+         "isLinked": true
+        },
+        "border_radius_mobile_extra": {
+         "unit": "vw",
+         "top": "2.432",
+         "right": "2.432",
+         "bottom": "2.432",
+         "left": "2.432",
+         "isLinked": true
+        },
+        "border_radius_mobile": {
+         "unit": "vw",
+         "top": "4.615",
+         "right": "4.615",
+         "bottom": "4.615",
+         "left": "4.615",
+         "isLinked": true
+        },
+        "_title": "Projeto Landing page de implante"
+       },
+       "elements": [
+        {
+         "id": "3870380",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "_title": "Imagem do projeto (trocar)",
+          "content_width": "full",
+          "background_background": "classic",
+          "__globals__": {
+           "background_color": "globals/colors?id=verde100"
+          },
+          "min_height": {
+           "unit": "px",
+           "size": 220
+          },
+          "min_height_tablet": {
+           "unit": "px",
+           "size": 200
+          },
+          "min_height_mobile_extra": {
+           "unit": "vw",
+           "size": 27.027
+          },
+          "min_height_mobile": {
+           "unit": "vw",
+           "size": 46.154
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "14",
+           "right": "14",
+           "bottom": "14",
+           "left": "14",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "1.622",
+           "right": "1.622",
+           "bottom": "1.622",
+           "left": "1.622",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "3.077",
+           "right": "3.077",
+           "bottom": "3.077",
+           "left": "3.077",
+           "isLinked": true
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1a26f88",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Nome da clínica (trocar)",
+          "header_size": "p",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_caption",
+           "title_color": "globals/colors?id=verde700"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "3a12917",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Landing page de implante",
+          "header_size": "h3",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_h3",
+           "title_color": "globals/colors?id=secondary"
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "7857297",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Descreva aqui o projeto real: o que foi feito e para quem.</p>",
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_body",
+           "text_color": "globals/colors?id=text"
+          },
+          "paragraph_spacing": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_tablet": {
+           "unit": "px",
+           "size": 0
+          },
+          "paragraph_spacing_mobile_extra": {
+           "unit": "vw",
+           "size": 0.0
+          },
+          "paragraph_spacing_mobile": {
+           "unit": "vw",
+           "size": 0.0
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "325b55d",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Ver projeto",
+          "link": {
+           "url": "#",
+           "is_external": false,
+           "nofollow": ""
+          },
+          "__globals__": {
+           "typography_typography": "globals/typography?id=fc_button",
+           "button_text_color": "globals/colors?id=primary",
+           "border_color": "globals/colors?id=primary"
+          },
+          "background_color": "#00000000",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "2",
+           "right": "2",
+           "bottom": "2",
+           "left": "2",
+           "isLinked": true
+          },
+          "border_width_mobile_extra": {
+           "unit": "vw",
+           "top": "0.27",
+           "right": "0.27",
+           "bottom": "0.27",
+           "left": "0.27",
+           "isLinked": true
+          },
+          "border_width_mobile": {
+           "unit": "vw",
+           "top": "0.513",
+           "right": "0.513",
+           "bottom": "0.513",
+           "left": "0.513",
+           "isLinked": true
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "999",
+           "right": "999",
+           "bottom": "999",
+           "left": "999",
+           "isLinked": true
+          },
+          "border_radius_mobile_extra": {
+           "unit": "vw",
+           "top": "135.0",
+           "right": "135.0",
+           "bottom": "135.0",
+           "left": "135.0",
+           "isLinked": true
+          },
+          "border_radius_mobile": {
+           "unit": "vw",
+           "top": "256.154",
+           "right": "256.154",
+           "bottom": "256.154",
+           "left": "256.154",
+           "isLinked": true
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "18",
+           "right": "28",
+           "bottom": "18",
+           "left": "28",
+           "isLinked": false
+          },
+          "text_padding_tablet": {
+           "unit": "px",
+           "top": "16",
+           "right": "26",
+           "bottom": "16",
+           "left": "26",
+           "isLinked": false
+          },
+          "text_padding_mobile_extra": {
+           "unit": "vw",
+           "top": "2.027",
+           "right": "3.243",
+           "bottom": "2.027",
+           "left": "3.243",
+           "isLinked": false
+          },
+          "text_padding_mobile": {
+           "unit": "vw",
+           "top": "4.103",
+           "right": "5.641",
+           "bottom": "4.103",
+           "left": "5.641",
+           "isLinked": false
+          },
+          "align_mobile": "justify"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d726c86",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "_title": "Chamada final",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "__globals__": {
+     "background_color": "globals/colors?id=primary"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "112",
+     "right": "0",
+     "bottom": "112",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "88",
+     "right": "40",
+     "bottom": "88",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile_extra": {
+     "unit": "vw",
+     "top": "8.649",
+     "right": "5.405",
+     "bottom": "8.649",
+     "left": "5.405",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "vw",
+     "top": "16.41",
+     "right": "6.154",
+     "bottom": "16.41",
+     "left": "6.154",
+     "isLinked": false
+    },
+    "padding_tablet_extra": {
+     "unit": "px",
+     "top": "112",
+     "right": "32",
+     "bottom": "112",
+     "left": "32",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "size": 20,
+     "column": "20",
+     "row": "20",
+     "isLinked": true
+    },
+    "flex_gap_tablet": {
+     "unit": "px",
+     "size": 20,
+     "column": "20",
+     "row": "20",
+     "isLinked": true
+    },
+    "flex_gap_mobile_extra": {
+     "unit": "vw",
+     "size": 2.432,
+     "column": "2.432",
+     "row": "2.432",
+     "isLinked": true
+    },
+    "flex_gap_mobile": {
+     "unit": "vw",
+     "size": 4.615,
+     "column": "4.615",
+     "row": "4.615",
+     "isLinked": true
+    },
+    "_element_id": "contato"
+   },
+   "elements": [
+    {
+     "id": "9fc2d0a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Vamos conversar",
+      "header_size": "p",
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_caption",
+       "title_color": "globals/colors?id=verde100"
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "fc39472",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Vamos encher sua agenda?",
+      "header_size": "h2",
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_h2",
+       "title_color": "globals/colors?id=branco"
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e67a9b7",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Conversa de 30 minutos, sem compromisso. Você sai com um plano claro para o seu consultório.</p>",
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_lead",
+       "text_color": "globals/colors?id=verde100"
+      },
+      "paragraph_spacing": {
+       "unit": "px",
+       "size": 0
+      },
+      "paragraph_spacing_tablet": {
+       "unit": "px",
+       "size": 0
+      },
+      "paragraph_spacing_mobile_extra": {
+       "unit": "vw",
+       "size": 0.0
+      },
+      "paragraph_spacing_mobile": {
+       "unit": "vw",
+       "size": 0.0
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "9c3a23c",
+     "elType": "widget",
+     "widgetType": "button",
+     "settings": {
+      "text": "Chamar no WhatsApp",
+      "link": {
+       "url": "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20site%20para%20meu%20consult%C3%B3rio",
+       "is_external": true,
+       "nofollow": ""
+      },
+      "__globals__": {
+       "typography_typography": "globals/typography?id=fc_button",
+       "button_text_color": "globals/colors?id=verde700",
+       "background_color": "globals/colors?id=branco"
+      },
+      "background_color": "#00000000",
+      "border_radius": {
+       "unit": "px",
+       "top": "999",
+       "right": "999",
+       "bottom": "999",
+       "left": "999",
+       "isLinked": true
+      },
+      "border_radius_mobile_extra": {
+       "unit": "vw",
+       "top": "135.0",
+       "right": "135.0",
+       "bottom": "135.0",
+       "left": "135.0",
+       "isLinked": true
+      },
+      "border_radius_mobile": {
+       "unit": "vw",
+       "top": "256.154",
+       "right": "256.154",
+       "bottom": "256.154",
+       "left": "256.154",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "18",
+       "right": "28",
+       "bottom": "18",
+       "left": "28",
+       "isLinked": false
+      },
+      "text_padding_tablet": {
+       "unit": "px",
+       "top": "16",
+       "right": "26",
+       "bottom": "16",
+       "left": "26",
+       "isLinked": false
+      },
+      "text_padding_mobile_extra": {
+       "unit": "vw",
+       "top": "2.027",
+       "right": "3.243",
+       "bottom": "2.027",
+       "left": "3.243",
+       "isLinked": false
+      },
+      "text_padding_mobile": {
+       "unit": "vw",
+       "top": "4.103",
+       "right": "5.641",
+       "bottom": "4.103",
+       "left": "5.641",
+       "isLinked": false
+      },
+      "align_mobile": "justify"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}
