@@ -1,0 +1,47 @@
+# FCStudio: guia da marca (v1, nov 2026)
+
+Figma: https://www.figma.com/design/PKsxXxLyCBGTdAUC2Zvlci
+
+## Posicionamento
+- **Quem somos:** estúdio de Strategic UI/UX Design.
+- **Frase:** Sites que trazem novos clientes para o seu negócio.
+- **Para quem:** empresas de qualquer segmento (comércio, serviços, indústria, saúde, profissionais liberais) que querem aumentar a receita com novos clientes.
+- **O que entregamos:** sites para empresas, landing pages, chatbots, anúncios no Google e Instagram, edição de vídeos e sistemas sob medida (agendamento, área do cliente, SaaS).
+- **Promessa:** um site que passa confiança e transforma visita em contato pelo WhatsApp, formulário ou chatbot.
+
+## Tom de voz
+| Pilar | Fale assim | Evite |
+|---|---|---|
+| Claro | "Seu cliente encontra, entende e chama no WhatsApp." | "Soluções digitais disruptivas" |
+| Confiável | "Site no ar em 15 dias, com suporte por 3 meses." | Promessa sem prazo ou número |
+| Humano | "Vamos montar juntos o site do seu negócio." | Jargão técnico com o cliente |
+
+Atenção por segmento: saúde (CFO, CFM, CRO), advocacia (OAB) e outros conselhos limitam publicidade. Em clientes desses segmentos, nada de promessa de resultado nem preço como chamariz.
+
+## Logo
+- Símbolo: peixe formado pelas letras **F** e **C**. A abertura do C é a boca do peixe.
+- Assinatura: símbolo FC em cima e a palavra **studio** embaixo (Montserrat Bold, minúscula, espaçamento 12%).
+- **Logo oficial (escolhida em 03/11/2026):** opção 9, símbolo verde com sombra sólida 3D em cinza claro #CBD2D9, arquivo `logo/logo-fcstudio-oficial.svg`. Abaixo de 48 px de altura (favicon, avatar pequeno) use a versão sem sombra.
+- Arquivos completos sem sombra: `logo/logo-fcstudio-verde.svg` e `logo/logo-fcstudio-branco.svg`.
+- Só o símbolo: `logo/simbolo-verde.svg`, `logo/simbolo-branco.svg` (opção A, sem olho) e `logo/simbolo-verde-com-olho.svg` (opção B).
+- Respiro: altura da letra F em volta do logo. Mínimo: 32 px digital, 12 mm impresso.
+- Verde sobre claro, ou branco sobre verde/grafite. Sem distorcer. A única sombra permitida é a sombra 3D cinza da versão oficial.
+- **Pendente:** escolher entre a opção A (sem olho) e a B (com olho).
+- Sombra só em peças de destaque (capa, banner, vídeo). A versão principal é sempre chapada.
+
+## Cores
+| Token | Hex | Uso |
+|---|---|---|
+| verde/500 | #168A5B | Principal: logo, botões, links |
+| verde/700 | #0F6643 | Hover, títulos |
+| verde/100 | #E3F2EB | Fundos de seção |
+| grafite/900 | #1F2933 | Texto principal |
+| cinza/500 | #6B7280 | Texto secundário |
+| neutro/50 | #F6F8F7 | Fundo geral |
+| cinza/300 | #CBD2D9 | Sombra do logo, divisórias |
+| branco | #FFFFFF | Cards |
+| areia/300 | #F2C98A | Acento pontual (selos) |
+
+## Tipografia
+- **Títulos:** Morganite, caixa alta, só frases curtas. No Figma está Anton como substituto: troque a fonte dos estilos "Display" para Morganite no seu Figma.
+- **Texto:** Montserrat. Regular (leitura), SemiBold (botões), Bold (subtítulos).

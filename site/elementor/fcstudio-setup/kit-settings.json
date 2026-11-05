@@ -1,0 +1,509 @@
+{
+ "system_colors": [
+  {
+   "_id": "primary",
+   "title": "Verde neon",
+   "color": "#00D61A"
+  },
+  {
+   "_id": "secondary",
+   "title": "Branco (títulos)",
+   "color": "#FFFFFF"
+  },
+  {
+   "_id": "text",
+   "title": "Cinza (texto)",
+   "color": "#A3A3A3"
+  },
+  {
+   "_id": "accent",
+   "title": "Verde claro",
+   "color": "#00E600"
+  }
+ ],
+ "custom_colors": [
+  {
+   "_id": "verde700",
+   "title": "Verde 700 (fim do gradiente)",
+   "color": "#00A818"
+  },
+  {
+   "_id": "verde100",
+   "title": "Verde escuro (fundo de ícone)",
+   "color": "#0B2B12"
+  },
+  {
+   "_id": "neutro50",
+   "title": "Preto 2 (seção alternada)",
+   "color": "#0D0D0D"
+  },
+  {
+   "_id": "cinza300",
+   "title": "Cinza claro (texto de apoio)",
+   "color": "#CBD2D9"
+  },
+  {
+   "_id": "branco",
+   "title": "Branco",
+   "color": "#FFFFFF"
+  },
+  {
+   "_id": "preto",
+   "title": "Preto (fundo)",
+   "color": "#050505"
+  },
+  {
+   "_id": "card",
+   "title": "Cartão",
+   "color": "#141414"
+  },
+  {
+   "_id": "linha",
+   "title": "Linha",
+   "color": "#2A2A2A"
+  },
+  {
+   "_id": "tinta",
+   "title": "Tinta (título em fundo claro)",
+   "color": "#0A0A0A"
+  },
+  {
+   "_id": "tinta2",
+   "title": "Tinta 2 (texto em fundo claro)",
+   "color": "#4B5563"
+  },
+  {
+   "_id": "verde800",
+   "title": "Verde em fundo claro",
+   "color": "#007A10"
+  },
+  {
+   "_id": "claro",
+   "title": "Fundo claro",
+   "color": "#F2F2F0"
+  }
+ ],
+ "system_typography": [
+  {
+   "_id": "primary",
+   "title": "Títulos",
+   "typography_typography": "custom",
+   "typography_font_family": "Morganite",
+   "typography_font_weight": "800"
+  },
+  {
+   "_id": "secondary",
+   "title": "Subtítulos",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "700"
+  },
+  {
+   "_id": "text",
+   "title": "Texto",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "400"
+  },
+  {
+   "_id": "accent",
+   "title": "Destaque",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "600"
+  }
+ ],
+ "custom_typography": [
+  {
+   "_id": "fc_h1",
+   "title": "Título hero (H1)",
+   "typography_typography": "custom",
+   "typography_font_family": "Morganite",
+   "typography_font_weight": "800",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 0.9
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.005
+   },
+   "typography_text_transform": "uppercase",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 132
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 152
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 112
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 12.973
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 21.538
+   }
+  },
+  {
+   "_id": "fc_h2",
+   "title": "Título de seção (H2)",
+   "typography_typography": "custom",
+   "typography_font_family": "Morganite",
+   "typography_font_weight": "800",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 0.92
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.005
+   },
+   "typography_text_transform": "uppercase",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 96
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 110
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 84
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 9.73
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 16.41
+   }
+  },
+  {
+   "_id": "fc_num",
+   "title": "Destaque / preço",
+   "typography_typography": "custom",
+   "typography_font_family": "Morganite",
+   "typography_font_weight": "800",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 0.95
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.01
+   },
+   "typography_text_transform": "uppercase",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 60
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 69
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 56
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 7.027
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 11.795
+   }
+  },
+  {
+   "_id": "fc_kicker",
+   "title": "Chamada (linha de cima)",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "800",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.05
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0
+   },
+   "typography_text_transform": "uppercase",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 56
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 64
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 46
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 5.135
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 7.692
+   }
+  },
+  {
+   "_id": "fc_h3",
+   "title": "Título de item (H3)",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "700",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.35
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.02
+   },
+   "typography_text_transform": "none",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 20
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 23
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 19
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 2.432
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 4.359
+   }
+  },
+  {
+   "_id": "fc_lead",
+   "title": "Texto de apoio",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "400",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.6
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.04
+   },
+   "typography_text_transform": "none",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 19
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 22
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 18
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 2.297
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 4.103
+   }
+  },
+  {
+   "_id": "fc_body",
+   "title": "Texto corpo",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "400",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.7
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.03
+   },
+   "typography_text_transform": "none",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 16
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 18
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 16
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 2.027
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 3.846
+   }
+  },
+  {
+   "_id": "fc_caption",
+   "title": "Etiqueta",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "700",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.4
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.18
+   },
+   "typography_text_transform": "uppercase",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 13
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 15
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 13
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 1.622
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 3.077
+   }
+  },
+  {
+   "_id": "fc_button",
+   "title": "Botão",
+   "typography_typography": "custom",
+   "typography_font_family": "Montserrat",
+   "typography_font_weight": "700",
+   "typography_line_height": {
+    "unit": "em",
+    "size": 1.0
+   },
+   "typography_letter_spacing": {
+    "unit": "em",
+    "size": 0.12
+   },
+   "typography_text_transform": "uppercase",
+   "typography_font_size": {
+    "unit": "px",
+    "size": 14
+   },
+   "typography_font_size_widescreen": {
+    "unit": "px",
+    "size": 16
+   },
+   "typography_font_size_tablet": {
+    "unit": "px",
+    "size": 14
+   },
+   "typography_font_size_mobile_extra": {
+    "unit": "vw",
+    "size": 1.892
+   },
+   "typography_font_size_mobile": {
+    "unit": "vw",
+    "size": 3.59
+   }
+  }
+ ],
+ "default_generic_fonts": "Sans-serif",
+ "body_background_background": "classic",
+ "body_background_color": "#050505",
+ "body_typography_typography": "custom",
+ "body_typography_font_family": "Montserrat",
+ "body_color": "#A3A3A3",
+ "container_width": {
+  "unit": "px",
+  "size": 1140
+ },
+ "container_width_widescreen": {
+  "unit": "px",
+  "size": 1320
+ },
+ "container_width_laptop": {
+  "unit": "px",
+  "size": 1140
+ },
+ "container_width_tablet_extra": {
+  "unit": "%",
+  "size": 100
+ },
+ "container_width_tablet": {
+  "unit": "%",
+  "size": 100
+ },
+ "container_width_mobile_extra": {
+  "unit": "%",
+  "size": 100
+ },
+ "container_width_mobile": {
+  "unit": "%",
+  "size": 100
+ },
+ "container_padding": {
+  "unit": "px",
+  "top": "0",
+  "right": "0",
+  "bottom": "0",
+  "left": "0",
+  "isLinked": true
+ },
+ "space_between_widgets": {
+  "unit": "px",
+  "size": 0,
+  "column": "0",
+  "row": "0",
+  "isLinked": true
+ },
+ "page_title_selector": "h1.entry-title",
+ "active_breakpoints": [
+  "viewport_mobile",
+  "viewport_mobile_extra",
+  "viewport_tablet",
+  "viewport_tablet_extra",
+  "viewport_laptop",
+  "viewport_widescreen"
+ ],
+ "viewport_mobile": 575,
+ "viewport_mobile_extra": 880,
+ "viewport_tablet": 1024,
+ "viewport_tablet_extra": 1200,
+ "viewport_laptop": 1366,
+ "viewport_widescreen": 2400,
+ "site_name": "FC Studio",
+ "site_description": "Strategic UI/UX Design",
+ "custom_css": "@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(fc-fonts://montserrat-Regular.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(fc-fonts://montserrat-Medium.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(fc-fonts://montserrat-SemiBold.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(fc-fonts://montserrat-Bold.woff2) format('woff2')}@font-face{font-family:'Montserrat';font-style:normal;font-weight:800;font-display:swap;src:url(fc-fonts://montserrat-ExtraBold.woff2) format('woff2')}@font-face{font-family:'Morganite';font-style:normal;font-weight:100 900;font-display:swap;src:url(fc-fonts://morganite-ExtraBold.ttf) format('truetype')}:root{--px:1px}@media(max-width:880px){:root{--px:calc(100vw/740)}}@media(max-width:575px){:root{--px:calc(100vw/390)}}body{background:#050505}h2,h3{text-wrap:balance}p{text-wrap:pretty}.fc-estrelas.e-con{background-image:url(fc-fonts://estrelas.jpg);background-repeat:repeat;background-size:calc(1200*var(--px))}.fc-verde{background:linear-gradient(180deg,#00F000 0%,#00B100 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone}.fc-display{display:block;font-family:Morganite,\"Arial Narrow\",sans-serif;font-weight:800;font-size:2.7em;line-height:.9;letter-spacing:.005em;margin-top:.06em}.fc-barra .elementor-heading-title{border-left:.055em solid #00D61A;padding-left:.2em}.fc-traco{position:relative;height:calc(12*var(--px))}.fc-traco:before{content:\"\";position:absolute;left:0;top:0;width:calc(12*var(--px));height:calc(12*var(--px));border-radius:50%;background:#00E600;box-shadow:0 0 calc(12*var(--px)) #00E600}.fc-traco:after{content:\"\";position:absolute;left:calc(6*var(--px));right:0;top:calc(5.5*var(--px));height:max(1px,calc(1*var(--px)));background:linear-gradient(90deg,#00D61A,rgba(0,214,26,.15))}.fc-linha-v.e-con{position:relative}.fc-linha-v.e-con:before{content:\"\";position:absolute;left:0;top:0;bottom:calc(6*var(--px));width:max(1px,calc(1*var(--px)));background:linear-gradient(180deg,rgba(0,214,26,.1),#00D61A)}.fc-linha-v.e-con:after{content:\"\";position:absolute;left:calc(-5.5*var(--px));bottom:0;width:calc(12*var(--px));height:calc(12*var(--px));border-radius:50%;background:#00E600;box-shadow:0 0 calc(12*var(--px)) #00E600}.fc-glow.e-con{background:radial-gradient(closest-side at 50% 50%,rgba(170,255,170,.9) 0%,#00E600 30%,rgba(0,190,20,.4) 62%,rgba(0,0,0,0) 100%)}.fc-circulos.e-con{background-image:repeating-radial-gradient(circle at 92% 18%,rgba(0,0,0,0) 0 calc(46*var(--px)),rgba(0,0,0,.07) calc(46*var(--px)) calc(47.5*var(--px)))}.fc-neon .elementor-button{background-image:linear-gradient(180deg,#00E600,#00B100)}.elementor-button{transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .2s}.elementor-button:hover{transform:translateY(-1px)}.fc-neon .elementor-button:hover{box-shadow:0 calc(10*var(--px)) calc(30*var(--px)) rgba(0,214,26,.35)}.fc-offset img,.fc-offset.e-con{box-shadow:0 0 0 max(1px,calc(1*var(--px))) rgba(0,214,26,.6),0 0 calc(56*var(--px)) rgba(0,214,26,.18)}.fc-offset--cinza img{box-shadow:0 0 0 max(1px,calc(1*var(--px))) #2A2A2A}.fc-borda.e-con{border:max(1px,calc(1*var(--px))) solid #2A2A2A}.elementor-widget-text-editor strong{color:#fff;font-weight:700}.fc-claro .elementor-widget-text-editor strong{color:#0A0A0A}.elementor-field-group .elementor-field::placeholder{color:#8A8A8A}.fc-form{--e-form-steps-divider-color:#2A2A2A}.fc-form .e-form__indicators__indicator__label{font-size:calc(11*var(--px));letter-spacing:.06em;text-transform:uppercase;font-weight:700;white-space:nowrap}@media(max-width:575px){.fc-form .e-form__indicators__indicator__label{white-space:normal;letter-spacing:.02em;font-size:calc(10*var(--px))}}.fc-form .elementor-field-label{font-weight:600}.fc-form .elementor-field-option label{color:#CBD2D9}.fc-form select.elementor-field{color:#fff}.fc-form .elementor-field-type-acceptance label{color:#A3A3A3;font-weight:400}::selection{background:#00D61A;color:#050505}:focus-visible{outline:2px solid #00E600;outline-offset:3px;border-radius:4px}html{scrollbar-color:#00D61A #050505;accent-color:#00D61A}a{text-underline-offset:.2em}"
+}

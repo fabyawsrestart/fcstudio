@@ -1,0 +1,18 @@
+/* FCStudio: tokens da marca (v1). Use como Cores/Fontes Globais no Elementor ou importe no tema. */
+:root {
+  --fc-verde-500: #168A5B;  /* principal: logo, botões, links */
+  --fc-verde-700: #0F6643;  /* hover, títulos sobre fundo claro */
+  --fc-verde-100: #E3F2EB;  /* fundos de seção e destaque */
+  --fc-grafite-900: #1F2933;/* texto principal, rodapé */
+  --fc-cinza-500: #6B7280;  /* texto secundário */
+  --fc-neutro-50: #F6F8F7;  /* fundo geral */
+  --fc-cinza-300: #CBD2D9;  /* sombra do logo, divisórias */
+  --fc-branco: #FFFFFF;
+  --fc-areia-300: #F2C98A;  /* acento pontual: selos, ofertas */
+
+  --fc-font-display: "Morganite", "Anton", Impact, sans-serif; /* só títulos curtos, caixa alta */
+  --fc-font-texto: "Montserrat", system-ui, sans-serif;
+
+  --fc-raio-card: 16px;
+  --fc-raio-botao: 999px;
+}

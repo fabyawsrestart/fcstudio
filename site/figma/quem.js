@@ -1,0 +1,12 @@
+const foto=figma.createRectangle();foto.resize(500,375);foto.fills=[{type:'IMAGE',imageHash:EQ,scaleMode:'FILL'}];foto.name='Fabi e Clau, fundadoras da FC Studio';
+const traco=AL('HORIZONTAL',[],{name:'Traço com ponto',counterAxisAlignItems:'CENTER',itemSpacing:0});const ln=figma.createRectangle();ln.resize(80,1);ln.fills=[S(C.g,.7)];const dt=figma.createEllipse();dt.resize(7,7);dt.fills=[S(C.g)];dt.effects=[GLOW(.9,10)];traco.appendChild(ln);traco.appendChild(dt);
+const p1=bold(P('Fundada por Fabi e Clau, a FC Studio nasceu para ir além das interfaces bonitas. Unimos a nossa expertise em estratégia e UI/UX Design para transformar a jornada do seu usuário em resultados reais de vendas.',560,{s:18}),['Fabi e Clau','estratégia','UI/UX Design','resultados reais de vendas']);
+const p2=bold(P('Desenhamos fluxos inteligentes e intuitivos que guiam seu cliente até o momento da compra sem fricção, acompanhando os dados de perto para garantir a melhor performance.',560,{s:18}),['momento da compra']);
+const texto=COL([traco,CAP('Muito prazer, somos a FC Studio'),H2('Não criamos apenas telas, construímos soluções de negócio.','soluções de negócio.',{w:560,s:64}),p1,p2,BTNS([BTN('Solicite um orçamento')])],{gap:24,name:'Texto'});
+const qs=SEC('Quem somos',[ROW([foto,texto],{gap:72,al:'CENTER',name:'Quem somos · conteúdo'})],'stars',{py:120});
+const PR=[['01','Estratégia antes da tela','Começamos pelo seu cliente e pelo seu objetivo de venda, não por um modelo pronto.'],['02','Fluxos que levam à compra','Cada página tem um caminho claro até o WhatsApp, o formulário ou o carrinho.'],['03','Acompanhamento depois do lançamento','Medimos o que funciona e ajustamos com você nos meses seguintes.']];
+const cards=PR.map(([n,t,d])=>CARD([T(n,{f:'d',s:48,c:C.g}),H3(t,300),P(d,300)],{name:t,gap:14}));const r=ROW(cards,{gap:24,name:'Princípios'});cards.forEach(c=>c.layoutSizingHorizontal='FILL');
+const pr=SEC('Como trabalhamos',[COL([H2('Como trabalhamos'),P('Strategic UI/UX Design na prática: design que existe para gerar contato e venda.',620,{s:18})],{gap:20,name:'Título da seção'}),r],'n');
+const pg=PAGE('05 · Quem Somos',4,[HEADER('Quem Somos'),qs,pr,CTA(),FOOTER()]);
+await pg.screenshot({scale:0.4});
+return {page:pg.id,h:pg.height};
