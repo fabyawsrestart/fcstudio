@@ -1213,7 +1213,7 @@
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>contato@fcstudio.com.br</p>",
+              "editor": "<p>contato@fcstudio.dev.br</p>",
               "__globals__": {
                "typography_typography": "globals/typography?id=fc_lead",
                "text_color": "globals/colors?id=secondary"
@@ -2090,7 +2090,7 @@
           "button_size": "md",
           "button_width": "100",
           "show_labels": "",
-          "email_to": "contato@fcstudio.com.br",
+          "email_to": "contato@fcstudio.dev.br",
           "email_subject": "Novo contato pelo site FC Studio",
           "success_message": "Recebemos sua mensagem. Respondemos em até 1 dia útil.",
           "submit_actions": [

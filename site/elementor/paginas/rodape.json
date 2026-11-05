@@ -712,7 +712,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>contato@fcstudio.com.br</p>",
+          "editor": "<p>contato@fcstudio.dev.br</p>",
           "__globals__": {
            "typography_typography": "globals/typography?id=fc_body",
            "text_color": "globals/colors?id=branco"

@@ -20,7 +20,7 @@ function BG(name,w,h,x){const f=figma.createFrame();f.name=name;f.resize(w,h);f.
 function LG(scale){const l=LOGO.createInstance();l.rescale(scale);return l;}
 function BLOCK(hs,ss,w){const h=T('SITES QUE TRAZEM\nCLIENTES DE VERDADE.',{f:'d',s:hs,c:C.w,lh:98});green(h,'CLIENTES DE VERDADE.');
  const s=T('Strategic UI/UX Design · Sites, landing pages, sistemas e anúncios',{f:'m',s:ss,c:C.t,lh:140,w});
- const u=T('fcstudio.com.br',{f:'b',s:ss,c:C.g});return AL('VERTICAL',[h,s,u],{itemSpacing:ss*.9});}
+ const u=T('fcstudio.dev.br',{f:'b',s:ss,c:C.g});return AL('VERTICAL',[h,s,u],{itemSpacing:ss*.9});}
 let x=0;
 // YouTube banner 2560x1440, área segura 1546x423 no centro
 {const f=BG('Rede · YouTube capa 2560x1440',2560,1440,x);
@@ -33,7 +33,7 @@ let x=0;
 // LinkedIn página 1128x191 (logo da página cobre o canto esquerdo)
 {const f=BG('Rede · LinkedIn página 1128x191',1128,191,0);f.y=Y0+1540;
  const h=T('SITES QUE TRAZEM CLIENTES DE VERDADE.',{f:'d',s:40,c:C.w});green(h,'CLIENTES DE VERDADE.');
- const s=T('Strategic UI/UX Design · fcstudio.com.br',{f:'m',s:16,c:C.t});
+ const s=T('Strategic UI/UX Design · fcstudio.dev.br',{f:'m',s:16,c:C.t});
  const b=AL('VERTICAL',[h,s],{itemSpacing:8,counterAxisAlignItems:'MAX'});f.appendChild(b);b.x=1128-b.width-48;b.y=(191-b.height)/2;}
 // LinkedIn perfil 1584x396 (foto cobre o canto inferior esquerdo)
 {const f=BG('Rede · LinkedIn perfil 1584x396',1584,396,1228);f.y=Y0+1540;

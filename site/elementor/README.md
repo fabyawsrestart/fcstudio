@@ -19,7 +19,7 @@ Testada em WordPress 7.1.4 + Elementor 4.3.5 + Pro Elements 4.3.2.
 - As páginas usam o layout **Elementor Largura total** (com cabeçalho e rodapé do Theme Builder).
 - Menu principal: Serviços, Planos, Portfólio, Quem Somos, Contato. O logo leva para a Home. O botão "Orçamento" do cabeçalho e todos os "Solicite um orçamento" levam para a página Orçamento.
 - Orçamento: os 4 briefings (site institucional, landing page, loja virtual, artes para anúncios) viraram formulários em etapas. Ficaram de fora de propósito: senhas e acessos (WordPress, hospedagem), códigos de pixel e Analytics, links de checkout e o aceite dos termos de serviço. Isso é coisa de depois do fechamento: pedir senha num formulário público grava a senha no banco e no e-mail. As respostas caem em Elementor > Envios.
-- Contato: formulário do Pro com aceite de LGPD, salva em Elementor > Envios e manda e-mail para contato@fcstudio.com.br. **No XAMPP o e-mail não sai** (não há servidor de e-mail); na hospedagem, configure um SMTP (ex.: plugin WP Mail SMTP).
+- Contato: formulário do Pro com aceite de LGPD, salva em Elementor > Envios e manda e-mail para contato@fcstudio.dev.br. **No XAMPP o e-mail não sai** (não há servidor de e-mail); na hospedagem, configure um SMTP (ex.: plugin WP Mail SMTP).
 
 ## Requisitos no XAMPP
 

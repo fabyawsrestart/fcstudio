@@ -415,7 +415,7 @@ def footer():
     def links(title, items):
         return col([H(title, 'fc_caption', 'primary', 'p')] + [P(i, 'fc_body', 'branco') for i in items], gap_=(10, 10, 8, 8), _flex_size='grow')
     nav_ = links('Navegação', ['<a href="fc://%s" style="color:inherit">%s</a>' % x for x in (('servicos', 'Serviços'), ('planos', 'Planos'), ('portfolio', 'Portfólio'), ('quem-somos', 'Quem Somos'), ('orcamento', 'Orçamento'), ('contato', 'Contato'))])
-    cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.com.br', 'LinkedIn e YouTube: FC Studio'])
+    cont_ = links('Contato', ['<a href="https://wa.me/5511916751926" style="color:inherit">WhatsApp: (11) 91675-1926</a>', 'contato@fcstudio.dev.br', 'LinkedIn e YouTube: FC Studio'])
     W(c1, 40, 40, 40, 100); W(nav_, 30, 30, 30, 100); W(cont_, 30, 30, 30, 100)
     cols_ = row([c1, nav_, cont_], name='Colunas', gap_=(64, 40, 32, 32), landscape_dir='row', mobile_dir='column')
     line = w('divider', **{'__globals__': {'color': C('linha')}, **slider('weight', 1, l=1, m=1)})
@@ -528,7 +528,7 @@ def contato_bloco():
         c['elements'][0]['settings']['_flex_size'] = 'none'  # ícone não encolhe
         return c
     infos = col([info('fab fa-whatsapp', 'fa-brands', 'WhatsApp', '<a href="https://wa.me/5511916751926" style="color:inherit">(11) 91675-1926</a>'),
-                 info('fas fa-envelope', 'fa-solid', 'E-mail', 'contato@fcstudio.com.br'),
+                 info('fas fa-envelope', 'fa-solid', 'E-mail', 'contato@fcstudio.dev.br'),
                  info('fab fa-linkedin', 'fa-brands', 'LinkedIn e YouTube', 'FC Studio'),
                  info('fas fa-clock', 'fa-solid', 'Atendimento', 'Segunda a sexta, das 9h às 18h')], name='Canais', gap_=(0, 0, 0, 0))
     fld = lambda _id, label, t='text', req=True, width='100': {'_id': _id, 'custom_id': _id, 'field_type': t, 'field_label': label, 'placeholder': label,
@@ -538,7 +538,7 @@ def contato_bloco():
                                                                  fld('mensagem', 'O que você precisa?', 'textarea', False),
                                                                  {**fld('lgpd', 'Aceite', 'acceptance'), 'acceptance_text': 'Concordo em ser contatado pela FC Studio e com a Política de Privacidade.'}],
              button_text='Enviar mensagem', button_size='md', button_width='100', show_labels='',
-             email_to='contato@fcstudio.com.br', email_subject='Novo contato pelo site FC Studio', success_message='Recebemos sua mensagem. Respondemos em até 1 dia útil.',
+             email_to='contato@fcstudio.dev.br', email_subject='Novo contato pelo site FC Studio', success_message='Recebemos sua mensagem. Respondemos em até 1 dia útil.',
              submit_actions=['email', 'save-to-database'],
              __globals__={'field_typography_typography': T('fc_body'), 'field_text_color': C('secondary'), 'button_typography_typography': T('fc_button'),
                           'button_background_color': C('primary'), 'button_text_color': C('preto'), 'field_border_color': C('linha'), 'field_background_color': C('preto')},
@@ -690,7 +690,7 @@ def briefing_form(slug, title, fields):
              step_type='number_text', step_icon_shape='circle',
              step_inactive_primary_color='#8A8A8A', step_inactive_secondary_color='#1A1A1A', step_active_primary_color='#00E600', step_active_secondary_color='#050505',
              step_completed_primary_color='#00A818', step_completed_secondary_color='#0B2B12',
-             email_to='contato@fcstudio.com.br', email_subject='Pedido de orçamento: ' + title, success_message='Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.',
+             email_to='contato@fcstudio.dev.br', email_subject='Pedido de orçamento: ' + title, success_message='Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.',
              submit_actions=['email', 'save-to-database'], _css_classes='fc-form',
              __globals__={'field_typography_typography': T('fc_body'), 'label_typography_typography': T('fc_body'), 'label_color': C('secondary'), 'field_text_color': C('secondary'),
                           'button_typography_typography': T('fc_button'), 'button_background_color': C('primary'), 'button_text_color': C('preto'),

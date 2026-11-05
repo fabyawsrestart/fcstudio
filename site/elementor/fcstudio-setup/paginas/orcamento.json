@@ -1499,7 +1499,7 @@
           "step_active_secondary_color": "#050505",
           "step_completed_primary_color": "#00A818",
           "step_completed_secondary_color": "#0B2B12",
-          "email_to": "contato@fcstudio.com.br",
+          "email_to": "contato@fcstudio.dev.br",
           "email_subject": "Pedido de orçamento: Site institucional",
           "success_message": "Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.",
           "submit_actions": [
@@ -2319,7 +2319,7 @@
           "step_active_secondary_color": "#050505",
           "step_completed_primary_color": "#00A818",
           "step_completed_secondary_color": "#0B2B12",
-          "email_to": "contato@fcstudio.com.br",
+          "email_to": "contato@fcstudio.dev.br",
           "email_subject": "Pedido de orçamento: Landing page",
           "success_message": "Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.",
           "submit_actions": [
@@ -3136,7 +3136,7 @@
           "step_active_secondary_color": "#050505",
           "step_completed_primary_color": "#00A818",
           "step_completed_secondary_color": "#0B2B12",
-          "email_to": "contato@fcstudio.com.br",
+          "email_to": "contato@fcstudio.dev.br",
           "email_subject": "Pedido de orçamento: Loja virtual",
           "success_message": "Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.",
           "submit_actions": [
@@ -3864,7 +3864,7 @@
           "step_active_secondary_color": "#050505",
           "step_completed_primary_color": "#00A818",
           "step_completed_secondary_color": "#0B2B12",
-          "email_to": "contato@fcstudio.com.br",
+          "email_to": "contato@fcstudio.dev.br",
           "email_subject": "Pedido de orçamento: Artes para anúncios",
           "success_message": "Recebemos seu briefing. Mandamos o orçamento pelo WhatsApp em até 1 dia útil.",
           "submit_actions": [
