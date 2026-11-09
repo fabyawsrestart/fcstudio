@@ -1,0 +1,5 @@
+.env
+.profiles
+apps/
+www/
+caddy/sites/*.caddy
