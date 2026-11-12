@@ -1,0 +1,7 @@
+{
+	# E-mail para avisos do Let's Encrypt (certificados HTTPS)
+	email {$ACME_EMAIL}
+}
+
+# Cada app tem seu arquivo em caddy/sites/*.caddy (gerados pelo instalar-vps.sh)
+import /etc/caddy/sites/*.caddy

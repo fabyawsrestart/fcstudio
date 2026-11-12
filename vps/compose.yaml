@@ -1,0 +1,121 @@
+# FC Studio: todas as aplicações numa VPS, isoladas em containers.
+# Baseado na "Instalação Profissional" do curso (Caddy + n8n + PostgreSQL),
+# ampliado com a agenda do cliente e o WordPress (opcional).
+#
+# Fluxo: Internet -> Domínio -> Caddy (HTTPS) -> app certa pelo domínio
+
+name: fcstudio
+
+services:
+
+  postgres:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      # Postgres 18 guarda os dados em /var/lib/postgresql/18/... (montar a pasta pai)
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:${N8N_VERSION:-stable}
+    restart: unless-stopped
+    environment:
+      DB_TYPE: postgresdb
+      DB_POSTGRESDB_HOST: postgres
+      DB_POSTGRESDB_PORT: 5432
+      DB_POSTGRESDB_DATABASE: ${POSTGRES_DB}
+      DB_POSTGRESDB_USER: ${POSTGRES_USER}
+      DB_POSTGRESDB_PASSWORD: ${POSTGRES_PASSWORD}
+      N8N_HOST: ${DOMAIN_N8N}
+      N8N_PORT: 5678
+      N8N_LISTEN_ADDRESS: 0.0.0.0
+      N8N_PROTOCOL: https
+      N8N_EDITOR_BASE_URL: https://${DOMAIN_N8N}/
+      # Nome correto da variável é WEBHOOK_URL (sem prefixo N8N_)
+      WEBHOOK_URL: https://${DOMAIN_N8N}/
+      N8N_PROXY_HOPS: 1
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+      GENERIC_TIMEZONE: ${TZ}
+      TZ: ${TZ}
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      postgres:
+        condition: service_healthy
+    expose:
+      - "5678"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      ACME_EMAIL: ${ACME_EMAIL}
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./caddy/sites:/etc/caddy/sites:ro
+      - ./www:/srv:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+  # ---------- WordPress (só sobe com: --profile wordpress) ----------
+  mariadb:
+    image: mariadb:11
+    profiles: ["wordpress"]
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: ${WP_DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${WP_DB_ROOT_PASSWORD}
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  wordpress:
+    image: wordpress:php8.3-apache
+    profiles: ["wordpress"]
+    restart: unless-stopped
+    environment:
+      WORDPRESS_DB_HOST: mariadb
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${WP_DB_PASSWORD}
+      # Site migrado: use o mesmo prefixo do wp-config.php antigo (ex.: wp_abc12_)
+      WORDPRESS_TABLE_PREFIX: ${WP_TABLE_PREFIX:-wp_}
+      # WordPress atrás do Caddy: reconhece HTTPS e o domínio correto
+      WORDPRESS_CONFIG_EXTRA: |
+        if (isset($$_SERVER['HTTP_X_FORWARDED_PROTO']) && $$_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') { $$_SERVER['HTTPS'] = 'on'; }
+        define('WP_MEMORY_LIMIT', '256M');
+    volumes:
+      - wordpress_data:/var/www/html
+      - ./wordpress/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    expose:
+      - "80"
+
+volumes:
+  postgres_data:
+  n8n_data:
+  caddy_data:
+  caddy_config:
+  mariadb_data:
+  wordpress_data:
