@@ -124,6 +124,10 @@ O terminal integrado já abre dentro da VPS.
 Os US$ 200 do link de indicação valem por **60 dias**. Depois disso a cobrança no cartão começa sozinha
 (o droplet de 2 vCPU / 4 GB custa ~US$ 24/mês + 20% se ativar Backups). Coloque um lembrete para o dia 55.
 
+## Migrar um site existente
+
+Passo a passo do gwmix.ind.br (Hostinger → VPS, sem derrubar o e-mail): [MIGRAR-GWMIX.md](MIGRAR-GWMIX.md)
+
 ## Arquivos
 
 - `compose.yaml` — todos os serviços

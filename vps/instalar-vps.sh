@@ -94,6 +94,7 @@ N8N_VERSION=stable
 
 WP_DB_PASSWORD=$(openssl rand -hex 24)
 WP_DB_ROOT_PASSWORD=$(openssl rand -hex 24)
+WP_TABLE_PREFIX=wp_
 
 TZ=America/Sao_Paulo
 EOF
@@ -146,6 +147,17 @@ $DOMAIN_SITE {
 	reverse_proxy wordpress:80
 }
 EOF
+  # www.dominio -> dominio (precisa do registro www apontando pra VPS)
+  case "$DOMAIN_SITE" in
+    www.*) ;;
+    *) cat >> caddy/sites/site.caddy <<EOF
+
+www.$DOMAIN_SITE {
+	redir https://$DOMAIN_SITE{uri} permanent
+}
+EOF
+    ;;
+  esac
 fi
 ls caddy/sites
 

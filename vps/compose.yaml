@@ -97,6 +97,8 @@ services:
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: ${WP_DB_PASSWORD}
+      # Site migrado: use o mesmo prefixo do wp-config.php antigo (ex.: wp_abc12_)
+      WORDPRESS_TABLE_PREFIX: ${WP_TABLE_PREFIX:-wp_}
       # WordPress atrás do Caddy: reconhece HTTPS e o domínio correto
       WORDPRESS_CONFIG_EXTRA: |
         if (isset($$_SERVER['HTTP_X_FORWARDED_PROTO']) && $$_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') { $$_SERVER['HTTPS'] = 'on'; }
